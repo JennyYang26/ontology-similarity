@@ -1,0 +1,2426 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0353"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence database search (by sequence using global alignment-based methods)"
+    },
+    "iri": "http://edamontology.org/operation_0353",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Search sequence(s) or a sequence database for sequences that are similar to a query sequence using a global alignment-based method."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This includes tools based on the Needleman and Wunsch algorithm."
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0354"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence database search (by sequence for primer sequences)"
+    },
+    "iri": "http://edamontology.org/operation_0354",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Search a DNA database (for example a database of conserved sequence tags) for matches to Sequence-Tagged Site (STS) primer sequences."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "STSs are genetic markers that are easily detected by the polymerase chain reaction (PCR) using specific primers."
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0355"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence database search (by molecular weight)"
+    },
+    "iri": "http://edamontology.org/operation_0355",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Search sequence(s) or a sequence database for sequences which match a set of peptide masses, for example a peptide mass fingerprint from mass spectrometry."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0356"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence database search (by isoelectric point)"
+    },
+    "iri": "http://edamontology.org/operation_0356",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Search sequence(s) or a sequence database for sequences of a given isoelectric point."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0357"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Structure retrieval (by code)"
+    },
+    "iri": "http://edamontology.org/operation_0357",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Query a tertiary structure database and retrieve entries with a given entry code or accession number."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0358"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Structure retrieval (by keyword)"
+    },
+    "iri": "http://edamontology.org/operation_0358",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Query a tertiary structure database and retrieve entries containing a given keyword."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0359"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Structure database search (by sequence)"
+    },
+    "iri": "http://edamontology.org/operation_0359",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Search a tertiary structure database and retrieve structures with a sequence similar to a query sequence."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0360"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Structural similarity search"
+    },
+    "iri": "http://edamontology.org/operation_0360",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Search a database of molecular structure and retrieve structures that are similar to a query structure."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_0339",
+      "http://edamontology.org/operation_2483"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_0339",
+      "http://edamontology.org/operation_2483"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_0339",
+      "http://edamontology.org/operation_2421",
+      "http://edamontology.org/operation_0224",
+      "http://edamontology.org/operation_2409",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2483",
+      "http://edamontology.org/operation_2424",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0339",
+      "http://edamontology.org/operation_2421",
+      "http://edamontology.org/operation_0224",
+      "http://edamontology.org/operation_2409",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2483",
+      "http://edamontology.org/operation_2424",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0361"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence annotation"
+    },
+    "iri": "http://edamontology.org/operation_0361",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Annotate a molecular sequence record with terms from a controlled vocabulary."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0226",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0226",
+    "directAncestor": [
+      "http://edamontology.org/operation_0226",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0226",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0362"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Genome annotation"
+    },
+    "iri": "http://edamontology.org/operation_0362",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Annotate a genome sequence with terms from a controlled vocabulary."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_0361",
+      "http://edamontology.org/operation_3918"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_0361",
+      "http://edamontology.org/operation_3918"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_0361",
+      "http://edamontology.org/operation_0226",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3918",
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0361",
+      "http://edamontology.org/operation_0226",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3918",
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0363"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Reverse complement"
+    },
+    "iri": "http://edamontology.org/operation_0363",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Generate the reverse and / or complement of a nucleotide sequence."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0230",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0230",
+    "directAncestor": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3429"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0364"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Random sequence generation"
+    },
+    "iri": "http://edamontology.org/operation_0364",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Generate a random sequence, for example, with a specific character composition."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0230",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0230",
+    "directAncestor": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3429"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0365"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Restriction digest"
+    },
+    "iri": "http://edamontology.org/operation_0365",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Generate digest fragments for a nucleotide sequence containing restriction sites."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_0262"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_0262"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3429",
+      "http://edamontology.org/operation_0262",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3429",
+      "http://edamontology.org/operation_0262",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0366"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein sequence cleavage"
+    },
+    "iri": "http://edamontology.org/operation_0366",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Cleave a protein sequence into peptide fragments (corresponding to enzymatic or chemical cleavage)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This is often followed by calculation of protein fragment masses (http://edamontology.org/operation_0398)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0230",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0230",
+    "directAncestor": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3429"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0230",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0367"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence mutation and randomisation"
+    },
+    "iri": "http://edamontology.org/operation_0367",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Mutate a molecular sequence a specified amount or shuffle it to produce a randomised sequence with the same overall composition."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0231",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0231",
+    "directAncestor": [
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0368"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence masking"
+    },
+    "iri": "http://edamontology.org/operation_0368",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Mask characters in a molecular sequence (replacing those characters with a mask character)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "For example, SNPs or repeats in a DNA sequence might be masked."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0231",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0231",
+    "directAncestor": [
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0369"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence cutting"
+    },
+    "iri": "http://edamontology.org/operation_0369",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cut (remove) characters or a region from a molecular sequence."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0231",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0231",
+    "directAncestor": [
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0370"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Restriction site creation"
+    },
+    "iri": "http://edamontology.org/operation_0370",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Create (or remove) restriction sites in sequences, for example using silent mutations."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0231",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0231",
+    "directAncestor": [
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0371"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "DNA translation"
+    },
+    "iri": "http://edamontology.org/operation_0371",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Translate a DNA sequence into protein."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0233",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0233",
+    "directAncestor": [
+      "http://edamontology.org/operation_0233",
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409",
+      "http://edamontology.org/operation_3434"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0233",
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409",
+      "http://edamontology.org/operation_3434"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0372"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "DNA transcription"
+    },
+    "iri": "http://edamontology.org/operation_0372",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Transcribe a nucleotide sequence into mRNA sequence(s)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0233",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0233",
+    "directAncestor": [
+      "http://edamontology.org/operation_0233",
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409",
+      "http://edamontology.org/operation_3434"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0233",
+      "http://edamontology.org/operation_0231",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3096",
+      "http://edamontology.org/operation_2409",
+      "http://edamontology.org/operation_3434"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0377"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence composition calculation (nucleic acid)"
+    },
+    "iri": "http://edamontology.org/operation_0377",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate base frequency or word composition of a nucleotide sequence."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0378"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence composition calculation (protein)"
+    },
+    "iri": "http://edamontology.org/operation_0378",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate amino acid frequency or word composition of a protein sequence."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0379"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Repeat sequence detection"
+    },
+    "iri": "http://edamontology.org/operation_0379",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Find (and possibly render) short repetitive subsequences (repeat sequences) in (typically nucleotide) sequences."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_0237",
+      "http://edamontology.org/operation_0415"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_0237",
+      "http://edamontology.org/operation_0415"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_0237",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_0415",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_2478"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0237",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_0415",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_2478"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0380"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Repeat sequence organisation analysis"
+    },
+    "iri": "http://edamontology.org/operation_0380",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Analyse repeat sequence organisation such as periodicity."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_0236",
+      "http://edamontology.org/operation_0237"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_0236",
+      "http://edamontology.org/operation_0237"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_0236",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0237"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0236",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0237"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0383"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein hydropathy calculation (from structure)"
+    },
+    "iri": "http://edamontology.org/operation_0383",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Analyse the hydrophobic, hydrophilic or charge properties of a protein structure."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0384"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Accessible surface calculation"
+    },
+    "iri": "http://edamontology.org/operation_0384",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Calculate solvent accessible or buried surface areas in protein or other molecular structures."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Solvent accessibility might be calculated for the backbone, sidechain and total (backbone plus sidechain)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3351",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3351",
+    "directAncestor": [
+      "http://edamontology.org/operation_3351",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3351",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0385"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein hydropathy cluster calculation"
+    },
+    "iri": "http://edamontology.org/operation_0385",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identify clusters of hydrophobic or charged residues in a protein structure."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0386"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein dipole moment calculation"
+    },
+    "iri": "http://edamontology.org/operation_0386",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate whether a protein structure has an unusually large net charge (dipole moment)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0250",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0250",
+    "directAncestor": [
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0387"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Molecular surface calculation"
+    },
+    "iri": "http://edamontology.org/operation_0387",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate the molecular surface area in proteins and other macromolecules."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3351",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3351",
+    "directAncestor": [
+      "http://edamontology.org/operation_3351",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3351",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0388"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein binding site prediction (from structure)"
+    },
+    "iri": "http://edamontology.org/operation_0388",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identify or predict catalytic residues, active sites or other ligand-binding sites in protein structures."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0389"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein-nucleic acid interaction analysis"
+    },
+    "iri": "http://edamontology.org/operation_0389",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Analyse the interaction of protein with nucleic acids, e.g. RNA or DNA-binding sites, interfaces etc."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_1777",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_1777",
+    "directAncestor": [
+      "http://edamontology.org/operation_1777",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_1777",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0390"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein peeling"
+    },
+    "iri": "http://edamontology.org/operation_0390",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Decompose a structure into compact or globular fragments (protein peeling)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0246",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0246",
+    "directAncestor": [
+      "http://edamontology.org/operation_0246",
+      "http://edamontology.org/operation_2406",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3092",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_2479",
+      "http://edamontology.org/operation_2403"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0246",
+      "http://edamontology.org/operation_2406",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3092",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_2479",
+      "http://edamontology.org/operation_2403"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0391"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein distance matrix calculation"
+    },
+    "iri": "http://edamontology.org/operation_0391",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate a matrix of distance between residues (for example the C-alpha atoms) in a protein structure."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2950",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2950",
+    "directAncestor": [
+      "http://edamontology.org/operation_2950",
+      "http://edamontology.org/operation_0248",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2950",
+      "http://edamontology.org/operation_0248",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0392"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Contact map calculation"
+    },
+    "iri": "http://edamontology.org/operation_0392",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate a residue contact map (typically all-versus-all inter-residue contacts) for a protein structure."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0391",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0391",
+    "directAncestor": [
+      "http://edamontology.org/operation_0391",
+      "http://edamontology.org/operation_2950",
+      "http://edamontology.org/operation_0248",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0391",
+      "http://edamontology.org/operation_2950",
+      "http://edamontology.org/operation_0248",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0393"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Residue cluster calculation"
+    },
+    "iri": "http://edamontology.org/operation_0393",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Calculate clusters of contacting residues in protein structures."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This includes for example clusters of hydrophobic or charged residues, or clusters of contacting residues which have a key structural or functional role."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2950",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2950",
+    "directAncestor": [
+      "http://edamontology.org/operation_2950",
+      "http://edamontology.org/operation_0248",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2950",
+      "http://edamontology.org/operation_0248",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0394"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Hydrogen bond calculation"
+    },
+    "iri": "http://edamontology.org/operation_0394",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Identify potential hydrogen bonds between amino acids and other groups."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The output might include the atoms involved in the bond, bond geometric parameters and bond enthalpy."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0248",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0248",
+    "directAncestor": [
+      "http://edamontology.org/operation_0248",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0248",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0395"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Residue non-canonical interaction detection"
+    },
+    "iri": "http://edamontology.org/operation_0395",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate non-canonical atomic interactions in protein structures."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0396"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ramachandran plot calculation"
+    },
+    "iri": "http://edamontology.org/operation_0396",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate a Ramachandran plot of a protein structure."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0249",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0249",
+    "directAncestor": [
+      "http://edamontology.org/operation_0249",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0249",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0397"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ramachandran plot validation"
+    },
+    "iri": "http://edamontology.org/operation_0397",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Validate a Ramachandran plot of a protein structure."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0398"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein molecular weight calculation"
+    },
+    "iri": "http://edamontology.org/operation_0398",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate the molecular weight of a protein sequence or fragments."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0250",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0250",
+    "directAncestor": [
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0399"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein extinction coefficient calculation"
+    },
+    "iri": "http://edamontology.org/operation_0399",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Predict extinction coefficients or optical density of a protein sequence."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0250",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0250",
+    "directAncestor": [
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0400"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein pKa calculation"
+    },
+    "iri": "http://edamontology.org/operation_0400",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate pH-dependent properties from pKa calculations of a protein sequence."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0250",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0250",
+    "directAncestor": [
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0401"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein hydropathy calculation (from sequence)"
+    },
+    "iri": "http://edamontology.org/operation_0401",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Hydropathy calculation on a protein sequence."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0402"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein titration curve plotting"
+    },
+    "iri": "http://edamontology.org/operation_0402",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Plot a protein titration curve."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_0337",
+      "http://edamontology.org/operation_0400"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_0337",
+      "http://edamontology.org/operation_0400"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_0337",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_0400",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0337",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_0400",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0403"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein isoelectric point calculation"
+    },
+    "iri": "http://edamontology.org/operation_0403",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate isoelectric point of a protein sequence."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0400",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0400",
+    "directAncestor": [
+      "http://edamontology.org/operation_0400",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0400",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0404"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein hydrogen exchange rate calculation"
+    },
+    "iri": "http://edamontology.org/operation_0404",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Estimate hydrogen exchange rate of a protein sequence."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0400",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0400",
+    "directAncestor": [
+      "http://edamontology.org/operation_0400",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0400",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0405"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein hydrophobic region calculation"
+    },
+    "iri": "http://edamontology.org/operation_0405",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate hydrophobic or hydrophilic / charged regions of a protein sequence."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2574",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2574",
+    "directAncestor": [
+      "http://edamontology.org/operation_2574",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2574",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0406"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein aliphatic index calculation"
+    },
+    "iri": "http://edamontology.org/operation_0406",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Calculate aliphatic index (relative volume occupied by aliphatic side chains) of a protein."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2574",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2574",
+    "directAncestor": [
+      "http://edamontology.org/operation_2574",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2574",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0407"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein hydrophobic moment plotting"
+    },
+    "iri": "http://edamontology.org/operation_0407",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Calculate the hydrophobic moment of a peptide sequence and recognize amphiphilicity."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Hydrophobic moment is a peptides hydrophobicity measured for different angles of rotation."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_0564",
+      "http://edamontology.org/operation_2574"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_0564",
+      "http://edamontology.org/operation_2574"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_0564",
+      "http://edamontology.org/operation_0337",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_2574",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0564",
+      "http://edamontology.org/operation_0337",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_2574",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:0408"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein globularity prediction"
+    },
+    "iri": "http://edamontology.org/operation_0408",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Predict the stability or globularity of a protein sequence, whether it is intrinsically unfolded etc."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2574",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2574",
+    "directAncestor": [
+      "http://edamontology.org/operation_2574",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2574",
+      "http://edamontology.org/operation_0250",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3438"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

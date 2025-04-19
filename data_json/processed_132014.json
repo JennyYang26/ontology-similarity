@@ -1,0 +1,3370 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000252"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "fairness assessment",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000252",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Ability to apply knowledge about FAIR metrics and assessing FAIRness using FAIR assessment tools.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000126",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000126",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000126",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000126",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000254"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data archive",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000254",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "An archival service providing the long-term permanent care and accessibility for digital objects with research value.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/data-archive/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000255"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "technical metadata",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000255",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Describes the technical processes used to produce, or required to use a digital object.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/technical-metadata/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000527",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000527",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000527",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000527",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000256"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "machine readable",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000256",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "value": "OBSOLETE. In a form that can be used and understood by a computer.",
+          "lang": "en"
+        },
+        "axioms": [
+          {
+            "http://purl.obolibrary.org/obo/IAO_0000119": {
+              "type": [
+                "literal"
+              ],
+              "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "value": "CASRAI. https://casrai.org/term/machine-readable/",
+              "lang": "en"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "AL 5.12.22: Deprecated because of its similarity with http://purl.obolibrary.org/obo/T4FS_0000551. We don't need to be going to the level of granularity that the concept of machine readability needs to be modelled as well as machine readable format.",
+        "lang": "en"
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass",
+    "directAncestor": "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass",
+    "hierarchicalAncestor": "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000257"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "integrated access management",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000257",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A combination of business processes, policies and technologies that allows organizations to provide secure access to confidential data. Integrated access management software is used by enterprises to control the flow of sensitive data in and out of the network.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/integrated-access-management/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000012",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000012",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000258"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "noisy data",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000258",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Meaningless data, including: Any data that cannot be understood and interpreted correctly by machines, such as unstructured text; any data that has been received, stored, or changed in such a manner that it cannot be read or used by the program that originally created it.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/noisy-data/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000259"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "fair training",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000259",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Activities in and around the provision of training, mentorship and teaching opportunities for good data management and the implementation of FAIR practices.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "PMQ",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000012",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000012",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 16,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 16,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000260"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "software",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000260",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A set of instructions that direct a computer to do a specific task.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/software",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000263"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data standardization",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000263",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "In the context of data analysis and data mining: Where V represents the value of the variable in the original datasets: Transformation of data to have zero mean and unit variance. Techniques used include: (a) Data normalization; (b) z-score scaling; (c) Dividing each value by the range: recalculates each variable as V /(max V - ...",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/data-standardization/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000264"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "open data",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000264",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Strutured data that are accessible, machine-readable, usable, intelligible, and freely shared. Open data can be freely used, re-used, built on, and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/open-data/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000265"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "curated data",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000265",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "value": "The output of a data curation activity. Such data has generally already been cleaned, standardised, documented. Additional metadata relevant to the data object has also been added, via either manual or automatic methods.",
+          "lang": "en"
+        },
+        "axioms": [
+          {
+            "http://purl.obolibrary.org/obo/IAO_0000119": {
+              "type": [
+                "literal"
+              ],
+              "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "value": "AL 9.5.22",
+              "lang": "en"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "AL 9.5.22: The orginal label (\"data curation\") matched a term within the Data stewardship activity hierarchy. Changing the class label to \"Curated data\" better fit the model.",
+        "lang": "en"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000267"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "skills related to funding acquisition management",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000267",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Bin for Skills needed for Funding acquisition management.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000426",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000426",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000426",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000426",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000268"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "universally unique identifier",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000268",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A 128-bit number used to guarantee unique identity for different objects on the internet over time. File system partitions.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/universally-unique-identifier/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000529",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000529",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000529",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000529",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000270"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "authentication",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000270",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "The process of confirming the identity of a principal entity.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/authentication/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000107",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000107",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000107",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000107",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000271"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "cloud computing",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000271",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A large-scale distributed computing paradigm that is driven by economies of scale, in which a pool of abstracted, virtualized, dynamically- scalable, managed computing power, storage, platforms and services are delivered on demand to external customers over the Internet.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/cloud-computing/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000273"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "short-term preservation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000273",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Short-term preservation. Access to digital materials either for a defined period of time while use is predicted but which does not extend beyond the foreseeable future and/or until it becomes inaccessible because of changes in technology.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/short-term-preservation",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000274"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "international standard",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000274",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A standard that is used in multiple nations and whose development process is open to representatives from all countries.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/international-standard/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000275"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "conformance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000275",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "The state of having satisfied the requirements of some specific standard(s) and/or specification(s).",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/conformance/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000276"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data custodian",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000276",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A data custodian is an IT individual or organization responsible for the IT infrastructure providing and protecting data in conformance with the policies and practices prescribed by data governance.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/data-custodian/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000277"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "aptitudes for high performance computing management",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000277",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Bin for Aptitudes related to High performance computing management.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000308",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000308",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000308",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000308",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000278"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "manage datasets in a repository",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000278",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Implement the policies that govern the arrangement, naming, descriptive metadata, provenance metadata, representation metadata, administrative metadata, access controls, retention, disposition, integrity, and replication of digital objects.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/manage-datasets-in-a-repository",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000141",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000141",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000141",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000141",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000280"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data de-noising",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000280",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Removing noise from data.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/data-de-noising/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000036",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000036",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000036",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000036",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000282"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "governance and accountability model",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000282",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Provides the relationship and process context for working together to ensure outcomes are achieved.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/governance-and-accountability-model",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000283"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "access",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000283",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "The continued, available for use, ongoing usability of a digital resource, retaining all qualities of authenticity, accuracy and functionality deemed to be essential for the purposes the digital material was created and/or acquired for. Users who have access can retrieve, manipulate, copy, and store copies on a wide range of hard drives and external devices.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/access",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000285"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "develop fair and open research strategy",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000285",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Find the people with a good understand of FAIR and open research challenges in your organiation, and create a work agenda.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000008",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000008",
+      "http://purl.obolibrary.org/obo/T4FS_0000514",
+      "http://purl.obolibrary.org/obo/T4FS_0000320",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000008",
+      "http://purl.obolibrary.org/obo/T4FS_0000514",
+      "http://purl.obolibrary.org/obo/T4FS_0000320",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000286"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "patent application",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000286",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Choose the proper type of patent for the project data and apply for the patent chosen.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000042",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000042",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000042",
+      "http://purl.obolibrary.org/obo/T4FS_0000106",
+      "http://purl.obolibrary.org/obo/T4FS_0000021",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000042",
+      "http://purl.obolibrary.org/obo/T4FS_0000106",
+      "http://purl.obolibrary.org/obo/T4FS_0000021",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000287"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "collection management identification",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000287",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A type of data provenance that adds metadata to identify data collections.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/collection-management-identification/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000288"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "assess fairness",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000288",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Activity/Process whereby digital objects are evaluated with the relevant FAIR metrics and assessment tools.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "[YLF, VDA, KH]",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000126",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000126",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000126",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000126",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000289"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "knowledge of change management",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000289",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Bin for types of Knowledge related to Change management.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000411",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000411",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000411",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000411",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000290"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data ingestion",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000290",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "The process of obtaining, importing, and processing data for later use or storage in a database. This process often involves altering individual files by editing their content and/or formatting them to fit into a larger document.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/data-ingestion/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000231",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000231",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000231",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000231",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000291"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data wrangling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000291",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "The process of manually or semi-automatically converting or mapping data from one form into another format that allows for more convenient consumption of the data with the help of semi-automated tools. Gathering and organizing disparate data from different sources, often collected by many different investigators. Activities include developing and supporting search tools that utilize standardized &hellip; <a href=CASRAI. https://casrai.org/term/data-wrangling/ class=more-link",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/data-wrangling/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000036",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000036",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000036",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000036",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000292"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "research data management infrastructure",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000292",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "The configuration of staff, services and tools assembled to support data management across the research lifecycle and more specifically to provide comprehensive coverage of the stages making up the data lifecycle. It can be organized locally and/or globally to support research data activities across the research lifecycle.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/research-data-management-infrastructure",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000293"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "flexibility in relating fair criteria to openness",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000293",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Appreciate the need for flexibility in applying FAIR criteria to make data as open as possible, as closed as necessary.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000259",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000259",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000259",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000259",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000294"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "choosing the appropriate terminology for your data",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000294",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "To be able to research and identify the appropriate taxonomy for your project. This may involve using resources such as FAIRsharing, which captures metadata on taxonomies and provides an assessment of their FAIRness.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "[PMQ]",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000175",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000175",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000175",
+      "http://purl.obolibrary.org/obo/T4FS_0000021",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000175",
+      "http://purl.obolibrary.org/obo/T4FS_0000021",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000295"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "structured data",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000295",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Data whose elements have been organized into a consistent format and data structure within a defined data model such that the elements can be easily addressed, organized and accessed in various combinations to make better use of the information, such as in a relational database.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/structured-data/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000296"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "knowledge to contextualise fair principles to domain",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000296",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Know how data handling practices in the domain make FAIR criteria more or less easy to implement.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000259",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000259",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000259",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000259",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000297"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "research data management",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000297",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Data Management refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field).",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/research-data-management/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000141",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000141",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000141",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000141",
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000298"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "publish output in a repository",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000298",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Deposit research output (software, data and publication together with documentation) in  previousy selected repositories.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000106",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000106",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000106",
+      "http://purl.obolibrary.org/obo/T4FS_0000021",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000106",
+      "http://purl.obolibrary.org/obo/T4FS_0000021",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000300"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "metadata search via metadata providers",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000300",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "To be able to identify and process metadata over the internet, sourced from a variety of metadata providers and schemata.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "[PMQ]",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000076",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000076",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000301"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "record provenance information",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000301",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Information for a data object that includes: * the person who deposited the data object in the repository, * the source of the data object, * the date when the object was deposited, and * authenticity information needed to link the data object to its original source.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/record-provenance-information/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000527",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000527",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000527",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000527",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000302"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data citation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000302",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Offers proper recognition to authors as well as permanent identification through the use of global persistent identifiers in place of URLs which can change frequently.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/data-citation/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000021",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000021",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000021",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000021",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000305"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "book",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000305",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000519",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000519",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000519",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000519",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000306"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "intellectual leadership",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000306",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "The capacity to influence stakeholders and the direction of research activities; the ability to shape others' understanding in ways that capture interest, inform and gain support; and, the capacity to influence the actions and opinions of others.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/intellectual-leadership/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000548",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000548",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000548",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000548",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000307"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "innovation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000307",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "In the context of a researcher's activities, innovation is the development of modified or novel approaches, theories, concepts, ideas or solutions. Innovation is one of four valued outcomes.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/innovation/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000012",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000012",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000308"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "high performance computing management",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000308",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "High-performance computing (HPC) is a process for using of super computers and parallel processing techniques for solving complex computational problems. HPC technology focuses on developing parallel processing algorithms and systems by incorporating both administration and parallel computational techniques.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "(modified from wikipedia)[VDA]",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000353",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000353",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000353",
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000309"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "provenance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000309",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A type of historical information or metadata about the origin, location or the source of something, or the history of the ownership or location of an object or resource including digital objects. For example, information about the Principal Investigator who recorded the data, and the information concerning its storage, handling, and migration.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/provenance",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000310"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "digital record",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000310",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "value": "A record created digitally in the day-to-day business of the organisation and assigned formal status by the organisation. Examples include: word processing documents, emails, databases, or intranet web pages.",
+          "lang": "en"
+        },
+        "axioms": [
+          {
+            "http://purl.obolibrary.org/obo/IAO_0000119": {
+              "type": [
+                "literal"
+              ],
+              "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "value": "CASRAI. https://casrai.org/term/digital/",
+              "lang": "en"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "AL 8.2.22: Updated label from the CASRAI \"Digital\" to \"Digital record\" to better match the definition and intent of the term, and to provide clarity.",
+        "lang": "en"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000311"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "analytical quality control",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000311",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Processes and procedures designed to ensure that the results of laboratory analysis are consistent, comparable, accurate and within specified limits of precision.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/analytical-quality-control/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000372",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000312"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "digital research data",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000312",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Research data which is in digital form. It may have been originally created in digital form, or it may have been converted from paper, or other form to a digital representation.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/digital-research-data/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000430",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000430",
+      "http://purl.obolibrary.org/obo/T4FS_0000372",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "T4FS:0000314"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "managing research",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/T4FS_0000314",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "In the context of a researcher’s activities, Managing research is the processes related to the planning, organizing, setting objectives, controlling and evaluating of RDA activities and their associated human and financial resources. It includes the provision of leadership to, and assessment of, other scientists, engineers, technologists, and/or other staff. Managing research is one of the three research contexts in which a researcher is expected to conduct his/her activities. Managing research is distinct from the position-based role of a research manager.",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0000119": {
+            "type": [
+              "literal"
+            ],
+            "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "value": "CASRAI. https://casrai.org/term/managing-research/",
+            "lang": "en"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/T4FS_0000012",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/T4FS_0000012",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/T4FS_0000012",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

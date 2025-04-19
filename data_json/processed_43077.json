@@ -1,0 +1,4863 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004196"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tricuspid valve composition"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004196",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The composition of a tricuspid valve."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004192",
+      "http://purl.obolibrary.org/obo/PATO_0000025"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004192",
+      "http://purl.obolibrary.org/obo/PATO_0000025",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0004147",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004192",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000036",
+      "http://purl.obolibrary.org/obo/OBA_VT0000019",
+      "http://purl.obolibrary.org/obo/OBA_VT0003105",
+      "http://purl.obolibrary.org/obo/OBA_VT0000266",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0004134",
+      "http://purl.obolibrary.org/obo/OBA_VT0015059",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000025",
+      "http://purl.obolibrary.org/obo/OBA_0003469",
+      "http://purl.obolibrary.org/obo/OBA_VT0000135",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/PATO_0000025"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004192",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000036",
+      "http://purl.obolibrary.org/obo/OBA_VT0000019",
+      "http://purl.obolibrary.org/obo/OBA_VT0003105",
+      "http://purl.obolibrary.org/obo/OBA_VT0000266",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0004134",
+      "http://purl.obolibrary.org/obo/OBA_VT0015059",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000025",
+      "http://purl.obolibrary.org/obo/OBA_0003469",
+      "http://purl.obolibrary.org/obo/OBA_VT0000135",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/OBA_0005511",
+      "http://purl.obolibrary.org/obo/OBA_0003396",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454",
+      "http://purl.obolibrary.org/obo/PATO_0000025",
+      "http://purl.obolibrary.org/obo/OBA_0004147"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004197"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "artery closure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004197",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The closure of a artery."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003467",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003467",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003467",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/PATO_0000136",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003467",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/PATO_0000136",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004198"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vein closure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004198",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The closure of a vein."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003467",
+      "http://purl.obolibrary.org/obo/OBA_VT0002725"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003467",
+      "http://purl.obolibrary.org/obo/OBA_VT0002725"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003467",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/PATO_0000136",
+      "http://purl.obolibrary.org/obo/OBA_VT0002725",
+      "http://purl.obolibrary.org/obo/OBA_1000292"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003467",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/PATO_0000136",
+      "http://purl.obolibrary.org/obo/OBA_VT0002725",
+      "http://purl.obolibrary.org/obo/OBA_1000292"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004199"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "atrioventricular node conductivity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004199",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The conductivity of a atrioventricular node."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000157",
+      "http://purl.obolibrary.org/obo/PATO_0001585"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000157",
+      "http://purl.obolibrary.org/obo/PATO_0001585",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0003780",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000157",
+      "http://purl.obolibrary.org/obo/OBA_1000251",
+      "http://purl.obolibrary.org/obo/OBA_VT0015059",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001585",
+      "http://purl.obolibrary.org/obo/PATO_0001018",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000157",
+      "http://purl.obolibrary.org/obo/OBA_1000251",
+      "http://purl.obolibrary.org/obo/OBA_VT0015059",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001585",
+      "http://purl.obolibrary.org/obo/PATO_0001018",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_0003780"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004200"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sinoatrial node conductivity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004200",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The conductivity of a sinoatrial node."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_VT0015059",
+      "http://purl.obolibrary.org/obo/PATO_0001585"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_VT0015059",
+      "http://purl.obolibrary.org/obo/PATO_0001585",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0003780",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_VT0015059",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001585",
+      "http://purl.obolibrary.org/obo/PATO_0001018",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_VT0015059",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001585",
+      "http://purl.obolibrary.org/obo/PATO_0001018",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_0003780"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004201"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lateral rectus extra-ocular muscle functionality"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004201",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The functionality of a lateral rectus extra-ocular muscle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003691",
+      "http://purl.obolibrary.org/obo/OBA_1000393"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003691",
+      "http://purl.obolibrary.org/obo/OBA_1000393",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_VT0005253",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_VT0010080",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003691",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001509",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_1000393",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003691",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001509",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002106",
+      "http://purl.obolibrary.org/obo/OBA_VT0005369",
+      "http://purl.obolibrary.org/obo/OBA_1000393",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0005253",
+      "http://purl.obolibrary.org/obo/OBA_2060021",
+      "http://purl.obolibrary.org/obo/OBA_VT0015057",
+      "http://purl.obolibrary.org/obo/OBA_VT0010080"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004202"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "medial rectus extraocular muscle functionality"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004202",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The functionality of a medial rectus extraocular muscle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003691",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003691",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_VT0005253",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_VT0010080",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003691",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001509",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003691",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001509",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002106",
+      "http://purl.obolibrary.org/obo/OBA_VT0005369",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0005253",
+      "http://purl.obolibrary.org/obo/OBA_2060021",
+      "http://purl.obolibrary.org/obo/OBA_VT0015057",
+      "http://purl.obolibrary.org/obo/OBA_VT0010080"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004203"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "superior rectus extraocular muscle movement behavioral quality"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004203",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The movement behavioral quality of a superior rectus extraocular muscle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0002121",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0002121",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002121",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0002076",
+      "http://purl.obolibrary.org/obo/PATO_0000186",
+      "http://purl.obolibrary.org/obo/PATO_0001995",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002121",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0002076",
+      "http://purl.obolibrary.org/obo/PATO_0000186",
+      "http://purl.obolibrary.org/obo/PATO_0001995",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_0003547"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004204"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "optic choroid degeneration"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004204",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The degeneration of a optic choroid."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0005098",
+      "http://purl.obolibrary.org/obo/PATO_0002037"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0005098",
+      "http://purl.obolibrary.org/obo/PATO_0002037",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0003396",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_2060076",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0005098",
+      "http://purl.obolibrary.org/obo/OBA_1000156",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0005197",
+      "http://purl.obolibrary.org/obo/OBA_VT0005193",
+      "http://purl.obolibrary.org/obo/OBA_0002129",
+      "http://purl.obolibrary.org/obo/OBA_1000608",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_1000390",
+      "http://purl.obolibrary.org/obo/PATO_0002037",
+      "http://purl.obolibrary.org/obo/PATO_0000141"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0005098",
+      "http://purl.obolibrary.org/obo/OBA_1000156",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0005197",
+      "http://purl.obolibrary.org/obo/OBA_VT0005193",
+      "http://purl.obolibrary.org/obo/OBA_0002129",
+      "http://purl.obolibrary.org/obo/OBA_1000608",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_1000390",
+      "http://purl.obolibrary.org/obo/PATO_0002037",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/OBA_0003396",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454",
+      "http://purl.obolibrary.org/obo/OBA_2060076"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004205"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "camera-type eye composition"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004205",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The composition of a camera-type eye."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_2060076",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/PATO_0000025"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_2060076",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/PATO_0000025",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0002059",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2060076",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000025",
+      "http://purl.obolibrary.org/obo/PATO_0000141"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2060076",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000025",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/OBA_0002059",
+      "http://purl.obolibrary.org/obo/OBA_0004147",
+      "http://purl.obolibrary.org/obo/OBA_0003396",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004206"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cranial nerve II degeneration"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004206",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The degeneration of a cranial nerve II."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002181",
+      "http://purl.obolibrary.org/obo/PATO_0002037"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002181",
+      "http://purl.obolibrary.org/obo/PATO_0002037",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0002758",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002181",
+      "http://purl.obolibrary.org/obo/OBA_0003638",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/PATO_0002037"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002181",
+      "http://purl.obolibrary.org/obo/OBA_0003638",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/OBA_0003396",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454",
+      "http://purl.obolibrary.org/obo/PATO_0002037",
+      "http://purl.obolibrary.org/obo/OBA_0002758",
+      "http://purl.obolibrary.org/obo/OBA_0003700",
+      "http://purl.obolibrary.org/obo/OBA_VT1000781",
+      "http://purl.obolibrary.org/obo/OBA_VT0015074"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004207"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cranial nerve II curvature"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004207",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The curvature of a cranial nerve II."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003638",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0001591"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003638",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0001591",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_2060039",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003638",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0001591",
+      "http://purl.obolibrary.org/obo/PATO_0000052"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003638",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0001591",
+      "http://purl.obolibrary.org/obo/PATO_0000052",
+      "http://purl.obolibrary.org/obo/OBA_2060039"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004208"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cranial nerve II composition"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004208",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The composition of a cranial nerve II."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002181",
+      "http://purl.obolibrary.org/obo/PATO_0000025"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002181",
+      "http://purl.obolibrary.org/obo/PATO_0000025",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0004147",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002181",
+      "http://purl.obolibrary.org/obo/OBA_0003638",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/PATO_0000025"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002181",
+      "http://purl.obolibrary.org/obo/OBA_0003638",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/OBA_0003396",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454",
+      "http://purl.obolibrary.org/obo/PATO_0000025",
+      "http://purl.obolibrary.org/obo/OBA_0004147"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004209"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "camera-type eye wholeness"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004209",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The wholeness of a camera-type eye."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_2060076",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/PATO_0001442"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_2060076",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/PATO_0001442",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0003396",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2060076",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/PATO_0001442",
+      "http://purl.obolibrary.org/obo/PATO_0000141"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2060076",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/PATO_0001442",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/OBA_0003396",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004210"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pupil color"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004210",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The color of a pupil."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0001317",
+      "http://purl.obolibrary.org/obo/PATO_0000014"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0001317",
+      "http://purl.obolibrary.org/obo/PATO_0000014",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_1000045",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0001317",
+      "http://purl.obolibrary.org/obo/OBA_1000396",
+      "http://purl.obolibrary.org/obo/OBA_1000385",
+      "http://purl.obolibrary.org/obo/OBA_1000390",
+      "http://purl.obolibrary.org/obo/OBA_1000608",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0001322",
+      "http://purl.obolibrary.org/obo/OBA_VT0005194",
+      "http://purl.obolibrary.org/obo/OBA_VT0005197",
+      "http://purl.obolibrary.org/obo/OBA_VT0005193",
+      "http://purl.obolibrary.org/obo/OBA_0002129",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/PATO_0000014",
+      "http://purl.obolibrary.org/obo/PATO_0001300",
+      "http://purl.obolibrary.org/obo/PATO_0070060",
+      "http://purl.obolibrary.org/obo/PATO_0002198",
+      "http://purl.obolibrary.org/obo/PATO_0001018"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0001317",
+      "http://purl.obolibrary.org/obo/OBA_1000396",
+      "http://purl.obolibrary.org/obo/OBA_1000385",
+      "http://purl.obolibrary.org/obo/OBA_1000390",
+      "http://purl.obolibrary.org/obo/OBA_1000608",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0001322",
+      "http://purl.obolibrary.org/obo/OBA_VT0005194",
+      "http://purl.obolibrary.org/obo/OBA_VT0005197",
+      "http://purl.obolibrary.org/obo/OBA_VT0005193",
+      "http://purl.obolibrary.org/obo/OBA_0002129",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/PATO_0000014",
+      "http://purl.obolibrary.org/obo/PATO_0001300",
+      "http://purl.obolibrary.org/obo/PATO_0070060",
+      "http://purl.obolibrary.org/obo/PATO_0002198",
+      "http://purl.obolibrary.org/obo/PATO_0001018",
+      "http://purl.obolibrary.org/obo/OBA_1000045",
+      "http://purl.obolibrary.org/obo/OBA_2060076"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004211"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lateral rectus extra-ocular muscle movement behavioral quality"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004211",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The movement behavioral quality of a lateral rectus extra-ocular muscle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002121",
+      "http://purl.obolibrary.org/obo/OBA_1000393"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002121",
+      "http://purl.obolibrary.org/obo/OBA_1000393"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002121",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0002076",
+      "http://purl.obolibrary.org/obo/PATO_0000186",
+      "http://purl.obolibrary.org/obo/PATO_0001995",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_1000393"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002121",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0002076",
+      "http://purl.obolibrary.org/obo/PATO_0000186",
+      "http://purl.obolibrary.org/obo/PATO_0001995",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_0003547",
+      "http://purl.obolibrary.org/obo/OBA_1000393"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004212"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "digit curvature"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004212",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The curvature of a digit."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002192",
+      "http://purl.obolibrary.org/obo/PATO_0001591"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002192",
+      "http://purl.obolibrary.org/obo/PATO_0001591"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002192",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002110",
+      "http://purl.obolibrary.org/obo/OBA_1000577",
+      "http://purl.obolibrary.org/obo/OBA_1000099",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000572",
+      "http://purl.obolibrary.org/obo/OBA_VT0002109",
+      "http://purl.obolibrary.org/obo/OBA_VT0015071",
+      "http://purl.obolibrary.org/obo/PATO_0000052",
+      "http://purl.obolibrary.org/obo/PATO_0001591"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002192",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002110",
+      "http://purl.obolibrary.org/obo/OBA_1000577",
+      "http://purl.obolibrary.org/obo/OBA_1000099",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000572",
+      "http://purl.obolibrary.org/obo/OBA_VT0002109",
+      "http://purl.obolibrary.org/obo/OBA_VT0015071",
+      "http://purl.obolibrary.org/obo/PATO_0000052",
+      "http://purl.obolibrary.org/obo/PATO_0001591"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 47,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004213"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dorsal horn of spinal cord morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004213",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a dorsal horn of spinal cord."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0004434",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0004434",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004434",
+      "http://purl.obolibrary.org/obo/OBA_VT0000955",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004434",
+      "http://purl.obolibrary.org/obo/OBA_VT0000955",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004214"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "internal ear size"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004214",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The size of a internal ear."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_VT0000026"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_VT0000026",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0003439",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/PATO_0000117",
+      "http://purl.obolibrary.org/obo/OBA_VT0000026",
+      "http://purl.obolibrary.org/obo/OBA_VT0002102",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/PATO_0000117",
+      "http://purl.obolibrary.org/obo/OBA_VT0000026",
+      "http://purl.obolibrary.org/obo/OBA_VT0002102",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0003439",
+      "http://purl.obolibrary.org/obo/OBA_VT0000002",
+      "http://purl.obolibrary.org/obo/OBA_VT0100005",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 29,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004215"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "bony otic capsule size"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004215",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The size of a bony otic capsule."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003436",
+      "http://purl.obolibrary.org/obo/OBA_1000138",
+      "http://purl.obolibrary.org/obo/OBA_VT0001456"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003436",
+      "http://purl.obolibrary.org/obo/OBA_1000138",
+      "http://purl.obolibrary.org/obo/OBA_VT0001456",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0003976",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003436",
+      "http://purl.obolibrary.org/obo/OBA_1000066",
+      "http://purl.obolibrary.org/obo/OBA_1000067",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0010003",
+      "http://purl.obolibrary.org/obo/OBA_0004155",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000039",
+      "http://purl.obolibrary.org/obo/OBA_VT0000026",
+      "http://purl.obolibrary.org/obo/OBA_VT0002102",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000074",
+      "http://purl.obolibrary.org/obo/OBA_VT0000438",
+      "http://purl.obolibrary.org/obo/OBA_1000429",
+      "http://purl.obolibrary.org/obo/OBA_VT0010612",
+      "http://purl.obolibrary.org/obo/OBA_VT0002116",
+      "http://purl.obolibrary.org/obo/OBA_VT0005272",
+      "http://purl.obolibrary.org/obo/OBA_VT0005273",
+      "http://purl.obolibrary.org/obo/OBA_1000249",
+      "http://purl.obolibrary.org/obo/OBA_1000138",
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0000117",
+      "http://purl.obolibrary.org/obo/OBA_VT0001456"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003436",
+      "http://purl.obolibrary.org/obo/OBA_1000066",
+      "http://purl.obolibrary.org/obo/OBA_1000067",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0010003",
+      "http://purl.obolibrary.org/obo/OBA_0004155",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000039",
+      "http://purl.obolibrary.org/obo/OBA_VT0000026",
+      "http://purl.obolibrary.org/obo/OBA_VT0002102",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000074",
+      "http://purl.obolibrary.org/obo/OBA_VT0000438",
+      "http://purl.obolibrary.org/obo/OBA_1000429",
+      "http://purl.obolibrary.org/obo/OBA_VT0010612",
+      "http://purl.obolibrary.org/obo/OBA_VT0002116",
+      "http://purl.obolibrary.org/obo/OBA_VT0005272",
+      "http://purl.obolibrary.org/obo/OBA_VT0005273",
+      "http://purl.obolibrary.org/obo/OBA_1000249",
+      "http://purl.obolibrary.org/obo/OBA_1000138",
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/PATO_0000117",
+      "http://purl.obolibrary.org/obo/OBA_VT0100005",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454",
+      "http://purl.obolibrary.org/obo/OBA_VT0001456",
+      "http://purl.obolibrary.org/obo/OBA_0004214",
+      "http://purl.obolibrary.org/obo/OBA_0003439",
+      "http://purl.obolibrary.org/obo/OBA_VT0000002",
+      "http://purl.obolibrary.org/obo/OBA_VT0010517",
+      "http://purl.obolibrary.org/obo/OBA_VT0003104",
+      "http://purl.obolibrary.org/obo/OBA_VT0010613",
+      "http://purl.obolibrary.org/obo/OBA_0003976"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004216"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "olfactory placode structure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004216",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The structure of a olfactory placode."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0005690",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/PATO_0000141"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0005690",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0002169",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0005690",
+      "http://purl.obolibrary.org/obo/OBA_1001050",
+      "http://purl.obolibrary.org/obo/OBA_1001060",
+      "http://purl.obolibrary.org/obo/OBA_0003689",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000141"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0005690",
+      "http://purl.obolibrary.org/obo/OBA_1001050",
+      "http://purl.obolibrary.org/obo/OBA_1001060",
+      "http://purl.obolibrary.org/obo/OBA_0003689",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/OBA_0002169",
+      "http://purl.obolibrary.org/obo/OBA_0003396",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004217"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "olfactory placode amount"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004217",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The amount of a olfactory placode."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/PATO_0000070"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0004783",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0005775",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000",
+      "http://purl.obolibrary.org/obo/OBA_0004783",
+      "http://purl.obolibrary.org/obo/OBA_0005775"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004218"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "optic vesicle amount"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004218",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The amount of a optic vesicle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000070"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000070"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004219"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sclerotome amount"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004219",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The amount of a sclerotome."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000070"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000070"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004220"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "entorhinal cortex morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004220",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a entorhinal cortex."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004968",
+      "http://purl.obolibrary.org/obo/OBA_VT0004168"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004968",
+      "http://purl.obolibrary.org/obo/OBA_VT0004168"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004968",
+      "http://purl.obolibrary.org/obo/OBA_VT0005267",
+      "http://purl.obolibrary.org/obo/OBA_VT0000788",
+      "http://purl.obolibrary.org/obo/OBA_0004450",
+      "http://purl.obolibrary.org/obo/OBA_VT0015105",
+      "http://purl.obolibrary.org/obo/OBA_VT0000783",
+      "http://purl.obolibrary.org/obo/OBA_VT0002152",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0005235",
+      "http://purl.obolibrary.org/obo/OBA_VT0004168",
+      "http://purl.obolibrary.org/obo/OBA_VT0000801",
+      "http://purl.obolibrary.org/obo/OBA_VT0004166",
+      "http://purl.obolibrary.org/obo/OBA_VT0004169"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004968",
+      "http://purl.obolibrary.org/obo/OBA_VT0005267",
+      "http://purl.obolibrary.org/obo/OBA_VT0000788",
+      "http://purl.obolibrary.org/obo/OBA_0004450",
+      "http://purl.obolibrary.org/obo/OBA_VT0015105",
+      "http://purl.obolibrary.org/obo/OBA_VT0000783",
+      "http://purl.obolibrary.org/obo/OBA_VT0002152",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0005235",
+      "http://purl.obolibrary.org/obo/OBA_VT0004168",
+      "http://purl.obolibrary.org/obo/OBA_VT0000801",
+      "http://purl.obolibrary.org/obo/OBA_VT0004166",
+      "http://purl.obolibrary.org/obo/OBA_VT0004169"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004221"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mesenchyme morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004221",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a mesenchyme."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000051"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/PATO_0000051"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 29,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 29,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004222"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "head ectomesenchyme morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004222",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a head ectomesenchyme."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0005369",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0005369",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0005369",
+      "http://purl.obolibrary.org/obo/OBA_0003689",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_0004221",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0005369",
+      "http://purl.obolibrary.org/obo/OBA_0003689",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_0004221",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004223"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "nerve fiber layer of retina morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004223",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a nerve fiber layer of retina."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_VT0006069",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_VT0006069",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_VT0006069",
+      "http://purl.obolibrary.org/obo/OBA_VT0003727",
+      "http://purl.obolibrary.org/obo/OBA_VT0001325",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0005195",
+      "http://purl.obolibrary.org/obo/OBA_0002129",
+      "http://purl.obolibrary.org/obo/OBA_1000608",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_1000547"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_VT0006069",
+      "http://purl.obolibrary.org/obo/OBA_VT0003727",
+      "http://purl.obolibrary.org/obo/OBA_VT0001325",
+      "http://purl.obolibrary.org/obo/OBA_VT0003632",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0005195",
+      "http://purl.obolibrary.org/obo/OBA_0002129",
+      "http://purl.obolibrary.org/obo/OBA_1000608",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0002092",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_1000547"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004224"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "optic eminence morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004224",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a optic eminence."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_1001076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_1001076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004225"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "olfactory pit morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004225",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a olfactory pit."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_VT0002233"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_VT0002233"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002233",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0002233",
+      "http://purl.obolibrary.org/obo/OBA_VT0003743",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004226"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "perichondrium structure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004226",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The structure of a perichondrium."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002355",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0001248",
+      "http://purl.obolibrary.org/obo/PATO_0000141"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0002355",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0001248",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_0003396",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002355",
+      "http://purl.obolibrary.org/obo/OBA_0004155",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0001248",
+      "http://purl.obolibrary.org/obo/OBA_VT0100002",
+      "http://purl.obolibrary.org/obo/PATO_0000141"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0002355",
+      "http://purl.obolibrary.org/obo/OBA_0004155",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_VT0001248",
+      "http://purl.obolibrary.org/obo/OBA_VT0100002",
+      "http://purl.obolibrary.org/obo/PATO_0000141",
+      "http://purl.obolibrary.org/obo/OBA_0003396",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004227"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sensory perception of sound rate"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004227",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The rate of a sensory perception of sound."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_2045262",
+      "http://purl.obolibrary.org/obo/PATO_0000161"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_2045262",
+      "http://purl.obolibrary.org/obo/PATO_0000161"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2045262",
+      "http://purl.obolibrary.org/obo/OBA_1000931",
+      "http://purl.obolibrary.org/obo/OBA_VT0015095",
+      "http://purl.obolibrary.org/obo/OBA_0100002",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001236",
+      "http://purl.obolibrary.org/obo/PATO_0000161",
+      "http://purl.obolibrary.org/obo/PATO_0002062"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_2045262",
+      "http://purl.obolibrary.org/obo/OBA_1000931",
+      "http://purl.obolibrary.org/obo/OBA_VT0015095",
+      "http://purl.obolibrary.org/obo/OBA_0100002",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001236",
+      "http://purl.obolibrary.org/obo/PATO_0000161",
+      "http://purl.obolibrary.org/obo/PATO_0002062"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004228"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch 1 morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004228",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a pharyngeal arch 1."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004229"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch 2 morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004229",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a pharyngeal arch 2."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004230"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch 3 morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004230",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a pharyngeal arch 3."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004231"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch 6 morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004231",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a pharyngeal arch 6."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004232"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch 1 size"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004232",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The size of a pharyngeal arch 1."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003881",
+      "http://purl.obolibrary.org/obo/OBA_0004228"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003881",
+      "http://purl.obolibrary.org/obo/OBA_0004228"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003881",
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/PATO_0000117",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_0004228"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003881",
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/PATO_0000117",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_0000172",
+      "http://purl.obolibrary.org/obo/OBA_VT0000002",
+      "http://purl.obolibrary.org/obo/OBA_VT0100005",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454",
+      "http://purl.obolibrary.org/obo/OBA_VT0001697",
+      "http://purl.obolibrary.org/obo/OBA_VT0000069",
+      "http://purl.obolibrary.org/obo/OBA_0004228"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004233"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch 1 amount"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004233",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The amount of a pharyngeal arch 1."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0003882",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0003882",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003882",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003882",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000",
+      "http://purl.obolibrary.org/obo/OBA_0004783",
+      "http://purl.obolibrary.org/obo/OBA_0005606"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004234"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch 2 size"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004234",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The size of a pharyngeal arch 2."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003881",
+      "http://purl.obolibrary.org/obo/OBA_0004229"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0003881",
+      "http://purl.obolibrary.org/obo/OBA_0004229"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003881",
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/PATO_0000117",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_0004229"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003881",
+      "http://purl.obolibrary.org/obo/OBA_0000015",
+      "http://purl.obolibrary.org/obo/OBA_2045412",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/PATO_0000117",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_0000172",
+      "http://purl.obolibrary.org/obo/OBA_VT0000002",
+      "http://purl.obolibrary.org/obo/OBA_VT0100005",
+      "http://purl.obolibrary.org/obo/OBA_VT0010454",
+      "http://purl.obolibrary.org/obo/OBA_VT0001697",
+      "http://purl.obolibrary.org/obo/OBA_VT0000069",
+      "http://purl.obolibrary.org/obo/OBA_0004229"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004235"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch 2 amount"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004235",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The amount of a pharyngeal arch 2."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0003882",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0003882",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003882",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003882",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000",
+      "http://purl.obolibrary.org/obo/OBA_0004783",
+      "http://purl.obolibrary.org/obo/OBA_0005606"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004236"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch 4 morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004236",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a pharyngeal arch 4."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_0003750",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004237"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch artery 4 morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004237",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a pharyngeal arch artery 4."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004236",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004236",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004236",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113",
+      "http://purl.obolibrary.org/obo/OBA_1000301",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0002234",
+      "http://purl.obolibrary.org/obo/OBA_VT0002132"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004236",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113",
+      "http://purl.obolibrary.org/obo/OBA_1000301",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0002234",
+      "http://purl.obolibrary.org/obo/OBA_VT0002132"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004238"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch artery 6 morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004238",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a pharyngeal arch artery 6."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004231",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004231",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004231",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113",
+      "http://purl.obolibrary.org/obo/OBA_1000301",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0002234",
+      "http://purl.obolibrary.org/obo/OBA_VT0002132"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004231",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113",
+      "http://purl.obolibrary.org/obo/OBA_1000301",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0002234",
+      "http://purl.obolibrary.org/obo/OBA_VT0002132"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004239"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pharyngeal arch artery 3 morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004239",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a pharyngeal arch artery 3."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004230",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_0004230",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004230",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113",
+      "http://purl.obolibrary.org/obo/OBA_1000301",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0002234",
+      "http://purl.obolibrary.org/obo/OBA_VT0002132"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_0004230",
+      "http://purl.obolibrary.org/obo/OBA_0003750",
+      "http://purl.obolibrary.org/obo/OBA_1001076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0000432",
+      "http://purl.obolibrary.org/obo/OBA_VT0005382",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000474",
+      "http://purl.obolibrary.org/obo/OBA_VT0000462",
+      "http://purl.obolibrary.org/obo/OBA_VT0004113",
+      "http://purl.obolibrary.org/obo/OBA_1000301",
+      "http://purl.obolibrary.org/obo/OBA_VT0002191",
+      "http://purl.obolibrary.org/obo/OBA_VT0001614",
+      "http://purl.obolibrary.org/obo/OBA_VT0002127",
+      "http://purl.obolibrary.org/obo/OBA_VT0100016",
+      "http://purl.obolibrary.org/obo/OBA_VT0002234",
+      "http://purl.obolibrary.org/obo/OBA_VT0002132"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004240"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "female germ cell morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004240",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The morphology of a female germ cell."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "obo:oba/patterns/entity_attribute_part_of"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBA_VT0002208",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBA_VT0002208",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_VT0002208",
+      "http://purl.obolibrary.org/obo/OBA_1001065",
+      "http://purl.obolibrary.org/obo/OBA_1000076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_VT0002208",
+      "http://purl.obolibrary.org/obo/OBA_1001065",
+      "http://purl.obolibrary.org/obo/OBA_1000076",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004241"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "strand of auchene hair amount"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004241",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The amount of a strand of auchene hair."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000665",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000665",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000665",
+      "http://purl.obolibrary.org/obo/OBA_1000253",
+      "http://purl.obolibrary.org/obo/OBA_1000459",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0015052",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000665",
+      "http://purl.obolibrary.org/obo/OBA_1000253",
+      "http://purl.obolibrary.org/obo/OBA_1000459",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0015052",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004242"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "strand of awl hair amount"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004242",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The amount of a strand of awl hair."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000674",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000674",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000674",
+      "http://purl.obolibrary.org/obo/OBA_1000253",
+      "http://purl.obolibrary.org/obo/OBA_1000459",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0015052",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000674",
+      "http://purl.obolibrary.org/obo/OBA_1000253",
+      "http://purl.obolibrary.org/obo/OBA_1000459",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0015052",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004243"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "strand of guard hair amount"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004243",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The amount of a strand of guard hair."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000934",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000934",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000934",
+      "http://purl.obolibrary.org/obo/OBA_1000253",
+      "http://purl.obolibrary.org/obo/OBA_1000459",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0015052",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000934",
+      "http://purl.obolibrary.org/obo/OBA_1000253",
+      "http://purl.obolibrary.org/obo/OBA_1000459",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0015052",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004244"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "strand of zigzag hair amount"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004244",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The amount of a strand of zigzag hair."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000813",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000813",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000813",
+      "http://purl.obolibrary.org/obo/OBA_1000253",
+      "http://purl.obolibrary.org/obo/OBA_1000459",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0015052",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000813",
+      "http://purl.obolibrary.org/obo/OBA_1000253",
+      "http://purl.obolibrary.org/obo/OBA_1000459",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBA_VT0015052",
+      "http://purl.obolibrary.org/obo/OBA_VT0100003",
+      "http://purl.obolibrary.org/obo/OBA_VT0000268",
+      "http://purl.obolibrary.org/obo/PATO_0000070",
+      "http://purl.obolibrary.org/obo/PATO_0103000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBA:0004245"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "placenta functionality"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBA_0004245",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The functionality of a placenta."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "AUTO:patterns/patterns/entity_attribute"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000620",
+      "http://purl.obolibrary.org/obo/PATO_0001509"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBA_1000620",
+      "http://purl.obolibrary.org/obo/PATO_0001509",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/OBA_VT0003699",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000620",
+      "http://purl.obolibrary.org/obo/OBA_1000213",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001509",
+      "http://purl.obolibrary.org/obo/PATO_0001241"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBA_1000620",
+      "http://purl.obolibrary.org/obo/OBA_1000213",
+      "http://purl.obolibrary.org/obo/OBA_0100003",
+      "http://purl.obolibrary.org/obo/OBA_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/PATO_0001509",
+      "http://purl.obolibrary.org/obo/PATO_0001241",
+      "http://purl.obolibrary.org/obo/OBA_VT0003699",
+      "http://purl.obolibrary.org/obo/OBA_VT0001919",
+      "http://purl.obolibrary.org/obo/OBA_VT0005389",
+      "http://purl.obolibrary.org/obo/OBA_VT0015074"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

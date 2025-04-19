@@ -1,0 +1,5512 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000922"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "embryo"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000922",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "BTO:0000379"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "FB:FBrf0039741"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "FB:FBrf0041814"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GO:0009790"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Embryo"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000468",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0000468",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 223,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000924"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ectoderm"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000924",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Primary germ layer that is the outer of the embryo's three germ layers and gives rise to epidermis and neural tissue."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Wikipedia:Ectoderm"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002050",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002050",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000468",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000922",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0002050"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0002050",
+      "http://purl.obolibrary.org/obo/UBERON_0000922",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 16,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000925"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "endoderm"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000925",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Primary germ layer that lies remote from the surface of the embryo and gives rise to internal tissues such as gut."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Wikipedia:Endoderm"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002050",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002050",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000468",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000922",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0002050"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0002050",
+      "http://purl.obolibrary.org/obo/UBERON_0000922",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000926"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mesoderm"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000926",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The middle germ layer of the embryo, between the endoderm and ectoderm."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Wikipedia:Mesoderm"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002050",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0003331"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002050",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0003331",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000468",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000922",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0002050",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003331",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0002050",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/UBERON_0000922",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://www.ebi.ac.uk/efo/EFO_0003331"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 8,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000927"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mesectoderm"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000927",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A double row of cells which are located at the midline from the end of gastrulations. The morphology of these cells is distinct from adjacent ectodermal cells - they are elongated such that one end remains exposed to the outside of the embryo at the mideline while the other end bissects the internalised mesoderm."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "FB:FBrf0089570"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Split term? The part of the mesenchyme derived from ectoderm, especially from the embryonic neural crest from which the pigment cells, meninges, and most of the branchial cartilages develop.[TFD]"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002050",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002050",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000468",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000922",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/FBbt_00000109",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/RO_0002202"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0002050"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0002050",
+      "http://purl.obolibrary.org/obo/UBERON_0000922",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/FBbt_00000109",
+      "http://www.ebi.ac.uk/efo/EFO_0003333",
+      "http://www.ebi.ac.uk/efo/EFO_0003334"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000933"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "chordate pharyngeal muscle"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000933",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A muscle that acts on the pharynx[WP, vetted]."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Wikipedia:Pharyngeal_muscles"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "https://orcid.org/0000-0002-6601-2165"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Innervation notes: They are innervated by the pharyngeal branch of the Vagus nerve (CN X) with the exception of the stylopharyngeus muscle which is innervated by the glossopharyngeal nerve (CN IX).[WP]"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0005090",
+      "http://www.ebi.ac.uk/efo/EFO_0003331"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0005090",
+      "http://www.ebi.ac.uk/efo/EFO_0003331",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000467",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001015",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0005090",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://www.ebi.ac.uk/efo/EFO_0003331"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0005090",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://www.ebi.ac.uk/efo/EFO_0003331",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001015",
+      "http://purl.obolibrary.org/obo/UBERON_0000383"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000934"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ventral nerve cord"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000934",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The pair of closely united ventral longitudinal nerves with their segmental ganglia that is characteristic of many elongate invertebrates (as earthworms)[BTO]. A large process bundle that runs along the vental mid-line extending from the ventral region of the nerve ring[WB]. The ventral cord is one of the distinguishing traits of the central nervous system of all arthropods (such as insects, crustaceans and arachnids) as well as many other invertebrates, such as the annelid worms[GO]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "BTO:0002328"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GO:0007419"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "WB:Paper00000938"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Ventral_nerve_cord"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001016",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0001016",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000941"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cranial nerve II"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000941",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Cranial nerve fiber tract which is comprised of retinal ganglion cell axons running posterior medially towards the optic chiasm, at which some of the axons cross the midline and after which the structure is termed the optic tract. Transmits visual information from the retina to the brain[ZFA]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0471209627"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0471888893"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0034713",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0034713",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001017",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002104",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0034713",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0034713",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000033",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0007811",
+      "http://purl.obolibrary.org/obo/UBERON_0013702",
+      "http://purl.obolibrary.org/obo/UBERON_0001016",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0001017",
+      "http://purl.obolibrary.org/obo/UBERON_0002104",
+      "http://purl.obolibrary.org/obo/UBERON_0001032"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000945"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "stomach"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000945",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0073040584"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Stomach"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000467",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001007",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001555",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0005409",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001007",
+      "http://purl.obolibrary.org/obo/UBERON_0001555",
+      "http://purl.obolibrary.org/obo/UBERON_0005409"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000946"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cardiac valve"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000946",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A membranous fold of the heart that prevents reflux of fluid."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MESH:A07.541.510"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MP:0000285"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:7926784"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0001955",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://www.ebi.ac.uk/efo/EFO_0001955",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000948",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0001955",
+      "http://purl.obolibrary.org/obo/UBERON_0004535",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0001955",
+      "http://purl.obolibrary.org/obo/UBERON_0004535",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001009",
+      "http://purl.obolibrary.org/obo/UBERON_0000948",
+      "http://purl.obolibrary.org/obo/UBERON_0000915",
+      "http://purl.obolibrary.org/obo/UBERON_0002100",
+      "http://purl.obolibrary.org/obo/UBERON_0013702",
+      "http://purl.obolibrary.org/obo/UBERON_0015410",
+      "http://purl.obolibrary.org/obo/UBERON_0002075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000947"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "aorta"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000947",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The main trunk of the systemic arterial system that carries blood from the heart to all the organs and other structures of the body, bringing oxygenated blood to all parts of the body in the systemic circulation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0-683-40008-8"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MESH:A07.231.114.056"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MP:0000272"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Aorta"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "http://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0013768",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0013768",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0013768",
+      "http://purl.obolibrary.org/obo/UBERON_0001981",
+      "http://purl.obolibrary.org/obo/UBERON_0000055",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0013768",
+      "http://purl.obolibrary.org/obo/UBERON_0001981",
+      "http://purl.obolibrary.org/obo/UBERON_0000055",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000948"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "heart"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000948",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Wikipedia:Heart"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "http://orcid.org/0000-0002-6601-2165"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Taxon notes:\" the ascidian tube-like heart lacks chambers....The ascidian heart is formed after metamorphosis as a simple tube-like structure with a single-layered myoepithelium that is continuous with a single-layered pericar- dial wall. It lacks chambers and endocardium.... The innovation of the chambered heart was a key event in vertebrate evolution, because the chambered heart generates one-way blood flow with high pressure, a critical requirement for the efficient blood supply of large-body vertebrates... all extant vertebrates have hearts with two or more chambers (Moorman and Christoffels 2003)\" DOI:10.1101/gad.1485706"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000467",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000915",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001009",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002100",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0015410",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000915",
+      "http://purl.obolibrary.org/obo/UBERON_0002100",
+      "http://purl.obolibrary.org/obo/UBERON_0013702",
+      "http://purl.obolibrary.org/obo/UBERON_0001009",
+      "http://purl.obolibrary.org/obo/UBERON_0015410",
+      "http://purl.obolibrary.org/obo/UBERON_0002075",
+      "http://purl.obolibrary.org/obo/UBERON_0004535"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 37,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000949"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "endocrine system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000949",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Anatomical system that consists of the glands and parts of glands that produce endocrine secretions and help to integrate and control bodily metabolic activity."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "NLM:endocrine+system"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Endocrine_system"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0001062",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0001062",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 63,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000955"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "brain"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000955",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Brain"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://github.com/obophenotype/uberon/issues/300"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000467",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001017",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001017",
+      "http://purl.obolibrary.org/obo/UBERON_0001016"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 118,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000956"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cerebral cortex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000956",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "BIRNLEX:1494"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000203",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001016",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001017",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000203",
+      "http://www.ebi.ac.uk/efo/EFO_0003331",
+      "http://purl.obolibrary.org/obo/UBERON_0000955",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001017",
+      "http://purl.obolibrary.org/obo/UBERON_0001016",
+      "http://purl.obolibrary.org/obo/UBERON_0001893",
+      "http://purl.obolibrary.org/obo/UBERON_0001890"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 24,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000964"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cornea"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000964",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The transparent anterior portion of the fibrous coat of the eye that serves as the chief refractory structure."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0-683-40008-8"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MESH:A09.371.060.217"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MP:0001312"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000965"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lens of camera-type eye"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000965",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A transparent and refractive lens located posterior to the iris. The lens of camera-type eye refracts light to be focused on the retina."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Wikipedia:Lens_(anatomy)"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "http://orcid.org/0000-0002-6601-2165"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The lens is avascular and nourished by diffusion from the aqueous and vitreous humors."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000970",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000970",
+      "http://purl.obolibrary.org/obo/UBERON_0000020",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001032",
+      "http://purl.obolibrary.org/obo/UBERON_0002104"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000966"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "retina"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000966",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The retina is the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Wikipedia:Retina"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "ZFIN:curator"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Currently this class encompasses only verteberate AOs but could in theory also include cephalopod - we may want to make a more specific class for vertebrate retina. note that this class excludes ommatidial retinas, as the retina must be part of an eyeball. Use the parent class photoreceptor array / light-sensitive tissue for arthropods"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000970",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001016",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0019207",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000970",
+      "http://purl.obolibrary.org/obo/UBERON_0000020",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001032",
+      "http://purl.obolibrary.org/obo/UBERON_0002104",
+      "http://purl.obolibrary.org/obo/UBERON_0001016",
+      "http://purl.obolibrary.org/obo/UBERON_0019207",
+      "http://purl.obolibrary.org/obo/UBERON_0010230",
+      "http://purl.obolibrary.org/obo/UBERON_0000019",
+      "http://purl.obolibrary.org/obo/UBERON_0004088",
+      "http://purl.obolibrary.org/obo/UBERON_0000033",
+      "http://purl.obolibrary.org/obo/UBERON_0007811",
+      "http://purl.obolibrary.org/obo/UBERON_0013702",
+      "http://purl.obolibrary.org/obo/UBERON_0001456"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000970"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "eye"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000970",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An organ that detects light."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://orcid.org/0000-0002-6601-2165"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000020",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000020",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002104",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000020",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000020",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001032",
+      "http://purl.obolibrary.org/obo/UBERON_0002104"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 30,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000972"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "antenna"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000972",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The paired, usually multiple jointed, sensory organs articulating on the procephalic region of the head capsule; its highly versatile sensory structures are capable to detect the various environmental stimuli. In the context of Drosophila refers to they are the most anterior segmented sensory appendage of the head."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "FB:gg"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:3110148986"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Antenna_(biology)"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000026",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000033",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000033",
+      "http://purl.obolibrary.org/obo/UBERON_0007811",
+      "http://purl.obolibrary.org/obo/UBERON_0013702"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000974"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "neck"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000974",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An organism subdivision that extends from the head to the pectoral girdle, encompassing the cervical vertebral column."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "http://orcid.org/0000-0002-6601-2165"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000468",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000976"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "humerus"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000976",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Paired endochondral long bone that extends between the pectoral girdle and the skeletal parts of the forelimb. [PHENOSCAPE:mah]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "AAO:0000679"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PHENOSCAPE:mah"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://github.com/obophenotype/uberon/issues/106"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0002428",
+      "http://purl.obolibrary.org/obo/UBERON_0002495"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0002428",
+      "http://purl.obolibrary.org/obo/UBERON_0002495",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001460",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002091",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002101",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002102",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0002428",
+      "http://purl.obolibrary.org/obo/UBERON_0001474",
+      "http://purl.obolibrary.org/obo/UBERON_0004765",
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0002495"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0002428",
+      "http://purl.obolibrary.org/obo/UBERON_0001474",
+      "http://purl.obolibrary.org/obo/UBERON_0004765",
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001434",
+      "http://purl.obolibrary.org/obo/UBERON_0002204",
+      "http://purl.obolibrary.org/obo/UBERON_0002091",
+      "http://purl.obolibrary.org/obo/UBERON_0004288",
+      "http://purl.obolibrary.org/obo/UBERON_0002101",
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "http://purl.obolibrary.org/obo/UBERON_0002495",
+      "http://purl.obolibrary.org/obo/UBERON_0001460",
+      "http://purl.obolibrary.org/obo/UBERON_0002102"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000977"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pleura"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000977",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The invaginated serous membrane that surrounds the lungs (the visceral portion) and lines the walls of the pleural cavity (parietal portion)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0-683-40008-8"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MP:0010820"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "UBERON:cjm"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Pulmonary_pleurae"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://github.com/obophenotype/uberon/issues/1231"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000042",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000042",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001004",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000042",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000042",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0001004",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000978"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "leg"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000978",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The portion of the hindlimb that contains both the stylopod and zeugopod."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Leg#Limb"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "we use the less open to misinterpretation 'hindlimb zeugopod'. Editor note: currently declared as overlapping foot, as AOs disagree over whether some ankle parts are in the leg or foot"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000026",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000468",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002101",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002103",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0002101",
+      "http://purl.obolibrary.org/obo/UBERON_0002103"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 21,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000979"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tibia"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000979",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The major preaxial endochondral bone in the posterior zeugopod[Phenoscape]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PHENOSCAPE:mah"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0003608",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0003608",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000978",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002101",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002103",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0003608",
+      "http://purl.obolibrary.org/obo/UBERON_0002495",
+      "http://purl.obolibrary.org/obo/UBERON_0001474",
+      "http://purl.obolibrary.org/obo/UBERON_0004765",
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0003464",
+      "http://purl.obolibrary.org/obo/UBERON_0002428"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0003608",
+      "http://purl.obolibrary.org/obo/UBERON_0002495",
+      "http://purl.obolibrary.org/obo/UBERON_0001474",
+      "http://purl.obolibrary.org/obo/UBERON_0004765",
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001434",
+      "http://purl.obolibrary.org/obo/UBERON_0002204",
+      "http://purl.obolibrary.org/obo/UBERON_0002091",
+      "http://purl.obolibrary.org/obo/UBERON_0004288",
+      "http://purl.obolibrary.org/obo/UBERON_0003464",
+      "http://purl.obolibrary.org/obo/UBERON_0002428",
+      "http://purl.obolibrary.org/obo/UBERON_0002101",
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "http://purl.obolibrary.org/obo/UBERON_0002103",
+      "http://purl.obolibrary.org/obo/UBERON_0000978"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000980"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "trochanter"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000980",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A bony prominence near the extremity of the femur that normally serves as attachment points for hip and thigh muscles[MP,modified]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MP:0004627"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0003858",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000981",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001474",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002495",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000981",
+      "http://purl.obolibrary.org/obo/UBERON_0003608",
+      "http://purl.obolibrary.org/obo/UBERON_0002495",
+      "http://purl.obolibrary.org/obo/UBERON_0001474",
+      "http://purl.obolibrary.org/obo/UBERON_0004765",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001434",
+      "http://purl.obolibrary.org/obo/UBERON_0002204",
+      "http://purl.obolibrary.org/obo/UBERON_0002091",
+      "http://purl.obolibrary.org/obo/UBERON_0004288",
+      "http://purl.obolibrary.org/obo/UBERON_0003464",
+      "http://purl.obolibrary.org/obo/UBERON_0002428",
+      "http://purl.obolibrary.org/obo/UBERON_0002101",
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "http://purl.obolibrary.org/obo/UBERON_0002103",
+      "http://purl.obolibrary.org/obo/UBERON_0000376",
+      "http://purl.obolibrary.org/obo/UBERON_0002472",
+      "http://www.ebi.ac.uk/efo/EFO_0000808",
+      "http://purl.obolibrary.org/obo/UBERON_0000978"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000981"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "femur"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000981",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Endochondral longbone connecting the pelvic girdle with posterior zeugopodium skeleton.[VSAO, modified]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "VSAO:0000186"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Femur"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0003608",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0003608",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000376",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000978",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002101",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002103",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0003608",
+      "http://purl.obolibrary.org/obo/UBERON_0002495",
+      "http://purl.obolibrary.org/obo/UBERON_0001474",
+      "http://purl.obolibrary.org/obo/UBERON_0004765",
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0003464",
+      "http://purl.obolibrary.org/obo/UBERON_0002428"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0003608",
+      "http://purl.obolibrary.org/obo/UBERON_0002495",
+      "http://purl.obolibrary.org/obo/UBERON_0001474",
+      "http://purl.obolibrary.org/obo/UBERON_0004765",
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001434",
+      "http://purl.obolibrary.org/obo/UBERON_0002204",
+      "http://purl.obolibrary.org/obo/UBERON_0002091",
+      "http://purl.obolibrary.org/obo/UBERON_0004288",
+      "http://purl.obolibrary.org/obo/UBERON_0003464",
+      "http://purl.obolibrary.org/obo/UBERON_0002428",
+      "http://purl.obolibrary.org/obo/UBERON_0002101",
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "http://purl.obolibrary.org/obo/UBERON_0002103",
+      "http://purl.obolibrary.org/obo/UBERON_0000376",
+      "http://purl.obolibrary.org/obo/UBERON_0002472",
+      "http://www.ebi.ac.uk/efo/EFO_0000808",
+      "http://purl.obolibrary.org/obo/UBERON_0000978"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000982"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "skeletal joint"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000982",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Anatomical structure that consists of two or more adjacent skeletal structures, which may be interconnected by various types of tissue[VSAO]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GO_REF:0000034"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "VSAO:0000101"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Joint"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "http://dx.plos.org/10.1371/journal.pone.0051070"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0004905",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0004905",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0004770",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0004905",
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0004905",
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0004770",
+      "http://purl.obolibrary.org/obo/UBERON_0001434",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0002204"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000987"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "haltere"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000987",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The capitate stalk on both sides of the thorax having developed from the dorsal metathoracic wing-buds, it is freely movable and capable of vibration, representing the hind wing of Diptera; used for flight balance."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "FB:gg"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:3110148986"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Haltere"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000026",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000914",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000914"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000988"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pons"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000988",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The part of the central nervous system lying between the medulla oblongata and the midbrain, ventral to the cerebellum."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "VHOG:0001176"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000955",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0001016",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002298",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000955",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0001017",
+      "http://purl.obolibrary.org/obo/UBERON_0001016",
+      "http://purl.obolibrary.org/obo/UBERON_0002298"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000989"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "penis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000989",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An intromittent organ in certain biologically male organisms. In placental mammals, this also serves as the organ of urination."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0-683-40008-8"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MP:0005187"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Penis"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "http://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0003135",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0003135",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000079",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0003135",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0003135",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000079",
+      "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000990"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "reproductive system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000990",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Anatomical system that has as its parts the organs concerned with reproduction."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Wikipedia:Reproductive_system"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 76,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000991"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "gonad"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000991",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Reproductive organ that produces and releases eggs (ovary) or sperm (testis)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0140512888"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Gonad"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ZFA:0000413"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ZFIN:curator"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000467",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000990"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 13,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000992"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ovary"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000992",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The gonad of a female organism which contains germ cells."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0-683-40008-8"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MP:0001126"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Ovary"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000991",
+      "http://purl.obolibrary.org/obo/UBERON_0003134"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000991",
+      "http://purl.obolibrary.org/obo/UBERON_0003134",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000474",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000991",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0003134"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000991",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "http://purl.obolibrary.org/obo/UBERON_0003134",
+      "http://purl.obolibrary.org/obo/UBERON_0000474",
+      "http://purl.obolibrary.org/obo/UBERON_0003100"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000993"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "oviduct"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000993",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A tube or collection of tubes in an animal from the ovaries to the outside of the body."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "http://orcid.org/0000-0002-6601-2165"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000474",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000474",
+      "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0003100"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 20,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000994"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "spermathecum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000994",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An organ of the female reproductive tract that functions to receive and store sperm from the male, and can sometimes be the site of fertilization when the oocytes are ready."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Spermatheca"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://github.com/obophenotype/uberon/issues/1405"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000467",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000991",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "http://purl.obolibrary.org/obo/UBERON_0000991"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000995"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "uterus"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000995",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MGI:csmith"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MP:0001120"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000993",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000993",
+      "http://purl.obolibrary.org/obo/UBERON_0000474",
+      "http://purl.obolibrary.org/obo/UBERON_0003100"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 17,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000996"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vagina"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000996",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A fibromuscular tubular tract leading from the uterus to the exterior of the body in female placental mammals and marsupials, or to the cloaca in female birds, monotremes, and some reptiles[WP]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Vagina"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "http://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000993",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000993",
+      "http://purl.obolibrary.org/obo/UBERON_0000474",
+      "http://purl.obolibrary.org/obo/UBERON_0003100"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000997"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mammalian vulva"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000997",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "External genital organs of the female mammal[WP]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Wikipedia:Vulva"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000467",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000990"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000998"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "seminal vesicle"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000998",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human male secrete a sugar- and protein-containing fluid into the ejaculatory duct."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "BTO:0001234"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Seminal_vesicle"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0002530",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0002530",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000079",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000473",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0002530",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0002530",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0000079",
+      "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "http://purl.obolibrary.org/obo/UBERON_0000473",
+      "http://purl.obolibrary.org/obo/UBERON_0000991",
+      "http://purl.obolibrary.org/obo/UBERON_0003135"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0000999"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ejaculatory duct"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000999",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The Ejaculatory ducts (ductus ejaculatorii) are paired structures in male anatomy, about 2 cm in length. Each ejaculatory duct is formed by the union of the vas deferens with the duct of the seminal vesicle. They pass through the prostate, and empty into the urethra at the Colliculus seminalis. During ejaculation, semen passes through the ducts and exits the body via the penis[WP,unvetted]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Wikipedia:Ejaculatory_duct"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000058",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000058",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000079",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000058",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000058",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000079",
+      "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0001000"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vas deferens"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A secretory duct that transports sperm from the testis. In mammals this is a continuation of the epididymis and ends in the prostatic urethra where it terminates to form ejaculatory duct."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0-683-40008-8"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MGI:pvb"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MP:0002769"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Vas_deferens"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "http://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000058",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000058",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000079",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000990",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000058",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000058",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000079",
+      "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0001001"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "chitin-based cuticle"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001001",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A cuticular covering that is composed primarily of chitin. The main structural component of arthropod cuticle is a polysaccharide, chitin, composed of N-acetylglucosamine units, together with proteins and lipids[WP]."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Wikipedia:Arthropod_exoskeleton"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Wikipedia:Cuticle#Invertebrate_zoology"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "https://orcid.org/0000-0002-6601-2165"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "https://sourceforge.net/tracker/index.php?func=detail&aid=3348965&group_id=36855&atid=440764"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "EDITOR_NOTE TODO - split from exoskeleton? Also: See above sf item to see if this belongs in GO"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0003858",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002416",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0003858",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0002416",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0001003"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "skin epidermis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The outer epithelial layer of the skin that is superficial to the dermis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0073040584"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "http://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000483",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000483",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0002097",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000483",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000483",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0002097",
+      "http://purl.obolibrary.org/obo/UBERON_0000467"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0001004"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "respiratory system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Functional system which consists of structures involved in respiration."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Respiratory_system"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "http://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 21,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 259,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0001007"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "digestive system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Anatomical system that has as its parts the organs devoted to the ingestion, digestion, and assimilation of food and the discharge of residual wastes."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "FB:gg"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "NLM:alimentary+system"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Digestive_system"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 148,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0001008"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "renal system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The renal system in an anatomical system that maintains fluid balance and contributes to electrolyte balance, acid/base balance, and disposal of nitrogenous waste products."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOI:10.1371/journal.pone.0099864"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "GO:0072001"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "EDITOR_NOTE In various sources such as Encyclopedia Britannica, the excretory and urinary systems are indeed the same system (see wikipedia talk page); we merge two BTO classes here"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 60,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0001009"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "circulatory system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Organ system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells, etc. to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis[WP]."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Wikipedia:Circulatory_system"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0000467",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 85,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0001013"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "adipose tissue"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001013",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Portion of connective tissue composed of adipocytes enmeshed in areolar tissue."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MESH:A10.165.114"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MGI:cwg"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MP:0000003"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Adipose_tissue"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "http://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0002384",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/UBERON_0002384",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0002384",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0002384",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 8,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 8,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "UBERON:0001015"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "musculature"
+    },
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001015",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A subdivision of the muscular system corresponding to a subdisivision of an organism."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Wikipedia:Muscular_system"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/UBERON_0000061",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000383",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/UBERON_0000467",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://www.ebi.ac.uk/efo/EFO_0000635",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000786",
+      "http://purl.obolibrary.org/obo/UBERON_0000383",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 41,
+    "isPreferredRoot": false
+  }
+]

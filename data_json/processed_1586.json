@@ -1,0 +1,3240 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103370"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CD56 Expressing Cell Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103370",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A count of the CD56 expressing cells per unit of a biological specimen."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C48938",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C48938",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C48938",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C48938",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103371"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CDISC Basic Data Structure Dataset"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103371",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An ADaM BDS dataset contains one or more records per subject, per analysis parameter, per analysis time point. Variables include the value being analyzed (e.g., AVAL) and the description of the value being analyzed (e.g., PARAM). Other variables in the dataset provide more information about the value being analyzed (e.g., the subject identification) or describe and trace the derivation of it (e.g., DTYPE) or support the analysis of it (e.g., treatment variables, covariates)."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C47824",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C47824",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C47824",
+      "http://purl.obolibrary.org/obo/NCIT_C16048",
+      "http://purl.obolibrary.org/obo/NCIT_C20865",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C47824",
+      "http://purl.obolibrary.org/obo/NCIT_C16048",
+      "http://purl.obolibrary.org/obo/NCIT_C20865",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103372"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CDISC Events Class"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103372",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This SDTM class captures planned protocol milestones such as randomization and study completion, and occurrences, conditions, or incidents independent of planned study evaluations occurring during the trial (e.g., adverse events) or prior to the trial (e.g., medical history)."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103373"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CDISC Findings Class"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103373",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This SDTM class captures the observations resulting from planned evaluations to address specific tests or questions such as laboratory tests, ECG testing, and questions listed on questionnaires."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103374"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CDISC Interventions Class"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103374",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This SDTM class captures investigational, therapeutic and other treatments that are administered to the subject (with some actual or expected physiological effect) either as specified by the study protocol (e.g., exposure to study drug), coincident with the study assessment period (e.g., concomitant medications), or self-administered by the subject (such as use of alcohol, tobacco, or caffeine)."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103375"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CDISC Other ADaM Dataset"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103375",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An ADaM analysis dataset that doesn't conform to the ADSL or BDS structure."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C47824",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C47824",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C47824",
+      "http://purl.obolibrary.org/obo/NCIT_C16048",
+      "http://purl.obolibrary.org/obo/NCIT_C20865",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C47824",
+      "http://purl.obolibrary.org/obo/NCIT_C16048",
+      "http://purl.obolibrary.org/obo/NCIT_C20865",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103376"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CDISC Relationship Class"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103376",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This SDTM class provides a means to link related records between datasets. It includes the RELREC and SUPPQUAL datasets."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103377"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CDISC Special Purpose Class"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103377",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This SDTM class contains a set of domains which do not conform to the Findings, Events or Interventions observation classes. The domains included are DM, CO, SE and SV."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103378"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CDISC Subject Level Analysis Dataset"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103378",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The Subject-Level Analysis Dataset (ADSL) is a one-record-per-subject dataset which contains variables that describe subject demographic characteristics and group the subjects for analysis. ADSL is the primary source for subject-level variables included in other analysis datasets such as population flags and treatment variables."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C47824",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C47824",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C47824",
+      "http://purl.obolibrary.org/obo/NCIT_C16048",
+      "http://purl.obolibrary.org/obo/NCIT_C20865",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C47824",
+      "http://purl.obolibrary.org/obo/NCIT_C16048",
+      "http://purl.obolibrary.org/obo/NCIT_C20865",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103379"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CDISC Trial Design Class"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103379",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This SDTM class describes the plan for the procedures to be followed in a clinical trial, including planned and actual timing of events, control group, method of allocating treatments, blinding methods, assignment of epochs that subjects pass through in the course of a trial."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C41079",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C41079",
+      "http://purl.obolibrary.org/obo/NCIT_C41000",
+      "http://purl.obolibrary.org/obo/NCIT_C45974",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C10338"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Carmustine/Methotrexate"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C10338",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C61063",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C61063",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61063",
+      "http://purl.obolibrary.org/obo/NCIT_C62633",
+      "http://purl.obolibrary.org/obo/NCIT_C12218"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61063",
+      "http://purl.obolibrary.org/obo/NCIT_C62633",
+      "http://purl.obolibrary.org/obo/NCIT_C12218"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103380"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cholesteryl Ester Transfer Protein Activity Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103380",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the biological activity of cholesteryl ester transfer protein in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C120632",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C120632",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C120632",
+      "http://purl.obolibrary.org/obo/NCIT_C64430",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C120632",
+      "http://purl.obolibrary.org/obo/NCIT_C64430",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103381"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Clostridium difficile Toxin Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103381",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the Clostridium difficile toxin in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C49188",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C49188",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C49188",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C49188",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103382"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Clostridium tetani IgG Antibody Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103382",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the Clostridium tetani IgG antibody in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103383"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Collagen Type IV Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103383",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the collagen type IV in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C64430",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C64430",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C64430",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C64430",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103384"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Common Iliac Lymph Node"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103384",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A lymph node located adjacent to the common iliac artery. (NCI)"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C32761",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C32761",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C32761",
+      "http://purl.obolibrary.org/obo/NCIT_C33027",
+      "http://purl.obolibrary.org/obo/NCIT_C12745",
+      "http://purl.obolibrary.org/obo/NCIT_C13018",
+      "http://purl.obolibrary.org/obo/NCIT_C12219"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C32761",
+      "http://purl.obolibrary.org/obo/NCIT_C33027",
+      "http://purl.obolibrary.org/obo/NCIT_C12745",
+      "http://purl.obolibrary.org/obo/NCIT_C13018",
+      "http://purl.obolibrary.org/obo/NCIT_C12219"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103385"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Complete Response with Incomplete Bone Marrow Recovery"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103385",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The disappearance of all signs of cancer in response to treatment accompanied by incomplete bone marrow recovery, as evidenced by persistent anemia, thrombocytopenia or neutropenia."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C50995",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C50995",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C50995",
+      "http://purl.obolibrary.org/obo/NCIT_C35461",
+      "http://purl.obolibrary.org/obo/NCIT_C3367",
+      "http://purl.obolibrary.org/obo/NCIT_C7057"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C50995",
+      "http://purl.obolibrary.org/obo/NCIT_C35461",
+      "http://purl.obolibrary.org/obo/NCIT_C3367",
+      "http://purl.obolibrary.org/obo/NCIT_C7057"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103386"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Dilute Russell's Viper Venom Time to Control Ratio Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103386",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the ratio of the dilute Russell's viper venom time in a subject sample to a control sample. The measurement may be expressed as a ratio or percentage."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C62662",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C62662",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103387"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Dipeptidyl Peptidase-4 Activity Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103387",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the biological activity of dipeptidyl peptidase-4 in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C177992",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C177992",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C177992",
+      "http://purl.obolibrary.org/obo/NCIT_C64430",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C177992",
+      "http://purl.obolibrary.org/obo/NCIT_C64430",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103388"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Diphtheria IgG Antibody Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103388",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the Diphtheria IgG antibodies in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103389"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Every Eight Weeks"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103389",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Every eight weeks."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C64493",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C64493",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C64493",
+      "http://purl.obolibrary.org/obo/NCIT_C64913",
+      "http://purl.obolibrary.org/obo/NCIT_C25404",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C64493",
+      "http://purl.obolibrary.org/obo/NCIT_C64913",
+      "http://purl.obolibrary.org/obo/NCIT_C25404",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C10339"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cytarabine/Vincristine"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C10339",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C61063",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C61063",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61063",
+      "http://purl.obolibrary.org/obo/NCIT_C62633",
+      "http://purl.obolibrary.org/obo/NCIT_C12218"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61063",
+      "http://purl.obolibrary.org/obo/NCIT_C62633",
+      "http://purl.obolibrary.org/obo/NCIT_C12218"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103390"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Every Five Weeks"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103390",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Every five weeks."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C64493",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C64493",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C64493",
+      "http://purl.obolibrary.org/obo/NCIT_C64913",
+      "http://purl.obolibrary.org/obo/NCIT_C25404",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C64493",
+      "http://purl.obolibrary.org/obo/NCIT_C64913",
+      "http://purl.obolibrary.org/obo/NCIT_C25404",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103391"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Experimental Organism Benign Basalioma"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103391",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A benign epithelial neoplasm arising from primary epithelial germ cells of the piliary complex."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C134576",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C134576",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C134576",
+      "http://purl.obolibrary.org/obo/NCIT_C22187"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C134576",
+      "http://purl.obolibrary.org/obo/NCIT_C22187"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103392"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Experimental Organism Benign Bone Osteofibroma"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103392",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A benign neoplasm, morphologically a fibroma with osseous components."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C134576",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C134576",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C134576",
+      "http://purl.obolibrary.org/obo/NCIT_C22187"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C134576",
+      "http://purl.obolibrary.org/obo/NCIT_C22187"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103393"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Experimental Organism Malignant Hepatocholangiocellular Carcinoma"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103393",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A malignant mixed neoplasm of the liver comprising neoplastic hepatocytes and bile duct epithelial cells; both elements displaying evidence of malignancy."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C134576",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C134576",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C134576",
+      "http://purl.obolibrary.org/obo/NCIT_C22187"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C134576",
+      "http://purl.obolibrary.org/obo/NCIT_C22187"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103394"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Experimental Organism Malignant Hibernoma"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103394",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A malignant neoplasm arising from the brown adipose tissue in animals, usually in the subcutis and the thoracic cavity."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C134576",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C134576",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C134576",
+      "http://purl.obolibrary.org/obo/NCIT_C22187"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C134576",
+      "http://purl.obolibrary.org/obo/NCIT_C22187"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103395"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Factor IX Activity Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103395",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the biological activity of factor IX in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C98725",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C98725",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C98725",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C92745",
+      "http://purl.obolibrary.org/obo/NCIT_C47868",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C64430"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C98725",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C92745",
+      "http://purl.obolibrary.org/obo/NCIT_C47868",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C64430"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103396"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Factor V Activity Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103396",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the biological activity of factor V in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C98726",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C98726",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C98726",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C92745",
+      "http://purl.obolibrary.org/obo/NCIT_C47868",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C64430"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C98726",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C92745",
+      "http://purl.obolibrary.org/obo/NCIT_C47868",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C64430"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103397"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Factor VII Activity Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103397",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the biological activity of factor VII in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C81960",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C81960",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81960",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C92745",
+      "http://purl.obolibrary.org/obo/NCIT_C47868",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C64430"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81960",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C92745",
+      "http://purl.obolibrary.org/obo/NCIT_C47868",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C64430"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103398"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Factor VIIa Activity Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103398",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the biological activity of factor VIIa in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C103397",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C103397",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C103397",
+      "http://purl.obolibrary.org/obo/NCIT_C81960",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C92745",
+      "http://purl.obolibrary.org/obo/NCIT_C47868",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C64430"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C103397",
+      "http://purl.obolibrary.org/obo/NCIT_C81960",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C92745",
+      "http://purl.obolibrary.org/obo/NCIT_C47868",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C64430"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103399"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Factor VIII Activity Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103399",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the biological activity of factor VIII in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C81961",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C81961",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81961",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81961",
+      "http://purl.obolibrary.org/obo/NCIT_C62662",
+      "http://purl.obolibrary.org/obo/NCIT_C49286",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C1034"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Heparin Calcium"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C1034",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The calcium salt form of heparin.  As a glycosaminoglycan anticoagulant, heparin calcium binds to antithrombin III to form a heparin-antithrombin III complex. The complex binds to and irreversibly inactivates thrombin and other activated clotting factors IX, X, XI, and XII and prevents the transformation of fibrinogen to fibrin. (NCI)"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C263",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C263",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C263",
+      "http://purl.obolibrary.org/obo/NCIT_C78275",
+      "http://purl.obolibrary.org/obo/NCIT_C1909",
+      "http://purl.obolibrary.org/obo/NCIT_C1908"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C263",
+      "http://purl.obolibrary.org/obo/NCIT_C78275",
+      "http://purl.obolibrary.org/obo/NCIT_C1909",
+      "http://purl.obolibrary.org/obo/NCIT_C1908"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C10340"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Etoposide/Ifosfamide/Mitoxantrone"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C10340",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C61063",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C61063",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61063",
+      "http://purl.obolibrary.org/obo/NCIT_C62633",
+      "http://purl.obolibrary.org/obo/NCIT_C12218"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61063",
+      "http://purl.obolibrary.org/obo/NCIT_C62633",
+      "http://purl.obolibrary.org/obo/NCIT_C12218"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103400"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "FDG-Positron Emission Tomography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103400",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An imaging technique that utilizes positron emission tomography to produce a three-dimensional image of functional processes in the body. The system detects pairs of gamma rays emitted indirectly by a positron-emitting radionuclide (tracer), which is introduced into the body on the biologically active molecule (fludeoxyglucose) FDG. FDG is an analogue of glucose which when imaged will give tissue metabolic activity, in terms of regional glucose uptake."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C17007",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C17007",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C17007",
+      "http://purl.obolibrary.org/obo/NCIT_C17369",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C17007",
+      "http://purl.obolibrary.org/obo/NCIT_C17369",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103401"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "FLT-Positron Emission Tomography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103401",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An imaging technique that utilizes positron emission tomography to produce a three-dimensional image of functional processes in the body. The system detects pairs of gamma rays emitted indirectly by a positron-emitting radionuclide (tracer), which is introduced into the body on the biologically active molecule fluoro-L-thymidine (FLT). FLT when imaged will give tissue metabolic activity, in terms of cell proliferation."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C17007",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C17007",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C17007",
+      "http://purl.obolibrary.org/obo/NCIT_C17369",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C17007",
+      "http://purl.obolibrary.org/obo/NCIT_C17369",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103402"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "HDL Particle Size Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103402",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the average particle size of high-density lipoprotein in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C61041",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C61041",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61041",
+      "http://purl.obolibrary.org/obo/NCIT_C105587",
+      "http://purl.obolibrary.org/obo/NCIT_C74949",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C61014",
+      "http://purl.obolibrary.org/obo/NCIT_C47868"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61041",
+      "http://purl.obolibrary.org/obo/NCIT_C105587",
+      "http://purl.obolibrary.org/obo/NCIT_C74949",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C61014",
+      "http://purl.obolibrary.org/obo/NCIT_C47868"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103403"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Helicobacter pylori IgG Antibody Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103403",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the Helicobacter pylori IgG antibody in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103404"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Hepatitis B DNA Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103404",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of hepatitis B virus DNA in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/NCIT_C135409",
+      "http://purl.obolibrary.org/obo/NCIT_C166040"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/NCIT_C135409",
+      "http://purl.obolibrary.org/obo/NCIT_C166040"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C135409",
+      "http://purl.obolibrary.org/obo/NCIT_C17632",
+      "http://purl.obolibrary.org/obo/NCIT_C19770",
+      "http://purl.obolibrary.org/obo/NCIT_C19235",
+      "http://purl.obolibrary.org/obo/NCIT_C16623",
+      "http://purl.obolibrary.org/obo/NCIT_C20368",
+      "http://purl.obolibrary.org/obo/NCIT_C16847",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C166040",
+      "http://purl.obolibrary.org/obo/NCIT_C49188"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C135409",
+      "http://purl.obolibrary.org/obo/NCIT_C17632",
+      "http://purl.obolibrary.org/obo/NCIT_C19770",
+      "http://purl.obolibrary.org/obo/NCIT_C19235",
+      "http://purl.obolibrary.org/obo/NCIT_C16623",
+      "http://purl.obolibrary.org/obo/NCIT_C20368",
+      "http://purl.obolibrary.org/obo/NCIT_C16847",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C166040",
+      "http://purl.obolibrary.org/obo/NCIT_C49188"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103405"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Human Albumin Antibody Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103405",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the human albumin antibody in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C16723",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C16723",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103406"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Human Anti-Mouse Antibody Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103406",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the human anti-mouse antibody in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C16723",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C16723",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103407"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Immunoblast Count"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103407",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the immunoblasts in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C48938",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C48938",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C48938",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C48938",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103408"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Influenza A IgG Antibody Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103408",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the Influenza A IgG antibody in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103409"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Influenza B IgG Antibody Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103409",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the Influenza B IgG antibody in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C81971",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81971",
+      "http://purl.obolibrary.org/obo/NCIT_C81869",
+      "http://purl.obolibrary.org/obo/NCIT_C16723",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C10341"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Thiotepa/Vincristine"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C10341",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C61063",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C61063",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61063",
+      "http://purl.obolibrary.org/obo/NCIT_C62633",
+      "http://purl.obolibrary.org/obo/NCIT_C12218"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61063",
+      "http://purl.obolibrary.org/obo/NCIT_C62633",
+      "http://purl.obolibrary.org/obo/NCIT_C12218"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103410"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Isoleucine Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103410",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the isoleucine in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C81183",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C81183",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81183",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C81183",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103411"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Lavage Fluid"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103411",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Fluid introduced into, and collected from, a body cavity by lavage procedure."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C70699",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C70699",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C70699",
+      "http://purl.obolibrary.org/obo/NCIT_C19157",
+      "http://purl.obolibrary.org/obo/NCIT_C48187",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C70699",
+      "http://purl.obolibrary.org/obo/NCIT_C19157",
+      "http://purl.obolibrary.org/obo/NCIT_C48187",
+      "http://purl.obolibrary.org/obo/NCIT_C20181"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103412"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "LDL Particle Size Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103412",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the average particle size of low-density lipoprotein in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C61042",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C61042",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61042",
+      "http://purl.obolibrary.org/obo/NCIT_C105588",
+      "http://purl.obolibrary.org/obo/NCIT_C74949",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C61014",
+      "http://purl.obolibrary.org/obo/NCIT_C47868"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C61042",
+      "http://purl.obolibrary.org/obo/NCIT_C105588",
+      "http://purl.obolibrary.org/obo/NCIT_C74949",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431",
+      "http://purl.obolibrary.org/obo/NCIT_C61014",
+      "http://purl.obolibrary.org/obo/NCIT_C47868"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103413"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Leukotriene B4 Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103413",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the leukotriene B4 in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C80157",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C80157",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C80157",
+      "http://purl.obolibrary.org/obo/NCIT_C74949",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C80157",
+      "http://purl.obolibrary.org/obo/NCIT_C74949",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCIT:C103414"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Leukotriene D4 Measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCIT_C103414",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The determination of the amount of the leukotriene D4 in a sample."
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/NCIT_P378": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C80157",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C80157",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C80157",
+      "http://purl.obolibrary.org/obo/NCIT_C74949",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCIT_C80157",
+      "http://purl.obolibrary.org/obo/NCIT_C74949",
+      "http://purl.obolibrary.org/obo/NCIT_C49237",
+      "http://purl.obolibrary.org/obo/NCIT_C74944",
+      "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "http://purl.obolibrary.org/obo/NCIT_C43431"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

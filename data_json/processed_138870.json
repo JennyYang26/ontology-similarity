@@ -1,0 +1,4704 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000606"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "C57BL/6J"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000606",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "C57BL/6J is a mouse strain as described in Jackson Laboratory http://phenome.jax.org/db/q?rtn=strains/details&strainid=7"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0005181",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0005181",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005181",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10088",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/OBI_0100026",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005181",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10088",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/OBI_0100026",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000607"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_mouse strain"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000607",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Strain or line specific to mouse"
+    },
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000612"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "myocardial infarction"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000612",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Gross necrosis of the myocardium, as a result of interruption of the blood supply to the area, as in coronary thrombosis."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C27996"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "NECROSIS of the MYOCARDIUM caused by an obstruction of the blood supply to the heart (CORONARY CIRCULATION)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0024643",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C27996"
+          }
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0024643",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C27996"
+          }
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0024643",
+      "http://www.ebi.ac.uk/efo/EFO_0003777",
+      "http://www.ebi.ac.uk/efo/EFO_0000319",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0024643",
+      "http://www.ebi.ac.uk/efo/EFO_0003777",
+      "http://www.ebi.ac.uk/efo/EFO_0000319",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000613"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "myxoid liposarcoma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000613",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A liposarcoma characterized by the presence of round non-lipogenic primitive mesenchymal cells and small signet ring lipoblasts within a myxoid stoma with a branching vascular pattern. This category includes hypercellular lesions with round cell morphology, formerly known as round cell liposarcoma."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C27781"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0020561",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:99967/btnt"
+            }
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/MONDO_0023603",
+      "http://www.orpha.net/ORDO/Orphanet_271832"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0020561",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:99967/btnt"
+            }
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/MONDO_0023603",
+      "http://www.orpha.net/ORDO/Orphanet_271832"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0020561",
+      "http://www.ebi.ac.uk/efo/EFO_0000569",
+      "http://purl.obolibrary.org/obo/MONDO_0000637",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://purl.obolibrary.org/obo/MONDO_0002813",
+      "http://purl.obolibrary.org/obo/MONDO_0021354",
+      "http://purl.obolibrary.org/obo/MONDO_0002616",
+      "http://purl.obolibrary.org/obo/MONDO_0021581",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_0005755",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_1001968",
+      "http://purl.obolibrary.org/obo/MONDO_0024637",
+      "http://www.ebi.ac.uk/efo/EFO_1000541",
+      "http://purl.obolibrary.org/obo/MONDO_0044334",
+      "http://www.ebi.ac.uk/efo/EFO_0000691",
+      "http://purl.obolibrary.org/obo/MONDO_0023603",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.orpha.net/ORDO/Orphanet_271832",
+      "http://www.orpha.net/ORDO/Orphanet_68336"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0020561",
+      "http://www.ebi.ac.uk/efo/EFO_0000569",
+      "http://purl.obolibrary.org/obo/MONDO_0000637",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://purl.obolibrary.org/obo/MONDO_0002813",
+      "http://purl.obolibrary.org/obo/MONDO_0021354",
+      "http://purl.obolibrary.org/obo/MONDO_0002616",
+      "http://purl.obolibrary.org/obo/MONDO_0021581",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_0005755",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_1001968",
+      "http://purl.obolibrary.org/obo/MONDO_0024637",
+      "http://www.ebi.ac.uk/efo/EFO_1000541",
+      "http://purl.obolibrary.org/obo/MONDO_0044334",
+      "http://www.ebi.ac.uk/efo/EFO_0000691",
+      "http://purl.obolibrary.org/obo/MONDO_0023603",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.orpha.net/ORDO/Orphanet_271832",
+      "http://www.orpha.net/ORDO/Orphanet_68336"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000614"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_narcolepsy with cataplexy"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000614",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A condition characterized by recurrent episodes of daytime somnolence and lapses in consciousness (microsomnias) that may be associated with automatic behaviors and AMNESIA. CATAPLEXY; SLEEP PARALYSIS, and hypnagogic HALLUCINATIONS frequently accompany narcolepsy. The pathophysiology of this disorder includes sleep-onset rapid eye movement (REM) sleep, which normally follows stage III or IV sleep. (From Neurology 1998 Feb;50(2 Suppl 1):S2-S7)"
+    },
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000616"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "neoplasm"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000616",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A benign or malignant tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C3262"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MONDO:Redundant"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "MONDO:Redundant"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3286,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3286,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000617"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_nerve cell"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000617",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system."
+    },
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000618"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "nervous system disease"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000618",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A non-neoplastic or neoplastic disorder that affects the brain, spinal cord, or peripheral nerves."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C26835"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "a general class of medical conditions affecting the nervous system."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000408",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000408",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4127,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4127,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000621"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "neuroblastoma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000621",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A common neoplasm of early childhood arising from neural crest cells in the sympathetic nervous system, and characterized by diverse clinical behavior, ranging from spontaneous remission to rapid metastatic progression and death. This tumor is the most common intraabdominal malignancy of childhood, but it may also arise from thorax, neck, or rarely occur in the central nervous system. Histologic features include uniform round cells with hyperchromatic nuclei arranged in nests and separated by fibrovascular septa. Neuroblastomas may be associated with the opsoclonus-myoclonus syndrome (MeSH)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A common neoplasm of early childhood arising from neural crest cells in the sympathetic nervous system, and characterized by diverse clinical behavior, ranging from spontaneous remission to rapid metastatic progression and death. This tumor is the most common intraabdominal malignancy of childhood, but it may also arise from thorax, neck, or rarely occur in the central nervous system. Histologic features include uniform round cells with hyperchromatic nuclei arranged in nests and separated by fibrovascular septa. Neuroblastomas may be associated with the opsoclonus-myoclonus syndrome. (From DeVita et al., Cancer: Principles and Practice of Oncology, 5th ed, pp2099-2101; Curr Opin Oncol 1998 Jan;10(1):43-51)"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A neuroblastic tumor characterized by the presence of neuroblastic cells, the absence of ganglion cells, and the absence of a prominent Schwannian stroma formation."
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Neuroblastoma (NB) is the most common solid, extracranial childhood tumor. It is an aggressive pediatric cancer that originates from neural crest tissues of the sympathetic nervous system."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:32903387"
+            }
+          }
+        ]
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0021635",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0002-6601-2165"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1000393",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C3270"
+            }
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0021635",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0002-6601-2165"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1000393",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C3270"
+            }
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0021635",
+      "http://purl.obolibrary.org/obo/MONDO_0021147",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1000393",
+      "http://www.ebi.ac.uk/efo/EFO_0005235",
+      "http://purl.obolibrary.org/obo/MONDO_0021193",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0005784"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0021635",
+      "http://purl.obolibrary.org/obo/MONDO_0021147",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1000393",
+      "http://www.ebi.ac.uk/efo/EFO_0005235",
+      "http://purl.obolibrary.org/obo/MONDO_0021193",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0005784"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 13,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 13,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000622"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "neurofibroma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000622",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A moderately firm, benign, encapsulated tumor resulting from proliferation of SCHWANN CELLS and FIBROBLASTS that includes portions of nerve fibers. The tumors usually develop along peripheral or cranial nerves and are a central feature of NEUROFIBROMATOSIS 1, where they may occur intracranially or involve spinal roots. Pathologic features include fusiform enlargement of the involved nerve. Microscopic examination reveals a disorganized and loose cellular pattern with elongated nuclei intermixed with fibrous strands (MeSH)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A moderately firm, benign, encapsulated tumor resulting from proliferation of SCHWANN CELLS and FIBROBLASTS that includes portions of nerve fibers. The tumors usually develop along peripheral or cranial nerves and are a central feature of NEUROFIBROMATOSIS 1, where they may occur intracranially or involve spinal roots. Pathologic features include fusiform enlargement of the involved nerve. Microscopic examination reveals a disorganized and loose cellular pattern with elongated nuclei intermixed with fibrous strands. (From Adams et al., Principles of Neurology, 6th ed, p1016)"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths. It is composed of perineurial-like fibroblasts and Schwann cells. It usually presents as a localized cutaneous lesion and less often as a circumscribed peripheral nerve mass. Patients with neurofibromatosis type 1 present with multiple masses. Neurofibromas which arise from major nerves and plexiform neurofibromas are precursor lesions to malignant peripheral nerve sheath tumors."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0002431",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0002431",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002431",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0009387"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002431",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0009387"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000625"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "nevus"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000625",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Nevus (or naevus, plural nevi or naevi, from nævus, Latin for \"birthmark\") is the medical term for sharply circumscribed[1] and chronic lesions of the skin or mucosa. These lesions are commonly named birthmarks or beauty marks. Nevi are benign by definition. However, 25% of malignant melanomas (a skin cancer) arise from pre-existing nevi.[2] Using the term nevus and nevi loosely, most physicians and dermatologists are actually referring to a variant of nevus called the \"melanocytic nevus\", which are composed of melanocytes. Histologically, melanocytic nevi are distinguished from lentigines (also a type of benign pigmented macule) by the presence of nests of melanocytes, which lentigines (plural form of lentigo) lack."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000701",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000701",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000701",
+      "http://www.ebi.ac.uk/efo/EFO_0010285",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000701",
+      "http://www.ebi.ac.uk/efo/EFO_0010285",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 34,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 34,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000626"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_nucleic acid extracted"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000626",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The type of nucleic acid obtained as a result of following a given protocol."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Not needed."
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000627"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "number of injections"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000627",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The scalar number of injections administered to a material or organism."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0001444",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0001444",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000629"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "observational design"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000629",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The act of regarding attentively and studying facts and occurrences, gathering data through analyzing, measuring, and drawing conclusions"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0004667",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0004667",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0004667",
+      "http://www.ebi.ac.uk/efo/EFO_0001426",
+      "http://purl.obolibrary.org/obo/OBI_0000272",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0004667",
+      "http://www.ebi.ac.uk/efo/EFO_0001426",
+      "http://purl.obolibrary.org/obo/OBI_0000272",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000630"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "oligoastrocytoma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000630",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A WHO grade II tumor composed of a conspicuous mixture of two distinct neoplastic cell types morphologically resembling the tumor cells in oligodendroglioma and diffuse astrocytoma. (WHO)"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C4050"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0003268",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:7912"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C4050"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0021639",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C4050"
+            }
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0000326",
+      "http://www.ebi.ac.uk/efo/EFO_1000356"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0003268",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:7912"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C4050"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0021639",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C4050"
+            }
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0000326",
+      "http://www.ebi.ac.uk/efo/EFO_1000356"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0003268",
+      "http://purl.obolibrary.org/obo/MONDO_0021043",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0005543",
+      "http://purl.obolibrary.org/obo/MONDO_0021193",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_1000158",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://purl.obolibrary.org/obo/MONDO_0021639",
+      "http://purl.obolibrary.org/obo/MONDO_0021637",
+      "http://www.ebi.ac.uk/efo/EFO_0000326",
+      "http://www.ebi.ac.uk/efo/EFO_0007392",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_1000356"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0003268",
+      "http://purl.obolibrary.org/obo/MONDO_0021043",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0005543",
+      "http://purl.obolibrary.org/obo/MONDO_0021193",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_1000158",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://purl.obolibrary.org/obo/MONDO_0021639",
+      "http://purl.obolibrary.org/obo/MONDO_0021637",
+      "http://www.ebi.ac.uk/efo/EFO_0000326",
+      "http://www.ebi.ac.uk/efo/EFO_0007392",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_1000356"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000631"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_oligoastroglioma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000631",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A WHO grade II tumor composed of a conspicuous mixture of two distinct neoplastic cell types morphologically resembling the tumor cells in oligodendroglioma and diffuse astrocytoma. (WHO)"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A relatively slow-growing glioma that is derived from oligodendrocytes and tends to occur in the cerebral hemispheres, thalamus, or lateral ventricle. They may present at any age, but are most frequent in the third to fifth decades, with an earlier incidence peak in the first decade. Histologically, these tumors are encapsulated, relatively avascular, and tend to form cysts and microcalcifications. Neoplastic cells tend to have small round nuclei surrounded by unstained nuclei. The tumors may vary from well-differentiated to highly anaplastic forms. (From DeVita et al., Cancer: Principles and Practice of Oncology, 5th ed, p2052; Adams et al., Principles of Neurology, 6th ed, p655)"
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000632"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "oligodendroglioma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000632",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A well-differentiated (WHO grade II), diffusely infiltrating neuroglial tumor, typically located in the cerebral hemispheres. It is composed predominantly of cells which morphologically resemble oligodendroglia. The neoplastic cells have rounded homogeneous nuclei and, on paraffin sections, a swollen, clear cytoplasm ('honeycomb' appearance). (Adapted from WHO)"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C3288"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0018744",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C3288"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Orphanet:251627"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0021639",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C3288"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0018744",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C3288"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Orphanet:251627"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0021639",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C3288"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0018744",
+      "http://purl.obolibrary.org/obo/MONDO_0100342",
+      "http://purl.obolibrary.org/obo/MONDO_0020665",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000326",
+      "http://www.ebi.ac.uk/efo/EFO_0007392",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_1000158",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0005543",
+      "http://purl.obolibrary.org/obo/MONDO_0021193",
+      "http://purl.obolibrary.org/obo/MONDO_0021639",
+      "http://purl.obolibrary.org/obo/MONDO_0021637"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0018744",
+      "http://purl.obolibrary.org/obo/MONDO_0100342",
+      "http://purl.obolibrary.org/obo/MONDO_0020665",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000326",
+      "http://www.ebi.ac.uk/efo/EFO_0007392",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_1000158",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0005543",
+      "http://purl.obolibrary.org/obo/MONDO_0021193",
+      "http://purl.obolibrary.org/obo/MONDO_0021639",
+      "http://purl.obolibrary.org/obo/MONDO_0021637"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000633"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "operator variation"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000633",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A measurement of the effects of different investigators, laboratories, or organizations on experimental results are studied."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0001444",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0001444",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000635"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "organism part"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000635",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The part of organism's anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1628,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1628,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000636"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_organism status"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000636",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The stage premortem or postmortem at which the sample was processed for extraction of biomaterials. e.g. alive or dead"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Use PATO qualities , e.g. dead"
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000637"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "osteosarcoma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000637",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A usually aggressive malignant bone-forming mesenchymal neoplasm, predominantly affecting adolescents and young adults. It usually involves bones and less frequently extraosseous sites. It often involves the long bones (particularly distal femur, proximal tibia, and proximal humerus). Pain with or without a palpable mass is the most frequent clinical symptom. It may spread to other anatomic sites, particularly the lungs."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C9145"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0000691",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:3347"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000637"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Entailed"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C9145"
+              }
+            ]
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_1000350"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0000691",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:3347"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000637"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Entailed"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C9145"
+              }
+            ]
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_1000350"
+    ],
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000691",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1000350",
+      "http://purl.obolibrary.org/obo/MONDO_0000637",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_0003820",
+      "http://purl.obolibrary.org/obo/MONDO_0021581",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_0004260",
+      "http://www.ebi.ac.uk/efo/EFO_0002461"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000691",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1000350",
+      "http://purl.obolibrary.org/obo/MONDO_0000637",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_0003820",
+      "http://purl.obolibrary.org/obo/MONDO_0021581",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_0004260",
+      "http://www.ebi.ac.uk/efo/EFO_0002461"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 21,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 21,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000638"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "overall survival"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000638",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A measurement of the survival rate for a group of individuals suffering from a disease."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://www.ebi.ac.uk/efo/EFO_0000714",
+      "http://www.ebi.ac.uk/efo/EFO_0004557"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://www.ebi.ac.uk/efo/EFO_0000714",
+      "http://www.ebi.ac.uk/efo/EFO_0004557"
+    ],
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000714",
+      "http://www.ebi.ac.uk/efo/EFO_0004949",
+      "http://www.ebi.ac.uk/efo/EFO_0000719",
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0004557"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000714",
+      "http://www.ebi.ac.uk/efo/EFO_0004949",
+      "http://www.ebi.ac.uk/efo/EFO_0000719",
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0004557"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000639"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "papillary cystadenocarcinoma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000639",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A malignant cystic serous or mucinous epithelial neoplasm characterized by the presence of malignant glandular epithelial cells forming papillary structures. Stromal invasion is present."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C3777"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002512",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C3777"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0006387",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:3110"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D018283"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C3777"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1000448",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C3777"
+            }
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002512",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C3777"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0006387",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:3110"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D018283"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C3777"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1000448",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C3777"
+            }
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002512",
+      "http://www.ebi.ac.uk/efo/EFO_0000228",
+      "http://purl.obolibrary.org/obo/MONDO_0024276",
+      "http://www.ebi.ac.uk/efo/EFO_0006858",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000313",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_1000646",
+      "http://purl.obolibrary.org/obo/MONDO_0021096",
+      "http://www.ebi.ac.uk/efo/EFO_0006387",
+      "http://purl.obolibrary.org/obo/MONDO_0021077",
+      "http://www.ebi.ac.uk/efo/EFO_1000448"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002512",
+      "http://www.ebi.ac.uk/efo/EFO_0000228",
+      "http://purl.obolibrary.org/obo/MONDO_0024276",
+      "http://www.ebi.ac.uk/efo/EFO_0006858",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000313",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_1000646",
+      "http://purl.obolibrary.org/obo/MONDO_0021096",
+      "http://www.ebi.ac.uk/efo/EFO_0006387",
+      "http://purl.obolibrary.org/obo/MONDO_0021077",
+      "http://www.ebi.ac.uk/efo/EFO_1000448"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000640"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "papillary renal cell carcinoma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000640",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A rare subtype of renal cell carcinoma, arising from the renal tubular epithelium and showing a papillary growth pattern, which typically manifests with hematuria, flank pain, palpable abdominal mass or nonspecific symptoms, such as fatigue, weight loss or fever. Symptoms related to metastatic spread, such as bone pain or persistent cough, are frequently associated since early diagnosis is not common. It is typically multifocal, bilateral, and in most cases sporadic, although different hereditary syndromes, such as Hereditary leiomyoma renal cell carcinoma, Birt-Hogg-DubC) syndrome and Tuberous sclerosis, may predispose to the development of papillary renal cell carcinoma."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:319298"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Papillary renal cell carcinoma is a rare subtype of renal cell carcinoma, arising from the renal tubular epithelium and showing a papillary growth pattern, which typically manifests with hematuria, flank pain, palpable abdominal mass or nonspecific symptoms, such as fatigue, weight loss or fever. Symptoms related to metastatic spread, such as bone pain or persistent cough, are frequently associated since early diagnosis is not common. It is typically multifocal, bilateral, and in most cases sporadic, although different hereditary syndromes, such as Hereditary leiomyoma renal cell carcinoma, Birt-Hogg-DubC) syndrome and Tuberous sclerosis, may predispose to the development of papillary renal cell carcinoma."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:319298"
+            }
+          }
+        ]
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002512",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C6975"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0005708",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C6975"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002512",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C6975"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0005708",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C6975"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002512",
+      "http://www.ebi.ac.uk/efo/EFO_0000228",
+      "http://purl.obolibrary.org/obo/MONDO_0024276",
+      "http://www.ebi.ac.uk/efo/EFO_0006858",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000313",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_1000646",
+      "http://purl.obolibrary.org/obo/MONDO_0021096",
+      "http://www.ebi.ac.uk/efo/EFO_0005708",
+      "http://www.ebi.ac.uk/efo/EFO_0000681",
+      "http://www.ebi.ac.uk/efo/EFO_0002890",
+      "http://purl.obolibrary.org/obo/MONDO_0002367",
+      "http://www.ebi.ac.uk/efo/EFO_0003865",
+      "http://purl.obolibrary.org/obo/MONDO_0021066",
+      "http://www.ebi.ac.uk/efo/EFO_0009690",
+      "http://www.ebi.ac.uk/efo/EFO_0003086",
+      "http://www.ebi.ac.uk/efo/EFO_1000363"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002512",
+      "http://www.ebi.ac.uk/efo/EFO_0000228",
+      "http://purl.obolibrary.org/obo/MONDO_0024276",
+      "http://www.ebi.ac.uk/efo/EFO_0006858",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000313",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_1000646",
+      "http://purl.obolibrary.org/obo/MONDO_0021096",
+      "http://www.ebi.ac.uk/efo/EFO_0005708",
+      "http://www.ebi.ac.uk/efo/EFO_0000681",
+      "http://www.ebi.ac.uk/efo/EFO_0002890",
+      "http://purl.obolibrary.org/obo/MONDO_0002367",
+      "http://www.ebi.ac.uk/efo/EFO_0003865",
+      "http://purl.obolibrary.org/obo/MONDO_0021066",
+      "http://www.ebi.ac.uk/efo/EFO_0009690",
+      "http://www.ebi.ac.uk/efo/EFO_0003086",
+      "http://www.ebi.ac.uk/efo/EFO_1000363"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000641"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "papillary thyroid carcinoma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000641",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A differentiated adenocarcinoma arising from the follicular cells of the thyroid gland. Radiation exposure is a risk factor and it is the most common malignant thyroid lesion, comprising 75% to 80% of all thyroid cancers in iodine sufficient countries. Diagnostic procedures include thyroid ultrasound and fine needle biopsy. Microscopically, the diagnosis is based on the distinct characteristics of the malignant cells, which include enlargement, oval shape, elongation, and overlapping of the nuclei. The nuclei also display clearing or have a ground glass appearance."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C4035"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002512",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:3969"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C4035"
+              }
+            ]
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/MONDO_0024622",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1002017",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:3969"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000641"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C4035"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "ONCOTREE:THPA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002512",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:3969"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C4035"
+              }
+            ]
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/MONDO_0024622",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1002017",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:3969"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000641"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C4035"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "ONCOTREE:THPA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002512",
+      "http://www.ebi.ac.uk/efo/EFO_0000228",
+      "http://purl.obolibrary.org/obo/MONDO_0024276",
+      "http://www.ebi.ac.uk/efo/EFO_0006858",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000313",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_1000646",
+      "http://purl.obolibrary.org/obo/MONDO_0021096",
+      "http://purl.obolibrary.org/obo/MONDO_0024622",
+      "http://www.ebi.ac.uk/efo/EFO_0002892",
+      "http://purl.obolibrary.org/obo/MONDO_0002108",
+      "http://purl.obolibrary.org/obo/MONDO_0021069",
+      "http://www.ebi.ac.uk/efo/EFO_0003769",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0003841",
+      "http://www.ebi.ac.uk/efo/EFO_1000627",
+      "http://www.ebi.ac.uk/efo/EFO_1002017"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002512",
+      "http://www.ebi.ac.uk/efo/EFO_0000228",
+      "http://purl.obolibrary.org/obo/MONDO_0024276",
+      "http://www.ebi.ac.uk/efo/EFO_0006858",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000313",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_1000646",
+      "http://purl.obolibrary.org/obo/MONDO_0021096",
+      "http://purl.obolibrary.org/obo/MONDO_0024622",
+      "http://www.ebi.ac.uk/efo/EFO_0002892",
+      "http://purl.obolibrary.org/obo/MONDO_0002108",
+      "http://purl.obolibrary.org/obo/MONDO_0021069",
+      "http://www.ebi.ac.uk/efo/EFO_0003769",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0003841",
+      "http://www.ebi.ac.uk/efo/EFO_1000627",
+      "http://www.ebi.ac.uk/efo/EFO_1002017"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000643"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pathogen"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000643",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A biological agent that causes disease or illness to its host"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CHEBI_24432",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CHEBI_24432",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000644"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pathogen test"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000644",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Tests and results for pathogens infecting organism from which the biosource is derived"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0002694",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0002694",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002694",
+      "http://www.ebi.ac.uk/efo/EFO_0004542",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002694",
+      "http://www.ebi.ac.uk/efo/EFO_0004542",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000645"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_percent oxygen"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000645",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000646"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_percent oxygen concentration"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000646",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000647"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "experiment performer"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000647",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An individual who does some experimental process."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000648"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "period of infection"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000648",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0004949",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0004949",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0004949",
+      "http://www.ebi.ac.uk/efo/EFO_0000719",
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0004949",
+      "http://www.ebi.ac.uk/efo/EFO_0000719",
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000649"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "periodontitis"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000649",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An acute or chronic inflammatory process that affects the tissues that surround and support the teeth."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:P378"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Inflammation and loss of connective tissues supporting or surrounding the teeth. This may involve any part of the PERIODONTIUM. Periodontitis is currently classified by disease progression (CHRONIC PERIODONTITIS; AGGRESSIVE PERIODONTITIS) instead of age of onset. (From 1999 International Workshop for a Classification of Periodontal Diseases and Conditions, American Academy of Periodontology)"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002635",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:824"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D010518"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C34918"
+              }
+            ]
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0000524",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0009903",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "MONDO:Redundant"
+            }
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002635",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:824"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D010518"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C34918"
+              }
+            ]
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0000524",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0009903",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "MONDO:Redundant"
+            }
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002635",
+      "http://www.ebi.ac.uk/efo/EFO_1001216",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001047",
+      "http://www.ebi.ac.uk/efo/EFO_0000405",
+      "http://www.ebi.ac.uk/efo/EFO_0000524",
+      "http://www.ebi.ac.uk/efo/EFO_0009903"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002635",
+      "http://www.ebi.ac.uk/efo/EFO_1001216",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001047",
+      "http://www.ebi.ac.uk/efo/EFO_0000405",
+      "http://www.ebi.ac.uk/efo/EFO_0000524",
+      "http://www.ebi.ac.uk/efo/EFO_0009903"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 8,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 8,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000650"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "whooping cough"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000650",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A commensal Alcaligenaceae infectious disease and is_a respiratory system disease that is caused by bacteria of the genus Bordetella characterized by a prolonged, high-pitched, deeply indrawn breath (whoop). The bacterium Bordetella pertussis causes a highly contagious form of whooping cough, and a milder disease is caused by Bordetella parapertussis."
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A contagious bacterial respiratory infection caused by Bordetella pertussis. It is characterized by severe and uncontrollable cough, resulting in a whooping sound during breathing following the cough."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:P378"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A respiratory infection caused by BORDETELLA PERTUSSIS and characterized by paroxysmal coughing ending in a prolonged crowing intake of breath."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A respiratory system infectious disease that is caused by bacteria of the genus Bordetella characterized by a prolonged, high-pitched, deeply indrawn breath (whoop). The bacterium Bordetella pertussis causes a highly contagious form of whooping cough, and a milder disease is caused by Bordetella parapertussis."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0037872",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "MONDO:Redundant"
+            }
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0000684"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0037872",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "MONDO:Redundant"
+            }
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0000684"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0037872",
+      "http://purl.obolibrary.org/obo/MONDO_0021678",
+      "http://www.ebi.ac.uk/efo/EFO_0000771",
+      "http://www.ebi.ac.uk/efo/EFO_0005741",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000684"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0037872",
+      "http://purl.obolibrary.org/obo/MONDO_0021678",
+      "http://www.ebi.ac.uk/efo/EFO_0000771",
+      "http://www.ebi.ac.uk/efo/EFO_0005741",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000684"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000651"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "phenotype"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000651",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The observable form taken by some character (or group of characters) in an individual or an organism, excluding pathology and disease.  The detectable outward manifestations of a specific genotype."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000019",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000019",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2148,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2148,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000652"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_phenotypic factor"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000652",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "phenotype is synonymous with quality"
+    },
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000653"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "phyllodes tumor"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000653",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A benign, borderline, or malignant fibroepithelial neoplasm arising from the breast and rarely the prostate gland. It may recur following resection. The recurrence rates are higher for borderline and malignant phyllodes tumors. In borderline and malignant phyllodes tumors metastases to distant anatomic sites can occur. The incidence of metastases is higher in malignant phyllodes tumors."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C2977"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Note that this class covers both breast and prostate phyllodes tumors"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://www.ebi.ac.uk/efo/EFO_0007271",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C2977"
+          }
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://www.ebi.ac.uk/efo/EFO_0007271",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C2977"
+          }
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0007271",
+      "http://purl.obolibrary.org/obo/MONDO_0021043",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0007271",
+      "http://purl.obolibrary.org/obo/MONDO_0021043",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000657"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_platform"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000657",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The specific version (such as manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "obsolete platform because the distinction between instrument and platform is very fuzzy"
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000658"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "plexiform neurofibroma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000658",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A type of neurofibroma manifesting as a diffuse overgrowth of subcutaneous tissue, usually involving the face, scalp, neck, and chest but occasionally occurring in the abdomen or pelvis. The tumors tend to progress, and may extend along nerve roots to eventually involve the spinal roots and spinal cord. This process is almost always a manifestation of NEUROFIBROMATOSIS 1 (MeSH)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A type of neurofibroma manifesting as a diffuse overgrowth of subcutaneous tissue, usually involving the face, scalp, neck, and chest but occasionally occurring in the abdomen or pelvis. The tumors tend to progress, and may extend along nerve roots to eventually involve the spinal roots and spinal cord. This process is almost always a manifestation of NEUROFIBROMATOSIS 1. (From Adams et al., Principles of Neurology, 6th ed, p1016; J Pediatr 1997 Nov;131(5):678-82)"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An elongated and multinodular neurofibroma, formed when the tumor involves either multiple trunks of a plexus or multiple fascicles of a large nerve, such as the sciatic. Some plexiform neurofibromas resemble a bag of worms, others produce a massive ropy enlargement of the nerve. (Adapted from WHO.)"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000622",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000622",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000622",
+      "http://www.ebi.ac.uk/efo/EFO_0002431",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0009387"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000622",
+      "http://www.ebi.ac.uk/efo/EFO_0002431",
+      "http://purl.obolibrary.org/obo/MONDO_0021248",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0009387"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000659"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_ploidy"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000659",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The number of single sets of chromosomes in the cell or an organism e.g., haploid, diploid, triploid, etc."
+    },
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000660"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "polycystic ovary syndrome"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000660",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A complex disorder characterized by infertility, HIRSUTISM; OBESITY; and various menstrual disturbances such as OLIGOMENORRHEA; AMENORRHEA; ANOVULATION. Polycystic ovary syndrome is usually associated with bilateral enlarged ovaries studded with atretic follicles, not with cysts. The term, polycystic ovary, is misleading."
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A disorder that manifests as multiple cysts on the ovaries. It results in hormonal imbalances and leads to irregular and abnormal menstrual periods, excess growth of hair, acne eruptions and obesity."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:P378"
+            }
+          }
+        ]
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002254",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:11612"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C26862"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0000508",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0001-5208-3432"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0001379",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000660"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D011085/inferred"
+              }
+            ]
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0005771"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0002254",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:11612"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C26862"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0000508",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0001-5208-3432"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0001379",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000660"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D011085/inferred"
+              }
+            ]
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0005771"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000661"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_polymorphonuclear leukocyte"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000661",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A fully differentiated eosinophil, a granular leukocyte with a nucleus that usually has two lobes connected by one or more slender threads of chromatin, and cytoplasm containing coarse, round granules that are uniform in size and which can be stained by the dye eosin."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A fully differentiated eosinophil, a granular leukocyte with a nucleus that usually has two lobes connected by one or more slender threads, and cytoplasm containing coarse, round granules that are uniform in size and which can be stained by the dye eosin. Cells are also differentiated from other granulocytes by a small nuclear-to-cytoplasm ratio (1:3). This cell type is CD49d-positive."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Any fully developed granular leukocyte whose nucleus contains multiple lobes joined by filamentous connections, especially a neutrophil."
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000662"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "polyp"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000662",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A usually exophytic mass attached to the underlying tissue by a broad base or a thin stalk.  Polyps can be neoplastic or non-neoplastic.  Neoplastic polyps usually represent proliferations of the epithelium, and are commonly seen in the gastrointestinal tract.  Polyps of the gastrointestinal tract are often called adenomas, are associated with dysplasia, and may eventually transform into carcinomas.  Non-neoplastic polyps may be inflammatory, degenerative, or the result of malformations."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A usually exophytic mass attached to the underlying tissue by a broad base or a thin stalk.  Polyps can be neoplastic or non-neoplastic.  Neoplastic polyps usually represent proliferations of the epithelium, and are commonly seen in the gastrointestinal tract.  Polyps of the gastrointestinal tract are often called adenomas, are associated with dysplasia, and may eventually transform into carcinomas.  Non-neoplastic polyps may be inflammatory, degenerative, or the result of malformations. -- 2004"
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A usually exophytic mass attached to the underlying tissue by a broad base or a thin stalk. Polyps can be neoplastic or non-neoplastic. Neoplastic polyps usually represent proliferations of the epithelium, and are commonly seen in the gastrointestinal tract. Polyps of the gastrointestinal tract are often called adenomas, are associated with dysplasia, and may eventually transform into carcinomas. Non-neoplastic polyps may be inflammatory, degenerative, or the result of malformations."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C3340"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Discrete abnormal tissue masses that protrude into the lumen of the DIGESTIVE TRACT or the RESPIRATORY TRACT. Polyps can be spheroidal, hemispheroidal, or irregular mound-shaped structures attached to the MUCOUS MEMBRANE of the lumen wall either by a stalk, pedunculus, or by a broad base."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://github.com/monarch-initiative/mondo/issues/1014"
+          }
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://github.com/monarch-initiative/mondo/issues/1014"
+          }
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 51,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 51,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000663"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pool"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000663",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A mix of specimens from multiple individuals."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000665"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_porphyria"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000665",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A diverse group of metabolic diseases characterized by errors in the biosynthetic pathway of HEME in the LIVER, the BONE MARROW, or both. They are classified by the deficiency of specific enzymes, the tissue site of enzyme defect, or the clinical features that include neurological (acute) or cutaneous (skin lesions). Porphyrias can be hereditary or acquired as a result of toxicity to the hepatic or erythropoietic marrow tissues."
+    },
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000666"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "portal hypertension"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000666",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Abnormal increase of resistance to blood flow within the hepatic PORTAL SYSTEM, frequently seen in LIVER CIRRHOSIS and conditions with obstruction of the PORTAL VEIN."
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Increased blood pressure in the portal venous system. It is most commonly caused by cirrhosis. Other causes include portal vein thrombosis, Budd-Chiari syndrome, and right heart failure. Complications include ascites, esophageal varices, encephalopathy, and splenomegaly."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C3119"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Liver cirrhosis with intrahepatic portal obstruction, HYPERTENSION, and patent UMBILICAL VEINS."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0002405",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": {
+            "type": [
+              "literal"
+            ],
+            "value": "DOID:10762"
+          }
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0002405",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": {
+            "type": [
+              "literal"
+            ],
+            "value": "DOID:10762"
+          }
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002405",
+      "http://www.ebi.ac.uk/efo/EFO_0001421",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0010284",
+      "http://www.ebi.ac.uk/efo/EFO_0000405",
+      "http://www.ebi.ac.uk/efo/EFO_0004264",
+      "http://www.ebi.ac.uk/efo/EFO_0000319"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0002405",
+      "http://www.ebi.ac.uk/efo/EFO_0001421",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0010284",
+      "http://www.ebi.ac.uk/efo/EFO_0000405",
+      "http://www.ebi.ac.uk/efo/EFO_0004264",
+      "http://www.ebi.ac.uk/efo/EFO_0000319"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000668"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "preeclampsia"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000668",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A complication of PREGNANCY, characterized by a complex of symptoms including maternal HYPERTENSION and PROTEINURIA with or without pathological EDEMA. Symptoms may range between mild and severe. Pre-eclampsia usually occurs after the 20th week of gestation, but may develop before this time in the presence of trophoblastic disease."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A pregnancy induced hypertensive state that occurs after 20 weeks of gestation characterized by an increase in blood pressure, along with body swelling and proteinuria."
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Preeclampsia is a hypertensive disorder of pregnancy that is characterized by new-onset hypertension with proteinuria presenting after 20 weeks of gestation, and depending on mild or severe forms may initially present with severe headache, visual disturbances, and hyperreflexia."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:275555"
+            }
+          }
+        ]
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0045048",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C85021"
+            }
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0045048",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C85021"
+            }
+          }
+        ]
+      },
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0045048",
+      "http://purl.obolibrary.org/obo/MONDO_0024664",
+      "http://www.ebi.ac.uk/efo/EFO_0000537",
+      "http://purl.obolibrary.org/obo/MONDO_0000473",
+      "http://www.ebi.ac.uk/efo/EFO_0004264",
+      "http://www.ebi.ac.uk/efo/EFO_0000319",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0009682",
+      "http://purl.obolibrary.org/obo/MONDO_0700003",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0045048",
+      "http://purl.obolibrary.org/obo/MONDO_0024664",
+      "http://www.ebi.ac.uk/efo/EFO_0000537",
+      "http://purl.obolibrary.org/obo/MONDO_0000473",
+      "http://www.ebi.ac.uk/efo/EFO_0004264",
+      "http://www.ebi.ac.uk/efo/EFO_0000319",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0009682",
+      "http://purl.obolibrary.org/obo/MONDO_0700003",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000669"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_pretreatment"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000669",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000671"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "obsolete_progeria syndrome"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000671",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A very rare genetic disorder caused by mutations in the LMNA gene. It is characterized by premature aging. Signs and symptoms include failure to thrive, limited growth, alopecia, wrinkled skin, small face, development of atherosclerosis, and heart disease. There is no cure for this condition. Individuals do not usually survive beyond their early twenties. Death usually occurs as a result of complications from atherosclerosis."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An abnormal congenital condition, associated with defects in the LAMIN TYPE A gene, which is characterized by premature aging in children, where all the changes of cell senescence occur. It is manifested by premature greying; hair loss; hearing loss (DEAFNESS); cataracts (CATARACT); ARTHRITIS; OSTEOPOROSIS; DIABETES MELLITUS; atrophy of subcutaneous fat; skeletal hypoplasia; elevated urinary HYALURONIC ACID; and accelerated ATHEROSCLEROSIS. Many affected individuals develop malignant tumors, especially SARCOMA."
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": false,
+    "directParent": "http://www.w3.org/2002/07/owl#Thing",
+    "hasHierarchicalParents": false,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#Thing",
+    "directAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000672"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "prognostic subgroup"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000672",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A population in which a grouping of subjects in some study grouped on the basis of the probable outcome of some disease e.g. by gene expression, by physiological indicators etc"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000181",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000181",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000181",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000181",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0000673"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "prostate adenocarcinoma"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A carcinoma that arises from glandular epithelial cells of the prostate gland"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://orcid.org/0000-0002-6601-2165"
+          }
+        },
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MONDO:DesignPattern"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0000228",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:2526"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000673"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C2919"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0001663",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:2526"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000673"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C2919/inferred"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0000228",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:2526"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000673"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C2919"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0001663",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:2526"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0000673"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C2919/inferred"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000228",
+      "http://purl.obolibrary.org/obo/MONDO_0024276",
+      "http://www.ebi.ac.uk/efo/EFO_0006858",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000313",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_0001663",
+      "http://purl.obolibrary.org/obo/MONDO_0008315",
+      "http://purl.obolibrary.org/obo/MONDO_0021259",
+      "http://www.ebi.ac.uk/efo/EFO_0009602",
+      "http://www.ebi.ac.uk/efo/EFO_0009555",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_1000051",
+      "http://www.ebi.ac.uk/efo/EFO_0007355",
+      "http://purl.obolibrary.org/obo/MONDO_0002149",
+      "http://purl.obolibrary.org/obo/MONDO_0024582"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000228",
+      "http://purl.obolibrary.org/obo/MONDO_0024276",
+      "http://www.ebi.ac.uk/efo/EFO_0006858",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000313",
+      "http://purl.obolibrary.org/obo/MONDO_0004992",
+      "http://www.ebi.ac.uk/efo/EFO_0001663",
+      "http://purl.obolibrary.org/obo/MONDO_0008315",
+      "http://purl.obolibrary.org/obo/MONDO_0021259",
+      "http://www.ebi.ac.uk/efo/EFO_0009602",
+      "http://www.ebi.ac.uk/efo/EFO_0009555",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_1000051",
+      "http://www.ebi.ac.uk/efo/EFO_0007355",
+      "http://purl.obolibrary.org/obo/MONDO_0002149",
+      "http://purl.obolibrary.org/obo/MONDO_0024582"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  }
+]

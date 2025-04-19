@@ -1,0 +1,2974 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000007"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "identifier role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An identifier role is the contextual role of an information content entity that identifies another entity. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000008"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "input role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A general role if its bearer is the input of the process that realizes the role. The bearer exists at the beginning of the process but not necessarily at its end. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000009"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "interpolation role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An interpolation is the contextual role of a quantity or number that has been the result of an interpolation. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000264",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000264",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000264",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000277",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000264",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000277",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000010"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "material input role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000010",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Material input is a role of a material that is an input in a process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000160",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000160",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000160",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000008",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000160",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000008",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000011"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mobile phase"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000011",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Mobile phase is the chromatographic phase role of a fluid material entity in a chromatography process to act as the fluid that percolates through or along the stationary bed in chromatography. [Allotrope, CHMO]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000126",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000126",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000126",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000126",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000012"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "name role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000012",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Name role is a contextual role of an information content entity that refers to an entity by a non-identifying designation. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000013"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "nominal datum"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000013",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A nominal value is a contextual role of an information content entity that states an asserted value, that is assumed to be true. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000014"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "numerator"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000014",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Numerator is the conceptual role of a scalar that indicates the number which is to be divided into equal parts. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000264",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000264",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000264",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000277",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000264",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000277",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000015"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "objective role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000015",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Objective role is the contextual role of an information object that describes an intent or purpose which is a situation at the process end point. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000016"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "operating maximum"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000016",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An operating maximum is the contextual role of a description or specification of an upper bound of quality of a system or environment during the operation of the system. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000017",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000042"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000017",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000042"
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000017",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000042",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000017",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000042",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000040"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000017"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "operating range"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000017",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An operating range is the contextual role of a description or specification about a operating situation (qualities of a system or its environment) during the normal operation of the system. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000018"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "output role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000018",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A general role if its bearer is the output of the process that realizes the role. The bearer exists at the end of the process but not necessarily at its beginning. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 33,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 33,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000019"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "parameter role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000019",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Parameter role is a data input role that is about some useful or critical characteristic of a particular system, for the purpose of identification, controlling, or evaluating the performance, status or conditions in the process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000044",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000044",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000044",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000008",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000044",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000008",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000020"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "material cleaned role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000020",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Material that is undergoing a cleaning process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000167",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000289"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000167",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000289"
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000167",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000289"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000167",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000289"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000022"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "reference role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000022",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A role inhered by a participant that is a reference for qualitative or quantitative comparison in relation to other entities. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000026"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "selected object role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000026",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A selected object is the selection role of the object that is selected from the selection target. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000288",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000288",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000288",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000288",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000027"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "selected device"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000027",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A device that is selected to perform a specific function in a process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000026",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000026",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000026",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000288",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000026",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000288",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000028"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "setting datum"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000028",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Setting datum is the contextual role of an information object that specifies some device or process setting. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000029"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "snapshot"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000029",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A snapshot is the contextual role of an information object that is about a point in time within the bounds of a process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000030"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "specification target role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000030",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A specification target is the role of a material entity that participates in a specifying process and is what the resulting specification is about. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000167",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000290"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000167",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000290"
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000167",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000290"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000167",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000290"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000032"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "stationary phase"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000032",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A stationary phase is the chromatographic phase role of a solid, gel or liquid material that is the stationary component in chromatography. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000126",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000126",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000126",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000126",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000033"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "temporal mean"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000033",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Temporal mean is the contextual role of a quantity (quantity value or count) that describes a arithmetic mean of a quantity over time. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000034"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "time segment"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000034",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Time segment is a contextual role of some information object that is about a temporal part in the context of representation of a process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000035"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sample role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000035",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A sample role is a type of role whose bearer is a material entity that is the output of a sampling. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000100",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000369"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000100",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000369"
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000100",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000161",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000018",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000369"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000100",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000161",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000018",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000369"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 22,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 22,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000039"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "processing role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000039",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A contextual role that describes the way information is participating in some process from a causal dependency perspective. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000040"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "bound role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000040",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The role of some datum forming the maximum or minimum value in a range or collection of values. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000041"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lower bound"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000041",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The role of a datum that is smaller than all data in an ordered range or collection. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000040",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000040",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000040",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000040",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000042"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "upper bound"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000042",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The role of a datum that is greater than all data in an ordered range or collection. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000040",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000040",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000040",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000040",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000043"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "data output role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000043",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Data output role is a type of contextual role of an information artifact that is the output of a process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000018",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000018",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039"
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000018",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000018",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000044"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "data input role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000044",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Data input role is a type of contextual role of an information artifact that is the input of a process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000008",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000008",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039"
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000008",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000008",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000039",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000047"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "aggregation role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000047",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An aggregation role is a contextual role of an information entity that is participant of an aggregation process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 21,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 21,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000048"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "aggregate role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000048",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Aggregate role is the contextual role of an information content entity that is a collection of others. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000047",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000047",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000047",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000047",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000049"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "member role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000049",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Member role is the contextual role of an information object that is member of some collection. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000047",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000047",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000047",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000047",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000053"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "descriptive purpose"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A role of an information content entity that is meant to describe an object. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 13,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 13,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000054"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "causal role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000054",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A description of the cause-consequence relation of processes. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000055"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cause"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000055",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cause is the causal role of an information content entity that is about something causally dependent for another thing. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000054",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000054",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000054",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000054",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000056"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "consequence"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000056",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Consequence is the causal role of an information content entity that is about something causally resultant from another thing. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000054",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000054",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000054",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000054",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000053",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000057"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "invariant"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000057",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An invariant is the contextual role of an information object that is about a situation that does not change during the whole process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000004",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000094"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000004",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000094"
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000004",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000094",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000004",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000094",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000058"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "post condition"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000058",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A post condition is the temporal contextual role of an information content entity that is about the situation, that is a condition so that a process can end or achieve its goal. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000004",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000092",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000004",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000092",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000004",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000092",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000029",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000004",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000092",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000029",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000059"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "precondition"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000059",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A precondition is the temporal contextual role of an information content entity that is about the situation, that is a condition so that a process can start. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000093",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000093",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000093",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000029",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000093",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000029",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000060"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "designative purpose"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A designative purpose is a type of contextual role of information artifacts that denote an entity in order to describe its characteristics. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000062"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "index role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000062",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An index role is a contextual role of an information object that denotes to another object that is part of an aggregation and it is the data output of some indexing process. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000060",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000064"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "directive purpose"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A directive purpose or specification role is a type of contextual role of information content entities that are about an entity with a purpose to give directions. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 12,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 12,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000066"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "specified action"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000066",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Specified action is the role of information object that specifies an activity. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000991",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000991",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000067"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "specified capability"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000067",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Specified capability is the contextual role of an information object that specifies a capability. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000068"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "specified quality"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000068",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A specified quality is the contextual role of an information object that describes a quality as part of an specification. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000991",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000991",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000069"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "specified situation"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000069",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A specified situation is the contextual role of an information object that describes a portion of reality as part of a specification. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000982",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000982",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000982",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000991",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000982",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000991",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000071"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "specified procedure"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000071",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Specified procedure is the contextual role of an information object that specifies a flow of activities. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000991",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000957",
+      "http://purl.allotrope.org/ontologies/result#AFR_0000991",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000064",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000072"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "prescriptive purpose"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000072",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A contextual role of information that describes some social rules that are imposed on the use of some entity, that a member of the social community has to follow. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "AFO:/role#AFRL_0000073"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "temporal role"
+    },
+    "iri": "http://purl.allotrope.org/ontologies/role#AFRL_0000073",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A contextual role of information that is dependent on some temporal region or process boundary. [Allotrope]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000166",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000091",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 10,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  }
+]

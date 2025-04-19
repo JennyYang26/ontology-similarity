@@ -1,0 +1,2260 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SelfStorage"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SelfStorage"
+    },
+    "iri": "https://schema.org/SelfStorage",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A self-storage facility."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/LocalBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/LocalBusiness",
+    "directAncestor": [
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SellAction"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SellAction"
+    },
+    "iri": "https://schema.org/SellAction",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The act of taking money from a buyer in exchange for goods or services rendered. An agent sells an object, product, or service to a buyer for a price. Reciprocal of BuyAction."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/TradeAction",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/TradeAction",
+    "directAncestor": [
+      "https://schema.org/TradeAction",
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/TradeAction",
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SendAction"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SendAction"
+    },
+    "iri": "https://schema.org/SendAction",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The act of physically/electronically dispatching an object for transfer from an origin to a destination. Related actions:\\n\\n* [[ReceiveAction]]: The reciprocal of SendAction.\\n* [[GiveAction]]: Unlike GiveAction, SendAction does not imply the transfer of ownership (e.g. I can send you my laptop, but I'm not necessarily giving it to you)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/TransferAction",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/TransferAction",
+    "directAncestor": [
+      "https://schema.org/TransferAction",
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/TransferAction",
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_Series"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Series"
+    },
+    "iri": "https://schema.org/Series",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A Series in schema.org is a group of related items, typically but not necessarily of the same kind. See also [[CreativeWorkSeries]], [[EventSeries]]."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Intangible",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Intangible",
+    "directAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 11,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_Service"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Service"
+    },
+    "iri": "https://schema.org/Service",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A service provided by an organization, e.g. delivery service, print services, etc."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Intangible",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Intangible",
+    "directAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 20,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 20,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_ServiceChannel"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ServiceChannel"
+    },
+    "iri": "https://schema.org/ServiceChannel",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A means for accessing a service, e.g. a government office location, web site, or phone number."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Intangible",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Intangible",
+    "directAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_ShareAction"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ShareAction"
+    },
+    "iri": "https://schema.org/ShareAction",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The act of distributing content to people for their amusement or edification."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/CommunicateAction",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/CommunicateAction",
+    "directAncestor": [
+      "https://schema.org/CommunicateAction",
+      "https://schema.org/InteractAction",
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/CommunicateAction",
+      "https://schema.org/InteractAction",
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SheetMusic"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SheetMusic"
+    },
+    "iri": "https://schema.org/SheetMusic",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Printed music, as opposed to performed or recorded music."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/CreativeWork",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/CreativeWork",
+    "directAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_ShippingDeliveryTime"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ShippingDeliveryTime"
+    },
+    "iri": "https://schema.org/ShippingDeliveryTime",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "ShippingDeliveryTime provides various pieces of information about delivery times for shipping."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/StructuredValue",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/StructuredValue",
+    "directAncestor": [
+      "https://schema.org/StructuredValue",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/StructuredValue",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_ShippingRateSettings"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ShippingRateSettings"
+    },
+    "iri": "https://schema.org/ShippingRateSettings",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A ShippingRateSettings represents re-usable pieces of shipping information. It is designed for publication on an URL that may be referenced via the [[shippingSettingsLink]] property of an [[OfferShippingDetails]]. Several occurrences can be published, distinguished and matched (i.e. identified/referenced) by their different values for [[shippingLabel]]."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/StructuredValue",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/StructuredValue",
+    "directAncestor": [
+      "https://schema.org/StructuredValue",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/StructuredValue",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_ShoeStore"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ShoeStore"
+    },
+    "iri": "https://schema.org/ShoeStore",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A shoe store."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Store",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Store",
+    "directAncestor": [
+      "https://schema.org/Store",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Store",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_ShoppingCenter"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ShoppingCenter"
+    },
+    "iri": "https://schema.org/ShoppingCenter",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A shopping center or mall."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/LocalBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/LocalBusiness",
+    "directAncestor": [
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_ShortStory"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ShortStory"
+    },
+    "iri": "https://schema.org/ShortStory",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Short story or tale. A brief work of literature, usually written in narrative prose."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/CreativeWork",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/CreativeWork",
+    "directAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SingleFamilyResidence"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SingleFamilyResidence"
+    },
+    "iri": "https://schema.org/SingleFamilyResidence",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Residence type: Single-family home."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/House",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/House",
+    "directAncestor": [
+      "https://schema.org/House",
+      "https://schema.org/Accommodation",
+      "https://schema.org/Place",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/House",
+      "https://schema.org/Accommodation",
+      "https://schema.org/Place",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SiteNavigationElement"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SiteNavigationElement"
+    },
+    "iri": "https://schema.org/SiteNavigationElement",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A navigation element of the page."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/WebPageElement",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/WebPageElement",
+    "directAncestor": [
+      "https://schema.org/WebPageElement",
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/WebPageElement",
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SizeGroupEnumeration"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SizeGroupEnumeration"
+    },
+    "iri": "https://schema.org/SizeGroupEnumeration",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Enumerates common size groups for various product categories."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Enumeration",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Enumeration",
+    "directAncestor": [
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SizeSpecification"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SizeSpecification"
+    },
+    "iri": "https://schema.org/SizeSpecification",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Size related properties of a product, typically a size code ([[name]]) and optionally a [[sizeSystem]], [[sizeGroup]], and product measurements ([[hasMeasurement]]). In addition, the intended audience can be defined through [[suggestedAge]], [[suggestedGender]], and suggested body measurements ([[suggestedMeasurement]])."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/QualitativeValue",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/QualitativeValue",
+    "directAncestor": [
+      "https://schema.org/QualitativeValue",
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/QualitativeValue",
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SizeSystemEnumeration"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SizeSystemEnumeration"
+    },
+    "iri": "https://schema.org/SizeSystemEnumeration",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Enumerates common size systems for different categories of products, for example \"EN-13402\" or \"UK\" for wearables or \"Imperial\" for screws."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Enumeration",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Enumeration",
+    "directAncestor": [
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SkiResort"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SkiResort"
+    },
+    "iri": "https://schema.org/SkiResort",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A ski resort."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/Resort"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/Resort"
+    ],
+    "directAncestor": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place",
+      "https://schema.org/Resort",
+      "https://schema.org/LodgingBusiness"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place",
+      "https://schema.org/Resort",
+      "https://schema.org/LodgingBusiness"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SocialEvent"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SocialEvent"
+    },
+    "iri": "https://schema.org/SocialEvent",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Event type: Social event."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Event",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Event",
+    "directAncestor": [
+      "https://schema.org/Event",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Event",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SocialMediaPosting"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SocialMediaPosting"
+    },
+    "iri": "https://schema.org/SocialMediaPosting",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A post to a social media platform, including blog posts, tweets, Facebook posts, etc."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Article",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Article",
+    "directAncestor": [
+      "https://schema.org/Article",
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Article",
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SoftwareApplication"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SoftwareApplication"
+    },
+    "iri": "https://schema.org/SoftwareApplication",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A software application."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/CreativeWork",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/CreativeWork",
+    "directAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SoftwareSourceCode"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SoftwareSourceCode"
+    },
+    "iri": "https://schema.org/SoftwareSourceCode",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/CreativeWork",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/CreativeWork",
+    "directAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SolveMathAction"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SolveMathAction"
+    },
+    "iri": "https://schema.org/SolveMathAction",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The action that takes in a math expression and directs users to a page potentially capable of solving/simplifying that expression."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Action",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Action",
+    "directAncestor": [
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SomeProducts"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SomeProducts"
+    },
+    "iri": "https://schema.org/SomeProducts",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A placeholder for multiple similar products of the same kind."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Product",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Product",
+    "directAncestor": [
+      "https://schema.org/Product",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Product",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SpeakableSpecification"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SpeakableSpecification"
+    },
+    "iri": "https://schema.org/SpeakableSpecification",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A SpeakableSpecification indicates (typically via [[xpath]] or [[cssSelector]]) sections of a document that are highlighted as particularly [[speakable]]. Instances of this type are expected to be used primarily as values of the [[speakable]] property."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Intangible",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Intangible",
+    "directAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SpecialAnnouncement"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SpecialAnnouncement"
+    },
+    "iri": "https://schema.org/SpecialAnnouncement",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A SpecialAnnouncement combines a simple date-stamped textual information update\n      with contextualized Web links and other structured data.  It represents an information update made by a\n      locally-oriented organization, for example schools, pharmacies, healthcare providers,  community groups, police,\n      local government.\n\nFor work in progress guidelines on Coronavirus-related markup see [this doc](https://docs.google.com/document/d/14ikaGCKxo50rRM7nvKSlbUpjyIk2WMQd3IkB1lItlrM/edit#).\n\nThe motivating scenario for SpecialAnnouncement is the [Coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic), and the initial vocabulary is oriented to this urgent situation. Schema.org\nexpect to improve the markup iteratively as it is deployed and as feedback emerges from use. In addition to our\nusual [Github entry](https://github.com/schemaorg/schemaorg/issues/2490), feedback comments can also be provided in [this document](https://docs.google.com/document/d/1fpdFFxk8s87CWwACs53SGkYv3aafSxz_DTtOQxMrBJQ/edit#).\n\n\nWhile this schema is designed to communicate urgent crisis-related information, it is not the same as an emergency warning technology like [CAP](https://en.wikipedia.org/wiki/Common_Alerting_Protocol), although there may be overlaps. The intent is to cover\nthe kinds of everyday practical information being posted to existing websites during an emergency situation.\n\nSeveral kinds of information can be provided:\n\nWe encourage the provision of \"name\", \"text\", \"datePosted\", \"expires\" (if appropriate), \"category\" and\n\"url\" as a simple baseline. It is important to provide a value for \"category\" where possible, most ideally as a well known\nURL from Wikipedia or Wikidata. In the case of the 2019-2020 Coronavirus pandemic, this should be \"https://en.wikipedia.org/w/index.php?title=2019-20\\_coronavirus\\_pandemic\" or \"https://www.wikidata.org/wiki/Q81068910\".\n\nFor many of the possible properties, values can either be simple links or an inline description, depending on whether a summary is available. For a link, provide just the URL of the appropriate page as the property's value. For an inline description, use a [[WebContent]] type, and provide the url as a property of that, alongside at least a simple \"[[text]]\" summary of the page. It is\nunlikely that a single SpecialAnnouncement will need all of the possible properties simultaneously.\n\nWe expect that in many cases the page referenced might contain more specialized structured data, e.g. contact info, [[openingHours]], [[Event]], [[FAQPage]] etc. By linking to those pages from a [[SpecialAnnouncement]] you can help make it clearer that the events are related to the situation (e.g. Coronavirus) indicated by the [[category]] property of the [[SpecialAnnouncement]].\n\nMany [[SpecialAnnouncement]]s will relate to particular regions and to identifiable local organizations. Use [[spatialCoverage]] for the region, and [[announcementLocation]] to indicate specific [[LocalBusiness]]es and [[CivicStructure]]s. If the announcement affects both a particular region and a specific location (for example, a library closure that serves an entire region), use both [[spatialCoverage]] and [[announcementLocation]].\n\nThe [[about]] property can be used to indicate entities that are the focus of the announcement. We now recommend using [[about]] only\nfor representing non-location entities (e.g. a [[Course]] or a [[RadioStation]]). For places, use [[announcementLocation]] and [[spatialCoverage]]. Consumers of this markup should be aware that the initial design encouraged the use of [[about]] for locations too.\n\nThe basic content of [[SpecialAnnouncement]] is similar to that of an [RSS](https://en.wikipedia.org/wiki/RSS) or [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) feed. For publishers without such feeds, basic feed-like information can be shared by posting\n[[SpecialAnnouncement]] updates in a page, e.g. using JSON-LD. For sites with Atom/RSS functionality, you can point to a feed\nwith the [[webFeed]] property. This can be a simple URL, or an inline [[DataFeed]] object, with [[encodingFormat]] providing\nmedia type information, e.g. \"application/rss+xml\" or \"application/atom+xml\".\n"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/CreativeWork",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/CreativeWork",
+    "directAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_Specialty"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Specialty"
+    },
+    "iri": "https://schema.org/Specialty",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Any branch of a field in which people typically develop specific expertise, usually after significant study, time, and effort."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Enumeration",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Enumeration",
+    "directAncestor": [
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SportingGoodsStore"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SportingGoodsStore"
+    },
+    "iri": "https://schema.org/SportingGoodsStore",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A sporting goods store."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Store",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Store",
+    "directAncestor": [
+      "https://schema.org/Store",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Store",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SportsActivityLocation"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SportsActivityLocation"
+    },
+    "iri": "https://schema.org/SportsActivityLocation",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A sports location, such as a playing field."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/LocalBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/LocalBusiness",
+    "directAncestor": [
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SportsClub"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SportsClub"
+    },
+    "iri": "https://schema.org/SportsClub",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A sports club."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/SportsActivityLocation",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/SportsActivityLocation",
+    "directAncestor": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SportsEvent"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SportsEvent"
+    },
+    "iri": "https://schema.org/SportsEvent",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Event type: Sports event."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Event",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Event",
+    "directAncestor": [
+      "https://schema.org/Event",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Event",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SportsOrganization"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SportsOrganization"
+    },
+    "iri": "https://schema.org/SportsOrganization",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Represents the collection of all sports organizations, including sports teams, governing bodies, and sports associations."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Organization",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Organization",
+    "directAncestor": [
+      "https://schema.org/Organization",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Organization",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SportsTeam"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SportsTeam"
+    },
+    "iri": "https://schema.org/SportsTeam",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Organization: Sports team."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/SportsOrganization",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/SportsOrganization",
+    "directAncestor": [
+      "https://schema.org/SportsOrganization",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/SportsOrganization",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SpreadsheetDigitalDocument"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SpreadsheetDigitalDocument"
+    },
+    "iri": "https://schema.org/SpreadsheetDigitalDocument",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A spreadsheet file."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/DigitalDocument",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/DigitalDocument",
+    "directAncestor": [
+      "https://schema.org/DigitalDocument",
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/DigitalDocument",
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_StadiumOrArena"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "StadiumOrArena"
+    },
+    "iri": "https://schema.org/StadiumOrArena",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A stadium."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/CivicStructure"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/CivicStructure"
+    ],
+    "directAncestor": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place",
+      "https://schema.org/CivicStructure"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/SportsActivityLocation",
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place",
+      "https://schema.org/CivicStructure"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_State"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "State"
+    },
+    "iri": "https://schema.org/State",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A state or province of a country."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/AdministrativeArea",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/AdministrativeArea",
+    "directAncestor": [
+      "https://schema.org/AdministrativeArea",
+      "https://schema.org/Place",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/AdministrativeArea",
+      "https://schema.org/Place",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_Statement"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Statement"
+    },
+    "iri": "https://schema.org/Statement",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A statement about something, for example a fun or interesting fact. If known, the main entity this statement is about can be indicated using mainEntity. For more formal claims (e.g. in Fact Checking), consider using [[Claim]] instead. Use the [[text]] property to capture the text of the statement."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/CreativeWork",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/CreativeWork",
+    "directAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/CreativeWork",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_StatisticalPopulation"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "StatisticalPopulation"
+    },
+    "iri": "https://schema.org/StatisticalPopulation",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A StatisticalPopulation is a set of instances of a certain given type that satisfy some set of constraints. The property [[populationType]] is used to specify the type. Any property that can be used on instances of that type can appear on the statistical population. For example, a [[StatisticalPopulation]] representing all [[Person]]s with a [[homeLocation]] of East Podunk California would be described by applying the appropriate [[homeLocation]] and [[populationType]] properties to a [[StatisticalPopulation]] item that stands for that set of people.\nThe properties [[numConstraints]] and [[constraintProperty]] are used to specify which of the populations properties are used to specify the population. Note that the sense of \"population\" used here is the general sense of a statistical\npopulation, and does not imply that the population consists of people. For example, a [[populationType]] of [[Event]] or [[NewsArticle]] could be used. See also [[Observation]], where a [[populationType]] such as [[Person]] or [[Event]] can be indicated directly. In most cases it may be better to use [[StatisticalVariable]] instead of [[StatisticalPopulation]]."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Intangible",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Intangible",
+    "directAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_StatisticalVariable"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "StatisticalVariable"
+    },
+    "iri": "https://schema.org/StatisticalVariable",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "[[StatisticalVariable]] represents any type of statistical metric that can be measured at a place and time. The usage pattern for [[StatisticalVariable]] is typically expressed using [[Observation]] with an explicit [[populationType]], which is a type, typically drawn from Schema.org. Each [[StatisticalVariable]] is marked as a [[ConstraintNode]], meaning that some properties (those listed using [[constraintProperty]]) serve in this setting solely to define the statistical variable rather than literally describe a specific person, place or thing. For example, a [[StatisticalVariable]] Median_Height_Person_Female representing the median height of women, could be written as follows: the population type is [[Person]]; the measuredProperty [[height]]; the [[statType]] [[median]]; the [[gender]] [[Female]]. It is important to note that there are many kinds of scientific quantitative observation which are not fully, perfectly or unambiguously described following this pattern, or with solely Schema.org terminology. The approach taken here is designed to allow partial, incremental or minimal description of [[StatisticalVariable]]s, and the use of detailed sets of entity and property IDs from external repositories. The [[measurementMethod]], [[unitCode]] and [[unitText]] properties can also be used to clarify the specific nature and notation of an observed measurement. "
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/ConstraintNode",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/ConstraintNode",
+    "directAncestor": [
+      "https://schema.org/ConstraintNode",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/ConstraintNode",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_StatusEnumeration"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "StatusEnumeration"
+    },
+    "iri": "https://schema.org/StatusEnumeration",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Lists or enumerations dealing with status types."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Enumeration",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Enumeration",
+    "directAncestor": [
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SteeringPositionValue"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SteeringPositionValue"
+    },
+    "iri": "https://schema.org/SteeringPositionValue",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A value indicating a steering position."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/QualitativeValue",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/QualitativeValue",
+    "directAncestor": [
+      "https://schema.org/QualitativeValue",
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/QualitativeValue",
+      "https://schema.org/Enumeration",
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_Store"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Store"
+    },
+    "iri": "https://schema.org/Store",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A retail good store."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/LocalBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/LocalBusiness",
+    "directAncestor": [
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/LocalBusiness",
+      "https://schema.org/Organization",
+      "https://schema.org/Thing",
+      "https://schema.org/Place"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 30,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 30,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_StructuredValue"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "StructuredValue"
+    },
+    "iri": "https://schema.org/StructuredValue",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Intangible",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Intangible",
+    "directAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Intangible",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 34,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 34,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_StupidType"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "StupidType"
+    },
+    "iri": "https://schema.org/StupidType",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A StupidType for testing."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Thing",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Thing",
+    "directAncestor": "https://schema.org/Thing",
+    "hierarchicalAncestor": "https://schema.org/Thing",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SubscribeAction"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SubscribeAction"
+    },
+    "iri": "https://schema.org/SubscribeAction",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The act of forming a personal connection with someone/something (object) unidirectionally/asymmetrically to get updates pushed to.\\n\\nRelated actions:\\n\\n* [[FollowAction]]: Unlike FollowAction, SubscribeAction implies that the subscriber acts as a passive agent being constantly/actively pushed for updates.\\n* [[RegisterAction]]: Unlike RegisterAction, SubscribeAction implies that the agent is interested in continuing receiving updates from the object.\\n* [[JoinAction]]: Unlike JoinAction, SubscribeAction implies that the agent is interested in continuing receiving updates from the object."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/InteractAction",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/InteractAction",
+    "directAncestor": [
+      "https://schema.org/InteractAction",
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/InteractAction",
+      "https://schema.org/Action",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_Substance"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Substance"
+    },
+    "iri": "https://schema.org/Substance",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Any matter of defined composition that has discrete existence, whose origin may be biological, mineral or chemical."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/MedicalEntity",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/MedicalEntity",
+    "directAncestor": [
+      "https://schema.org/MedicalEntity",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/MedicalEntity",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SubwayStation"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SubwayStation"
+    },
+    "iri": "https://schema.org/SubwayStation",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A subway station."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/CivicStructure",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/CivicStructure",
+    "directAncestor": [
+      "https://schema.org/CivicStructure",
+      "https://schema.org/Place",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/CivicStructure",
+      "https://schema.org/Place",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_Suite"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Suite"
+    },
+    "iri": "https://schema.org/Suite",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A suite in a hotel or other public accommodation, denotes a class of luxury accommodations, the key feature of which is multiple rooms (source: Wikipedia, the free encyclopedia, see <a href=\"http://en.wikipedia.org/wiki/Suite_(hotel)\">http://en.wikipedia.org/wiki/Suite_(hotel)</a>).\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.\n"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/Accommodation",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/Accommodation",
+    "directAncestor": [
+      "https://schema.org/Accommodation",
+      "https://schema.org/Place",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/Accommodation",
+      "https://schema.org/Place",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTPS_SuperficialAnatomy"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SuperficialAnatomy"
+    },
+    "iri": "https://schema.org/SuperficialAnatomy",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Anatomical features that can be observed by sight (without dissection), including the form and proportions of the human body as well as surface landmarks that correspond to deeper subcutaneous structures. Superficial anatomy plays an important role in sports medicine, phlebotomy, and other medical specialties as underlying anatomical structures can be identified through surface palpation. For example, during back surgery, superficial anatomy can be used to palpate and count vertebrae to find the site of incision. Or in phlebotomy, superficial anatomy can be used to locate an underlying vein; for example, the median cubital vein can be located by palpating the borders of the cubital fossa (such as the epicondyles of the humerus) and then looking for the superficial signs of the vein, such as size, prominence, ability to refill after depression, and feel of surrounding tissue support. As another example, in a subluxation (dislocation) of the glenohumeral joint, the bony structure becomes pronounced with the deltoid muscle failing to cover the glenohumeral joint allowing the edges of the scapula to be superficially visible. Here, the superficial anatomy is the visible edges of the scapula, implying the underlying dislocation of the joint (the related anatomical structure)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "https://schema.org/MedicalEntity",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "https://schema.org/MedicalEntity",
+    "directAncestor": [
+      "https://schema.org/MedicalEntity",
+      "https://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "https://schema.org/MedicalEntity",
+      "https://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

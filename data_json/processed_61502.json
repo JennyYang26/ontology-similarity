@@ -1,0 +1,3304 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1148"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ampylation reaction"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1148",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "AMPylation, previously known as adenylylation, is formation of a\nphosphodiester or phosphoramide ester of AMP on Tyr (RESID:AA0203), Lys\n(RESID:AA0227), Thr (RESID:AA0267), His (RESID:AA0371) and other amino\nacids."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:14755292"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0414",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0414",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0414",
+      "http://purl.obolibrary.org/obo/MI_0407",
+      "http://purl.obolibrary.org/obo/MI_0915",
+      "http://purl.obolibrary.org/obo/MI_0914",
+      "http://purl.obolibrary.org/obo/MI_2232",
+      "http://purl.obolibrary.org/obo/MI_0190",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0414",
+      "http://purl.obolibrary.org/obo/MI_0407",
+      "http://purl.obolibrary.org/obo/MI_0915",
+      "http://purl.obolibrary.org/obo/MI_0914",
+      "http://purl.obolibrary.org/obo/MI_2232",
+      "http://purl.obolibrary.org/obo/MI_0190",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1149"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cooperative interaction"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1149",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A set of molecular binding events that influence each other either positively or negatively through allostery or pre-assembly. In this context, covalent post-translational modifications are considered as binding events. CV terms that are part of this term allow the description of cooperative interactions using the current PSI-MI schema."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18641616"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0000",
+    "directAncestor": "http://purl.obolibrary.org/obo/MI_0000",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/MI_0000",
+    "hasDirectChildren": true,
+    "numDescendants": 25,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 25,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1150"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "affected interaction"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1150",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "For an interaction that has a cooperative effect on a subsequent interaction, this term indicates which subsequent interaction is affected. The affected interaction is identified by referring to its interaction id."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18641616"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1151"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "participant-ref"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1151",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Referring to a previously described interaction as a participant allows the description of ordered assembly of molecular complexes in PSI-MI2.5. When one of the components of the preformed complex has a feature, the participant-ref term indicates on which component this feature is located. The component is identified by referring to its participant id in the previous interaction."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18641616"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0668",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0668",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0668",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0668",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1152"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cooperative effect value"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1152",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This value quantifies the cooperative effect of an interaction on a subsequent interaction. It is the fold change of the affinity or a catalytic parameter of a molecule for one ligand in the absence, versus presence, of a second ligand or a post-translational modification."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1153"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cooperative effect outcome"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1153",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "For an interaction that has a cooperative effect on a subsequent interaction, this term indicates whether this effect is positive or negative, i.e. whether the subsequent interaction is augmented or diminished."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1154"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "positive cooperative effect"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1154",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This term specifies that an interaction augments a subsequent interaction."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1153"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1153"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1153",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1153",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1155"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "negative cooperative effect"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1155",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This term specifies that an interaction diminishes a subsequent interaction."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1153"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1153"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1153",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1153",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1156"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cooperative mechanism"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1156",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "For an interaction that has a cooperative effect on a subsequent interaction, this term indicates the process that mediates this effect."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18641616"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1157"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allostery"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1157",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Reciprocal energetic coupling between two binding events at distinct sites on the same molecule. The first binding event alters the binding or catalytic properties of the molecule for the second binding event."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:18641616"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:18706817"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1156"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1156"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1156",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1156",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1158"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pre-assembly"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1158",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A non-allosteric mechanism where the strength of an interaction depends on whether or not a particular molecular complex already exists."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18641616"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1156"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1156"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1156",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1156",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1159"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allosteric molecule"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1159",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A molecule whose binding or catalytic properties at one site are altered by allosteric post-translational modification or binding of an allosteric effector at a distinct site. An allosteric molecule is identified by referring to its participant id."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0500",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0500",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0500",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0500",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1160"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allosteric effector"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1160",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A ligand that elicits an allosteric response upon binding to a target molecule."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0500",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0500",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0500",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0500",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1161"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allosteric response"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1161",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "This term describes the effect of an allosteric binding event. It specifies which properties of the allosteric molecule are altered, i.e. whether the interaction alters either (a) binding or (b) catalytic properties of the allosteric molecule at a site distinct from the allosteric site."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1162"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allosteric k-type response"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1162",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An allosteric response in which the affinity of a molecule is altered."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1161"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1161"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1161",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1161",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1163"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allosteric v-type response"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1163",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An allosteric response in which catalysis (kcat or Vmax) of an enzyme is altered."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1161"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1161"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1161",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1161",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1164"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allosteric mechanism"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1164",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The process that mediates the allosteric response of a molecule upon allosteric post-translational modification or binding of an allosteric effector."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1165"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allosteric change in structure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1165",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The allosteric mechanism where changes in the local structure of an allosteric molecule result in altered binding or catalytic properties."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1164"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1164"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1164",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1164",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1166"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allosteric change in dynamics"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1166",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The allosteric mechanism where changes in the local dynamics of an allosteric molecule result in altered binding or catalytic properties."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1164"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1164"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1164",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1164",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1167"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allostery type"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1167",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This term indicates the chemical relationship between the two ligands whose binding is allosterically coupled."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1168"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "heterotropic allostery"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1168",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The type of allostery that occurs when the two ligands whose binding is allosterically coupled are not chemically identical."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1167"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1167"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1167",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1167",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1169"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "homotropic allostery"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1169",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The type of allostery that occurs when the two ligands whose binding is allosterically coupled are chemically identical."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1167"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1167"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1167",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1167",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1170"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pre-assembly response"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1170",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This term describes the way in which preformation of a molecular complex has a non-allosteric cooperative effect on subsequent interactions of its components."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18641616"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1149",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1149",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1171"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "composite binding site formation"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1171",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The preformation of a complex results in the generation of a continuous binding site that spans more than one component of this complex. The functional binding site does not exist outside the context of the preformed complex."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18641616"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1170"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1170"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1170",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1170",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1172"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "altered physicochemical compatibility"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1172",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The addition of a PTM to an interaction interface affects the physicochemical compatibility of the binding site with its binding partner. This can either induce or enhance an interaction, or result in inhibition or even abrogation of an interaction. Multisite modification can mediate rheostatic regulation of the interaction."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:22480932"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1170"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1170"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1170",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1170",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1173"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "binding site hiding"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1173",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The occurrence of overlapping or adjacent, mutually exclusive binding sites promotes competitive binding. When there is a large difference in affinity of the different sites or in local abundance of competitors, binding at one site results in hiding of the second site, thereby precluding it from interacting when the hiding molecule is present."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:22480932"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1170"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1170"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1170",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1170",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1174"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "configurational pre-organization"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1174",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Multivalent ligands form multiple discrete interactions with one or more binding partners. In some cases, An initial binding event can pre-organize other sites for binding. This reduces the degrees of freedom of these sites, thus reducing the entropic costs of their interactions. In addition, the combined strength of multiple interactions increases the enthalpic stability of each interaction (avidity effect). As a result of such effects, interactions of this kind can have a cooperative effect on subsequent interactions."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18641616"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1170"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1170"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1170",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_1170",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1175"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "allosteric post-translational modification"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1175",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A post-translational modification that elicits an allosteric response upon addition to a target molecule. An allosteric post-translational modification is identified by referring to its feature id."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18706817"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0252",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0252",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0252",
+      "http://purl.obolibrary.org/obo/MI_0116",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0252",
+      "http://purl.obolibrary.org/obo/MI_0116",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0664",
+      "http://purl.obolibrary.org/obo/MI_0590",
+      "http://purl.obolibrary.org/obo/MI_1149"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1176"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sequence based prediction of gene regulatory region binding sites"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1176",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Sequence analysis of the regulatory region of a gene used to predict specific elements, transcription factor binding sites (TFBS), where binding of specific transcription factors can occur."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:15131651"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0101",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0101",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0101",
+      "http://purl.obolibrary.org/obo/MI_0063",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0101",
+      "http://purl.obolibrary.org/obo/MI_0063",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1177"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "phylogenetic profiling of predicted gene regulatory region binding sites"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1177",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Sequence analysis based on multiple homologous alignments of the regulatory region of a gene used to predict specific elements, transcription factor binding sites (TFBS), where binding of specific transcription factors can occur. These methods often also use transcription factor binding motif models."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:12671656"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MI_0100",
+      "http://purl.obolibrary.org/obo/MI_1176"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MI_0100",
+      "http://purl.obolibrary.org/obo/MI_1176"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0100",
+      "http://purl.obolibrary.org/obo/MI_0058",
+      "http://purl.obolibrary.org/obo/MI_0063",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0101",
+      "http://purl.obolibrary.org/obo/MI_1176"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0100",
+      "http://purl.obolibrary.org/obo/MI_0058",
+      "http://purl.obolibrary.org/obo/MI_0063",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0101",
+      "http://purl.obolibrary.org/obo/MI_1176"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1178"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sequence based prediction of binding of transcription factor to transcribed gene regulatory elements"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1178",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Computational methods based on evolutionary hypothesis, used as criteria to browse sequences and predict a transcription factor using structural and sequence features of the protein, e.g., by evaluating if the potential transcription factor protein contains a DNA-binding domain that is known to bind to some regulatory elements, or prediction of transcription factor functional domains (DNA binding, transcription factor dimerization, etc.), all based on sequence or structural features of the transcription factor."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:16381970"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0101",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0101",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0101",
+      "http://purl.obolibrary.org/obo/MI_0063",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0101",
+      "http://purl.obolibrary.org/obo/MI_0063",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1179"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "partial nucleotide sequence identification"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1179",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Identification of a part of a nucleotide sequence, usually then related to the full length sequence by alignment. Depending on the experimental design, nucleotide sequence can be determined before the interaction detection while building a collection of clones or after the selection of randomly generated clone.s"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:14755292"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 10,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1180"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "partial DNA sequence identification"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1180",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Identification of a part of a DNA sequence, usually then related to the full length sequence by alignment. Depending on the experimental design, nucleotide sequence can be determined before the interaction detection while building a collection of clones or after the selection of randomly generated clones."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:14755292"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1179",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1179",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1181"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "paired end tags sequence identification"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1181",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Paired-end tags (PET) are the short sequences at the 5 prime and 3 prime ends of the DNA fragment of interest, which can be a piece of genomic DNA or cDNA."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:19339662"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1180",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1180",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1180",
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1180",
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1182"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "full identification by RNA sequencing"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1182",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequencing occurs during the course of the experiment. To sequence RNA, the usual method is first to reverse transcribe the sample to generate cDNA fragments."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1183"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "nuclease footprinting"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1183",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Binding of a molecule to a strand of nucleic acid protects that region of nucleic acid from the action of a nuclease. The protected region can subsequently be sequenced and the binding site identified."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:7685766"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0605",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0605",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0605",
+      "http://purl.obolibrary.org/obo/MI_0417",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0605",
+      "http://purl.obolibrary.org/obo/MI_0417",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1184"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dna adenine methyltransferase identification"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1184",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "DNA adenine methyltransferase identification is used to map the binding sites of DNA- and chromatin-binding proteins in eukaryotes. DamID identifies binding sites by expressing the proposed DNA-binding protein as a fusion protein with DNA methyltransferase. Binding of the protein of interest to DNA localizes the methyltransferase in the region of the binding site. Adenosine methylation does not occur naturally in eukaryotes and therefore adenine methylation in any region can be concluded to have been caused by the fusion protein, implying the region is located near a binding site."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:10748524"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1313",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1313",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1313",
+      "http://purl.obolibrary.org/obo/MI_2198",
+      "http://purl.obolibrary.org/obo/MI_2197",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1313",
+      "http://purl.obolibrary.org/obo/MI_2198",
+      "http://purl.obolibrary.org/obo/MI_2197",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1185"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tag visualisation by dna adenine methyltransferase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1185",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Proteins of interest are tagged with Escherichia coli DNA adenine methyltransferase (dam). Expression of this fusion protein in vivo leads to preferential methylation of adenines in DNA surrounding the native binding sites of the dam fusion partner. Because adenine methylation does not occur endogenously in most eukaryotes, it provides a unique tag to mark protein interaction sites. The adenine-methylated DNA fragments are isolated by selective polymerase chain reaction amplification and can be identified by microarray hybridization."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:10748524"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0980",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0980",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0980",
+      "http://purl.obolibrary.org/obo/MI_0866",
+      "http://purl.obolibrary.org/obo/MI_0396",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0980",
+      "http://purl.obolibrary.org/obo/MI_0866",
+      "http://purl.obolibrary.org/obo/MI_0396",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1186"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dna methyltransferase tag"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1186",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The protein of interest is fused to Escherichia coli DNA adenine methyltransferase (dam). Expression of this fusion protein in vivo leads to preferential methylation of adenines in DNA surrounding the native binding sites of the dam fusion partner. Because adenine methylation does not occur endogenously in most eukaryotes, it provides a unique tag to mark protein interaction sites."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:10748524"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0365",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0365",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0365",
+      "http://purl.obolibrary.org/obo/MI_0240",
+      "http://purl.obolibrary.org/obo/MI_0507",
+      "http://purl.obolibrary.org/obo/MI_0505",
+      "http://purl.obolibrary.org/obo/MI_0116",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0365",
+      "http://purl.obolibrary.org/obo/MI_0240",
+      "http://purl.obolibrary.org/obo/MI_0507",
+      "http://purl.obolibrary.org/obo/MI_0505",
+      "http://purl.obolibrary.org/obo/MI_0116",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1187"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "damip"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1187",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A mutant form of DNA adenine methyltransferase (DamK9A) from E. coli is fused to the protein of interest and expressed. The fusion protein will bind to target binding sites and introduce N-6-adenine methylation in nearby sites in the genomic DNA. Methylated DNA fragments are enriched with an antibody against N-6-methyladenine and used for further analysis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:21472695"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1184",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1184",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1184",
+      "http://purl.obolibrary.org/obo/MI_1313",
+      "http://purl.obolibrary.org/obo/MI_2198",
+      "http://purl.obolibrary.org/obo/MI_2197",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1184",
+      "http://purl.obolibrary.org/obo/MI_1313",
+      "http://purl.obolibrary.org/obo/MI_2198",
+      "http://purl.obolibrary.org/obo/MI_2197",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1188"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tag visualisation by mutated dna adenine methyltransferase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1188",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A mutant form of DNA adenine methyltransferase (DamK9A) from E. coli is fused to the protein of interest and expressed. The fusion protein will bind to target binding sites and introduce N-6-adenine methylation in nearby sites in the genomic DNA."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1185",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1185",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1185",
+      "http://purl.obolibrary.org/obo/MI_0980",
+      "http://purl.obolibrary.org/obo/MI_0866",
+      "http://purl.obolibrary.org/obo/MI_0396",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1185",
+      "http://purl.obolibrary.org/obo/MI_0980",
+      "http://purl.obolibrary.org/obo/MI_0866",
+      "http://purl.obolibrary.org/obo/MI_0396",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1189"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "methylation interference assay"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1189",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "In interference assays, the DNA will be methylated before the binding assay.  Protein binding to DNA protects DNA from methylation  by dimethylsulphate. If the contact points are methylated, the protein binding is prevented. After isolating the protein-DNA complex, the methylation sites are cleaved by chemical method. As a result, only those regions out of the binding sites will be cleaved. The protein binding region is not methylated; hence, this region is not cleaved. Although the pattern looks like a footprint, the blank region means \"contact points\"."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:21720958"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0605",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0605",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0605",
+      "http://purl.obolibrary.org/obo/MI_0417",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0605",
+      "http://purl.obolibrary.org/obo/MI_0417",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1190"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hydroxy radical footprinting"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1190",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Hydroxyl radicals are created from the Fenton reaction, which involves reducing Fe2+ with H2O2 to form free hydroxyl molecules. These hydroxyl molecules react with the DNA backbone, resulting in a break. Protein bound regions of the DNA are protected."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:3090544"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0602",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0602",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0602",
+      "http://purl.obolibrary.org/obo/MI_0417",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0602",
+      "http://purl.obolibrary.org/obo/MI_0417",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1191"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ultraviolet (uv) footprinting"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1191",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Ultraviolet irradiation excites nucleic acids and creates photoreactions, which results in damaged bases in the DNA strand. Protein bound regions of the DNA are protected. UV footprinting technique can detect sequence-specific protein-DNA interactions in vivo. Protein contacts can inhibit of enhance UV photoproduct formation by affecting the ability of DNA to adopt a geometry necessary for the formation of a UV photoproduct. Thus, differences in the strand-breakage patterns of protein-free and protein-bound DNA can be used to detect protein-DNA contacts."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:2842760"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:6728031"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0417",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0417",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0417",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0417",
+      "http://purl.obolibrary.org/obo/MI_0401",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1192"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "antisense oligonucleotides"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1192",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "This approach is based on the observation that  a synthesized nucleic acid that is complementary to a specific mRNA can decrease the synthesis of its gene product either by increasing the degradation of the targeted mRNA or by interfering with its translation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:14755292"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0255",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0255",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0255",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0255",
+      "http://purl.obolibrary.org/obo/MI_0045",
+      "http://purl.obolibrary.org/obo/MI_0001",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1193"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "partial RNA sequence identification"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1193",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Identification of a part of a RNA sequence, usually then related to the full length sequence by alignment."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:14755292"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1179",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1179",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1194"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "reverse transcription pcr"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1194",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Reverse Transcription PCR (RT-PCR) is used for amplifying DNA from RNA. Reverse transcriptase reverse transcribes RNA into cDNA, which is then amplified by PCR."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:12958470"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0088",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0088",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0088",
+      "http://purl.obolibrary.org/obo/MI_0080",
+      "http://purl.obolibrary.org/obo/MI_1180",
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0088",
+      "http://purl.obolibrary.org/obo/MI_0080",
+      "http://purl.obolibrary.org/obo/MI_1180",
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1195"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "quantitative pcr"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1195",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Quantitative PCR (Q-PCR) is used to measure the quantity of a PCR product (commonly in real-time). It quantitatively measures starting amounts of DNA, cDNA, or RNA."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:12958470"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0088",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0088",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0088",
+      "http://purl.obolibrary.org/obo/MI_0080",
+      "http://purl.obolibrary.org/obo/MI_1180",
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0088",
+      "http://purl.obolibrary.org/obo/MI_0080",
+      "http://purl.obolibrary.org/obo/MI_1180",
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1196"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "quantitative reverse transcription pcr"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1196",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Technique used to measure the quantity of DNA amplified from RNA."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:12958470"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_1194",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_1194",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1194",
+      "http://purl.obolibrary.org/obo/MI_0088",
+      "http://purl.obolibrary.org/obo/MI_0080",
+      "http://purl.obolibrary.org/obo/MI_1180",
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_1194",
+      "http://purl.obolibrary.org/obo/MI_0088",
+      "http://purl.obolibrary.org/obo/MI_0080",
+      "http://purl.obolibrary.org/obo/MI_1180",
+      "http://purl.obolibrary.org/obo/MI_1179",
+      "http://purl.obolibrary.org/obo/MI_0078",
+      "http://purl.obolibrary.org/obo/MI_0659",
+      "http://purl.obolibrary.org/obo/MI_0003",
+      "http://purl.obolibrary.org/obo/MI_0000",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MI:1197"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "radioimmunoassay"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MI_1197",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "To perform a radioimmunoassay, a known quantity of an antigen is made radioactive, frequently by labeling it with gamma-radioactive isotopes of iodine attached to tyrosine. This radiolabeled antigen is then mixed with a known amount of antibody for that antigen, and as a result, the two chemically bind to one another. Then, a sample containing an unknown quantity of that same antigen is added. This causes the unlabeled (or \"cold\") antigen from the serum to compete with the radiolabeled antigen (\"hot\") for antibody binding sites. As the concentration of \"cold\" antigen is increased, more of it binds to the antibody, displacing the radiolabeled variant, and reducing the ratio of antibody-bound radiolabeled antigen to free radiolabeled antigen. The bound antigens are then separated from the unbound ones, and the radioactivity of the free antigen remaining in the supernatant is measured."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:13846364."
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MI_0421",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MI_0421",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0421",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MI_0421",
+      "http://purl.obolibrary.org/obo/MI_0661",
+      "http://purl.obolibrary.org/obo/MI_0002",
+      "http://purl.obolibrary.org/obo/MI_0000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

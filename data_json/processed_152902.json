@@ -1,0 +1,2410 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3927"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Network analysis"
+    },
+    "iri": "http://edamontology.org/operation_3927",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Generate, process or analyse a biological network."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2945",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2945",
+    "directAncestor": [
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3928"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Pathway analysis"
+    },
+    "iri": "http://edamontology.org/operation_3928",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Generate, process or analyse a biological pathway."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2945",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2945",
+    "directAncestor": [
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3929"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Metabolic pathway prediction"
+    },
+    "iri": "http://edamontology.org/operation_3929",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Predict a metabolic pathway."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_3928"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_3928"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3928",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3928",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3933"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Demultiplexing"
+    },
+    "iri": "http://edamontology.org/operation_3933",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Assigning sequence reads to separate groups / files based on their index tag (sample origin)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "NGS sequence runs are often performed with multiple samples pooled together. In such cases, an index tag (or \"barcode\") - a unique sequence of between 6 and 12bp - is ligated to each sample's genetic material so that the sequence reads from different samples can be identified. The process of demultiplexing (dividing sequence reads into separate files for each index tag/sample) may be performed automatically by the sequencing hardware. Alternatively the reads may be lumped together in one file with barcodes still attached, requiring you to do the splitting using software. In such cases, a \"mapping\" file is used which indicates which barcodes correspond to which samples."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3921",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3921",
+    "directAncestor": [
+      "http://edamontology.org/operation_3921",
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3921",
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3935"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Dimensionality reduction"
+    },
+    "iri": "http://edamontology.org/operation_3935",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A process used in statistics, machine learning, and information theory that reduces the number of random variables by obtaining a set of principal variables."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3438",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3438",
+    "directAncestor": [
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3936"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Feature selection"
+    },
+    "iri": "http://edamontology.org/operation_3936",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A dimensionality reduction process that selects a subset of relevant features (variables, predictors) for use in model construction."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3935",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3935",
+    "directAncestor": [
+      "http://edamontology.org/operation_3935",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3935",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3937"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Feature extraction"
+    },
+    "iri": "http://edamontology.org/operation_3937",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A dimensionality reduction process which builds (ideally) informative and non-redundant values (features) from an initial set of measured data, to aid subsequent generalization, learning or interpretation."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3935",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3935",
+    "directAncestor": [
+      "http://edamontology.org/operation_3935",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3935",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3938"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Virtual screening"
+    },
+    "iri": "http://edamontology.org/operation_3938",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Virtual screening is used in drug discovery to identify potential drug compounds. It involves searching libraries of small molecules in order to identify those molecules which are most likely to bind to a drug target (typically a protein receptor or enzyme)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Virtual screening is widely used for lead identification, lead optimization, and scaffold hopping during drug design and discovery."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_0482",
+      "http://edamontology.org/operation_4009"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_0482",
+      "http://edamontology.org/operation_4009"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_0482",
+      "http://edamontology.org/operation_0478",
+      "http://edamontology.org/operation_1777",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_4009",
+      "http://edamontology.org/operation_2430"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0482",
+      "http://edamontology.org/operation_0478",
+      "http://edamontology.org/operation_1777",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_2480",
+      "http://edamontology.org/operation_4009",
+      "http://edamontology.org/operation_2430"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3942"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Tree dating"
+    },
+    "iri": "http://edamontology.org/operation_3942",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The application of phylogenetic and other methods to estimate paleogeographical events such as speciation."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0324",
+    "directAncestor": [
+      "http://edamontology.org/operation_0324",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0324",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3946"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ecological modelling"
+    },
+    "iri": "http://edamontology.org/operation_3946",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The development and use of mathematical models and systems analysis for the description of ecological processes, and applications such as the sustainable management of resources."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_0286",
+      "http://edamontology.org/operation_2426"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_0286",
+      "http://edamontology.org/operation_2426"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_0286",
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2426"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0286",
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2426"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3947"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Phylogenetic tree reconciliation"
+    },
+    "iri": "http://edamontology.org/operation_3947",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Mapping between gene tree nodes and species tree nodes or branches, to analyse and account for possible differences between gene histories and species histories, explaining this in terms of gene-scale events such as duplication, loss, transfer etc."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Methods typically test for topological similarity between trees using for example a congruence index."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0325",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0325",
+    "directAncestor": [
+      "http://edamontology.org/operation_0325",
+      "http://edamontology.org/operation_0324",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2424"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0325",
+      "http://edamontology.org/operation_0324",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2424"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3950"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Selection detection"
+    },
+    "iri": "http://edamontology.org/operation_3950",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The detection of genetic selection, or (the end result of) the process by which certain traits become more prevalent in a species than other traits."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2478",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2478",
+    "directAncestor": [
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3960"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Principal component analysis"
+    },
+    "iri": "http://edamontology.org/operation_3960",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2238",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2238",
+    "directAncestor": [
+      "http://edamontology.org/operation_2238",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2238",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3961"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Copy number variation detection"
+    },
+    "iri": "http://edamontology.org/operation_3961",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identify where sections of the genome are repeated and the number of repeats in the genome varies between individuals."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3228",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3228",
+    "directAncestor": [
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3962"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Deletion detection"
+    },
+    "iri": "http://edamontology.org/operation_3962",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identify deletion events causing the number of repeats in the genome to vary between individuals."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3961",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3961",
+    "directAncestor": [
+      "http://edamontology.org/operation_3961",
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3961",
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3963"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Duplication detection"
+    },
+    "iri": "http://edamontology.org/operation_3963",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identify duplication events causing the number of repeats in the genome to vary between individuals."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3961",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3961",
+    "directAncestor": [
+      "http://edamontology.org/operation_3961",
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3961",
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3964"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Complex CNV detection"
+    },
+    "iri": "http://edamontology.org/operation_3964",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identify copy number variations which are complex, e.g. multi-allelic variations that have many structural alleles and have rearranged multiple times in the ancestral genomes."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3961",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3961",
+    "directAncestor": [
+      "http://edamontology.org/operation_3961",
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3961",
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3965"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Amplification detection"
+    },
+    "iri": "http://edamontology.org/operation_3965",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identify amplification events causing the number of repeats in the genome to vary between individuals."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_3961",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_3961",
+    "directAncestor": [
+      "http://edamontology.org/operation_3961",
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_3961",
+      "http://edamontology.org/operation_3228",
+      "http://edamontology.org/operation_3197",
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:3968"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Adhesin prediction"
+    },
+    "iri": "http://edamontology.org/operation_3968",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Predict adhesins in protein sequences."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An adhesin is a cell-surface component that facilitate the adherence of a microorganism to a cell or surface. They are important virulence factors during establishment of infection and thus are targeted during vaccine development approaches that seek to block adhesin function and prevent adherence to host cell."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_2429",
+      "http://edamontology.org/operation_3092"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_2429",
+      "http://edamontology.org/operation_3092"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_2429",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3092",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_2479",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2429",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3092",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_2479",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:4008"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein design"
+    },
+    "iri": "http://edamontology.org/operation_4008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Design new protein molecules with specific structural or functional properties."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2430",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2430",
+    "directAncestor": [
+      "http://edamontology.org/operation_2430",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2430",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:4009"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Small molecule design"
+    },
+    "iri": "http://edamontology.org/operation_4009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The design of small molecules with specific biological activity, such as inhibitors or modulators for proteins that are of therapeutic interest. This can involve the modification of individual atoms, the addition or removal of molecular fragments, and the use reaction-based design to explore tractable synthesis options for the small molecule."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Small molecule design can involve assessment of target druggability and flexibility, molecular docking, in silico fragment screening, molecular dynamics, and homology modeling."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "There are two broad categories of small molecule design techniques when applied to the design of drugs: ligand-based drug design (e.g. ligand similarity) and structure-based drug design (ligand docking) methods. Ligand similarity methods exploit structural similarities to known active ligands, whereas ligand docking methods use the 3D structure of a target protein to predict the binding modes and affinities of ligands to it."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2430",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2430",
+    "directAncestor": [
+      "http://edamontology.org/operation_2430",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2430",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:4031"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Power test"
+    },
+    "iri": "http://edamontology.org/operation_4031",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The estimation of the power of a test; that is the probability of correctly rejecting the null hypothesis when it is false."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2238",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2238",
+    "directAncestor": [
+      "http://edamontology.org/operation_2238",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2238",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:4032"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "DNA modification prediction"
+    },
+    "iri": "http://edamontology.org/operation_4032",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The prediction of DNA modifications (e.g. N4-methylcytosine and N6-Methyladenine) using, for example, statistical models."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0415",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0415",
+    "directAncestor": [
+      "http://edamontology.org/operation_0415",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_0415",
+      "http://edamontology.org/operation_2423",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_2478",
+      "http://edamontology.org/operation_2403",
+      "http://edamontology.org/operation_2945"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:4033"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Disease transmission analysis"
+    },
+    "iri": "http://edamontology.org/operation_4033",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The analysis and simulation of disease transmission using, for example, statistical methods such as the SIR-model."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_3664",
+      "http://edamontology.org/operation_2426"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_3664",
+      "http://edamontology.org/operation_2426"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3664",
+      "http://edamontology.org/operation_2238",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_2426"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2945",
+      "http://edamontology.org/operation_0004",
+      "http://edamontology.org/operation_3664",
+      "http://edamontology.org/operation_2238",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_2426"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:4034"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Multiple testing correction"
+    },
+    "iri": "http://edamontology.org/operation_4034",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The correction of p-values from multiple statistical tests to correct for false positives."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2238",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2238",
+    "directAncestor": [
+      "http://edamontology.org/operation_2238",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2238",
+      "http://edamontology.org/operation_3438",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:4042"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Data management planning"
+    },
+    "iri": "http://edamontology.org/operation_4042",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Data management planning is the process of creating and updating a data management plan (DMP) for a project or an organisation."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Good data management planning prevents unexpected legal issues or extra costs related to usage, sharing, storage, or archival of data."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Policies often require the submission of a data management plan (DMP) together with a project proposal. A detailed, revised version of the DMP may be required as part of the project's final report."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_0004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_0004",
+    "directAncestor": "http://edamontology.org/operation_0004",
+    "hierarchicalAncestor": "http://edamontology.org/operation_0004",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "operation:4043"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Data digitisation"
+    },
+    "iri": "http://edamontology.org/operation_4043",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Data digitisation is the process of converting analog data, text, or information into a digital format, appropriate for computational analysis and preservation."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/operation_2409",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/operation_2409",
+    "directAncestor": [
+      "http://edamontology.org/operation_2409",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/operation_2409",
+      "http://edamontology.org/operation_0004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0077"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Nucleic acids"
+    },
+    "iri": "http://edamontology.org/topic_0077",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The processing and analysis of nucleic acid sequence, structural and other data."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_3307",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_3307",
+    "directAncestor": [
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 15,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 15,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0078"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Proteins"
+    },
+    "iri": "http://edamontology.org/topic_0078",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Archival, processing and analysis of protein data, typically molecular sequence and structural data."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_3307",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_3307",
+    "directAncestor": [
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 19,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 19,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0079"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Metabolites"
+    },
+    "iri": "http://edamontology.org/topic_0079",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The structures of reactants or products of metabolism, for example small molecules such as including vitamins, polyols, nucleotides and amino acids."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0080"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Sequence analysis"
+    },
+    "iri": "http://edamontology.org/topic_0080",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The archival, processing and analysis of molecular sequences (monomer composition of polymers) including molecular sequence data resources, sequence sites, alignments, motifs and profiles."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_3307",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_3307",
+    "directAncestor": [
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 8,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 8,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0081"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Structure analysis"
+    },
+    "iri": "http://edamontology.org/topic_0081",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The curation, processing, analysis and prediction of data about the structure of biological molecules, typically proteins and nucleic acids and other macromolecules."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This includes related concepts such as structural properties, alignments and structural motifs."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_3307",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_3307",
+    "directAncestor": [
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 13,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 13,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0082"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Structure prediction"
+    },
+    "iri": "http://edamontology.org/topic_0082",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The prediction of molecular structure, including the prediction, modelling, recognition or design of protein secondary or tertiary structure or other structural features, and the folding of nucleic acid molecules and the prediction or design of nucleic acid (typically RNA) sequences with specific conformations."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This includes the recognition (prediction and assignment) of known protein structural domains or folds in protein sequence(s), for example by threading, or the alignment of molecular sequences to structures, structural (3D) profiles or templates (representing a structure or structure alignment)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_0081",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_0081",
+    "directAncestor": [
+      "http://edamontology.org/topic_0081",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_0081",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0083"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Alignment"
+    },
+    "iri": "http://edamontology.org/topic_0083",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The alignment (equivalence between sites) of molecular sequences, structures or profiles (representing a sequence or structure alignment)."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0084"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Phylogeny"
+    },
+    "iri": "http://edamontology.org/topic_0084",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The study of evolutionary relationships amongst organisms."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This includes diverse phylogenetic methods, including phylogenetic tree construction, typically from molecular sequence or morphological data, methods that simulate DNA sequence evolution, a phylogenetic tree or the underlying data, or which estimate or use molecular clock and stratigraphic (age) data, methods for studying gene evolution etc."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/topic_3299",
+      "http://edamontology.org/topic_3307"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/topic_3299",
+      "http://edamontology.org/topic_3307"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/topic_3299",
+      "http://edamontology.org/topic_3070",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003",
+      "http://edamontology.org/topic_3307"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_3299",
+      "http://edamontology.org/topic_3070",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003",
+      "http://edamontology.org/topic_3307"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0085"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Functional genomics"
+    },
+    "iri": "http://edamontology.org/topic_0085",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The study of gene or protein functions and their interactions in totality in a given organism, tissue, cell etc."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/topic_0622",
+      "http://edamontology.org/topic_1775"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/topic_0622",
+      "http://edamontology.org/topic_1775"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/topic_0622",
+      "http://edamontology.org/topic_3391",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003",
+      "http://edamontology.org/topic_1775",
+      "http://edamontology.org/topic_3307"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_0622",
+      "http://edamontology.org/topic_3391",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003",
+      "http://edamontology.org/topic_1775",
+      "http://edamontology.org/topic_3307"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0089"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ontology and terminology"
+    },
+    "iri": "http://edamontology.org/topic_0089",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The conceptualisation, categorisation and nomenclature (naming) of entities or phenomena within biology or bioinformatics. This includes formal ontologies, controlled vocabularies, structured glossary, symbols and terminology or other related resource."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_0605",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_0605",
+    "directAncestor": [
+      "http://edamontology.org/topic_0605",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_0605",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0090"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Information retrieval"
+    },
+    "iri": "http://edamontology.org/topic_0090",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The search and query of data sources (typically databases or ontologies) in order to retrieve entries or other information."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0091"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bioinformatics"
+    },
+    "iri": "http://edamontology.org/topic_0091",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The archival, curation, processing and analysis of complex biological data."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This includes data processing in general, including basic handling of files and databases, datatypes, workflows and annotation."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_0605",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_0605",
+    "directAncestor": [
+      "http://edamontology.org/topic_0605",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_0605",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0092"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Data visualisation"
+    },
+    "iri": "http://edamontology.org/topic_0092",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Rendering (drawing on a computer screen) or visualisation of molecular sequences, structures or other biomolecular data."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_3316",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_3316",
+    "directAncestor": [
+      "http://edamontology.org/topic_3316",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_3316",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0094"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Nucleic acid thermodynamics"
+    },
+    "iri": "http://edamontology.org/topic_0094",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The study of the thermodynamic properties of a nucleic acid."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0097"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Nucleic acid structure analysis"
+    },
+    "iri": "http://edamontology.org/topic_0097",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The archival, curation, processing and analysis of nucleic acid structural information, such as whole structures, structural features and alignments, and associated annotation."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Includes secondary and tertiary nucleic acid structural data, nucleic acid thermodynamic, thermal and conformational properties including DNA or DNA/RNA denaturation (melting) etc."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/topic_0077",
+      "http://edamontology.org/topic_0081"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/topic_0077",
+      "http://edamontology.org/topic_0081"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/topic_0077",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003",
+      "http://edamontology.org/topic_0081"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_0077",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003",
+      "http://edamontology.org/topic_0081"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0099"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "RNA"
+    },
+    "iri": "http://edamontology.org/topic_0099",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "RNA sequences and structures."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_0077",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_0077",
+    "directAncestor": [
+      "http://edamontology.org/topic_0077",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_0077",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0100"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Nucleic acid restriction"
+    },
+    "iri": "http://edamontology.org/topic_0100",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Topic for the study of restriction enzymes, their cleavage sites and the restriction of nucleic acids."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0102"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Mapping"
+    },
+    "iri": "http://edamontology.org/topic_0102",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The mapping of complete (typically nucleotide) sequences. Mapping (in the sense of short read alignment, or more generally, just alignment) has application in RNA-Seq analysis (mapping of transcriptomics reads), variant discovery (e.g. mapping of exome capture), and re-sequencing (mapping of WGS reads)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This includes resources that aim to identify, map or analyse genetic markers in DNA sequences, for example to produce a genetic (linkage) map of a chromosome or genome or to analyse genetic linkage and synteny. It also includes resources for physical (sequence) maps of a DNA sequence showing the physical distance (base pairs) between features or landmarks such as restriction sites, cloned DNA fragments, genes and other genetic markers. It also covers for example the alignment of sequences of (typically millions) of short reads to a reference genome."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_0080",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_0080",
+    "directAncestor": [
+      "http://edamontology.org/topic_0080",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_0080",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0107"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Genetic codes and codon usage"
+    },
+    "iri": "http://edamontology.org/topic_0107",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The study of codon usage in nucleotide sequence(s), genetic codes and so on."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0108"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Protein expression"
+    },
+    "iri": "http://edamontology.org/topic_0108",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The translation of mRNA into protein and subsequent protein processing in the cell."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/topic_0078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/topic_0078",
+    "directAncestor": [
+      "http://edamontology.org/topic_0078",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/topic_0078",
+      "http://edamontology.org/topic_3307",
+      "http://edamontology.org/topic_4019",
+      "http://edamontology.org/topic_0003"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0109"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Gene finding"
+    },
+    "iri": "http://edamontology.org/topic_0109",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Methods that aims to identify, predict, model or analyse genes or gene structure in DNA sequences."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This includes the study of promoters, coding regions, splice sites, etc. Methods for gene prediction might be ab initio, based on phylogenetic comparisons, use motifs, sequence features, support vector machine, alignment etc."
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0110"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Transcription"
+    },
+    "iri": "http://edamontology.org/topic_0110",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The transcription of DNA into mRNA."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:0111"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Promoters"
+    },
+    "iri": "http://edamontology.org/topic_0111",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Promoters in DNA sequences (region of DNA that facilitates the transcription of a particular gene by binding RNA polymerase and transcription factor proteins)."
+    },
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "directAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hierarchicalAncestor": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

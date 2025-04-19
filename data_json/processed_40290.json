@@ -1,0 +1,4805 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990476"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "synaptic vesicle, resting pool"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990476",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A synaptic vesicle belonging to the pool that remain unreleased even after prolonged stimulation causes a saturating degree of vesicular turnover. 50-80% of the total number of synaptic vesicles at a resting terminal bouton are in this pool."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:pad"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:22745285"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0008021",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0008021",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0043195",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0008021",
+      "http://purl.obolibrary.org/obo/GO_0070382",
+      "http://purl.obolibrary.org/obo/GO_0030133",
+      "http://purl.obolibrary.org/obo/GO_0031410",
+      "http://purl.obolibrary.org/obo/GO_0097708",
+      "http://purl.obolibrary.org/obo/GO_0031982",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0099503"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0008021",
+      "http://purl.obolibrary.org/obo/GO_0070382",
+      "http://purl.obolibrary.org/obo/GO_0030133",
+      "http://purl.obolibrary.org/obo/GO_0031410",
+      "http://purl.obolibrary.org/obo/GO_0097708",
+      "http://purl.obolibrary.org/obo/GO_0031982",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000",
+      "http://purl.obolibrary.org/obo/GO_0005737",
+      "http://purl.obolibrary.org/obo/GO_0012505",
+      "http://purl.obolibrary.org/obo/GO_0099503",
+      "http://purl.obolibrary.org/obo/GO_0098793",
+      "http://purl.obolibrary.org/obo/CL_0000540",
+      "http://purl.obolibrary.org/obo/CL_0000393",
+      "http://purl.obolibrary.org/obo/CL_0000211",
+      "http://purl.obolibrary.org/obo/CL_0000404",
+      "http://purl.obolibrary.org/obo/CL_0002319",
+      "http://purl.obolibrary.org/obo/UBERON_0001016",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0010000",
+      "http://purl.obolibrary.org/obo/GO_0045202",
+      "http://purl.obolibrary.org/obo/GO_0030054",
+      "http://purl.obolibrary.org/obo/GO_0043195",
+      "http://purl.obolibrary.org/obo/GO_0043679",
+      "http://purl.obolibrary.org/obo/GO_0044306",
+      "http://purl.obolibrary.org/obo/GO_0043005",
+      "http://purl.obolibrary.org/obo/GO_0120025",
+      "http://purl.obolibrary.org/obo/GO_0042995",
+      "http://purl.obolibrary.org/obo/GO_0150034",
+      "http://purl.obolibrary.org/obo/GO_0030424"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990477"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "MTREC complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990477",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Protein complex formed by an RNA binding protein Red1, an RNA helicase Mtl1, Red5, Rmn1, Iss10/Pir1, and Ars2/Pir2. This complex is required for the recruitment of the nuclear exosome to Mmi1 nuclear focus. It is likely related to the human CBCN complex. This complex is also known as RNA silencing (NURS) complex."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24210919"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24713849"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:32012158"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0140513",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0140513",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0140513",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0140513",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005634",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990478"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "response to ultrasound"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990478",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an ultrasonic stimulus."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:20950932"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0009612",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0009612",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0009612",
+      "http://purl.obolibrary.org/obo/GO_0009605",
+      "http://purl.obolibrary.org/obo/GO_0050896",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009628"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0009612",
+      "http://purl.obolibrary.org/obo/GO_0009605",
+      "http://purl.obolibrary.org/obo/GO_0050896",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009628"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990481"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mRNA pseudouridine synthesis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990481",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The intramolecular conversion of uridine to pseudouridine in an mRNA molecule."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:25192136"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0001522",
+      "http://purl.obolibrary.org/obo/GO_0016556"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0001522",
+      "http://purl.obolibrary.org/obo/GO_0016556"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0001522",
+      "http://purl.obolibrary.org/obo/GO_0009451",
+      "http://purl.obolibrary.org/obo/GO_0016070",
+      "http://purl.obolibrary.org/obo/GO_0090304",
+      "http://purl.obolibrary.org/obo/GO_0006139",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0043412",
+      "http://purl.obolibrary.org/obo/GO_0016556",
+      "http://purl.obolibrary.org/obo/GO_0016071"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0001522",
+      "http://purl.obolibrary.org/obo/GO_0009451",
+      "http://purl.obolibrary.org/obo/GO_0016070",
+      "http://purl.obolibrary.org/obo/GO_0090304",
+      "http://purl.obolibrary.org/obo/GO_0006139",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0043412",
+      "http://purl.obolibrary.org/obo/GO_0016556",
+      "http://purl.obolibrary.org/obo/GO_0016071"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990482"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sphingolipid alpha-glucuronosyltransferase activity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990482",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Catalysis of the reaction: UDP-glucuronate + inositol phosphorylceramide (IPC) = UDP + GlcA-IPC."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:tb"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:25122154"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0008194",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0008194",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0008194",
+      "http://purl.obolibrary.org/obo/GO_0016757",
+      "http://purl.obolibrary.org/obo/GO_0016740",
+      "http://purl.obolibrary.org/obo/GO_0003824",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0008194",
+      "http://purl.obolibrary.org/obo/GO_0016757",
+      "http://purl.obolibrary.org/obo/GO_0016740",
+      "http://purl.obolibrary.org/obo/GO_0003824",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990484"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "aerobic lactate catabolic process"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990484",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The chemical reactions and pathways resulting in the breakdown of lactate (2-hydroxypropanoic acid) in the presence of oxygen."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:mengo_curators"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:8941775"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_1903457",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_1903457",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1903457",
+      "http://purl.obolibrary.org/obo/GO_0006089",
+      "http://purl.obolibrary.org/obo/GO_0032787",
+      "http://purl.obolibrary.org/obo/GO_0019752",
+      "http://purl.obolibrary.org/obo/GO_0043436",
+      "http://purl.obolibrary.org/obo/GO_0006082",
+      "http://purl.obolibrary.org/obo/GO_0044237",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0044281",
+      "http://purl.obolibrary.org/obo/GO_1901615",
+      "http://purl.obolibrary.org/obo/GO_0072329",
+      "http://purl.obolibrary.org/obo/GO_0046395",
+      "http://purl.obolibrary.org/obo/GO_0016054",
+      "http://purl.obolibrary.org/obo/GO_0044248",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0044282",
+      "http://purl.obolibrary.org/obo/GO_1901616"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1903457",
+      "http://purl.obolibrary.org/obo/GO_0006089",
+      "http://purl.obolibrary.org/obo/GO_0032787",
+      "http://purl.obolibrary.org/obo/GO_0019752",
+      "http://purl.obolibrary.org/obo/GO_0043436",
+      "http://purl.obolibrary.org/obo/GO_0006082",
+      "http://purl.obolibrary.org/obo/GO_0044237",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0044281",
+      "http://purl.obolibrary.org/obo/GO_1901615",
+      "http://purl.obolibrary.org/obo/GO_0072329",
+      "http://purl.obolibrary.org/obo/GO_0046395",
+      "http://purl.obolibrary.org/obo/GO_0016054",
+      "http://purl.obolibrary.org/obo/GO_0044248",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0044282",
+      "http://purl.obolibrary.org/obo/GO_1901616"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990485"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "anaerobic lactate catabolic process"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990485",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The chemical reactions and pathways resulting in the breakdown of lactate (2-hydroxypropanoic acid) in the absence of oxygen."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:mengo_curators"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:11133436"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_1903457",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_1903457",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1903457",
+      "http://purl.obolibrary.org/obo/GO_0006089",
+      "http://purl.obolibrary.org/obo/GO_0032787",
+      "http://purl.obolibrary.org/obo/GO_0019752",
+      "http://purl.obolibrary.org/obo/GO_0043436",
+      "http://purl.obolibrary.org/obo/GO_0006082",
+      "http://purl.obolibrary.org/obo/GO_0044237",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0044281",
+      "http://purl.obolibrary.org/obo/GO_1901615",
+      "http://purl.obolibrary.org/obo/GO_0072329",
+      "http://purl.obolibrary.org/obo/GO_0046395",
+      "http://purl.obolibrary.org/obo/GO_0016054",
+      "http://purl.obolibrary.org/obo/GO_0044248",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0044282",
+      "http://purl.obolibrary.org/obo/GO_1901616"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1903457",
+      "http://purl.obolibrary.org/obo/GO_0006089",
+      "http://purl.obolibrary.org/obo/GO_0032787",
+      "http://purl.obolibrary.org/obo/GO_0019752",
+      "http://purl.obolibrary.org/obo/GO_0043436",
+      "http://purl.obolibrary.org/obo/GO_0006082",
+      "http://purl.obolibrary.org/obo/GO_0044237",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0044281",
+      "http://purl.obolibrary.org/obo/GO_1901615",
+      "http://purl.obolibrary.org/obo/GO_0072329",
+      "http://purl.obolibrary.org/obo/GO_0046395",
+      "http://purl.obolibrary.org/obo/GO_0016054",
+      "http://purl.obolibrary.org/obo/GO_0044248",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0044282",
+      "http://purl.obolibrary.org/obo/GO_1901616"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990486"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "anaerobic fatty acid catabolic process"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990486",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The chemical reactions and pathways resulting in the breakdown of a fatty acid in the absence of oxygen. A fatty acid is any of the aliphatic monocarboxylic acids that can be liberated by hydrolysis from naturally occurring fats and oils. Fatty acids are predominantly straight-chain acids of 4 to 24 carbon atoms, which may be saturated or unsaturated; branched fatty acids and hydroxy fatty acids also occur, and very long chain acids of over 30 carbons are found in waxes."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:mengo_curators"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:17329794"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0009062",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0009062",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0009062",
+      "http://purl.obolibrary.org/obo/GO_0006631",
+      "http://purl.obolibrary.org/obo/GO_0032787",
+      "http://purl.obolibrary.org/obo/GO_0019752",
+      "http://purl.obolibrary.org/obo/GO_0043436",
+      "http://purl.obolibrary.org/obo/GO_0006082",
+      "http://purl.obolibrary.org/obo/GO_0044237",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0044281",
+      "http://purl.obolibrary.org/obo/GO_0044255",
+      "http://purl.obolibrary.org/obo/GO_0006629",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0044242",
+      "http://purl.obolibrary.org/obo/GO_0016042",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0044248",
+      "http://purl.obolibrary.org/obo/GO_0072329",
+      "http://purl.obolibrary.org/obo/GO_0046395",
+      "http://purl.obolibrary.org/obo/GO_0016054",
+      "http://purl.obolibrary.org/obo/GO_0044282"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0009062",
+      "http://purl.obolibrary.org/obo/GO_0006631",
+      "http://purl.obolibrary.org/obo/GO_0032787",
+      "http://purl.obolibrary.org/obo/GO_0019752",
+      "http://purl.obolibrary.org/obo/GO_0043436",
+      "http://purl.obolibrary.org/obo/GO_0006082",
+      "http://purl.obolibrary.org/obo/GO_0044237",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0044281",
+      "http://purl.obolibrary.org/obo/GO_0044255",
+      "http://purl.obolibrary.org/obo/GO_0006629",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0044242",
+      "http://purl.obolibrary.org/obo/GO_0016042",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0044248",
+      "http://purl.obolibrary.org/obo/GO_0072329",
+      "http://purl.obolibrary.org/obo/GO_0046395",
+      "http://purl.obolibrary.org/obo/GO_0016054",
+      "http://purl.obolibrary.org/obo/GO_0044282"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990487"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "anaerobic lignin catabolic process"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990487",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The chemical reactions and pathways resulting in the breakdown of lignin in the absence of oxygen. Lignin is a class of polymers of phenylpropanoid units."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "DOI:10.1039/C3EE40932E"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:mengo_curators"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0046274",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0046274",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0046274",
+      "http://purl.obolibrary.org/obo/GO_0009808",
+      "http://purl.obolibrary.org/obo/GO_0009698",
+      "http://purl.obolibrary.org/obo/GO_0019748",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0046271",
+      "http://purl.obolibrary.org/obo/GO_0009056"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0046274",
+      "http://purl.obolibrary.org/obo/GO_0009808",
+      "http://purl.obolibrary.org/obo/GO_0009698",
+      "http://purl.obolibrary.org/obo/GO_0019748",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0046271",
+      "http://purl.obolibrary.org/obo/GO_0009056"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990488"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "anaerobic cellulose catabolic process"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990488",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The chemical reactions and pathways resulting in the breakdown of cellulose, a linear beta1-4 glucan of molecular mass 50-400 kDa with the pyranose units in the -4C1 conformation, in absence of oxygen."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:mengo_curators"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:8561466"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0030245",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0030245",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0030245",
+      "http://purl.obolibrary.org/obo/GO_0030243",
+      "http://purl.obolibrary.org/obo/GO_0051273",
+      "http://purl.obolibrary.org/obo/GO_0044042",
+      "http://purl.obolibrary.org/obo/GO_0005976",
+      "http://purl.obolibrary.org/obo/GO_0005975",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0051275",
+      "http://purl.obolibrary.org/obo/GO_0009251",
+      "http://purl.obolibrary.org/obo/GO_0000272",
+      "http://purl.obolibrary.org/obo/GO_0009057",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0016052"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0030245",
+      "http://purl.obolibrary.org/obo/GO_0030243",
+      "http://purl.obolibrary.org/obo/GO_0051273",
+      "http://purl.obolibrary.org/obo/GO_0044042",
+      "http://purl.obolibrary.org/obo/GO_0005976",
+      "http://purl.obolibrary.org/obo/GO_0005975",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0051275",
+      "http://purl.obolibrary.org/obo/GO_0009251",
+      "http://purl.obolibrary.org/obo/GO_0000272",
+      "http://purl.obolibrary.org/obo/GO_0009057",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0016052"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990489"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "anaerobic pectin catabolic process"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990489",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The chemical reactions and pathways resulting in the breakdown of pectin, a polymer containing a backbone of alpha-1,4-linked D-galacturonic acid residues, in the absence of oxygen."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:mengo_curators"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:23079077"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0045490",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0045490",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0045490",
+      "http://purl.obolibrary.org/obo/GO_0000272",
+      "http://purl.obolibrary.org/obo/GO_0005976",
+      "http://purl.obolibrary.org/obo/GO_0005975",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0009057",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0016052",
+      "http://purl.obolibrary.org/obo/GO_0045488",
+      "http://purl.obolibrary.org/obo/GO_0010393"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0045490",
+      "http://purl.obolibrary.org/obo/GO_0000272",
+      "http://purl.obolibrary.org/obo/GO_0005976",
+      "http://purl.obolibrary.org/obo/GO_0005975",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0009057",
+      "http://purl.obolibrary.org/obo/GO_0009056",
+      "http://purl.obolibrary.org/obo/GO_0016052",
+      "http://purl.obolibrary.org/obo/GO_0045488",
+      "http://purl.obolibrary.org/obo/GO_0010393"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990490"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "archaeal proton-transporting A-type ATPase complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990490",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A large proton-transporting two-sector ATPase protein complex that catalyzes the synthesis or hydrolysis of ATP by a rotational mechanism, coupled to the transport of protons across a membrane and is found in Archaea."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:mengo_curators"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:15473999"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24650628"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0016469",
+      "http://purl.obolibrary.org/obo/GO_1904949"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0016469",
+      "http://purl.obolibrary.org/obo/GO_1904949"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0016469",
+      "http://purl.obolibrary.org/obo/GO_0098796",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_1904949",
+      "http://purl.obolibrary.org/obo/GO_1902494"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0016469",
+      "http://purl.obolibrary.org/obo/GO_0098796",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0016020",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_1904949",
+      "http://purl.obolibrary.org/obo/GO_1902494"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990491"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "methane biosynthetic process from methanol and hydrogen"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990491",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The chemical reactions and pathways resulting in the formation of methane from methanol and hydrogen."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:mengo_curators"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:16347126"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0019387",
+      "http://purl.obolibrary.org/obo/GO_1902421"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0019387",
+      "http://purl.obolibrary.org/obo/GO_1902421"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0019387",
+      "http://purl.obolibrary.org/obo/GO_0015945",
+      "http://purl.obolibrary.org/obo/GO_0034308",
+      "http://purl.obolibrary.org/obo/GO_0006066",
+      "http://purl.obolibrary.org/obo/GO_0044281",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_1901615",
+      "http://purl.obolibrary.org/obo/GO_0015948",
+      "http://purl.obolibrary.org/obo/GO_0009061",
+      "http://purl.obolibrary.org/obo/GO_0045333",
+      "http://purl.obolibrary.org/obo/GO_0015980",
+      "http://purl.obolibrary.org/obo/GO_0006091",
+      "http://purl.obolibrary.org/obo/GO_0044237",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0015947",
+      "http://purl.obolibrary.org/obo/GO_0043446",
+      "http://purl.obolibrary.org/obo/GO_0120252",
+      "http://purl.obolibrary.org/obo/GO_0015975",
+      "http://purl.obolibrary.org/obo/GO_0043447",
+      "http://purl.obolibrary.org/obo/GO_0044249",
+      "http://purl.obolibrary.org/obo/GO_0009058",
+      "http://purl.obolibrary.org/obo/GO_0120251",
+      "http://purl.obolibrary.org/obo/GO_1902421"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0019387",
+      "http://purl.obolibrary.org/obo/GO_0015945",
+      "http://purl.obolibrary.org/obo/GO_0034308",
+      "http://purl.obolibrary.org/obo/GO_0006066",
+      "http://purl.obolibrary.org/obo/GO_0044281",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_1901615",
+      "http://purl.obolibrary.org/obo/GO_0015948",
+      "http://purl.obolibrary.org/obo/GO_0009061",
+      "http://purl.obolibrary.org/obo/GO_0045333",
+      "http://purl.obolibrary.org/obo/GO_0015980",
+      "http://purl.obolibrary.org/obo/GO_0006091",
+      "http://purl.obolibrary.org/obo/GO_0044237",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0015947",
+      "http://purl.obolibrary.org/obo/GO_0043446",
+      "http://purl.obolibrary.org/obo/GO_0120252",
+      "http://purl.obolibrary.org/obo/GO_0015975",
+      "http://purl.obolibrary.org/obo/GO_0043447",
+      "http://purl.obolibrary.org/obo/GO_0044249",
+      "http://purl.obolibrary.org/obo/GO_0009058",
+      "http://purl.obolibrary.org/obo/GO_0120251",
+      "http://purl.obolibrary.org/obo/GO_1902421"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990497"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "regulation of cytoplasmic translation in response to stress"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990497",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Modulation of the frequency, rate or extent of cytoplasmic translation as a result of a stimulus indicating the organism is under stress. The stress is usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:vw"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:16278445"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0043555",
+      "http://purl.obolibrary.org/obo/GO_2000765"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0043555",
+      "http://purl.obolibrary.org/obo/GO_2000765"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0043555",
+      "http://purl.obolibrary.org/obo/GO_0006417",
+      "http://purl.obolibrary.org/obo/GO_0010608",
+      "http://purl.obolibrary.org/obo/GO_0010468",
+      "http://purl.obolibrary.org/obo/GO_0010556",
+      "http://purl.obolibrary.org/obo/GO_0031326",
+      "http://purl.obolibrary.org/obo/GO_0009889",
+      "http://purl.obolibrary.org/obo/GO_0019222",
+      "http://purl.obolibrary.org/obo/GO_0050789",
+      "http://purl.obolibrary.org/obo/GO_0065007",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0031323",
+      "http://purl.obolibrary.org/obo/GO_0050794",
+      "http://purl.obolibrary.org/obo/GO_0060255",
+      "http://purl.obolibrary.org/obo/GO_0051246",
+      "http://purl.obolibrary.org/obo/GO_0080090",
+      "http://purl.obolibrary.org/obo/GO_2000765"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0043555",
+      "http://purl.obolibrary.org/obo/GO_0006417",
+      "http://purl.obolibrary.org/obo/GO_0010608",
+      "http://purl.obolibrary.org/obo/GO_0010468",
+      "http://purl.obolibrary.org/obo/GO_0010556",
+      "http://purl.obolibrary.org/obo/GO_0031326",
+      "http://purl.obolibrary.org/obo/GO_0009889",
+      "http://purl.obolibrary.org/obo/GO_0019222",
+      "http://purl.obolibrary.org/obo/GO_0050789",
+      "http://purl.obolibrary.org/obo/GO_0065007",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0031323",
+      "http://purl.obolibrary.org/obo/GO_0050794",
+      "http://purl.obolibrary.org/obo/GO_0060255",
+      "http://purl.obolibrary.org/obo/GO_0051246",
+      "http://purl.obolibrary.org/obo/GO_0080090",
+      "http://purl.obolibrary.org/obo/GO_0033554",
+      "http://purl.obolibrary.org/obo/GO_0006950",
+      "http://purl.obolibrary.org/obo/GO_0050896",
+      "http://purl.obolibrary.org/obo/GO_0051716",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_2000765"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990498"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mitotic spindle microtubule"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990498",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Any microtubule that is part of a mitotic spindle; anchored at one spindle pole."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "GOC:vw"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0005876",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0005876",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0072686",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0005876",
+      "http://purl.obolibrary.org/obo/GO_0005874",
+      "http://purl.obolibrary.org/obo/GO_0099513",
+      "http://purl.obolibrary.org/obo/GO_0099512",
+      "http://purl.obolibrary.org/obo/GO_0099081",
+      "http://purl.obolibrary.org/obo/GO_0099080",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0005876",
+      "http://purl.obolibrary.org/obo/GO_0005874",
+      "http://purl.obolibrary.org/obo/GO_0099513",
+      "http://purl.obolibrary.org/obo/GO_0099512",
+      "http://purl.obolibrary.org/obo/GO_0099081",
+      "http://purl.obolibrary.org/obo/GO_0099080",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0005856",
+      "http://purl.obolibrary.org/obo/GO_0043232",
+      "http://purl.obolibrary.org/obo/GO_0043228",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000",
+      "http://purl.obolibrary.org/obo/GO_0015630",
+      "http://purl.obolibrary.org/obo/GO_0005819",
+      "http://purl.obolibrary.org/obo/GO_0072686"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990499"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "raps-insc complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990499",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Protein complex required for the asymmetric division of neuroblasts in Drosophila. Coordinates asymmetric localization of cell fate determinants with orientation of the mitotic spindle resulting in different daughter cells upon division. Localizes at the apical cortex of the neuroblast: Raps maintains, but does not initiate, Insc apically, while Insc segregates Raps asymmetrically. Complex appears to be conserved in mammals (composed of INSC and GPSM1 or GPSM2)."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "GOC:bhm"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:22171003"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An example of this is Insc in drome (Q9W2R4) in PMID:22171003 (inferred from physical interaction)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0045179",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0045179",
+      "http://purl.obolibrary.org/obo/GO_0099738",
+      "http://purl.obolibrary.org/obo/GO_0005938",
+      "http://purl.obolibrary.org/obo/GO_0005737",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000",
+      "http://purl.obolibrary.org/obo/GO_0071944",
+      "http://purl.obolibrary.org/obo/GO_0099568",
+      "http://purl.obolibrary.org/obo/GO_0045177"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990500"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "eif4e-cup complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990500",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A protein complex that causes translational repression in Drosophila. Prevents assembly of ribosomes at the mRNA by interfacing with a sequence-specific RNA-binding protein leading to recruitment of the CCR4 complex and consequently, reduction of the mRNA's poly(A) tail length. The complex is also required for dorso-ventral pattern formation in the embryo."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "GOC:bhm"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:14723848"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An example of this is Eif4e in drome (P48598) in PMID:14723848 (inferred from physical interaction)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_1903502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_1903502",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0000932",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1903502",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1903502",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0000932",
+      "http://purl.obolibrary.org/obo/GO_0036464",
+      "http://purl.obolibrary.org/obo/GO_0035770",
+      "http://purl.obolibrary.org/obo/GO_0043232",
+      "http://purl.obolibrary.org/obo/GO_0043228",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000",
+      "http://purl.obolibrary.org/obo/GO_0099080",
+      "http://purl.obolibrary.org/obo/GO_0005737"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990501"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "exon-exon junction subcomplex mago-y14"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990501",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Component of the core exon-exon-junction complex (EJC). Fairly conserved in eukaryotes; in Drosophila, consists of the Mago and Y14 (tsunagi) gene products. Important for coupling nuclear and cytoplasmic events in gene expression. Inhibits the ATPase activity of eIF4AIII (Q9VHS8) to ensure a stable association of the EJC core with the mRNA."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "GOC:bhm"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12730685"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An example of this is Mago in drome (P49028) in PMID:12730685 (inferred from direct assay)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0035145",
+      "http://purl.obolibrary.org/obo/GO_1903503"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0035145",
+      "http://purl.obolibrary.org/obo/GO_1903503"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0035145",
+      "http://purl.obolibrary.org/obo/GO_0140513",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_1903503"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0035145",
+      "http://purl.obolibrary.org/obo/GO_0140513",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005634",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000",
+      "http://purl.obolibrary.org/obo/GO_1903503"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990502"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dense core granule maturation"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990502",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Steps required to transform a dense core granule generated at the trans-Golgi network into a fully formed and transmissible dense core granule. Dense core granule maturation proceeds through clathrin-mediated membrane remodeling events and is essential for efficient processing of cargo within dense core granules as well as for removing factors that might otherwise interfere with dense core granule trafficking and exocytosis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:kmv"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:22654674"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0061792",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0061792",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0061792",
+      "http://purl.obolibrary.org/obo/GO_0033363",
+      "http://purl.obolibrary.org/obo/GO_0016050",
+      "http://purl.obolibrary.org/obo/GO_0006996",
+      "http://purl.obolibrary.org/obo/GO_0016043",
+      "http://purl.obolibrary.org/obo/GO_0071840",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0071695",
+      "http://purl.obolibrary.org/obo/GO_0021700",
+      "http://purl.obolibrary.org/obo/GO_0032502"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0061792",
+      "http://purl.obolibrary.org/obo/GO_0033363",
+      "http://purl.obolibrary.org/obo/GO_0016050",
+      "http://purl.obolibrary.org/obo/GO_0006996",
+      "http://purl.obolibrary.org/obo/GO_0016043",
+      "http://purl.obolibrary.org/obo/GO_0071840",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0010256",
+      "http://purl.obolibrary.org/obo/GO_0071695",
+      "http://purl.obolibrary.org/obo/GO_0021700",
+      "http://purl.obolibrary.org/obo/GO_0032502",
+      "http://purl.obolibrary.org/obo/GO_0048856"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990503"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dendritic lamellar body"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990503",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A specialized secretory organelle found in neurons and associated with the formation of dendrodendritic gap junctions."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:7869120"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0042599",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0042599",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0030425",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0042599",
+      "http://purl.obolibrary.org/obo/GO_0030141",
+      "http://purl.obolibrary.org/obo/GO_0099503",
+      "http://purl.obolibrary.org/obo/GO_0031410",
+      "http://purl.obolibrary.org/obo/GO_0097708",
+      "http://purl.obolibrary.org/obo/GO_0031982",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043229"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0042599",
+      "http://purl.obolibrary.org/obo/GO_0030141",
+      "http://purl.obolibrary.org/obo/GO_0099503",
+      "http://purl.obolibrary.org/obo/GO_0031410",
+      "http://purl.obolibrary.org/obo/GO_0097708",
+      "http://purl.obolibrary.org/obo/GO_0031982",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000",
+      "http://purl.obolibrary.org/obo/GO_0005737",
+      "http://purl.obolibrary.org/obo/GO_0012505",
+      "http://purl.obolibrary.org/obo/GO_0030425",
+      "http://purl.obolibrary.org/obo/GO_0043005",
+      "http://purl.obolibrary.org/obo/GO_0120025",
+      "http://purl.obolibrary.org/obo/GO_0042995",
+      "http://purl.obolibrary.org/obo/CL_0000540",
+      "http://purl.obolibrary.org/obo/CL_0000393",
+      "http://purl.obolibrary.org/obo/CL_0000211",
+      "http://purl.obolibrary.org/obo/CL_0000404",
+      "http://purl.obolibrary.org/obo/CL_0002319",
+      "http://purl.obolibrary.org/obo/UBERON_0001016",
+      "http://purl.obolibrary.org/obo/UBERON_0000467",
+      "http://purl.obolibrary.org/obo/UBERON_0000468",
+      "http://purl.obolibrary.org/obo/UBERON_0010000",
+      "http://purl.obolibrary.org/obo/GO_0097447",
+      "http://purl.obolibrary.org/obo/GO_0036477"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990504"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dense core granule exocytosis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990504",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The secretion of molecules (e.g. neuropeptides, insulin-related peptides or neuromodulators such as serotonin and dopamine) contained within a membrane-bounced dense core granule by fusion of the granule with the plasma membrane of a cell in response to increased cytosolic calcium levels."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:kmv"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:17553987"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24653208"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0017156",
+      "http://purl.obolibrary.org/obo/GO_0032253",
+      "http://purl.obolibrary.org/obo/GO_0051650"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0017156",
+      "http://purl.obolibrary.org/obo/GO_0032253",
+      "http://purl.obolibrary.org/obo/GO_0051650"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0017156",
+      "http://purl.obolibrary.org/obo/GO_0045055",
+      "http://purl.obolibrary.org/obo/GO_0006887",
+      "http://purl.obolibrary.org/obo/GO_0016192",
+      "http://purl.obolibrary.org/obo/GO_0006810",
+      "http://purl.obolibrary.org/obo/GO_0051234",
+      "http://purl.obolibrary.org/obo/GO_0051179",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0032940",
+      "http://purl.obolibrary.org/obo/GO_0046903",
+      "http://purl.obolibrary.org/obo/GO_0140352",
+      "http://purl.obolibrary.org/obo/GO_0032253",
+      "http://purl.obolibrary.org/obo/GO_0032252",
+      "http://purl.obolibrary.org/obo/GO_0051648",
+      "http://purl.obolibrary.org/obo/GO_0051640",
+      "http://purl.obolibrary.org/obo/GO_0051650",
+      "http://purl.obolibrary.org/obo/GO_0051649",
+      "http://purl.obolibrary.org/obo/GO_0051656"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0017156",
+      "http://purl.obolibrary.org/obo/GO_0045055",
+      "http://purl.obolibrary.org/obo/GO_0006887",
+      "http://purl.obolibrary.org/obo/GO_0016192",
+      "http://purl.obolibrary.org/obo/GO_0006810",
+      "http://purl.obolibrary.org/obo/GO_0051234",
+      "http://purl.obolibrary.org/obo/GO_0051179",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0032940",
+      "http://purl.obolibrary.org/obo/GO_0046903",
+      "http://purl.obolibrary.org/obo/GO_0140352",
+      "http://purl.obolibrary.org/obo/GO_0032253",
+      "http://purl.obolibrary.org/obo/GO_0032252",
+      "http://purl.obolibrary.org/obo/GO_0051648",
+      "http://purl.obolibrary.org/obo/GO_0051640",
+      "http://purl.obolibrary.org/obo/GO_0051650",
+      "http://purl.obolibrary.org/obo/GO_0051649",
+      "http://purl.obolibrary.org/obo/GO_0051641",
+      "http://purl.obolibrary.org/obo/GO_0051656"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990505"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mitotic DNA replication maintenance of fidelity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990505",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Any maintenance of fidelity that is involved in mitotic cell cycle DNA replication."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:19185548"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_1902298",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_1902298",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_1902969",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1902298",
+      "http://purl.obolibrary.org/obo/GO_0045005",
+      "http://purl.obolibrary.org/obo/GO_0006259",
+      "http://purl.obolibrary.org/obo/GO_0090304",
+      "http://purl.obolibrary.org/obo/GO_0006139",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1902298",
+      "http://purl.obolibrary.org/obo/GO_0045005",
+      "http://purl.obolibrary.org/obo/GO_0006259",
+      "http://purl.obolibrary.org/obo/GO_0090304",
+      "http://purl.obolibrary.org/obo/GO_0006139",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0006261",
+      "http://purl.obolibrary.org/obo/GO_0006260",
+      "http://purl.obolibrary.org/obo/GO_0044786",
+      "http://purl.obolibrary.org/obo/GO_0022402",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0007049",
+      "http://purl.obolibrary.org/obo/GO_1902969",
+      "http://purl.obolibrary.org/obo/GO_0033260",
+      "http://purl.obolibrary.org/obo/GO_1903047",
+      "http://purl.obolibrary.org/obo/GO_0000278"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990506"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mitotic DNA-templated DNA replication"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990506",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A DNA replication process that uses parental DNA as a template for the DNA-dependent DNA polymerases that synthesize the new strands during the mitotic cell cycle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:16120966"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_1902969",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_1902969",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1902969",
+      "http://purl.obolibrary.org/obo/GO_0033260",
+      "http://purl.obolibrary.org/obo/GO_0044786",
+      "http://purl.obolibrary.org/obo/GO_0006261",
+      "http://purl.obolibrary.org/obo/GO_0006260",
+      "http://purl.obolibrary.org/obo/GO_0006259",
+      "http://purl.obolibrary.org/obo/GO_0090304",
+      "http://purl.obolibrary.org/obo/GO_0006139",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0022402",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_1903047"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1902969",
+      "http://purl.obolibrary.org/obo/GO_0033260",
+      "http://purl.obolibrary.org/obo/GO_0044786",
+      "http://purl.obolibrary.org/obo/GO_0006261",
+      "http://purl.obolibrary.org/obo/GO_0006260",
+      "http://purl.obolibrary.org/obo/GO_0006259",
+      "http://purl.obolibrary.org/obo/GO_0090304",
+      "http://purl.obolibrary.org/obo/GO_0006139",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0022402",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0007049",
+      "http://purl.obolibrary.org/obo/GO_1903047",
+      "http://purl.obolibrary.org/obo/GO_0000278"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990508"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CKM complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990508",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Cyclin-dependent kinase complex which reversibly associates with the Mediator complex. In Saccharomyces cerevisiae it consists of SSN2, SSN3, SSN8 and SRB8."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "GOC:bhm"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12200444"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An example of this is SSN2 in Saccharomyces cerevisiae (P38931) in PMID:12200444 (inferred from physical interaction)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0019908",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0019908",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0019908",
+      "http://purl.obolibrary.org/obo/GO_0000307",
+      "http://purl.obolibrary.org/obo/GO_1902554",
+      "http://purl.obolibrary.org/obo/GO_1902911",
+      "http://purl.obolibrary.org/obo/GO_0061695",
+      "http://purl.obolibrary.org/obo/GO_1990234",
+      "http://purl.obolibrary.org/obo/GO_1902494",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0140513"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0019908",
+      "http://purl.obolibrary.org/obo/GO_0000307",
+      "http://purl.obolibrary.org/obo/GO_1902554",
+      "http://purl.obolibrary.org/obo/GO_1902911",
+      "http://purl.obolibrary.org/obo/GO_0061695",
+      "http://purl.obolibrary.org/obo/GO_1990234",
+      "http://purl.obolibrary.org/obo/GO_1902494",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0140513",
+      "http://purl.obolibrary.org/obo/GO_0005634",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990509"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "PYM-mago-Y14 complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990509",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Protein complex involved in the disassembly of Mago-Y14 from the spliced mRNA during first round of translation, independently of the translational machinery. Conserved from fission yeast to humans."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "GOC:bhm"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:14968132"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An example of this is wibg in Drosophila melanogaster (P82804) in PMID:14968132 (inferred from physical interaction)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990512"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cry-Per complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990512",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Nuclear transcriptional repressor complex that is capable of negatively regulating CLOCK-BMAL-dependent transactivation of genes in a delayed negative feedback manner which generates circadian rhythms."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "GOC:bhm"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:24855952"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An example of this is Cry1 in mouse (P97784) in PMID:24855952 (inferred from physical interaction)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0017053",
+      "http://purl.obolibrary.org/obo/GO_0140513"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0017053",
+      "http://purl.obolibrary.org/obo/GO_0140513"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0017053",
+      "http://purl.obolibrary.org/obo/GO_0005667",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0140513"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0017053",
+      "http://purl.obolibrary.org/obo/GO_0005667",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0140513",
+      "http://purl.obolibrary.org/obo/GO_0005634",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990513"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CLOCK-BMAL transcription complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990513",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Transcription factor complex which interacts with E-box regulatory elements in target genes, including Period (Per1, Per2, Per3) and Cryptochrome (Cry1, Cry2), to activate their transcription during the daytime. The CRY-PER complexes inhibit CLOCK-BMAL1-driven transcription in a negative feedback loop to generate circadian rhythms."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "GOC:bhm"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:23229515"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An example of this is CLOCK in human (O15516) in PMID:23229515 (inferred from physical interaction)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0090575",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0090575",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0090575",
+      "http://purl.obolibrary.org/obo/GO_0005667",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0140513"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0090575",
+      "http://purl.obolibrary.org/obo/GO_0005667",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0140513",
+      "http://purl.obolibrary.org/obo/GO_0005634",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990514"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "5' transitive RNA interference"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990514",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An RNA interference where the silencing signal spreads 5' along the target mRNA, outside of the initial target sequence. Typically involves the formation of secondary siRNAs formed when the initial mRNA target sequence functions as a template for 5' to 3' synthesis of new dsRNA."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:pf"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24369430"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0036453",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0036453",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0036453",
+      "http://purl.obolibrary.org/obo/GO_0035194",
+      "http://purl.obolibrary.org/obo/GO_0016441",
+      "http://purl.obolibrary.org/obo/GO_0010608",
+      "http://purl.obolibrary.org/obo/GO_0010468",
+      "http://purl.obolibrary.org/obo/GO_0010556",
+      "http://purl.obolibrary.org/obo/GO_0031326",
+      "http://purl.obolibrary.org/obo/GO_0009889",
+      "http://purl.obolibrary.org/obo/GO_0019222",
+      "http://purl.obolibrary.org/obo/GO_0050789",
+      "http://purl.obolibrary.org/obo/GO_0065007",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0031323",
+      "http://purl.obolibrary.org/obo/GO_0050794",
+      "http://purl.obolibrary.org/obo/GO_0060255",
+      "http://purl.obolibrary.org/obo/GO_0010629",
+      "http://purl.obolibrary.org/obo/GO_0010558",
+      "http://purl.obolibrary.org/obo/GO_0010605",
+      "http://purl.obolibrary.org/obo/GO_0009892",
+      "http://purl.obolibrary.org/obo/GO_0048519",
+      "http://purl.obolibrary.org/obo/GO_0031327",
+      "http://purl.obolibrary.org/obo/GO_0009890",
+      "http://purl.obolibrary.org/obo/GO_0031324",
+      "http://purl.obolibrary.org/obo/GO_0048523",
+      "http://purl.obolibrary.org/obo/GO_0031047"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0036453",
+      "http://purl.obolibrary.org/obo/GO_0035194",
+      "http://purl.obolibrary.org/obo/GO_0016441",
+      "http://purl.obolibrary.org/obo/GO_0010608",
+      "http://purl.obolibrary.org/obo/GO_0010468",
+      "http://purl.obolibrary.org/obo/GO_0010556",
+      "http://purl.obolibrary.org/obo/GO_0031326",
+      "http://purl.obolibrary.org/obo/GO_0009889",
+      "http://purl.obolibrary.org/obo/GO_0019222",
+      "http://purl.obolibrary.org/obo/GO_0050789",
+      "http://purl.obolibrary.org/obo/GO_0065007",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0031323",
+      "http://purl.obolibrary.org/obo/GO_0050794",
+      "http://purl.obolibrary.org/obo/GO_0060255",
+      "http://purl.obolibrary.org/obo/GO_0010629",
+      "http://purl.obolibrary.org/obo/GO_0010558",
+      "http://purl.obolibrary.org/obo/GO_0010605",
+      "http://purl.obolibrary.org/obo/GO_0009892",
+      "http://purl.obolibrary.org/obo/GO_0048519",
+      "http://purl.obolibrary.org/obo/GO_0031327",
+      "http://purl.obolibrary.org/obo/GO_0009890",
+      "http://purl.obolibrary.org/obo/GO_0031324",
+      "http://purl.obolibrary.org/obo/GO_0048523",
+      "http://purl.obolibrary.org/obo/GO_0031047"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990515"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "3' transitive RNA interference"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990515",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An RNA interference where the silencing signal spreads 3' along the target mRNA, outside of the initial target sequence. Typically involves the formation of secondary siRNAs formed when the initial mRNA target sequence functions as a template for 5' to 3' synthesis of new dsRNA."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:pf"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24369430"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0036453",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0036453",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0036453",
+      "http://purl.obolibrary.org/obo/GO_0035194",
+      "http://purl.obolibrary.org/obo/GO_0016441",
+      "http://purl.obolibrary.org/obo/GO_0010608",
+      "http://purl.obolibrary.org/obo/GO_0010468",
+      "http://purl.obolibrary.org/obo/GO_0010556",
+      "http://purl.obolibrary.org/obo/GO_0031326",
+      "http://purl.obolibrary.org/obo/GO_0009889",
+      "http://purl.obolibrary.org/obo/GO_0019222",
+      "http://purl.obolibrary.org/obo/GO_0050789",
+      "http://purl.obolibrary.org/obo/GO_0065007",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0031323",
+      "http://purl.obolibrary.org/obo/GO_0050794",
+      "http://purl.obolibrary.org/obo/GO_0060255",
+      "http://purl.obolibrary.org/obo/GO_0010629",
+      "http://purl.obolibrary.org/obo/GO_0010558",
+      "http://purl.obolibrary.org/obo/GO_0010605",
+      "http://purl.obolibrary.org/obo/GO_0009892",
+      "http://purl.obolibrary.org/obo/GO_0048519",
+      "http://purl.obolibrary.org/obo/GO_0031327",
+      "http://purl.obolibrary.org/obo/GO_0009890",
+      "http://purl.obolibrary.org/obo/GO_0031324",
+      "http://purl.obolibrary.org/obo/GO_0048523",
+      "http://purl.obolibrary.org/obo/GO_0031047"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0036453",
+      "http://purl.obolibrary.org/obo/GO_0035194",
+      "http://purl.obolibrary.org/obo/GO_0016441",
+      "http://purl.obolibrary.org/obo/GO_0010608",
+      "http://purl.obolibrary.org/obo/GO_0010468",
+      "http://purl.obolibrary.org/obo/GO_0010556",
+      "http://purl.obolibrary.org/obo/GO_0031326",
+      "http://purl.obolibrary.org/obo/GO_0009889",
+      "http://purl.obolibrary.org/obo/GO_0019222",
+      "http://purl.obolibrary.org/obo/GO_0050789",
+      "http://purl.obolibrary.org/obo/GO_0065007",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0031323",
+      "http://purl.obolibrary.org/obo/GO_0050794",
+      "http://purl.obolibrary.org/obo/GO_0060255",
+      "http://purl.obolibrary.org/obo/GO_0010629",
+      "http://purl.obolibrary.org/obo/GO_0010558",
+      "http://purl.obolibrary.org/obo/GO_0010605",
+      "http://purl.obolibrary.org/obo/GO_0009892",
+      "http://purl.obolibrary.org/obo/GO_0048519",
+      "http://purl.obolibrary.org/obo/GO_0031327",
+      "http://purl.obolibrary.org/obo/GO_0009890",
+      "http://purl.obolibrary.org/obo/GO_0031324",
+      "http://purl.obolibrary.org/obo/GO_0048523",
+      "http://purl.obolibrary.org/obo/GO_0031047"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990516"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ribonucleotide excision repair"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990516",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The pathway by which a ribonucleotide is removed from DNA and replaced by a deoxyribonucleotide. The ribonucleotide is incised by RNase H2, and further excised by an endonuclease. The resulting 1 nt gap is then repaired by DNA polymerase and DNA ligase."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:12475934"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:22864116"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0070716",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0070716",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0070716",
+      "http://purl.obolibrary.org/obo/GO_0006298",
+      "http://purl.obolibrary.org/obo/GO_0006281",
+      "http://purl.obolibrary.org/obo/GO_0006259",
+      "http://purl.obolibrary.org/obo/GO_0090304",
+      "http://purl.obolibrary.org/obo/GO_0006139",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0006974",
+      "http://purl.obolibrary.org/obo/GO_0033554",
+      "http://purl.obolibrary.org/obo/GO_0006950",
+      "http://purl.obolibrary.org/obo/GO_0050896",
+      "http://purl.obolibrary.org/obo/GO_0051716",
+      "http://purl.obolibrary.org/obo/GO_0009987"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0070716",
+      "http://purl.obolibrary.org/obo/GO_0006298",
+      "http://purl.obolibrary.org/obo/GO_0006281",
+      "http://purl.obolibrary.org/obo/GO_0006259",
+      "http://purl.obolibrary.org/obo/GO_0090304",
+      "http://purl.obolibrary.org/obo/GO_0006139",
+      "http://purl.obolibrary.org/obo/GO_0044238",
+      "http://purl.obolibrary.org/obo/GO_0008152",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0043170",
+      "http://purl.obolibrary.org/obo/GO_0006974",
+      "http://purl.obolibrary.org/obo/GO_0033554",
+      "http://purl.obolibrary.org/obo/GO_0006950",
+      "http://purl.obolibrary.org/obo/GO_0050896",
+      "http://purl.obolibrary.org/obo/GO_0051716",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0045005",
+      "http://purl.obolibrary.org/obo/GO_0006261",
+      "http://purl.obolibrary.org/obo/GO_0006260"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990518"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "single-stranded 3'-5' DNA helicase activity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990518",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Catalysis of the reaction: ATP + H2O = ADP + phosphate, in the presence of single-stranded DNA; drives the unwinding of the DNA helix in the direction 3' to 5'."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:25165823"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0017116",
+      "http://purl.obolibrary.org/obo/GO_0043138"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0017116",
+      "http://purl.obolibrary.org/obo/GO_0043138"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0017116",
+      "http://purl.obolibrary.org/obo/GO_0003678",
+      "http://purl.obolibrary.org/obo/GO_0004386",
+      "http://purl.obolibrary.org/obo/GO_0140640",
+      "http://purl.obolibrary.org/obo/GO_0003824",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0140657",
+      "http://purl.obolibrary.org/obo/GO_0008094",
+      "http://purl.obolibrary.org/obo/GO_0140097",
+      "http://purl.obolibrary.org/obo/GO_0043138"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0017116",
+      "http://purl.obolibrary.org/obo/GO_0003678",
+      "http://purl.obolibrary.org/obo/GO_0004386",
+      "http://purl.obolibrary.org/obo/GO_0140640",
+      "http://purl.obolibrary.org/obo/GO_0003824",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0140657",
+      "http://purl.obolibrary.org/obo/GO_0008094",
+      "http://purl.obolibrary.org/obo/GO_0140097",
+      "http://purl.obolibrary.org/obo/GO_0032508",
+      "http://purl.obolibrary.org/obo/GO_0032392",
+      "http://purl.obolibrary.org/obo/GO_0071103",
+      "http://purl.obolibrary.org/obo/GO_0051276",
+      "http://purl.obolibrary.org/obo/GO_0006996",
+      "http://purl.obolibrary.org/obo/GO_0016043",
+      "http://purl.obolibrary.org/obo/GO_0071840",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/GO_0043138"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990519"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pyrimidine nucleotide import into mitochondrion"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990519",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The process in which a pyrimidine nucleotide is transported across the mitochondrial inner membrane, into the mitochondrial matrix."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:16194150"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0006864",
+      "http://purl.obolibrary.org/obo/GO_0072531",
+      "http://purl.obolibrary.org/obo/GO_0170036",
+      "http://purl.obolibrary.org/obo/GO_1901679"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0006864",
+      "http://purl.obolibrary.org/obo/GO_0072531",
+      "http://purl.obolibrary.org/obo/GO_0170036",
+      "http://purl.obolibrary.org/obo/GO_1901679"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0006864",
+      "http://purl.obolibrary.org/obo/GO_0006862",
+      "http://purl.obolibrary.org/obo/GO_0015748",
+      "http://purl.obolibrary.org/obo/GO_0006810",
+      "http://purl.obolibrary.org/obo/GO_0051234",
+      "http://purl.obolibrary.org/obo/GO_0051179",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0015931",
+      "http://purl.obolibrary.org/obo/GO_0071705",
+      "http://purl.obolibrary.org/obo/GO_0072531",
+      "http://purl.obolibrary.org/obo/GO_0055085",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0170036",
+      "http://purl.obolibrary.org/obo/GO_1990542",
+      "http://purl.obolibrary.org/obo/GO_0006839",
+      "http://purl.obolibrary.org/obo/GO_1901679"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0006864",
+      "http://purl.obolibrary.org/obo/GO_0006862",
+      "http://purl.obolibrary.org/obo/GO_0015748",
+      "http://purl.obolibrary.org/obo/GO_0006810",
+      "http://purl.obolibrary.org/obo/GO_0051234",
+      "http://purl.obolibrary.org/obo/GO_0051179",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0015931",
+      "http://purl.obolibrary.org/obo/GO_0071705",
+      "http://purl.obolibrary.org/obo/GO_0072531",
+      "http://purl.obolibrary.org/obo/GO_0055085",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0170036",
+      "http://purl.obolibrary.org/obo/GO_1990542",
+      "http://purl.obolibrary.org/obo/GO_0006839",
+      "http://purl.obolibrary.org/obo/GO_1901679"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990520"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "separase-securin complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990520",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A protein complex that includes separase (a protease which cleaves cohesin as part of chromosome separation) and securin, a protease inhibitor. Chromosome separation is inhibited until securin is degraded by the Anaphase Promoting Complex (APC)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:dos"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:vw"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:8978688"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_1905369",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_1905369",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1905369",
+      "http://purl.obolibrary.org/obo/GO_1905368",
+      "http://purl.obolibrary.org/obo/GO_1902494",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1905369",
+      "http://purl.obolibrary.org/obo/GO_1905368",
+      "http://purl.obolibrary.org/obo/GO_1902494",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990522"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tail spike morphogenesis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990522",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The process in which the nematode tail spike is generated and organized. An example of this process is seen in C. elegans, where the tapered tail spike is formed during embryogenesis by a filamentous process that passes posteriorly through hyp10, the tail ventral hypodermis; the filamentous process is formed by a binucleate cell, the tail-spike cell, that subsequently undergoes programmed cell death."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:kmv"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:17329362"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:6684600"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0009653",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0009653",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0009653",
+      "http://purl.obolibrary.org/obo/GO_0032502",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0009653",
+      "http://purl.obolibrary.org/obo/GO_0032502",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0048856"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990523"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "bone regeneration"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990523",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The regrowth of bone following its loss or destruction."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:25257467"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0042246",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0042246",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0042246",
+      "http://purl.obolibrary.org/obo/GO_0031099",
+      "http://purl.obolibrary.org/obo/GO_0048856",
+      "http://purl.obolibrary.org/obo/GO_0032502",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0048589",
+      "http://purl.obolibrary.org/obo/GO_0040007"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0042246",
+      "http://purl.obolibrary.org/obo/GO_0031099",
+      "http://purl.obolibrary.org/obo/GO_0048856",
+      "http://purl.obolibrary.org/obo/GO_0032502",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0048589",
+      "http://purl.obolibrary.org/obo/GO_0040007"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990524"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "INA complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990524",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A protein complex located in the inner membrane of mitochondria that is involved in the assembly of the peripheral (or stator) stalk of the mitochondrial proton-transporting ATP synthase (also known as the F1F0 ATP synthase). In budding yeast, this complex includes Ina22p and Ina17p."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:rn"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24942160"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0098800",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0098800",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0098800",
+      "http://purl.obolibrary.org/obo/GO_0098796",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0098798"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0098800",
+      "http://purl.obolibrary.org/obo/GO_0098796",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0016020",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0098798",
+      "http://purl.obolibrary.org/obo/GO_0005739",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000",
+      "http://purl.obolibrary.org/obo/GO_0005737",
+      "http://purl.obolibrary.org/obo/GO_0005743",
+      "http://purl.obolibrary.org/obo/GO_0019866",
+      "http://purl.obolibrary.org/obo/GO_0031090",
+      "http://purl.obolibrary.org/obo/GO_0031967",
+      "http://purl.obolibrary.org/obo/GO_0031966",
+      "http://purl.obolibrary.org/obo/GO_0005740"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990525"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BIR domain binding"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990525",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Binding to a Baculovirus Inhibitor of apoptosis protein Repeat (BIR) domain."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "GOC:ha"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "InterPro:IPR001370"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An example of this is the Drosophila reaper gene in PMID:21886178."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0019904",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0019904",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0019904",
+      "http://purl.obolibrary.org/obo/GO_0005515",
+      "http://purl.obolibrary.org/obo/GO_0005488",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0019904",
+      "http://purl.obolibrary.org/obo/GO_0005515",
+      "http://purl.obolibrary.org/obo/GO_0005488",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990526"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ste12p-Dig1p-Dig2p complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990526",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A multiprotein complex that is involved in the transcription regulation of mating genes in the yeast S. cerevisiae."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:rb"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:16782869"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990527"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Tec1p-Ste12p-Dig1p complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990527",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A multiprotein complex that is involved in the transcriptional regulation of primarily filamentation genes, but also mating genes, in the yeast S. cerevisiae."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:rb"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:16782869"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990528"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Rvs161p-Rvs167p complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990528",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A protein complex that is involved in endocytosis in the yeast S. cerevisiae."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:rb"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:20610658"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990529"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "glycosylphosphatidylinositol-mannosyltransferase I complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990529",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A protein complex that is involved in the transfer of the four mannoses in the GPI-anchor precursor. In yeast S. cerevisiae this complex consists of Pbn1p and Gpi14p and in rat this complex consists of PIG-X and PIG-M."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:dph"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:rb"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:15635094"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0031501",
+      "http://purl.obolibrary.org/obo/GO_0140534"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0031501",
+      "http://purl.obolibrary.org/obo/GO_0140534"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0031501",
+      "http://purl.obolibrary.org/obo/GO_0140535",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_1990234",
+      "http://purl.obolibrary.org/obo/GO_1902494",
+      "http://purl.obolibrary.org/obo/GO_0140534"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0031501",
+      "http://purl.obolibrary.org/obo/GO_0140535",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_1990234",
+      "http://purl.obolibrary.org/obo/GO_1902494",
+      "http://purl.obolibrary.org/obo/GO_0140534",
+      "http://purl.obolibrary.org/obo/GO_0005783",
+      "http://purl.obolibrary.org/obo/GO_0043231",
+      "http://purl.obolibrary.org/obo/GO_0043227",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000",
+      "http://purl.obolibrary.org/obo/GO_0005737",
+      "http://purl.obolibrary.org/obo/GO_0012505"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990530"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cdc50p-Drs2p complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990530",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A protein complex that functions as a phospholipid-translocating P-Type ATPase. In budding yeast, this complex consists of Cdc50p and Drs2p proteins, and is involved in the trafficking of transport vesicles between the late Golgi and the early endosome."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:rb"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:15090616"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:22234261"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_1990531",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_1990531",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1990531",
+      "http://purl.obolibrary.org/obo/GO_1990351",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1990531",
+      "http://purl.obolibrary.org/obo/GO_1990351",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990531"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "phospholipid-translocating ATPase complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990531",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A protein complex that functions as a phospholipid-translocating P-Type ATPase."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:dph"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:rb"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:15090616"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_1990351",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_1990351",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1990351",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_1990351",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990532"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "stress response to nickel ion"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990532",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis caused by a nickel ion stimulus."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:kmv"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:25330323"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0097501",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0097501",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0097501",
+      "http://purl.obolibrary.org/obo/GO_0006950",
+      "http://purl.obolibrary.org/obo/GO_0050896",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0010038",
+      "http://purl.obolibrary.org/obo/GO_0042221"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0097501",
+      "http://purl.obolibrary.org/obo/GO_0006950",
+      "http://purl.obolibrary.org/obo/GO_0050896",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0010038",
+      "http://purl.obolibrary.org/obo/GO_0042221"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990533"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Dom34-Hbs1 complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990533",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A protein complex consisting of one subunit known as Dom34 or Pelota that has similarity to translation termination factor eRF1, and another subunit, Hbs1, that is a GTPase with similarity to translation termination factor eRF3. The Dom34-Hbs1 complex has a role in cotranslational mRNA quality control by promoting ribosomal subunit dissociation and peptidyl-tRNA release when translation is stalled, facilitating no-go decay and nonstop decay."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:mcc"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:20890290"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:21102444"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:21448132"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:22503425"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990534"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "thermospermine oxidase activity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990534",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Catalysis of the reaction: S-methyl-5'-thioadenosine + thermospermine + H+ = S-adenosyl 3-(methylthio)propylamine + spermidine."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24906355"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "RHEA:57836"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0046592",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0046592",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0046592",
+      "http://purl.obolibrary.org/obo/GO_0016647",
+      "http://purl.obolibrary.org/obo/GO_0016645",
+      "http://purl.obolibrary.org/obo/GO_0016491",
+      "http://purl.obolibrary.org/obo/GO_0003824",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0046592",
+      "http://purl.obolibrary.org/obo/GO_0016647",
+      "http://purl.obolibrary.org/obo/GO_0016645",
+      "http://purl.obolibrary.org/obo/GO_0016491",
+      "http://purl.obolibrary.org/obo/GO_0003824",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990535"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "neuron projection maintenance"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990535",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The organization process that preserves a neuron projection in a stable functional or structural state. A neuron projection is a prolongation or process extending from a nerve cell, e.g. an axon or dendrite."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "GOC:kmv"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:25359212"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0106027",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0106027",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0106027",
+      "http://purl.obolibrary.org/obo/GO_0120036",
+      "http://purl.obolibrary.org/obo/GO_0030030",
+      "http://purl.obolibrary.org/obo/GO_0016043",
+      "http://purl.obolibrary.org/obo/GO_0071840",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0106027",
+      "http://purl.obolibrary.org/obo/GO_0120036",
+      "http://purl.obolibrary.org/obo/GO_0030030",
+      "http://purl.obolibrary.org/obo/GO_0016043",
+      "http://purl.obolibrary.org/obo/GO_0071840",
+      "http://purl.obolibrary.org/obo/GO_0009987",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990536"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "phosphoenolpyruvate transmembrane import into Golgi lumen"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990536",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The directed movement of phosphoenolpyruvate into the Golgi lumen across the Golgi membrane."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:25195688"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0089722",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0089722",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0089722",
+      "http://purl.obolibrary.org/obo/GO_0015714",
+      "http://purl.obolibrary.org/obo/GO_0015718",
+      "http://purl.obolibrary.org/obo/GO_0046942",
+      "http://purl.obolibrary.org/obo/GO_0015711",
+      "http://purl.obolibrary.org/obo/GO_0006810",
+      "http://purl.obolibrary.org/obo/GO_0051234",
+      "http://purl.obolibrary.org/obo/GO_0051179",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0015849",
+      "http://purl.obolibrary.org/obo/GO_0015748",
+      "http://purl.obolibrary.org/obo/GO_1905039",
+      "http://purl.obolibrary.org/obo/GO_1903825",
+      "http://purl.obolibrary.org/obo/GO_0055085",
+      "http://purl.obolibrary.org/obo/GO_0009987"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0089722",
+      "http://purl.obolibrary.org/obo/GO_0015714",
+      "http://purl.obolibrary.org/obo/GO_0015718",
+      "http://purl.obolibrary.org/obo/GO_0046942",
+      "http://purl.obolibrary.org/obo/GO_0015711",
+      "http://purl.obolibrary.org/obo/GO_0006810",
+      "http://purl.obolibrary.org/obo/GO_0051234",
+      "http://purl.obolibrary.org/obo/GO_0051179",
+      "http://purl.obolibrary.org/obo/GO_0008150",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0015849",
+      "http://purl.obolibrary.org/obo/GO_0015748",
+      "http://purl.obolibrary.org/obo/GO_1905039",
+      "http://purl.obolibrary.org/obo/GO_1903825",
+      "http://purl.obolibrary.org/obo/GO_0055085",
+      "http://purl.obolibrary.org/obo/GO_0009987"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990537"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mitotic spindle polar microtubule"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990537",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Any of the mitotic spindle microtubules that come from each pole and overlap at the spindle midzone."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:16079915"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0005827",
+      "http://purl.obolibrary.org/obo/GO_1990498"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0005827",
+      "http://purl.obolibrary.org/obo/GO_1990498"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0005827",
+      "http://purl.obolibrary.org/obo/GO_0005876",
+      "http://purl.obolibrary.org/obo/GO_0005874",
+      "http://purl.obolibrary.org/obo/GO_0099513",
+      "http://purl.obolibrary.org/obo/GO_0099512",
+      "http://purl.obolibrary.org/obo/GO_0099081",
+      "http://purl.obolibrary.org/obo/GO_0099080",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_1990498"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0005827",
+      "http://purl.obolibrary.org/obo/GO_0005876",
+      "http://purl.obolibrary.org/obo/GO_0005874",
+      "http://purl.obolibrary.org/obo/GO_0099513",
+      "http://purl.obolibrary.org/obo/GO_0099512",
+      "http://purl.obolibrary.org/obo/GO_0099081",
+      "http://purl.obolibrary.org/obo/GO_0099080",
+      "http://purl.obolibrary.org/obo/GO_0110165",
+      "http://purl.obolibrary.org/obo/CARO_0000000",
+      "http://purl.obolibrary.org/obo/CARO_0030000",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "http://purl.obolibrary.org/obo/CARO_0000003",
+      "http://purl.obolibrary.org/obo/CARO_0000006",
+      "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "http://purl.obolibrary.org/obo/GO_0005856",
+      "http://purl.obolibrary.org/obo/GO_0043232",
+      "http://purl.obolibrary.org/obo/GO_0043228",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0043229",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/CL_0000000",
+      "http://purl.obolibrary.org/obo/GO_0015630",
+      "http://purl.obolibrary.org/obo/GO_0005819",
+      "http://purl.obolibrary.org/obo/GO_0000922",
+      "http://purl.obolibrary.org/obo/GO_1990498",
+      "http://purl.obolibrary.org/obo/GO_0072686"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:1990538"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "xylan O-acetyltransferase activity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_1990538",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Catalysis of the reaction: acetyl-CoA + a xylan= CoA + an acetylated xylan."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:25141999"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0016413",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0016413",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0016413",
+      "http://purl.obolibrary.org/obo/GO_0008374",
+      "http://purl.obolibrary.org/obo/GO_0016747",
+      "http://purl.obolibrary.org/obo/GO_0016746",
+      "http://purl.obolibrary.org/obo/GO_0016740",
+      "http://purl.obolibrary.org/obo/GO_0003824",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0016407"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0016413",
+      "http://purl.obolibrary.org/obo/GO_0008374",
+      "http://purl.obolibrary.org/obo/GO_0016747",
+      "http://purl.obolibrary.org/obo/GO_0016746",
+      "http://purl.obolibrary.org/obo/GO_0016740",
+      "http://purl.obolibrary.org/obo/GO_0003824",
+      "http://purl.obolibrary.org/obo/GO_0003674",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/GO_0016407"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

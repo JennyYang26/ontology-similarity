@@ -1,0 +1,3603 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HANCESTRO:0602"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "geography-based population category",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HANCESTRO_0602",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Population category defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000181",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000181",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000181",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000181",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HANCESTRO:0610"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Indigenous in North America",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HANCESTRO_0610",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Includes indigenous individuals of North and Central America, descended from the original human migration into the Americas from Siberia.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HANCESTRO_0013",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HANCESTRO_0013",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HANCESTRO_0013",
+      "http://purl.obolibrary.org/obo/HANCESTRO_0004",
+      "http://purl.obolibrary.org/obo/OBI_0000181",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HANCESTRO_0013",
+      "http://purl.obolibrary.org/obo/HANCESTRO_0004",
+      "http://purl.obolibrary.org/obo/OBI_0000181",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000005"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Mode of inheritance"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000005",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The pattern in which a particular genetic trait or disorder is passed from one generation to the next."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "While there is a close conceptual relationship between allelic requirement and inheritance, they serve different purposes; allelic requirement is necessary for variant annotation pipelines and to determine if a given variant in a specific context is relevant to the phenotype of the patient e.g. a heterozygous variant (in the absence of compound heterozygosity) is relevant for dominant but not for recessive disease; while inheritance is used for describing the mode of inheritance of a phenotype and is particularly applicable in the clinical setting for communicating recurrence risk, to guide family screening, and to guide reproductive advice."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000016",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000016",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000006"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Autosomal dominant inheritance"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in heterozygotes. In the context of medical genetics, an autosomal dominant disorder is caused when a single copy of the mutant allele is present. Males and females are affected equally, and can both transmit the disorder with a risk of 50% for each child of inheriting the mutant allele."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000005",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000005",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000007"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Autosomal recessive inheritance"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in individuals with two pathogenic alleles, either homozygotes (two copies of the same mutant allele) or compound heterozygotes (whereby each copy of a gene has a distinct mutant allele)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000005",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000005",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000008"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormal morphology of female internal genitalia"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An abnormality of the female internal genitalia."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000009"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Functional abnormality of the bladder"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Dysfunction of the urinary bladder."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000014",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000014",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000011"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Neurogenic bladder"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000011",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A type of bladder dysfunction caused by neurologic damage. Neurogenic bladder can be flaccid or spastic. Common manifestatios of neurogenic bladder are overflow incontinence, frequency, urgency, urge incontinence, and retention."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              "https://orcid.org/0000-0002-0736-9199",
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:18095004"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:22400020"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Neurogenic bladder sphincter dysfunction (NBSD) can develop as a result of a lesion at any level in the nervous system, including the cerebral cortex, spinal cord, or peripheral nervous system. Neurologic conditions in children leading to neurogenic bladder dysfunction are predominantly congenital neural tube defects (including myelomeningocele, lipomeningocele, sacral agenesis, and occult lesions causing tethered cord). Acquired causes such as spinal cord tumors or trauma or sequelae of transverse myelitis are less frequent. Whereas from an etiologic standpoint neurogenic bladder dysfunction is a heterogeneous group, medical management will be similar irrespective of the underlying cause."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://www.ebi.ac.uk/efo/EFO_1000018"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://www.ebi.ac.uk/efo/EFO_1000018"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1000018",
+      "http://www.ebi.ac.uk/efo/EFO_0009690",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1000018",
+      "http://www.ebi.ac.uk/efo/EFO_0009690",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000014"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormality of the bladder"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000014",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An abnormality of the urinary bladder."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000079",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000079",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000015"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bladder diverticulum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000015",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Diverticulum (sac or pouch) in the wall of the urinary bladder."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000014",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000014",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000016"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Urinary retention"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000016",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Inability to completely empty the urinary bladder during the process of urination."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Urinary retention is the inability of the urinary bladder to empty. The cause may be neurologic or nonneurologic."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000009",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000019"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Urinary hesitancy"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000019",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Difficulty in beginning the process of urination."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000009",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000020"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Urinary incontinence"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000020",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Loss of the ability to control the urinary bladder leading to involuntary urination."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              "https://orcid.org/0009-0006-4530-3154",
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12559262"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Urinary incontinence can be defined as the complaint of any involuntary leakage of urine."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0025142"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0025142"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0025142"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000009",
+      "http://purl.obolibrary.org/obo/HP_0000014",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0025142"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000022"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormal male internal genitalia morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000022",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An abnormality of the male internal genitalia."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The internal genital structures of the male including the testis, epididymis, vas deferens, seminal vesicle, ejaculatory duct, bulbourethral gland, and the prostate."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000023"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Inguinal hernia"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000023",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Protrusion of the contents of the abdominal cavity through the inguinal canal."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Inguinal hernia appears as a bulge in the groin."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0004299",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0004299",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0004299",
+      "http://purl.obolibrary.org/obo/HP_0004298",
+      "http://purl.obolibrary.org/obo/HP_0025031",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0100790",
+      "http://purl.obolibrary.org/obo/HP_0003549"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0004299",
+      "http://purl.obolibrary.org/obo/HP_0004298",
+      "http://purl.obolibrary.org/obo/HP_0025031",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0100790",
+      "http://purl.obolibrary.org/obo/HP_0003549"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000027"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Azoospermia"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000027",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Absence of any measurable level of sperm,whereby spermatozoa cannot be observed even after centrifugation of the semen pellet."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            "https://orcid.org/0000-0002-0736-9199",
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:20514278"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000029"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Testicular atrophy"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000029",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Wasting (atrophy) of the testicle (the male gonad) manifested by a decrease in size and potentially by a loss of fertility."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000035",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000035",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000035",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000035",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000031"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Epididymitis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000031",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The presence of inflammation of the epididymis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/HP_0000022",
+      "http://purl.obolibrary.org/obo/HP_0012649"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/HP_0000022",
+      "http://purl.obolibrary.org/obo/HP_0012649"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000022",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0012649",
+      "http://purl.obolibrary.org/obo/HP_0012647",
+      "http://purl.obolibrary.org/obo/HP_0002715"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000022",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0012649",
+      "http://purl.obolibrary.org/obo/HP_0012647",
+      "http://purl.obolibrary.org/obo/HP_0002715"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000035"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormal testis morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000035",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An anomaly of the testicle (the male gonad)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000037"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Male pseudohermaphroditism"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000037",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Hermaphroditism refers to a discrepancy between the morphology of the gonads and that of the external genitalia. In male pseudohermaphroditism, the genotype is male (XY) and the external genitalia are imcompletely virilized, ambiguous, or complete female. If gonads are present, they are testes."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000044"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Hypogonadotropic hypogonadism"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000044",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Hypogonadotropic hypogonadism is characterized by reduced function of the gonads (testes in males or ovaries in females) and results from the absence of the gonadal stimulating pituitary hormones: follicle stimulating hormone (FSH) and luteinizing hormone (LH)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            "https://orcid.org/0000-0002-0736-9199",
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:23503957"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000818"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000818"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0000818"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0000818"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000046"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Small scrotum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000046",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Apparently small scrotum for age."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:23650202"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A small scrotum is often accompanied by Cryptorchidism which should be coded separately. The size of the scrotum is dependent on the ambient temperature: a low temperature may cause the testes to retract, leading to the false impression of a small scrotum."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000049"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Shawl scrotum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000049",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Superior margin of the scrotum superior to the base of the penis."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              "https://orcid.org/0000-0002-0736-9199",
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:23650202"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A congenital overriding scrotum may disappear with growth and development, especially during puberty. If the entire scrotum is located superior to the penis, the term Penoscrotal transposition is used instead."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000054"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Micropenis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000054",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Abnormally small penis. At birth, the normal penis is about 3 cm (stretched length from pubic tubercle to tip of penis) with micropenis less than 2.0-2.5 cm."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            "https://orcid.org/0000-0002-0736-9199",
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:15102623"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000055"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormal female external genitalia morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000055",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Any structural abnormality of the female external genitalia."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000059"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Hypoplastic labia majora"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000059",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Undergrowth of the outer labia."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000066",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000066",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000066",
+      "http://purl.obolibrary.org/obo/HP_0000055",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000066",
+      "http://purl.obolibrary.org/obo/HP_0000055",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000062"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ambiguous genitalia"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000062",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A genital phenotype that is not clearly assignable to a single gender. Ambiguous genitalia can be evaluated using the Prader scale: Prader 0: Normal female external genitalia. Prader 1: Female external genitalia with clitoromegaly. Prader 2: Clitoromegaly with partial labial fusion forming a funnel-shaped urogenital sinus. Prader 3: Increased phallic enlargement. Complete labioscrotal fusion forming a urogenital sinus with a single opening. Prader 4: Complete scrotal fusion with urogenital opening at the base or on the shaft of the phallus. Prader 5: Normal male external genitalia. The diagnosis of ambiguous genitalia is made for Prader 1-4."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              "https://orcid.org/0000-0002-0736-9199",
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:15102623"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Note that this term can include or combine variations in size and shape, with partial or complete absence of structures. It is preferable to describe the individual components, which are defined below. It is nonetheless a widely used bundled term and as such is retained here. The distinction of this finding from a marked degree of Hypospadias is an example of how this term can be problematic. Genetic gender is determined at fertilization, whereby the presence of a Y chromosome determines male gender. Normally, genetic gender determines gonadal gender which in turn determines phenotypic gender. Testicular development is an active process requiring expression of the primary testis determining gene SRY, which is located on the Y chromosome."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000066"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Labial hypoplasia"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000066",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000055",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000055",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000055",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000055",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000069"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormality of the ureter"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000069",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An abnormality of the ureter. The ureter is the duct by which urine passes from the kidney to the bladder."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000079",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000079",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000072"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Hydroureter"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000072",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The distention of the ureter with urine."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            "https://orcid.org/0000-0002-0736-9199",
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:33085364"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000069",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000069",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000069",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000069",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000077"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormality of the kidney"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000077",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An abnormality of the kidney."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The kidney is a paired organ whose primary function is the production of urine."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000079",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000079",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 39,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 39,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000078"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormality of the genital system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000078",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An abnormality of the genital system."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000118",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000118",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 53,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 53,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000079"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormality of the urinary system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000079",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An abnormality of the urinary system."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000118",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000118",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 79,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 79,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000083"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Renal insufficiency"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000083",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A reduction in the level of performance of the kidneys in areas of function comprising the concentration of urine, removal of wastes, the maintenance of electrolyte balance, homeostasis of blood pressure, and calcium metabolism."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0012211",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0012211",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0011277"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0011277"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000085"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Horseshoe kidney"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000085",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A connection of the right and left kidney by an isthmus of functioning renal parenchyma or fibrous tissue that crosses the midline."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000090"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Nephronophthisis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000090",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Presence of cysts at the corticomedullary junction of the kidney in combination with tubulointerstitial fibrosis."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "HPO_CONTRIBUTOR:Eurenomics_fschaefer"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Nephronophthisis is here regarded as a phenotypic feature. The disease of the same name results in progressive symmetrical destruction of the kidneys involving both the tubules and glomeruli."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000093"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Proteinuria"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000093",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Increased levels of protein in the urine."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0003110",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0003110",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0003110",
+      "http://purl.obolibrary.org/obo/HP_0001939",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0011277",
+      "http://purl.obolibrary.org/obo/HP_0000079"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0003110",
+      "http://purl.obolibrary.org/obo/HP_0001939",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0011277",
+      "http://purl.obolibrary.org/obo/HP_0000079"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000096"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Glomerular sclerosis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000096",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Accumulation of scar tissue within the glomerulus."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "HPO_CONTRIBUTOR:Eurenomics_fschaefer"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0011035",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0011035",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0011035",
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0011035",
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000098"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Tall stature"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000098",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A height above that which is expected according to age and gender norms."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0001507",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0001507",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0001507",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0001507",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000099"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Glomerulonephritis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000099",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Inflammation of the renal glomeruli."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/HP_0011035",
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0012649"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/HP_0011035",
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0012649"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0011035",
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0011277",
+      "http://purl.obolibrary.org/obo/HP_0012649",
+      "http://purl.obolibrary.org/obo/HP_0012647",
+      "http://purl.obolibrary.org/obo/HP_0002715"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0011035",
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0011277",
+      "http://purl.obolibrary.org/obo/HP_0012649",
+      "http://purl.obolibrary.org/obo/HP_0012647",
+      "http://purl.obolibrary.org/obo/HP_0002715"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000103"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Polyuria"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000103",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An increased rate of urine production."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An excessive volume of urination for an adult is more than 2.5 liters of urine per day."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0012590",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0012590",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012590",
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0011277"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012590",
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0011277"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000105"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Enlarged kidney"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000105",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An abnormal increase in the size of the kidney."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The main causes of large kidney are hydronephrosis, polycystic disease, renal cell carcinoma, nephroblastoma/Wilms tumor (in children), and solitary cysts. If possible, a specific term should be used instead of this one. There are several ways of diagnosing enlarged kidney including intravenous urography."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000107"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Renal cyst"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000107",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A fluid filled sac in the kidney."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "HPO_CONTRIBUTOR:Eurenomics_fschaefer"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000111"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Renal juxtaglomerular cell hypertrophy/hyperplasia"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000111",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Increased number and size of the juxtaglomerular cells."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "HPO_CONTRIBUTOR:Eurenomics_ewuehl"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0011035",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0011035",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0011035",
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0011035",
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000112"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Nephropathy"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000112",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A nonspecific term referring to disease or damage of the kidneys."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0012211",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0012211",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0011277"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012211",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/HP_0011277"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000113"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Polycystic kidney dysplasia"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000113",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The presence of multiple cysts in both kidneys."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Polycystic kidney disease (PKD) is a leading cause of end-stage renal disease. Most commonly, PKD arises as an inherited trait. Tremendous enlargement of both kidneys is characteristic of the autosomal dominant form of PKD, with up to hundreds or thousands of renal cysts. This term does not refer to the disease entity but rather to the finding of numerous cysts in both kidneys."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000107",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000107",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000107",
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000107",
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000118"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Phenotypic abnormality"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000118",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A phenotypic abnormality."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This is the root of the phenotypic abnormality subontology of the HPO."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000651",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000651",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2048,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2048,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000121"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Nephrocalcinosis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000121",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Nephrocalcinosis is the deposition of calcium salts in renal parenchyma."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Nephrocalcinosis can be intratubular or interstitial, and can be diagnosed by means of a radiologic exam (plain radiographs, ultrasonograms, or computed tomography scans) or via microscopic examination of the renal tissues. The term nephrocalcinosis most often applies to a generalized increase in renal calcium content."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000125"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Pelvic kidney"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000125",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A developmental defect in which a kidney is located in an abnormal anatomic position within the pelvis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0012210",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0012210",
+      "http://purl.obolibrary.org/obo/HP_0000077",
+      "http://purl.obolibrary.org/obo/HP_0000079",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "HP:0000130"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormality of the uterus"
+    },
+    "iri": "http://purl.obolibrary.org/obo/HP_0000130",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An abnormality of the uterus."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://orcid.org/0000-0002-0736-9199"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/HP_0000008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/HP_0000008",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000008",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/HP_0000008",
+      "http://purl.obolibrary.org/obo/HP_0000078",
+      "http://purl.obolibrary.org/obo/HP_0000118",
+      "http://www.ebi.ac.uk/efo/EFO_0000651",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  }
+]

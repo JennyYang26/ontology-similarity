@@ -1,0 +1,4171 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0008994"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "spatial transcriptomics"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0008994",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "assay that allows visualization and quantitative analysis of the transcriptome with spatial resolution in individual tissue sections"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0001457",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0001457",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0001457",
+      "http://www.ebi.ac.uk/efo/EFO_0002772",
+      "http://purl.obolibrary.org/obo/OBI_0000070",
+      "http://www.ebi.ac.uk/efo/EFO_0002694",
+      "http://www.ebi.ac.uk/efo/EFO_0004542",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0001457",
+      "http://www.ebi.ac.uk/efo/EFO_0002772",
+      "http://purl.obolibrary.org/obo/OBI_0000070",
+      "http://www.ebi.ac.uk/efo/EFO_0002694",
+      "http://www.ebi.ac.uk/efo/EFO_0004542",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 15,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 15,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0008995"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "10x technology"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0008995",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "10x is a \"synthetic long-read\" technology and works by capturing a barcoded oligo-coated gel-bead and 0.3x genome copies into a single emulsion droplet, processing the equivalent of 1 million pipetting steps. Successive versions of the 10x chemistry use different barcode locations to improve the sequencing yield and quality of 10x experiments."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0010183",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0010183",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0010183",
+      "http://purl.obolibrary.org/obo/OBI_0000711",
+      "http://www.ebi.ac.uk/efo/EFO_0002694",
+      "http://www.ebi.ac.uk/efo/EFO_0004542",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0010183",
+      "http://purl.obolibrary.org/obo/OBI_0000711",
+      "http://www.ebi.ac.uk/efo/EFO_0002694",
+      "http://www.ebi.ac.uk/efo/EFO_0004542",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 25,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 25,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0008997"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "synovitis"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0008997",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Inflammation of a synovial membrane."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C50766"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Inflammation of the SYNOVIAL MEMBRANE [ MeSH ]"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MONDO_0043786",
+      "http://purl.obolibrary.org/obo/MONDO_0056799",
+      "http://www.ebi.ac.uk/efo/EFO_0005856",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1001986",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:2703"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:indirect"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MONDO_0043786",
+      "http://purl.obolibrary.org/obo/MONDO_0056799",
+      "http://www.ebi.ac.uk/efo/EFO_0005856",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1001986",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:2703"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:indirect"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0043786",
+      "http://www.ebi.ac.uk/efo/EFO_0009903",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/MONDO_0056799",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_0005856",
+      "http://purl.obolibrary.org/obo/MONDO_0002614",
+      "http://www.ebi.ac.uk/efo/EFO_0004260",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0005755",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_1000999"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0043786",
+      "http://www.ebi.ac.uk/efo/EFO_0009903",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/MONDO_0056799",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_0005856",
+      "http://purl.obolibrary.org/obo/MONDO_0002614",
+      "http://www.ebi.ac.uk/efo/EFO_0004260",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0005755",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_1000999"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0008998"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "acute synovitis"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0008998",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An acute inflammation of a synovial membrane. It is associated with swelling and pain in the affected area. [ NCI ]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0008997",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0008997",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0008997",
+      "http://purl.obolibrary.org/obo/MONDO_0043786",
+      "http://www.ebi.ac.uk/efo/EFO_0009903",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/MONDO_0056799",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_0005856",
+      "http://purl.obolibrary.org/obo/MONDO_0002614",
+      "http://www.ebi.ac.uk/efo/EFO_0004260",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0005755",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_1000999"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0008997",
+      "http://purl.obolibrary.org/obo/MONDO_0043786",
+      "http://www.ebi.ac.uk/efo/EFO_0009903",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/MONDO_0056799",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_0005856",
+      "http://purl.obolibrary.org/obo/MONDO_0002614",
+      "http://www.ebi.ac.uk/efo/EFO_0004260",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0005755",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_1000999"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009000"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Mast Cell Neoplasm"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A heterogeneous group of disorders characterized by the abnormal growth and accumulation of mast cells in one or more organ systems. Recent data suggest that most variants of mast cell neoplasms are clonal disorders. (WHO, 2001)"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C9295"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://www.ebi.ac.uk/efo/EFO_0002427",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "EFO:0009000"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C9295"
+            }
+          ]
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://www.ebi.ac.uk/efo/EFO_0002427",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "EFO:0009000"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C9295"
+            }
+          ]
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002427",
+      "http://purl.obolibrary.org/obo/MONDO_0044881",
+      "http://purl.obolibrary.org/obo/MONDO_0002334",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0005803"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002427",
+      "http://purl.obolibrary.org/obo/MONDO_0044881",
+      "http://purl.obolibrary.org/obo/MONDO_0002334",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0005803"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 11,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009001"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Mastocytosis"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009001",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A clonal myeloproliferative neoplasm characterized by the proliferation and accumulation of neoplastic mast cells in one or multiple organs or organ systems. It is a heterogeneous group of neoplasms, ranging from cutaneous proliferations which may regress spontaneously, to aggressive neoplasms associated with organ failure and short survival."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C84269"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0004805",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "DOID:350"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0009000",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C84269"
+            }
+          }
+        ]
+      },
+      "http://www.orpha.net/ORDO/Orphanet_322126"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0004805",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "DOID:350"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0009000",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C84269"
+            }
+          }
+        ]
+      },
+      "http://www.orpha.net/ORDO/Orphanet_322126"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0004805",
+      "http://www.ebi.ac.uk/efo/EFO_0000540",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      "http://www.ebi.ac.uk/efo/EFO_0009000",
+      "http://www.ebi.ac.uk/efo/EFO_0002427",
+      "http://purl.obolibrary.org/obo/MONDO_0044881",
+      "http://purl.obolibrary.org/obo/MONDO_0002334",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.orpha.net/ORDO/Orphanet_322126",
+      "http://www.orpha.net/ORDO/Orphanet_68336",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0004805",
+      "http://www.ebi.ac.uk/efo/EFO_0000540",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      "http://www.ebi.ac.uk/efo/EFO_0009000",
+      "http://www.ebi.ac.uk/efo/EFO_0002427",
+      "http://purl.obolibrary.org/obo/MONDO_0044881",
+      "http://purl.obolibrary.org/obo/MONDO_0002334",
+      "http://www.ebi.ac.uk/efo/EFO_0000616",
+      "http://purl.obolibrary.org/obo/MONDO_0023370",
+      "http://purl.obolibrary.org/obo/MONDO_0045024",
+      "http://www.orpha.net/ORDO/Orphanet_322126",
+      "http://www.orpha.net/ORDO/Orphanet_68336",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009002"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "splenic disease"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009002",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A disease involving the spleen."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://orcid.org/0000-0002-6601-2165"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0007352",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:2529"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0009002"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D013158"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0007352",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:2529"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0009002"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D013158"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0007352",
+      "http://purl.obolibrary.org/obo/MONDO_0044986",
+      "http://www.ebi.ac.uk/efo/EFO_0000540"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0007352",
+      "http://purl.obolibrary.org/obo/MONDO_0044986",
+      "http://www.ebi.ac.uk/efo/EFO_0000540"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 25,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 25,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009003"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ovarian dysfunction"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The inability of the ovaries to function."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C113351"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The inability of the ovaries to function. [ NCI ]"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "DOID:1414"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "EFO:0009003"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C113351/inferred"
+            }
+          ]
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "DOID:1414"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "EFO:0009003"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C113351/inferred"
+            }
+          ]
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 46,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 46,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009004"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hyperestrogenism"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Abnormally high level of estrogen. [ NICHD NCI ]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0009003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0009003",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009005"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "premature menopause"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009005",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Cessation of menstruation before the age of 40. Symptoms include hot flashes, night sweats, mood swings, and decreased sex drive."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C80099"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The loss of normal function of the ovaries before age 40."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0004266",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0004266",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0004266",
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0004266",
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009006"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hyperandrogenism"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Excessive secretion of androgens from the adrenal glands or gonads. Clinical manifestations may include virilization. [ NICHD NCI ]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0009003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0009003",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009007"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Adrenal Hyperandrogenism"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Excessive secretion of the androgen hormones dehydroepiandrosterone (DHEA), DHEA sulfate, and androstenedione, from the adrenal gland. Clinical manifestations may include virilization. [ NICHD NCI ]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0009006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0009006",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009006",
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009006",
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009008"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ovarian Hyperandrogenism"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Increased production of androgens by the ovaries. [ NCI ]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0009006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0009006",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009006",
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009006",
+      "http://www.ebi.ac.uk/efo/EFO_0009003",
+      "http://www.ebi.ac.uk/efo/EFO_0005771",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009009"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Pyoderma gangrenosum-acne-suppurative hidradenitis syndrome"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A pyogenic autoinflammatory syndrome with skin involvement."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000701",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000701",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000701",
+      "http://www.ebi.ac.uk/efo/EFO_0010285",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000701",
+      "http://www.ebi.ac.uk/efo/EFO_0010285",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009010"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "HSV2 virologic severity measurement"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009010",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Quantification of the severity of Herpes simplex virus-2 infection, typically by assessment of viral shedding"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0006843",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0006843",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0006843",
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0006843",
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009011"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Arteritis"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009011",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An inflammatory process affecting an artery."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C34399"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An inflammatory process affecting an artery. [ NCI ]"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0000473",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C34399"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0006803",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0009011"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D001167"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C34399"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0000473",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C34399"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0006803",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "EFO:0009011"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:D001167"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "NCIT:C34399"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0000473",
+      "http://www.ebi.ac.uk/efo/EFO_0004264",
+      "http://www.ebi.ac.uk/efo/EFO_0000319",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0006803",
+      "http://www.ebi.ac.uk/efo/EFO_0009903"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0000473",
+      "http://www.ebi.ac.uk/efo/EFO_0004264",
+      "http://www.ebi.ac.uk/efo/EFO_0000319",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0006803",
+      "http://www.ebi.ac.uk/efo/EFO_0009903"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 11,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009012"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Polyarteritis Nodosa"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009012",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A necrotizing vasculitis that affects medium-sized arteries, it is usually idiopathic, and may be triggered by viral infections (Hepatitis B, also others). A multisystem disease, it most commonly affects skin (nodules, livedo reticularis) and peripheral nerves; higher morbidity is associated with gastrointestinal, central nervous system, cardiac, and/or other organ involvement. Anti-neutrophil cytoplasmic antibodies (ANCA) are typically negative. [ NCI ]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0009011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0009011",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009011",
+      "http://purl.obolibrary.org/obo/MONDO_0000473",
+      "http://www.ebi.ac.uk/efo/EFO_0004264",
+      "http://www.ebi.ac.uk/efo/EFO_0000319",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0006803",
+      "http://www.ebi.ac.uk/efo/EFO_0009903"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009011",
+      "http://purl.obolibrary.org/obo/MONDO_0000473",
+      "http://www.ebi.ac.uk/efo/EFO_0004264",
+      "http://www.ebi.ac.uk/efo/EFO_0000319",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0006803",
+      "http://www.ebi.ac.uk/efo/EFO_0009903"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009013"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "in vitro transcription"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009013",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Biomolecule synthesis of RNA in vitro used for applications such as can be used in blot hybridizations and nuclease protection assays."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0009107",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0009107",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009107",
+      "http://www.ebi.ac.uk/efo/EFO_0002694",
+      "http://www.ebi.ac.uk/efo/EFO_0004542",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0009107",
+      "http://www.ebi.ac.uk/efo/EFO_0002694",
+      "http://www.ebi.ac.uk/efo/EFO_0004542",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009014"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "3-methylglutaconic aciduria with cataracts, neurologic involvement, and neutropenia"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009014",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A 3-methylglutaconic aciduria that has_material_basis_in homozygous or compound heterozygous mutation in the CLPB gene on chromosome 11q13."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0017359",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0017359",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0017359",
+      "http://purl.obolibrary.org/obo/MONDO_0019215",
+      "http://purl.obolibrary.org/obo/MONDO_0000688",
+      "http://purl.obolibrary.org/obo/MONDO_0004736",
+      "http://purl.obolibrary.org/obo/MONDO_0019052",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://purl.obolibrary.org/obo/MONDO_0037871"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0017359",
+      "http://purl.obolibrary.org/obo/MONDO_0019215",
+      "http://purl.obolibrary.org/obo/MONDO_0000688",
+      "http://purl.obolibrary.org/obo/MONDO_0004736",
+      "http://purl.obolibrary.org/obo/MONDO_0019052",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://purl.obolibrary.org/obo/MONDO_0037871"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009015"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AHDC1-related intellectual disability-obstructive sleep apnea-mild dysmorphism syndrome"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009015",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A syndome related to the AHDC1 gene, presenting with intellectual disability, obstructive sleep apnea and mild dysmorphism."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_183757",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_183757",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_183757",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_183757",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009016"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ataxia-oculomotor apraxia type 4"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009016",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ataxia-oculomotor apraxia-4 is an autosomal recessive neurologic disorder characterized by onset of dystonia and ataxia in the first decade. Additional features include oculomotor apraxia and peripheral neuropathy. Some patients may show cognitive impairment. The disorder is progressive, and most patients become wheelchair-bound in the second or third decade (summary by Bras et al., 2015)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://www.orpha.net/ORDO/Orphanet_183518",
+      "http://www.orpha.net/ORDO/Orphanet_98539",
+      "http://www.orpha.net/ORDO/Orphanet_98693"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://www.orpha.net/ORDO/Orphanet_183518",
+      "http://www.orpha.net/ORDO/Orphanet_98539",
+      "http://www.orpha.net/ORDO/Orphanet_98693"
+    ],
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_183518",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_98539",
+      "http://www.orpha.net/ORDO/Orphanet_98538",
+      "http://www.orpha.net/ORDO/Orphanet_276058",
+      "http://www.orpha.net/ORDO/Orphanet_183500",
+      "http://www.ebi.ac.uk/efo/EFO_0005772",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.orpha.net/ORDO/Orphanet_98693"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_183518",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_98539",
+      "http://www.orpha.net/ORDO/Orphanet_98538",
+      "http://www.orpha.net/ORDO/Orphanet_276058",
+      "http://www.orpha.net/ORDO/Orphanet_183500",
+      "http://www.ebi.ac.uk/efo/EFO_0005772",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.orpha.net/ORDO/Orphanet_98693"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009017"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Autosomal recessive spastic paraplegia type 57"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009017",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Autosomal recessive spastic paraplegia type 57 (SPG57) is an extremely rare, complex type of hereditary spastic paraplegia, characterized by onset in infancy of pronounced leg spasticity (leading to the inability to walk independently), reduced visual acuity due to optic atrophy, and distal wasting of the hands and feet due to an axonal demyelinating sensorimotor neuropathy. SPG57 is caused by mutations in the TFG  gene (3q12.2) encoding protein TFG, which is thought to play a role in ER microtubular architecture and function."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_320406",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_320406",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_320406",
+      "http://www.ebi.ac.uk/efo/EFO_0003782",
+      "http://www.ebi.ac.uk/efo/EFO_0005772",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001902",
+      "http://www.ebi.ac.uk/efo/EFO_0004149",
+      "http://www.orpha.net/ORDO/Orphanet_183500",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_320406",
+      "http://www.ebi.ac.uk/efo/EFO_0003782",
+      "http://www.ebi.ac.uk/efo/EFO_0005772",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001902",
+      "http://www.ebi.ac.uk/efo/EFO_0004149",
+      "http://www.orpha.net/ORDO/Orphanet_183500",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009018"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Autosomal recessive spastic paraplegia type 75"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009018",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Spastic paraplegia-75 is an autosomal recessive, slowly progressive neurodegenerative disorder characterized by onset of spastic paraplegia and cognitive impairment in childhood (summary by Lossos et al., 2015)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_320406",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_320406",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_320406",
+      "http://www.ebi.ac.uk/efo/EFO_0003782",
+      "http://www.ebi.ac.uk/efo/EFO_0005772",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001902",
+      "http://www.ebi.ac.uk/efo/EFO_0004149",
+      "http://www.orpha.net/ORDO/Orphanet_183500",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_320406",
+      "http://www.ebi.ac.uk/efo/EFO_0003782",
+      "http://www.ebi.ac.uk/efo/EFO_0005772",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001902",
+      "http://www.ebi.ac.uk/efo/EFO_0004149",
+      "http://www.orpha.net/ORDO/Orphanet_183500",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009019"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Autosomal recessive spastic paraplegia type 76"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009019",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Spastic paraplegia-76 is an autosomal recessive neurologic disorder characterized by young-adult onset of slowly progressive spasticity of the lower limbs resulting in gait difficulties. Most affected individuals have upper limb involvement and additional features such as foot deformities and dysarthria. Cognition is unaffected (summary by Gan-Or et al., 2016)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_320406",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_320406",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_320406",
+      "http://www.ebi.ac.uk/efo/EFO_0003782",
+      "http://www.ebi.ac.uk/efo/EFO_0005772",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001902",
+      "http://www.ebi.ac.uk/efo/EFO_0004149",
+      "http://www.orpha.net/ORDO/Orphanet_183500",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_320406",
+      "http://www.ebi.ac.uk/efo/EFO_0003782",
+      "http://www.ebi.ac.uk/efo/EFO_0005772",
+      "http://www.ebi.ac.uk/efo/EFO_0009386",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001902",
+      "http://www.ebi.ac.uk/efo/EFO_0004149",
+      "http://www.orpha.net/ORDO/Orphanet_183500",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009020"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Aymé-Gripp syndrome"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009020",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ayme-Gripp syndrome is a clinically homogeneous phenotype characterized by congenital cataracts, sensorineural hearing loss, intellectual disability, seizures, brachycephaly, a distinctive flat facial appearance, and reduced growth (Niceta et al., 2015)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_183530",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_183530",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009021"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bardet-Biedl syndrome 1"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009021",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bardet-Biedl syndrome 1 is caused by mutation in a gene on chromosome 11q13."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009022"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bardet-Biedl syndrome 10"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009022",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "BBS10 is characterized by progressive retinal dystrophy, obesity, polydactyly, cognitive impairment, and renal dysplasia (Stoetzel et al., 2006). BBS10 represents a major locus for BBS, with mutations in the BBS10 gene accounting for approximately 20% of BBS patients (Stoetzel et al., 2006; Zaghloul and Katsanis, 2009)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009023"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bardet-Biedl syndrome 12"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009023",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "BBS12 is a clinically pleiotropic autosomal recessive ciliopathy."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009024"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bardet-Biedl syndrome 4"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009024",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "BBS4 is a rare multisystemic disorder characterized primarily by retinal dystrophy, obesity, polydactyly, and renal dysfunction that accounts for less than 3% of BBS (Katsanis et al., 2002). Anosmia has been described in patients with BBS4 (Iannaccone et al., 2005), as well as polydactyly confined to the hands (Carmi et al., 1995)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009025"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bardet-Biedl syndrome 5"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009025",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "BBS5 is a ciliopathy associated with severe and early-onset retinal dystrophy, postaxial polydactyly, obesity, renal dysfunction, hypogonadism, and learning difficulties (summary by Scheidecker et al., 2015). Patients described by Young et al. (1999) and Moore et al. (2005) with mutations in the BBS5 gene did not have polydactyly. The contribution of BBS5 mutations to all cases of BBS has been estimated at 2% (Li et al., 2004) and 0.40% (Zaghloul and Katsanis, 2009)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009026"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bardet-Biedl syndrome 7"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009026",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "BBS7 is an autosomal recessive disorder characterized by retinitis pigmentosa, postaxial polydactyly, intellectual disability, obesity, renal anomalies, and hypogenitalism (Harville et al., 2010). Zaghloul and Katsanis (2009) estimated the contribution of BBS7 gene mutations to the total BBS mutational load to be 1.50%."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009027"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bardet-Biedl syndrome 9"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009027",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "BBS9 is an autosomal recessive disorder characterized by obesity, polydactyly, renal anomalies, retinopathy, and intellectual disability (Abu-Safieh et al., 2012)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0015229",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015229",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0003900",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009028"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Camptodactyly-arthropathy-coxa-vara-pericarditis syndrome"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009028",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Camptodactyly-arthropathy-coxa-vara-pericarditis (CACP) syndrome is a rare, genetic, rheumatologic disease characterized by congenital or early-onset camptodactyly and symmetrical, polyarticular, non-inflammatory, large joint arthropathy with synovial hyperplasia, as well as progressive coxa vara deformity and, occasionally, non-inflammatory pericarditis."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:2848"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The camptodactyly-arthropathy-coxa vara-pericarditis syndrome is an autosomal recessive condition characterized by the association of congenital or early-onset camptodactyly and noninflammatory arthropathy with synovial hyperplasia."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MONDO_0023603",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0005755",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:2848"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1000017",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:0090127"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              }
+            ]
+          }
+        ]
+      },
+      "http://www.orpha.net/ORDO/Orphanet_271870"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MONDO_0023603",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0005755",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:2848"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_1000017",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "DOID:0090127"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              }
+            ]
+          }
+        ]
+      },
+      "http://www.orpha.net/ORDO/Orphanet_271870"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0023603",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_0005755",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429",
+      "http://www.orpha.net/ORDO/Orphanet_271870"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0023603",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_1001986",
+      "http://www.ebi.ac.uk/efo/EFO_0005755",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.ebi.ac.uk/efo/EFO_1000017",
+      "http://purl.obolibrary.org/obo/MONDO_0000429",
+      "http://www.orpha.net/ORDO/Orphanet_271870"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009029"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Central precocious puberty"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009029",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Central precocious puberty (CPP), also referred to as gonadotropin dependent precocious puberty, is an endocrine-related developmental disease characterized by the onset of pubertal changes, with development of secondary sexual characteristics and accelerated growth and bone maturation, before the normal age of puberty (8 years in girls and 9 years in boys)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Orphanet:759"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0000088",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:C562787"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Orphanet:650063"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Orphanet:759"
+              }
+            ]
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/MONDO_0018561",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0000088",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MESH:C562787"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Orphanet:650063"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Orphanet:759"
+              }
+            ]
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/MONDO_0018561",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0000088",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://purl.obolibrary.org/obo/MONDO_0021147",
+      "http://purl.obolibrary.org/obo/MONDO_0018561",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0000088",
+      "http://purl.obolibrary.org/obo/MONDO_0002259",
+      "http://www.ebi.ac.uk/efo/EFO_0000512",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://purl.obolibrary.org/obo/MONDO_0021147",
+      "http://purl.obolibrary.org/obo/MONDO_0018561",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0009549"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009030"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cerebellar-facial-dental syndrome"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009030",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cerebellofaciodental syndrome is an autosomal recessive neurodevelopmental disorder characterized by delayed development, intellectual disability, abnormal facial and dental findings, and cerebellar hypoplasia (summary by Borck et al., 2015)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_269567",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_269567",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_269567",
+      "http://www.orpha.net/ORDO/Orphanet_269564",
+      "http://www.orpha.net/ORDO/Orphanet_183506",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_71859"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_269567",
+      "http://www.orpha.net/ORDO/Orphanet_269564",
+      "http://www.orpha.net/ORDO/Orphanet_183506",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_71859"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009031"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cognitive impairment-coarse facies-heart defects-obesity-pulmonary involvement-short stature-skeletal dysplasia syndrome"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009031",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A multiple congenital anomaly syndrome with delayed psychomotor development with intellectual disability, short stature, obesity, variable dysmorphic facial features (round face, proptosis, hypertelorism, thick eyebrows and hair, long eyelashes, short nose and downturned corners of the mouth), heart defects, increased chance of chronic lung disease, skeletal defects such as brachydactyly, gastroesophageal reflux."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_69028",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_69028",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_69028",
+      "http://www.orpha.net/ORDO/Orphanet_404571",
+      "http://www.orpha.net/ORDO/Orphanet_183524",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0004260",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.orpha.net/ORDO/Orphanet_404584",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.orpha.net/ORDO/Orphanet_404577",
+      "http://www.orpha.net/ORDO/Orphanet_183536"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_69028",
+      "http://www.orpha.net/ORDO/Orphanet_404571",
+      "http://www.orpha.net/ORDO/Orphanet_183524",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0004260",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://www.orpha.net/ORDO/Orphanet_404584",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.orpha.net/ORDO/Orphanet_404577",
+      "http://www.orpha.net/ORDO/Orphanet_183536"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009032"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 21"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009032",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 21 is a rare mitochondrial disease characterized by axial hypotonia with limb hypertonia, developmental delay, hyperlactatemia, central nervous system anomalies visible on magnetic resonance imaging (e.g. corpus callosum hypoplasia, lesions of the globus pallidus) and multiple deficiency of the mitochondrial respiratory chain complexes in muscle tissue, but not in fibroblasts or liver."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009033"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 23"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009033",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 23 is an autosomal recessive disorder characterized by early childhood onset of hypertrophic cardiomyopathy and/or neurologic symptoms, including hypotonia and delayed psychomotor development. Laboratory investigations are consistent with a defect in mitochondrial function resulting in lactic acidosis, impaired activities of respiratory complexes I and IV, and defective translation of mitochondrial proteins. Brain imaging shows abnormal lesions in the basal ganglia, thalamus, and brainstem. The severity of the disorder is variable, ranging from death in early infancy to survival into the second decade (summary by Kopajtich et al., 2014)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009034"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 24"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009034",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 24 is an autosomal recessive mitochondrial disorder with wide phenotypic variability. Some patients have a milder form affecting only skeletal muscle, whereas others may have a more severe infantile-onset neurodegenerative disorder (Vanlander et al., 2015; Sofou et al., 2015)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009035"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 25"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009035",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 25 is an autosomal recessive mitochondrial disorder with wide phenotypic variability."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009036"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 26"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009036",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A highly variable phenotype resulting from a defect in mitochondrial respiratory chain activity."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009037"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 27"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009037",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A combined mitochondrial respiratory chain deficiency associated with epileptic encephalopathy and a complex movement disorder."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009038"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Combined oxidative phosphorylation defect type 30"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009038",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A fatal systemic mitochondrial disease."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_35696",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_35696",
+      "http://www.orpha.net/ORDO/Orphanet_2443",
+      "http://www.orpha.net/ORDO/Orphanet_183530",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_79200",
+      "http://www.ebi.ac.uk/efo/EFO_0000589"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009039"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Congenital bile acid synthesis defect"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009039",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Congenital bile acid synthesis defects are rare metabolic disorders with defects in bile acid synthesis."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0005590",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "DOID:0050674"
+            }
+          }
+        ]
+      },
+      "http://www.orpha.net/ORDO/Orphanet_163631"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://www.ebi.ac.uk/efo/EFO_0005590",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": {
+              "type": [
+                "literal"
+              ],
+              "value": "DOID:0050674"
+            }
+          }
+        ]
+      },
+      "http://www.orpha.net/ORDO/Orphanet_163631"
+    ],
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005590",
+      "http://purl.obolibrary.org/obo/MONDO_0002525",
+      "http://purl.obolibrary.org/obo/MONDO_0019052",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://www.orpha.net/ORDO/Orphanet_163631",
+      "http://www.ebi.ac.uk/efo/EFO_0009534",
+      "http://www.ebi.ac.uk/efo/EFO_0010284",
+      "http://www.ebi.ac.uk/efo/EFO_0000405",
+      "http://www.orpha.net/ORDO/Orphanet_101940",
+      "http://www.orpha.net/ORDO/Orphanet_156601",
+      "http://www.orpha.net/ORDO/Orphanet_79168",
+      "http://www.orpha.net/ORDO/Orphanet_309005"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005590",
+      "http://purl.obolibrary.org/obo/MONDO_0002525",
+      "http://purl.obolibrary.org/obo/MONDO_0019052",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://www.orpha.net/ORDO/Orphanet_163631",
+      "http://www.ebi.ac.uk/efo/EFO_0009534",
+      "http://www.ebi.ac.uk/efo/EFO_0010284",
+      "http://www.ebi.ac.uk/efo/EFO_0000405",
+      "http://www.orpha.net/ORDO/Orphanet_101940",
+      "http://www.orpha.net/ORDO/Orphanet_156601",
+      "http://www.orpha.net/ORDO/Orphanet_79168",
+      "http://www.orpha.net/ORDO/Orphanet_309005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009040"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cranio-cervical dystonia with laryngeal and upper-limb involvement"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009040",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An autosomal dominant form of focal dystonia affecting the neck, laryngeal muscles, and muscles of the upper limbs."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_391799",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_391799",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_391799",
+      "http://www.orpha.net/ORDO/Orphanet_183521",
+      "http://www.ebi.ac.uk/efo/EFO_0004280",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_391799",
+      "http://www.orpha.net/ORDO/Orphanet_183521",
+      "http://www.ebi.ac.uk/efo/EFO_0004280",
+      "http://www.ebi.ac.uk/efo/EFO_0000618",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.orpha.net/ORDO/Orphanet_71859",
+      "http://www.ebi.ac.uk/efo/EFO_0000508"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009041"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cushing syndrome due to macronodular adrenal hyperplasia"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009041",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A rare type of Cushing syndrome (CS) characterized by nodular enlargement of both adrenal glands (multiple nodules above 1 cm in diameter) that produce excess cortisol and features of adrenocorticotropic hormone (ACTH) independent CS."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Orphanet:189427"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "https://orcid.org/0000-0001-5208-3432"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "ACTH-independent macronodular adrenal hyperplasia (AIMAH) is a rare cause of Cushing syndrome (CS; see this term) characterized by nodular enlargement of both adrenal glands (multiple nodules above 1 cm in diameter) that produce excess cortisol and features of adrenocorticotropic hormone (ACTH) independent CS (see this term)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0020529",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:189427"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/MONDO_0020529",
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#source": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Orphanet:189427"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "https://orcid.org/0000-0002-6601-2165"
+            }
+          ]
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0020529",
+      "http://www.ebi.ac.uk/efo/EFO_0003099",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0005539",
+      "http://www.ebi.ac.uk/efo/EFO_0001379"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0020529",
+      "http://www.ebi.ac.uk/efo/EFO_0003099",
+      "http://purl.obolibrary.org/obo/MONDO_0002254",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0005539",
+      "http://www.ebi.ac.uk/efo/EFO_0001379"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009042"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Estrogen resistance syndrome"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009042",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Estrogen resistance syndrome is a rare, genetic endocrine disease characterized by estrogen-receptor insensitivity to estrogens and the presence of elevated estrogen and gonadotropin serum levels. Clinical manifestations include absent breast development and primary amenorrhea in association with multicystic ovaries and/or hypoplastic uterus in female patients, normal or abnormal gonadal development in male patients and markedly delayed bone maturation, persistence of open epiphyses, reduced bone mineral density, and variable tall stature in both sexes. Glucose intolerance, hyperinsulinemia and lipid abnormalities may also be present."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.orpha.net/ORDO/Orphanet_400011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.orpha.net/ORDO/Orphanet_400011",
+    "directAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_400011",
+      "http://www.orpha.net/ORDO/Orphanet_400008",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0009549",
+      "http://www.ebi.ac.uk/efo/EFO_0000512"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.orpha.net/ORDO/Orphanet_400011",
+      "http://www.orpha.net/ORDO/Orphanet_400008",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0009549",
+      "http://www.ebi.ac.uk/efo/EFO_0000512"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009043"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Familial porphyria cutanea tarda"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009043",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An instance of porphyria cutanea tarda that is caused by an inherited modification of the individual's genome."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "MONDO:patterns/hereditary"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Porphyria cutanea tarda (PCT) is characterized by light-sensitive dermatitis and the excretion of large amounts of uroporphyrin in urine (Elder et al., 1980)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0015104",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Orphanet:443062"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "icd11.foundation:1318287619"
+              }
+            ]
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/MONDO_0100498",
+      "http://www.orpha.net/ORDO/Orphanet_183490",
+      "http://www.orpha.net/ORDO/Orphanet_309813",
+      "http://www.orpha.net/ORDO/Orphanet_79387",
+      "http://www.orpha.net/ORDO/Orphanet_98056",
+      "http://www.orpha.net/ORDO/Orphanet_98696"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/MONDO_0015104",
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#source": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "MONDO:Redundant"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Orphanet:443062"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "icd11.foundation:1318287619"
+              }
+            ]
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/MONDO_0100498",
+      "http://www.orpha.net/ORDO/Orphanet_183490",
+      "http://www.orpha.net/ORDO/Orphanet_309813",
+      "http://www.orpha.net/ORDO/Orphanet_79387",
+      "http://www.orpha.net/ORDO/Orphanet_98056",
+      "http://www.orpha.net/ORDO/Orphanet_98696"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015104",
+      "http://purl.obolibrary.org/obo/MONDO_0002406",
+      "http://www.ebi.ac.uk/efo/EFO_0000701",
+      "http://www.ebi.ac.uk/efo/EFO_0010285",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0009903",
+      "http://purl.obolibrary.org/obo/MONDO_0002520",
+      "http://purl.obolibrary.org/obo/MONDO_0037939",
+      "http://purl.obolibrary.org/obo/MONDO_0037821",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://www.ebi.ac.uk/efo/EFO_0001421",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0010284",
+      "http://www.ebi.ac.uk/efo/EFO_0000405",
+      "http://purl.obolibrary.org/obo/MONDO_0100498",
+      "http://purl.obolibrary.org/obo/MONDO_0019142",
+      "http://purl.obolibrary.org/obo/MONDO_0015951",
+      "http://purl.obolibrary.org/obo/MONDO_0100118",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://purl.obolibrary.org/obo/MONDO_0017754",
+      "http://purl.obolibrary.org/obo/MONDO_0019052",
+      "http://www.orpha.net/ORDO/Orphanet_183490",
+      "http://www.orpha.net/ORDO/Orphanet_68346",
+      "http://www.orpha.net/ORDO/Orphanet_309813",
+      "http://www.orpha.net/ORDO/Orphanet_79387",
+      "http://www.orpha.net/ORDO/Orphanet_98056",
+      "http://www.ebi.ac.uk/efo/EFO_0009690",
+      "http://www.orpha.net/ORDO/Orphanet_98696",
+      "http://www.orpha.net/ORDO/Orphanet_101435",
+      "http://www.ebi.ac.uk/efo/EFO_0003966",
+      "http://purl.obolibrary.org/obo/MONDO_0024458",
+      "http://www.ebi.ac.uk/efo/EFO_0009664",
+      "http://www.ebi.ac.uk/efo/EFO_0000524"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0015104",
+      "http://purl.obolibrary.org/obo/MONDO_0002406",
+      "http://www.ebi.ac.uk/efo/EFO_0000701",
+      "http://www.ebi.ac.uk/efo/EFO_0010285",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.ebi.ac.uk/efo/EFO_0009903",
+      "http://purl.obolibrary.org/obo/MONDO_0002520",
+      "http://purl.obolibrary.org/obo/MONDO_0037939",
+      "http://purl.obolibrary.org/obo/MONDO_0037821",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://www.ebi.ac.uk/efo/EFO_0001421",
+      "http://www.ebi.ac.uk/efo/EFO_0001379",
+      "http://www.ebi.ac.uk/efo/EFO_0010284",
+      "http://www.ebi.ac.uk/efo/EFO_0000405",
+      "http://purl.obolibrary.org/obo/MONDO_0100498",
+      "http://purl.obolibrary.org/obo/MONDO_0019142",
+      "http://purl.obolibrary.org/obo/MONDO_0015951",
+      "http://purl.obolibrary.org/obo/MONDO_0100118",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://purl.obolibrary.org/obo/MONDO_0017754",
+      "http://purl.obolibrary.org/obo/MONDO_0019052",
+      "http://www.orpha.net/ORDO/Orphanet_183490",
+      "http://www.orpha.net/ORDO/Orphanet_68346",
+      "http://www.orpha.net/ORDO/Orphanet_309813",
+      "http://www.orpha.net/ORDO/Orphanet_79387",
+      "http://www.orpha.net/ORDO/Orphanet_98056",
+      "http://www.ebi.ac.uk/efo/EFO_0009690",
+      "http://www.orpha.net/ORDO/Orphanet_98696",
+      "http://www.orpha.net/ORDO/Orphanet_101435",
+      "http://www.ebi.ac.uk/efo/EFO_0003966",
+      "http://purl.obolibrary.org/obo/MONDO_0024458",
+      "http://www.ebi.ac.uk/efo/EFO_0009664",
+      "http://www.ebi.ac.uk/efo/EFO_0000524"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009044"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Fanconi anemia complementation group A"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009044",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Fanconi anemia complementation group A is a protein which in humans is encoded by the FANCA gene. It belongs to the Fanconi anaemia complementation group (FANC) family of genes of which 12 complementation groups are currently recognized and is hypothesised to operate as a post-replication repair or a cell cycle checkpoint. FANCA proteins are involved in inter-strand DNA cross-link repair and in the maintenance of normal chromosome stability that regulates the differentiation of haematopoietic stem cells into mature blood cells."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0019391",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0019391",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0019391",
+      "http://purl.obolibrary.org/obo/MONDO_0000577",
+      "http://purl.obolibrary.org/obo/MONDO_0002280",
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/MONDO_0009332",
+      "http://purl.obolibrary.org/obo/MONDO_0001713",
+      "http://purl.obolibrary.org/obo/MONDO_0015909",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://purl.obolibrary.org/obo/MONDO_0003225",
+      "http://www.ebi.ac.uk/efo/EFO_0000540",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://purl.obolibrary.org/obo/MONDO_0015161",
+      "http://purl.obolibrary.org/obo/MONDO_0019042",
+      "http://purl.obolibrary.org/obo/MONDO_0019755",
+      "http://purl.obolibrary.org/obo/MONDO_0021147",
+      "http://purl.obolibrary.org/obo/MONDO_0015327",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://purl.obolibrary.org/obo/MONDO_0019054",
+      "http://www.ebi.ac.uk/efo/EFO_0008499",
+      "http://purl.obolibrary.org/obo/MONDO_0019052"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0019391",
+      "http://purl.obolibrary.org/obo/MONDO_0000577",
+      "http://purl.obolibrary.org/obo/MONDO_0002280",
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/MONDO_0009332",
+      "http://purl.obolibrary.org/obo/MONDO_0001713",
+      "http://purl.obolibrary.org/obo/MONDO_0015909",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://purl.obolibrary.org/obo/MONDO_0003225",
+      "http://www.ebi.ac.uk/efo/EFO_0000540",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://purl.obolibrary.org/obo/MONDO_0015161",
+      "http://purl.obolibrary.org/obo/MONDO_0019042",
+      "http://purl.obolibrary.org/obo/MONDO_0019755",
+      "http://purl.obolibrary.org/obo/MONDO_0021147",
+      "http://purl.obolibrary.org/obo/MONDO_0015327",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://purl.obolibrary.org/obo/MONDO_0019054",
+      "http://www.ebi.ac.uk/efo/EFO_0008499",
+      "http://purl.obolibrary.org/obo/MONDO_0019052"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EFO:0009045"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Fanconi anemia complementation group F"
+    },
+    "iri": "http://www.ebi.ac.uk/efo/EFO_0009045",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Fanconi anemia complementation group F is a protein encoded by the FANCF gene in humans."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MONDO_0019391",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MONDO_0019391",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0019391",
+      "http://purl.obolibrary.org/obo/MONDO_0000577",
+      "http://purl.obolibrary.org/obo/MONDO_0002280",
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/MONDO_0009332",
+      "http://purl.obolibrary.org/obo/MONDO_0001713",
+      "http://purl.obolibrary.org/obo/MONDO_0015909",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://purl.obolibrary.org/obo/MONDO_0003225",
+      "http://www.ebi.ac.uk/efo/EFO_0000540",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://purl.obolibrary.org/obo/MONDO_0015161",
+      "http://purl.obolibrary.org/obo/MONDO_0019042",
+      "http://purl.obolibrary.org/obo/MONDO_0019755",
+      "http://purl.obolibrary.org/obo/MONDO_0021147",
+      "http://purl.obolibrary.org/obo/MONDO_0015327",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://purl.obolibrary.org/obo/MONDO_0019054",
+      "http://www.ebi.ac.uk/efo/EFO_0008499",
+      "http://purl.obolibrary.org/obo/MONDO_0019052"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MONDO_0019391",
+      "http://purl.obolibrary.org/obo/MONDO_0000577",
+      "http://purl.obolibrary.org/obo/MONDO_0002280",
+      "http://www.ebi.ac.uk/efo/EFO_0005803",
+      "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://www.ebi.ac.uk/efo/EFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/MONDO_0009332",
+      "http://purl.obolibrary.org/obo/MONDO_0001713",
+      "http://purl.obolibrary.org/obo/MONDO_0015909",
+      "http://www.ebi.ac.uk/efo/EFO_0000508",
+      "http://purl.obolibrary.org/obo/MONDO_0003225",
+      "http://www.ebi.ac.uk/efo/EFO_0000540",
+      "http://www.ebi.ac.uk/efo/EFO_0002461",
+      "http://www.ebi.ac.uk/efo/EFO_0009676",
+      "http://purl.obolibrary.org/obo/MONDO_0015161",
+      "http://purl.obolibrary.org/obo/MONDO_0019042",
+      "http://purl.obolibrary.org/obo/MONDO_0019755",
+      "http://purl.obolibrary.org/obo/MONDO_0021147",
+      "http://purl.obolibrary.org/obo/MONDO_0015327",
+      "http://www.ebi.ac.uk/efo/EFO_0000589",
+      "http://purl.obolibrary.org/obo/MONDO_0019054",
+      "http://www.ebi.ac.uk/efo/EFO_0008499",
+      "http://purl.obolibrary.org/obo/MONDO_0019052"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

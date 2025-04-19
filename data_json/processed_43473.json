@@ -1,0 +1,2493 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0016301"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "kinase activity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0016301",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:0198506732"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Note that this term encompasses all activities that transfer a single phosphate group; although ATP is by far the most common phosphate donor, reactions using other phosphate donors are included in this term."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0003674",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0003674",
+    "directAncestor": "http://purl.obolibrary.org/obo/GO_0003674",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/GO_0003674",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0031012"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "extracellular matrix"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0031012",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0044421",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0044421",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0005576",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044421",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044421",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005576"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0032838"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cell projection cytoplasm"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0032838",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0044463",
+      "http://purl.obolibrary.org/obo/GO_0099568"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0044463",
+      "http://purl.obolibrary.org/obo/GO_0099568",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0042995",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044463",
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0099568",
+      "http://purl.obolibrary.org/obo/GO_0005737",
+      "http://purl.obolibrary.org/obo/GO_0044424",
+      "http://purl.obolibrary.org/obo/GO_0044444"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044463",
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005623",
+      "http://purl.obolibrary.org/obo/GO_0042995",
+      "http://purl.obolibrary.org/obo/GO_0099568",
+      "http://purl.obolibrary.org/obo/GO_0005737",
+      "http://purl.obolibrary.org/obo/GO_0044424",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/GO_0044444"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0040011"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "locomotion"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0040011",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0008150",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0008150",
+    "directAncestor": "http://purl.obolibrary.org/obo/GO_0008150",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/GO_0008150",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0042995"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cell projection"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0042995",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0044464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0044464",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005623"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 11,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 14,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0043226"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "organelle"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0043226",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0005575",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0005575",
+    "directAncestor": "http://purl.obolibrary.org/obo/GO_0005575",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/GO_0005575",
+    "hasDirectChildren": true,
+    "numDescendants": 12,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 14,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0043230"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "extracellular organelle"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0043230",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0044421"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0044421",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0005576",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0044421"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0044421",
+      "http://purl.obolibrary.org/obo/GO_0005576"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0044420"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "extracellular matrix component"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0044420",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0044421",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0044421",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0031012",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044421",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044421",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005576",
+      "http://purl.obolibrary.org/obo/GO_0031012"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0044421"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "extracellular region part"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0044421",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0005575",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0005576",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": "http://purl.obolibrary.org/obo/GO_0005575",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005576"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0044422"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "organelle part"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0044422",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0005575",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0043226",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": "http://purl.obolibrary.org/obo/GO_0005575",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0043226"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0044424"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "intracellular part"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0044424",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0044464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0005622",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005623",
+      "http://purl.obolibrary.org/obo/GO_0005622"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0044441"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ciliary part"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0044441",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GO_0044422",
+      "http://purl.obolibrary.org/obo/GO_0044463"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0044422",
+      "http://purl.obolibrary.org/obo/GO_0044463",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0005929",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044422",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0044463",
+      "http://purl.obolibrary.org/obo/GO_0044464"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044422",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0043226",
+      "http://purl.obolibrary.org/obo/GO_0044463",
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005623",
+      "http://purl.obolibrary.org/obo/GO_0042995",
+      "http://purl.obolibrary.org/obo/GO_0005929"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0044444"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cytoplasmic part"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0044444",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0044424",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0044424",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0005737",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044424",
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044424",
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005623",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/GO_0005737"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0044463"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cell projection part"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0044463",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0044464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0042995",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005623",
+      "http://purl.obolibrary.org/obo/GO_0042995"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0044464"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cell part"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0044464",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0005575",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0005623",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": "http://purl.obolibrary.org/obo/GO_0005575",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005623"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 21,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 21,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GO:0099568"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cytoplasmic region"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GO_0099568",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0005737",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/GO_0044444"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/GO_0005737",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      },
+      "http://purl.obolibrary.org/obo/GO_0044444"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0005737",
+      "http://purl.obolibrary.org/obo/GO_0044424",
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0044444"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0005737",
+      "http://purl.obolibrary.org/obo/GO_0044424",
+      "http://purl.obolibrary.org/obo/GO_0044464",
+      "http://purl.obolibrary.org/obo/GO_0005575",
+      "http://purl.obolibrary.org/obo/GO_0005623",
+      "http://purl.obolibrary.org/obo/GO_0005622",
+      "http://purl.obolibrary.org/obo/GO_0044444"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000027"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data item",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000027",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 22,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000030"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "information content entity",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000031",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000031",
+    "directAncestor": "http://purl.obolibrary.org/obo/BFO_0000031",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/BFO_0000031",
+    "hasDirectChildren": true,
+    "numDescendants": 23,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000078"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "curation status specification",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000078",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000102",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000102",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000102",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000102",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000102"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data about an ontology part",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000102",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Data about an ontology part is a data item about a part of an ontology, for example a term",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000027",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000027",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 21,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000225"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "obsolescence reason specification",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000225",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000102",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000102",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000102",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000102",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000409"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "denotator type",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000409",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A denotator type indicates how a term should be interpreted from an ontological perspective.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000102",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000102",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000102",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000102",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:10197"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ctenophora"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 85,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 85,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:10199"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Beroe"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:10200"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Beroe mitrata"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10200",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:10201"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Beroe ovata"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10201",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:127144"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Lampocteis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_127144",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_148608",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_148608",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_148608",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27921",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_148608",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27921",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:127145"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Lampocteis cruentiventer"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_127145",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_127144",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_127144",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_127144",
+      "http://purl.obolibrary.org/obo/NCBITaxon_148608",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27921",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_127144",
+      "http://purl.obolibrary.org/obo/NCBITaxon_148608",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27921",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:12996"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cestum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_12996",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_27920",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_27920",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_27920",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27919",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_27920",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27919",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:12997"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cestum veneris"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_12997",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_12996",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_12996",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_12996",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27920",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27919",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_12996",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27920",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27919",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140453"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Beroe forskalii"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140453",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140454"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Beroe gracilis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140454",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_10199",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37539",
+      "http://purl.obolibrary.org/obo/NCBITaxon_37538",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140455"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bolinopsis infundibulum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140455",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_51106",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_51106",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_51106",
+      "http://purl.obolibrary.org/obo/NCBITaxon_51105",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27921",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_51106",
+      "http://purl.obolibrary.org/obo/NCBITaxon_51105",
+      "http://purl.obolibrary.org/obo/NCBITaxon_27921",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140493",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140456"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Hormiphora plumosa"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140456",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_86009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_86009",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_86009",
+      "http://purl.obolibrary.org/obo/NCBITaxon_86008",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_86009",
+      "http://purl.obolibrary.org/obo/NCBITaxon_86008",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140457"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Pleurobrachia pileus"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140457",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_34498",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_34498",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_34498",
+      "http://purl.obolibrary.org/obo/NCBITaxon_86008",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_34498",
+      "http://purl.obolibrary.org/obo/NCBITaxon_86008",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140460"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Mertensiidae"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140461"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Charistephane"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140461",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140462"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Charistephane fugiens"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140462",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140461",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140461",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140461",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140461",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140463"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Callianira"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140463",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140464"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Callianira cristata"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140464",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140463",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140463",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140463",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140463",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140460",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140465"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Haeckeliidae"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140466"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Aulacoctena"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140466",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140467"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Aulacoctena acuminata"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140467",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140466",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140466",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140466",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140466",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140468"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Haeckelia"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140468",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140469"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Haeckelia beehleri"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140469",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140468",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140468",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140468",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140468",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140470"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Haeckelia rubra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140470",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140468",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140468",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140468",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140468",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140465",
+      "http://purl.obolibrary.org/obo/NCBITaxon_50341",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140471"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Platyctenida"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140471",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140472"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Coeloplanidae"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140472",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140471",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140471",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140471",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140471",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140473"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Coeloplana"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140473",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140472",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140472",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140472",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140471",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140472",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140471",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NCBITaxon:140474"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Coeloplana bannwarthii"
+    },
+    "iri": "http://purl.obolibrary.org/obo/NCBITaxon_140474",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCBITaxon_140473",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCBITaxon_140473",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140473",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140472",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140471",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/NCBITaxon_140473",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140472",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140471",
+      "http://purl.obolibrary.org/obo/NCBITaxon_140492",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10197",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

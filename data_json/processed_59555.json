@@ -1,0 +1,2694 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000501"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Weibull probability distribution",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000501",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "the Weibull probability distribution is continuous probabibility distribution which is used to model time to fail, time to repair and material strength in material science. In biomedicine, the Weibull probability is used to in determining 'hazard functions'. \n\nThe 'location parameter' of the Weibull probability distribution can be used to define a failure-free zone.\n\nIf the quantity X is a \"time-to-failure\", the Weibull distribution gives a distribution for which the failure rate is proportional to a power of time. The shape parameter, k, is that power plus one, and so this parameter can be interpreted directly as follows:\nA value of {\\displaystyle k<1\\,} {\\displaystyle k<1\\,} indicates that the failure rate decreases over time. This happens if there is significant \"infant mortality\", or defective items failing early and the failure rate decreasing over time as the defective items are weeded out of the population. In the context of the diffusion of innovations, this means negative word of mouth: the hazard function is a monotonically decreasing function of the proportion of adopters;\nA value of {\\displaystyle k=1\\,} {\\displaystyle k=1\\,} indicates that the failure rate is constant over time. This might suggest random external events are causing mortality, or failure. The Weibull distribution reduces to an exponential distribution;\nA value of {\\displaystyle k>1\\,} {\\displaystyle k>1\\,} indicates that the failure rate increases with time. This happens if there is an \"aging\" process, or parts that are more likely to fail as time goes on. In the context of the diffusion of innovations, this means positive word of mouth: the hazard function is a monotonically increasing function of the proportion of adopters. The function is first concave, then convex with an inflexion point at {\\displaystyle (e^{1/k}-1)/e^{1/k},k>1\\,} {\\displaystyle (e^{1/k}-1)/e^{1/k},k>1\\,}.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000067",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000067",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000502"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "statistical sampling"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "statistical sampling is a planned process which aims at assembling a population of observation units (samples) in as an unbiaised manner as possible in order to obtain or infer information about the actual population these samples have been drawn."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 14,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 14,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000503"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "simple random sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000503",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Simple random sampling is a statistical sampling process which creates a sample of a size n entirely by chance. In such process, each unit has the same probability of being selected. Depending on the size of the population being sampled, the sampling process may be done with or without replacement",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000504"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "line intercept sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000504",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "line intercept sampling  is a sampling process by which an element in a spatial region is included in a sample if it is intersected by a line chosen by the operator.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000509",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000509",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000509",
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000509",
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000505"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "quadrat sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000505",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Quadrat sampling is a classic tool for the study of ecology, especially biodiversity. In general, a series of squares (quadrats) of a set size are placed in a habitat of interest and the species within those quadrats are identified and recorded. Passive quadrat sampling (done without removing the organisms found within the quadrat) can be either done by hand, with researchers carefully sorting through each individual quadrat or, more efficiently, can be done by taking a photograph of the quadrat for future analysis.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000509",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000509",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000509",
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000509",
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000506"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "cluster sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000506",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Cluster sampling is a sampling plan used when mutually homogeneous yet internally heterogeneous groupings are evident in a statistical population.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000509",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000509",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000509",
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000509",
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000507"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "probability-proportional-to-size sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000507",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Probability proportional to size ('PPS') sampling is a sampling method in which the selection probability for each element is set to be proportional to its size measure, up to a maximum of 1. In a simple PPS design, these selection probabilities can then be used as the basis for Poisson sampling. However, this has the drawback of variable sample size, and different portions of the population may still be over- or under-represented due to chance variation in selections.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000508"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "stratified sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000508",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "stratified sampling is a statistical sampling method which divides the population into homogenous subpopulations, which are then sampled using random or systematic sampling methods"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000509"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "systematic sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000509",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "systematic sampling is a process for collecting samples and assembling a statistical sample using a system or method (.e.g unequal probabilities, without replacement, fixed sample size), as opposed to a random sampling.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000510"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "quota sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000510",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Quota sampling is a method for selecting survey participants that is a non-probabilistic version of stratified sampling. \n\nIn quota sampling, a population is first segmented into mutually exclusive sub-groups, just as in stratified sampling. Then judgment is used to select the subjects or units from each segment based on a specified proportion. For example, an interviewer may be told to sample 200 females and 300 males between the age of 45 and 60. This means that individuals can put a demand on who they want to sample (targeting).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000511"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "panel sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000511",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Panel sampling is the method of first selecting a group of participants through a random sampling method and then asking that group for (potentially the same) information several times over a period of time. Therefore, each participant is interviewed at two or more time points; each period of data collection is called a \"wave\". The method was developed by sociologist Paul Lazarsfeld in 1938 as a means of studying political campaigns.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000512"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "chain-referral sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000512",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Snowball sampling (or chain sampling, chain-referral sampling, referral sampling) is a non-probability sampling technique where existing study subjects recruit future subjects from among their acquaintances. Thus the sample group is said to grow like a rolling snowball.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000513"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "voluntary sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000513",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The voluntary sampling method is a type of non-probability sampling. A voluntary sample is made up of people who self-select into the survey. Often, these subjects have a strong interest in the main topic of the survey. Volunteers may be invited through advertisements on Social Media Sites",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000514"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "convenience sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000514",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Convenience sampling (also known as grab sampling, accidental sampling, or opportunity sampling) is a type of non-probability sampling that involves the sample being drawn from that part of the population that is close to hand. This type of sampling is most useful for pilot testing.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000515"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Brewer sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000515",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Brewer's sampling is a statistical sampling method which was proposed by Brewer in 1975 and uses unequal probabibility sampling technique",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000509",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000509",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000509",
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000509",
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000516"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "minimax sampling",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000516",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "In imbalanced datasets, where the sampling ratio does not follow the population statistics, one can resample the dataset in a conservative manner called minimax sampling. The minimax sampling has its origin in Anderson minimax ratio whose value is proved to be 0.5: in a binary classification, the class-sample sizes should be chosen equally. This ratio can be proved to be minimax ratio only under the assumption of LDA classifier with Gaussian distributions. The notion of minimax sampling is recently developed for a general class of classification rules, called class-wise smart classifiers.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000502",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000502",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000517"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "complete randomization"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000517",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "complete randomization is a group randomization where experimental units are randomly assigned to the entire set of groups defined by the experimental treatments."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0302900",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0302900",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0302900",
+      "http://purl.obolibrary.org/obo/OBI_0600015",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0302900",
+      "http://purl.obolibrary.org/obo/OBI_0600015",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000518"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "data imputation"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Data imputation is a data transformation process whereby missing data is replaced with an estimated value for the missing element. The substituted values are intended to create a data record that does not fail edits. Various methods may be used to produce these substituted values."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0200000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0200000",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000519"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "last observation carried forward data imputation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000519",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "last observation carried forward data imputation is a type of data imputation which uses a very simple, self explanatory method for substituted a missing value for an observation. It should be noted that this method gives a biased estimate of the treatment effect and underestimates the variability of the estimated result and should be used cautiously."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000520"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "regression data imputation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000520",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "regression data imputation is a type of data imputation where missing values are replaced with the value of a regression function coefficient."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000521"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "substitution by the mean data imputation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000521",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "substitution by the mean data imputation is a type of data imputation where missing values are replaced with the value the variable mean."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000522"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "multivariate imputation with chained equations"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000522",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "multivariate imputation with chained equations (MICE) is a type of data imputation which uses an algorithm devised by Stef van Buuren and Karin Groothuis-Oudshoorn"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000523"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "k-nearest neighbour data imputation"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000523",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "k-nearest neighbour imputation is a data imputation which uses the k-nearest neighbour algorithm to compute a substitution value for the missing values. For every observation to be imputed, it identifies ‘k’ closest observations based on the euclidean distance and computes the weighted average (weighted based on distance) of these ‘k’ obs."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000518",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000518",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000524"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Matthews correlation coefficient"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000524",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Matthews Correlation Coefficient (or MCC) is a correlation coefficient which is a measure of the quality of binary (two-class) classifications, introduced by biochemist Brian W. Matthews in 1975."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/STATO_0000142",
+      "http://purl.obolibrary.org/obo/STATO_0000622"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/STATO_0000142",
+      "http://purl.obolibrary.org/obo/STATO_0000622"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000142",
+      "http://purl.obolibrary.org/obo/STATO_0000085",
+      "http://purl.obolibrary.org/obo/STATO_0000471",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000611",
+      "http://purl.obolibrary.org/obo/STATO_0000610",
+      "http://purl.obolibrary.org/obo/STATO_0000622",
+      "http://purl.obolibrary.org/obo/STATO_0000184"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000142",
+      "http://purl.obolibrary.org/obo/STATO_0000085",
+      "http://purl.obolibrary.org/obo/STATO_0000471",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000611",
+      "http://purl.obolibrary.org/obo/STATO_0000610",
+      "http://purl.obolibrary.org/obo/STATO_0000622",
+      "http://purl.obolibrary.org/obo/STATO_0000184"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000525"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "covariance matrix",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000525",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "a covariance matrix is a square matrix that contains the variances and covariances associated with several variables. The diagonal elements of the matrix contain the variances of the variables and the off-diagonal elements contain the covariances between all possible pairs of variables.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000642",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000642",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000642",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000642",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000526"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "numerator relationship matrix",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000526",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "the numerator relationship matrix is the matrix of *expected* additive genetic relationships between individuals. This matrix was originally used by Henderson (Henderson, C.R. 1976. A simple method for computing the inverse of a numerator relationship matrix used in prediction of breeding values. Biometrics 32:69-83.) to account for covariances between random effects, and therefore to use information from relatives in estimation of breeding value. Among the properties of the NRM matrix (also known as the A matrix), it is symmetric, the diagonal value correspond to 1+ the inbreeding coefficient for an individual."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000642",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000642",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000642",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000642",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000527"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "denominator degrees of freedom"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000527",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The degree of freedom denominator is the number of degrees of freedom that the estimate of variance used in the denominator is based on. It is one of the parameters for the F-distribution used to compute probabilities in analysis of variance."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000069",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000069",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000069",
+      "http://purl.obolibrary.org/obo/STATO_0000047",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000069",
+      "http://purl.obolibrary.org/obo/STATO_0000047",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000528"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "G matrix"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000528",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A matrix of relationships among a group of individuals, which can be used to predict breeding values, to manage inbreeding and in genetic conservation. It can be calculated from the pedigree, but it is also possible to calculate the relationship matrix from genotypes at genetic markers such as single-nucleotide polymorphisms (SNPs). Elements of the genomic relationship matrix are estimates of the realized proportion of the genome that two individuals share, whereas the pedigree-derived relationship matrix is the expectation of this proportion.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000642",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000642",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000642",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000642",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000529"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "scaled t distribution"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000529",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "a scaled t distribution is a kind of Student's t distribution which is shifted by 'mean' and scaled by standard deviation 'sd'."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000059",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000059",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000059",
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000329"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000059",
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000329"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000530"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bayesian model"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000530",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "a Bayesian model is a statistical model  where inference is based on using Bayes theorem to obtain a posterior distribution for a quantity (or quantities) of interest for some model (such as parameter values) based on some prior distribution for the relevant unknown parameters and the likelihood from the model.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000107",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000107",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000107",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000107",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000531"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "prior probability distribution"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000531",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "a prior probability distribution is a probability distribution used as input to a Bayesian model to represent a priori knowledge about a model parameter. Along with the acquired/observed data, it is used to compute a posterior distribution according to the Bayes theorem."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000225",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000225",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000532"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "posterior probability distribution"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000532",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "a posterior probability distribution is a probability distribution computed in a Bayesian model approach given a prior distribution and a set of events/observations."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/STATO_0000225"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/STATO_0000225"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000225"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000225"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000533"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bayes C pi"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000533",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bayes C pi is a data transformation used to compute estimated breeding values using a Bayesian model and which assesses the SNP effect using MonteCarlo Markov chain methods. Bayes C pi treats the prior probability π that a SNP has zero effect as unknown.\nThe method was devised to address short comings of Bayes A and Bayes B approaches"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000534"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "genetic inheritance model",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000534",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "genetic inheritance model is a data item defining the assumption used by a breeding value estimation method to consider when running the calculations."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000107",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000107",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000107",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000107",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000535"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sampling from a probability distribution"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000535",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "sampling from a probability distribution is a data transformation which aims at obtaining a sequence of random samples from a probability distribution for which direct sampling is difficult."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0200000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0200000",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000536"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Gibbs sampling"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000536",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Gibbs sampling or a Gibbs sampler is a Markov chain Monte Carlo (MCMC) algorithm for obtaining a sequence of observations which are approximated from a specified multivariate probability distribution, when direct sampling is difficult."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000535",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000535",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000535",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000535",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000537"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Metropolis–Hastings sampling"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000537",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "the Metropolis–Hastings algorithm is a Markov chain Monte Carlo (MCMC) method for obtaining a sequence of random samples from a probability distribution for which direct sampling is difficult."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000535",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000535",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000535",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000535",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000538"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "continuous multivariate probability distribution"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000538",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "a continuous multivariate probability distribution is a continuous probability distribution which describes the possible values, and corresponding probabilities, of two or more (usually three or more) associated random variables."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000067",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000067",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000539"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "discrete multivariate probability distribution"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000539",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "a discrete multivariate probability distribution is a discrete probability distribution which describes the possible values, and corresponding probabilities, of two or more (usually three or more) associated random variables."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000117",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000117",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000117",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000117",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000540"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "reproducing kernel Hilbert space procedure",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000540",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A data transformation that produces a reproducing kernel Hilbert space (or RKHS), which is a Hilbert space of functions in which point evaluation is a continuous linear functional.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000541"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "state space model"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000541",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "a state space model is a kind of statistical model which describes the probabilistic dependence between the latent state variable and the observed measurement. The state or the measurement can be either continuous or discrete. The term “state space” originated in 1960s in the area of control engineering (Kalman, 1960). SSM provides a general framework for analyzing deterministic and stochastic dynamical systems that are measured or observed through a stochastic process."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000107",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000107",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000107",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000107",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000542"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "genomic estimated breeding value"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000542",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "genomic estimated breeding value (GEBV) is an estimated breeding value derived from information in an organism DNA (genotype). GEBV is calculated differently to conventional Estimated Breeding Values using advanced modeling technique to deal with high dimensionality data."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000485",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000485",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000485",
+      "http://purl.obolibrary.org/obo/STATO_0000471",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000485",
+      "http://purl.obolibrary.org/obo/STATO_0000471",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000544"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "heritability"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000544",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "In a planned experiment where to covariance (genotype  x environment) can be controlled and held at 0, the heritability is defined as the ratio of the variance of the genotypic variables to the variance of the phenotypic variables.\n\nH2 = Var(G)/Var(P)\n\nH2 is the broad-sense heritability. This reflects all the genetic contributions to a population's phenotypic variance including additive, dominant, and epistatic (multi-genic interactions), as well as maternal and paternal effects, where individuals are directly affected by their parents' phenotype, for example, milk production in mammals."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000184",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000184",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000184",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000184",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000545"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "narrow sense heritability"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000545",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A particularly important component of the genetic variance is the additive variance, Var(A), which is the variance due to the average effects (additive effects) of the alleles. Since each parent passes a single allele per locus to each offspring, parent-offspring resemblance depends upon the average effect of single alleles. Additive variance represents, therefore, the genetic component of variance responsible for parent-offspring resemblance. The additive genetic portion of the phenotypic variance is known as Narrow-sense heritability and is defined as:\n\n h2 = Var(A)/Var(P)",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000184",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000184",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000184",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000184",
+      "http://purl.obolibrary.org/obo/STATO_0000039",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000546"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Bayes R",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000546",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Bayes R is a data transformation used in the context of estimating breeding value, which relies on a Bayesian model to compute 'genomic estimated breeding values'. In contrast to Bayes B methods, the new method assumes that the true SNP effects are derived from a series of normal distributions, the first with zero variance, up to one with a variance of approximately 1% of the genetic variance.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000119",
+      "http://purl.obolibrary.org/obo/STATO_0000337"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000547"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Laplace probability distribution"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000547",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The double exponential distribution (a.k.a. Laplace distribution) is the distribution of differences between two independent variates with identical exponential distributions (Abramowitz and Stegun 1972, p. 930).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000329"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000329"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000329"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000067",
+      "http://purl.obolibrary.org/obo/STATO_0000225",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000329"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000548"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sampling distribution estimation by bootstrapping"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000548",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bootstrapping is the practice of estimating properties of an estimator (such as its variance) by measuring those properties when sampling from an approximating distribution."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000535",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000535",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000535",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/STATO_0000535",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000549"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "random forest procedure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000549",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "random forest procedure is a type of data transformation used in classification and statistical learning using regression. The random forest procedure is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset (it operates by constructing a multitude of decision trees at training time) and use averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is always the same as the original input sample size but the samples are drawn with replacement if bootstrap=True (default). The random forest procedure outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0200175"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0200175"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBI_0200175"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/OBI_0200175"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000550"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "log likelihood"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000550",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "log likelihood is a data item which corresponds to the natural logarithm of the likelihood.\nlog likelihood is a data item commonly used to provide a measure of accuracy of a model."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000027",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000027",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "STATO:0000551"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Holm false discovery rate correction"
+    },
+    "iri": "http://purl.obolibrary.org/obo/STATO_0000551",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A data transformation process in which the Holm p-value procedure is applied with the aim of correcting false discovery rate"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0200163",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0200163",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200163",
+      "http://purl.obolibrary.org/obo/OBI_0200089",
+      "http://purl.obolibrary.org/obo/OBI_0000668",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200163",
+      "http://purl.obolibrary.org/obo/OBI_0200089",
+      "http://purl.obolibrary.org/obo/OBI_0000668",
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

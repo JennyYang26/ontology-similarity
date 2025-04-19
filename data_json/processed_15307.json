@@ -1,0 +1,2596 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000524"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "InChI with fixedH layer",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000524",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An InChI descriptor that is not the standard and that is created with the fixedH layer option. The fixedH layer is appended to the standard InChI and lists the exact position of the tautomeric hydrogen atoms. It is useful when one wants to represent a specific tautomer of a given structure, because if the InChIs for the tautomers were created without the fixedH layer option, the normalization performed by the InChI generation program would result in these InChIs being identical."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000113",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000113",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000113",
+      "http://semanticscience.org/resource/CHEMINF_000085",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000113",
+      "http://semanticscience.org/resource/CHEMINF_000085",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000550"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ChEBI name"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000550",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A ChEBI name is a preferred name annotated by the ChEBI database.  The ChEBI name has the additional feature that it is unique within the ChEBI dataset. "
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000044",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000044",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000044",
+      "http://semanticscience.org/resource/CHEMINF_000043",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000044",
+      "http://semanticscience.org/resource/CHEMINF_000043",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000561"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "drug trade name"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000561",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Trade name of a drug compound."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000043",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000043",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000043",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000043",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000562"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "International Non-proprietary Name"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000562",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "International Non-proprietary Name, defined by the WHO."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000043",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000043",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000043",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000043",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000563"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Unique Ingredient Identifier"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000563",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identifier used by the USA Food and Drug Administration."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000564"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "LipidMaps identifier"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000564",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identifier used by the LipidMaps database, http://www.lipidmaps.org/."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000565"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "National Service Center number"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000565",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identifier used by the Cancer Chemotherapy National Service Center."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000566"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "RTECS identifier"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000566",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identifier used by the RTECS database (http://www.cdc.gov/niosh/rtecs/)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000569"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "European Registry of Materials identifier"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000569",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Identifier used by the European Registry of Materials (https://nanocommons.github.io/identifiers/)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000570"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "SwissLipids identifier",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000570",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000571"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "MolMeDB identifier",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000571",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000572"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "PDB ligand identifier",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000572",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000573"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "PDB structure identifier",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000573",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000464",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000464",
+      "http://semanticscience.org/resource/CHEMINF_000061",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000802"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "number of rule of five violations calculated by RDKit software library version 2015_09_2",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000802",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000312",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000312",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000312",
+      "http://semanticscience.org/resource/CHEMINF_000025",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000312",
+      "http://semanticscience.org/resource/CHEMINF_000025",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000803"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "hydrogen bond acceptor count calculated by RDKit software library version 2015_09_2",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000803",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000245",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000245",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000245",
+      "http://semanticscience.org/resource/CHEMINF_000209",
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000245",
+      "http://semanticscience.org/resource/CHEMINF_000209",
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000804"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "hydrogen bond donor count calculated by RDKit software library version 2015_09_2",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000804",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000244",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000244",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000244",
+      "http://semanticscience.org/resource/CHEMINF_000209",
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000244",
+      "http://semanticscience.org/resource/CHEMINF_000209",
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000805"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "logP descriptor calculated by RDKit software library version 2015_09_2",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000805",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000251",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000251",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000251",
+      "http://semanticscience.org/resource/CHEMINF_000025",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000251",
+      "http://semanticscience.org/resource/CHEMINF_000025",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000806"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "molecular formula calculated by RDKit software library version 2015_09_2",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000806",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000042",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000042",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000042",
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000042",
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000807"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "average molecular weight calculated by RDKit software library version 2015_09_2",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000807",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000216",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000216",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000216",
+      "http://semanticscience.org/resource/CHEMINF_000088",
+      "http://semanticscience.org/resource/CHEMINF_000083",
+      "http://semanticscience.org/resource/CHEMINF_000025",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000216",
+      "http://semanticscience.org/resource/CHEMINF_000088",
+      "http://semanticscience.org/resource/CHEMINF_000083",
+      "http://semanticscience.org/resource/CHEMINF_000025",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:000808"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "total polar surface area calculated by RDKit software library version 2015_09_2",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_000808",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000307",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000307",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000307",
+      "http://semanticscience.org/resource/CHEMINF_000229",
+      "http://semanticscience.org/resource/CHEMINF_000060",
+      "http://semanticscience.org/resource/CHEMINF_000093",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000307",
+      "http://semanticscience.org/resource/CHEMINF_000229",
+      "http://semanticscience.org/resource/CHEMINF_000060",
+      "http://semanticscience.org/resource/CHEMINF_000093",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001100"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bond Polarizabilities"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001100",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that calculates the sum of the absolute value of the difference between atomic polarizabilities of all bonded atoms in the molecule (including implicit hydrogens)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001500"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "BCUT",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001500",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Eigenvalue based descriptor noted for its utility in chemical diversity."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001501"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "bond partial pi charge",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001501",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that calculates bond-pi Partial charge of a bond by determining the difference the Partial Pi Charge on atoms A and B of a bond (based in Gasteiger Charge)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001502"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "bond partial sigma charge",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001502",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that calculates bond-sigma Partial charge of a bond."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001503"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "bond partial total charge",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001503",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that calculates bond-total Partial charge of a bond."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001504"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "bond sigma electronegativity",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001504",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that calculates of bond-Polarizability of a bond by determining the difference the Sigma electronegativity on atoms A and B of a bond."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001505"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "bonds to Atom",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001505",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Descriptor based on the number of bonds on the shortest path between two atoms (topological distance)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This is the shortest distance between a pair of atoms in a graph, defined as the number of edges in the shortest path between the atom pair in the molecular graph."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001506"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "chi chain indices",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001506",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Evluates the simple and valence chi chain descriptors (Kier and Hall) of orders 3, 4, 5, 6 and 7. "
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "It utilizes the graph isomorphism code of the CDK to find fragments matching SMILES strings representing the fragments corresponding to each type of chain."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001507"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "chi cluster indices",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001507",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Evluates the simple and valence chi cluster descriptors (Kier and Hall) of orders 3, 4,5 and 6."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": " It utilizes the graph isomorphism code of the CDK to find fragments matching SMILES strings representing the fragments corresponding to each type of chain."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001508"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "chi path indices",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001508",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Evaluates the Kier and Hall Chi path indices of orders 0,1,2,3,4,5,6 and 7.  "
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "It utilizes the graph isomorphism code of the CDK to find fragments matching SMILES strings representing the fragments corresponding to each type of chain."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001509"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "chi path-cluster indices",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001509",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Evaluates the Kier and Hall Chi path cluster indices of orders 4,5 and 6."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "It utilizes the graph isomorphism code of the CDK to find fragments matching SMILES strings representing the fragments corresponding to each type of chain."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001510"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "gravitational index",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001510",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor characterizing the mass distribution of the molecule."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000093",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000093",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000093",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000093",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001511"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "gravitational index (square and cube roots)",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001511",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor characterizing the mass distribution of the molecule as the square or cube root of the gravitational index."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_001510",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_001510",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_001510",
+      "http://semanticscience.org/resource/CHEMINF_000093",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_001510",
+      "http://semanticscience.org/resource/CHEMINF_000093",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001512"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "acceptor field atoms (Boehm,Klebe)",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001512",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Counts the number of acceptor field atoms for a carbonyl oxygen probe using force field based definition."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001513"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "hydrogen bond acceptors (Daylight)",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001513",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Descriptor that calculates the number of hydrogen bond acceptors (by Daylight)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "SMILES on-line tutorial, http://www.daylight.com/dayhtml_tutorials/languages/smarts/smarts_examples.html)"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001514"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "acceptors or donors field atoms (Boehm,Klebe)",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001514",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Counts the number of acceptor/donor field atoms for a carbonyl oxygen or amino hydrogen probe. "
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001515"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "donor field atoms (Boehm,Klebe)",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001515",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Counts the number of donor field atoms for an amino hydrogen probe."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001516"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "hydrogen bond donors (Daylight)",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001516",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Descriptor that calculates the number of hydrogen bond donors (by Daylight)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "SMILES on-line tutorial, http://www.daylight.com/dayhtml_tutorials/languages/smarts/smarts_examples.html)"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001517"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "proton belonging to an aromatic system",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001517",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor returns 1 if the protons is directly bonded to an aromatic system, it returns 2 if the distance between aromatic system and proton is 2 bonds, and it return 0 for other positions."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000136",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001518"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "proton belonging to a pi-system",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001518",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor returns true if the protons is directly bonded to a pi system."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000136",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001519"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Kier Hall SMARTS",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001519",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Counts the number of occurrences of the E-state fragments."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001520"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "molecular distance edge",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001520",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Evaluate molecular distance edge descriptors for C, N and O."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001521"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "moments of inertia",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001521",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that calculates the principal moments of inertia and ratios of the principal moments. Als calculates the radius of gyration."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000093",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000093",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000093",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000093",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001522"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "partial total charge (MMFF94)",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001522",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that calculates total partial charges of an heavy atom."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001523"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "period of an atom",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001523",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that returns the period in the periodic table of an atom belonging to an atom container."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000136",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001524"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "pi-contact of two atoms",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001524",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that check if two atoms have pi-contact (this is true when there is one and the same conjugated pi-system which contains both atoms, or directly linked neighboors of the atoms)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000136",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000136",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001525"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "proton total partial charge",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001525",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Descriptor that calculates partial charges of an heavy atom and its protons based on Gasteiger Marsili (PEOE)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001526"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "RDF proton descriptor",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001526",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Calculation of RDF proton descriptor."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This is a mixed descriptor: topological, geometrical and electronic descriptor."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001527"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "TAE RECON descriptors for amino acid sequences",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001527",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Descriptors are derived from pre-calculated quantum mechanical parameters by using the paramaters for amino acids and evaluating a set of 147 descriptors for peptide sequences."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "{@cdk.cite BREN1995} {@cdk.cite BREN1997} {@cdk.cite WHITE2003}"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000087",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000087",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEMINF:001528"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "weighted path",
+      "lang": "en"
+    },
+    "iri": "http://semanticscience.org/resource/CHEMINF_001528",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The weighted path (molecular ID) descriptors were described by Randic and they characterize molecular branching."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/CHEMINF_000092",
+    "directAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/CHEMINF_000092",
+      "http://semanticscience.org/resource/CHEMINF_000123",
+      "http://purl.enanomapper.org/onto/ENM_8000019",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

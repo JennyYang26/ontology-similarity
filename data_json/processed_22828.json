@@ -1,0 +1,2837 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000300"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "textual entity",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000300",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000310"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "document",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000310",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A collection of information content entities intended to be understood together as a whole",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 18,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000314"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "document part",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000314",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An information content entity that is part of a document.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/IAO_0000310",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/IAO_0000310"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 10,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000572"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "documenting",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000572",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A planned process in which a document is created or added to by including the specified input in it.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000577"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "centrally registered identifier symbol",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000577",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A symbol that is part of a CRID and that is sufficient to look up a record from the CRID's registry.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000028",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/IAO_0000028",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/IAO_0000578",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000028",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000028",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/IAO_0000578",
+      "http://purl.obolibrary.org/obo/IAO_0020000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000578"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "centrally registered identifier",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000578",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/IAO_0020000"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/IAO_0020000"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/IAO_0020000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/IAO_0020000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000579"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "centrally registered identifier registry",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000579",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A CRID registry is a dataset of CRID records, each consisting of a CRID symbol and additional information which was recorded in the dataset through a assigning a centrally registered identifier process.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000100",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000100",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000100",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000100",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0000590"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "written name",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0000590",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A textual entity that denotes a particular in reality.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000300",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000300",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000300",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000300",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "IAO:0020000"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "identifier",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/IAO_0020000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000011"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "planned process",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "planned process"
+      }
+    ],
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A process that realizes a plan which is the concretization of a plan specification.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000015",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000015",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 172,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 172,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000025"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "reference substance role",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000025",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "a role inhering in a material entity that is realized when  characteristics or responses elicited by the substance are used for comparison or reference.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000047"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "processed material",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000047",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Is a material entity that is created or changed during material processing.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000066"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "investigation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000066",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000067"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "evaluant role",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000067",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000070"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "assay",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000070",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000086"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "reagent role",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "reagent role"
+      }
+    ],
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000086",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer.",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "(copied from ReO)\nReagents are distinguished from instruments or devices that also participate in scientific techniques by the fact that reagents are chemical or biological in nature and necessarily participate in or have parts that participate in some chemical interaction or reaction during their intended participation in some technique.  By contrast, instruments do not participate in a chemical reaction/interaction during the technique.\n\nReagents are distinguished from study subjects/evaluants in that study subjects and evaluants are that about which conclusions are drawn and knowledge is sought in an investigation - while reagents, by definition, are not.  It should be noted, however, that reagent and study subject/evaluant roles can be borne by instances of the same type of material entity - but a given instance will realize only one of these roles in the execution of a given assay or technique. For example, taq polymerase can bear a reagent role or an evaluant role.  In a DNA sequencing assay aimed at generating sequence data about some plasmid, the reagent role of the taq polymerase is realized. In an assay to evaluate the quality of the taq polymerase itself, the evaluant/study subject role of the taq is realized, but not the reagent role since the taq is the subject about which data is generated.\n\nIn regard to the statement that reagents are 'distinct' from the specified outputs of a technique, note that a reagent may be incorporated into a material output of a technique, as long as the IDENTITY of this output is distinct from that of the bearer of the reagent role.  For example, dNTPs input into a PCR are reagents that become part of the material output of this technique, but this output has a new identity (ie that of a 'nucleic acid molecule') that is distinct from the identity of the dNTPs that comprise it.  Similarly, a biotin molecule input into a cell labeling technique are reagents that become part of the specified output, but the identity of the output is that of some modified cell specimen which shares identity with the input unmodified cell specimen, and not with the biotin label. Thus, we see that an important criteria of 'reagent-ness' is that it is a facilitator, and not the primary focus of an investigation or material processing technique (ie not the specified subject/evaluant about which knowledge is sought, or the specified output material of the technique)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000249",
+      "http://purl.obolibrary.org/obo/BFO_0000023"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000249",
+      "http://purl.obolibrary.org/obo/BFO_0000023"
+    ],
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000249",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000249",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000094"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "material processing",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "material processing"
+      }
+    ],
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000094",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A planned process which results in physical changes in a specified input material",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A planned process which results in physical changes in a specified input material."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 131,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 131,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000272"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "protocol",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000272",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000104",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000104",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000338"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "drawing a conclusion based on data",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000338",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A planned process in which data gathered in an investigation is evaluated in the context of existing knowledge with the objective to generate more general conclusions or to conclude that the data does not allow one to draw general conclusion",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000339"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "planning",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000339",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "a process of creating or modifying a plan specification",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/BFO_0000015",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://purl.obolibrary.org/obo/BFO_0000015",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000376"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "synthesizing function",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000376",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A synthesizing function is a function to assemble new output materials from distinct input materials.  The output materials typically consist of chemically distinct monomeric objects or object aggregate polymers."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000034",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000034",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000034",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000034",
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000406"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "PCR product",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000406",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "is double stranded DNA that is the specified output of a polymerase chain reaction",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/CHEBI_4705",
+      "http://purl.obolibrary.org/obo/OBI_0000809"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/CHEBI_4705",
+      "http://purl.obolibrary.org/obo/OBI_0000809"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CHEBI_4705",
+      "http://purl.obolibrary.org/obo/CHEBI_16991",
+      "http://purl.obolibrary.org/obo/CHEBI_33696",
+      "http://purl.obolibrary.org/obo/CHEBI_33839",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/OBI_0000809",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CHEBI_4705",
+      "http://purl.obolibrary.org/obo/CHEBI_16991",
+      "http://purl.obolibrary.org/obo/CHEBI_33696",
+      "http://purl.obolibrary.org/obo/CHEBI_33839",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/OBI_0000809",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000409"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "nucleic acid template role",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000409",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "a reference substance role which inheres in nucleic acid material entity and is realized in the process of using the nucleic acid bearing the template role as a reference during synthesis of a reverse copy."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000025",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000025",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000025",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000025",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000415"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "polymerase chain reaction",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000415",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "PCR is the process in which a DNA polymerase is used to amplify a piece of DNA by in vitro enzymatic replication. As PCR progresses, the DNA thus generated is itself used as a template for replication. This sets in motion a chain reaction in which the DNA template is exponentially amplified.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0600058",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0600058",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0600058",
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0600058",
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000427"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "enzyme",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000427",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "(protein or rna) or has_part (protein or rna) and\nhas_function some GO:0003824 (catalytic activity)",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000441"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "assay objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000441",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "an objective specification to determine a specified type of information about an evaluated entity (the material entity bearing evaluant role)",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000456"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "material transformation objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000456",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "an objective specifiction that creates an specific output object from input materials.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000471"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "study design execution"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000471",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "a planned process that carries out a study design"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000571"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "manufacturer role"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000571",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000656"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data set of predicted values according to fitted curve",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000656",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A data set which is the output of a curve fitting data transformation in which the aim is to find a curve which matches a series of data points and possibly other constraints.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000100",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000100",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000100",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000100",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000796"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "purification objective"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000796",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The objective to separate a material entity into different compositions of which one or more have are purified fractions that contain higher concentration of a desired component, while others contain impurities and are not of interest."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000809"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "amplified DNA"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000809",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "DNA that has been produced in an enzymatic amplification process"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/CHEBI_16991",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/CHEBI_16991",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CHEBI_16991",
+      "http://purl.obolibrary.org/obo/CHEBI_33696",
+      "http://purl.obolibrary.org/obo/CHEBI_33839",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CHEBI_16991",
+      "http://purl.obolibrary.org/obo/CHEBI_33696",
+      "http://purl.obolibrary.org/obo/CHEBI_33839",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0000968"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "device"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0000968",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A material entity that is designed to perform a function in a scientific investigation, but is not a reagent."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/CHMO_0000993",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/CHMO_0000993",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CHMO_0000993",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CHMO_0000993",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0001554"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "rate measurement datum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0001554",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A scalar measurement datum that represents the number of events occuring over a time interval"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000032",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000032",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000032",
+      "http://purl.obolibrary.org/obo/IAO_0000109",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000032",
+      "http://purl.obolibrary.org/obo/IAO_0000109",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0001909"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "conclusion based on data"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0001909",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An information content entity that is inferred from data."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0001931"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "scalar value specification"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0001931",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A value specification that consists of two parts: a numeral and a unit label"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001933",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001933",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001933",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001933",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0001933"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "value specification"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0001933",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An information content entity that specifies a value within a classification scheme or on a quantitative scale."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000030",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0002488"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pipette"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0002488",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A device that is a laboratory tool commonly used in chemistry, biology and medicine to transport a measured volume of liquid, often as a media dispenser."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000968",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000968",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000968",
+      "http://purl.obolibrary.org/obo/CHMO_0000993",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000968",
+      "http://purl.obolibrary.org/obo/CHMO_0000993",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/OBI_0000047"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0200000"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data transformation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0200000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A planned process that produces output data from input data.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0200072"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "curve fitting data transformation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0200072",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A curve fitting is a data transformation that has objective curve fitting and that consists of finding a curve which matches a series of data points and possibly other constraints.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0200000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0200000",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200000",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0200166"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data transformation objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0200166",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An objective specification to transformation input data into output data",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0200174"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "curve fitting objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0200174",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A curve fitting objective is a data transformation objective in which the aim is to find a curve which matches a series of data points and possibly other constraints.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0200166",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0200166",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200166",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0200166",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0302886"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "centrifugation"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0302886",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A process separating molecules by size or density using centrifugal forces generated by a spinning rotor. G-forces of several hundred thousand times gravity are generated in ultracentrifugation."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0600014",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0600014",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0600014",
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0600014",
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0302888"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "washing"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0302888",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Washing is a process by which a material entity acting as contaminant (e.g. excess staining reagent) is removed by application of one or more cycles of solution in flow."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CHMO_0002742",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CHMO_0002742",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CHMO_0002742",
+      "http://purl.obolibrary.org/obo/CHMO_0001577",
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PROCO_0000051"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CHMO_0002742",
+      "http://purl.obolibrary.org/obo/CHMO_0001577",
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PROCO_0000051"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0500000"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "study design",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0500000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000104",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000104",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0600014"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "material component separation"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0600014",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A material processing in which components of an input material become segregated in space."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000094",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000094",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "OBI:0600058"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "enzymatic amplification",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/OBI_0600058",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "the use of enzymes to increase the number of molecules of a biomaterial",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0000094",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0000094",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0000094",
+      "http://purl.obolibrary.org/obo/OBI_0000011",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PATO:0000001"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "quality"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PATO_0000001",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000019",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000019",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 58,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 58,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PATO:0000033"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "concentration of"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PATO_0000033",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PATO_0002182",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PATO_0002182",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PATO_0002182",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PATO_0002182",
+      "http://purl.obolibrary.org/obo/PATO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PATO:0000051"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "morphology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PATO_0000051",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 48,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 48,
+    "isPreferredRoot": false
+  }
+]

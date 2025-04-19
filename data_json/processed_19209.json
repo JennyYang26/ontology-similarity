@@ -1,0 +1,2792 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001561"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "assembly genome size",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001561",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "The assembly genome size is the sum of all lengths of a sequence assembly's contigs.",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "As noted in Quast documentation: \" The total assembly size may increase (and in some cases exceeds the genome size) due to contaminants (see Chitsaz et al. (2011)), misassembled contigs, repeats, and hubs that contribute to multiple contigs. \"",
+        "lang": "en"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001562"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "reference genome identifier",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001562",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Identifier for a reference genome (used to build or compare an assembly)  that is used in the genome browsers and in the community",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001800"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001800"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001800",
+      "http://purl.obolibrary.org/obo/IAO_0000577",
+      "http://purl.obolibrary.org/obo/IAO_0000028"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001800",
+      "http://purl.obolibrary.org/obo/IAO_0000577",
+      "http://purl.obolibrary.org/obo/IAO_0000028"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001563"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "genome size delta ratio",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001563",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'genome size delta ratio' is a ratio of the difference between a sample's genome assembly size and the size of a given reference genome, over the reference genome size. \n\nThe formula:\n\n| (reference_genome_size - assembly_genome_size) | / reference_genome_size\n\nThis yeilds a decimal / percentage ranging from 0 = exact length, to say .1 which is equivalent to a 10% variance.  If the ratio is too far from a quality control ratio that depends on the species in question, this indicates a bad assembly or a mis-identified sample.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001564"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "genome size delta ratio QC threshold",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001564",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "This is the upper acceptable limit of the 'genome size delta ratio' with respect to a particular species.\n\nFor Salmonella a 0.10 variance in length between an assembly size and a reference genome size may be acceptable.  For E-coli a more generous 0.30 or .40 variance should be allowed, given the pathogenic subspecies’ highly dynamic genome.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001565"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "contig N50 length QC threshold",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001565",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The contig N50 length QC threshold is a minimum length threshold that a contig N50 length datum should be above for good QC.  A lower length is indicative of assembly problems (insufficient read depth) or a mismatched reference genome.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001566"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "contig N99 length QC threshold",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001566",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The contig N99 length QC threshold is the minimum length that a contig N99 or NG99 length datum can be for satisfactory QC.  This threshold avoids having too many gene coding regions prematurely clipped inside short contigs.  An assembly having 1% or more of its content in less than 2Kbp chunks is cause for concern. Bacterial genes are generally about 1Kbp in length.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001567"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "subject organism (host) taxonomic species",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001567",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The species of the host organism from which a specimen (pathogen) organism was obtained. Use the full taxonomic name, eg, \"Homo sapiens\".",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001930",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001930",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001930",
+      "http://purl.obolibrary.org/obo/OBI_0001933",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001930",
+      "http://purl.obolibrary.org/obo/OBI_0001933",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001568"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "assembly quality control datum",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A single datum having to do with a metric for genomic sequence assembly quality control.  \n\nA \"quality control measurement\" can be defined as a measurement that has some norm within a definable context, e.g. for a certain subspecies.  It may be a calculated quantity.\n\nA \"quality control metric\" is an upper or lower bound threshold that a measurement is compared to.  Surpassing the threshold may indicate an error situation.\n\nA \"measure\" can indicate an amount of activity, consumption, transformation, etc. but doesn't itself convey an over-stepping of bounds in the way that a metric does.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 33,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 33,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001569"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "clinical or host-associated pathogen",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001569",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0000113",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0000113",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0000113",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001790",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0000113",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001790",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001570"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "contig N99",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001570",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The N99 length definition is identical to the N50 definition except that the threshold for determining the contigs is 1% of the nucleotides.  This contig basepair length can be compared to a minimum threshold to determine if gene annotation (where contigs greater than say 2000bp are necessary) would generally succeed.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001632",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001571"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "contig count QC threshold",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001571",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The upper threshold of contig counts that are acceptable in a genome assembly.  This may vary based on the overall genome length and depth of coverage.\n\nA large contig count may indicate insufficient read coverage.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0000093",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0000093",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0000093",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000047",
+      "http://purl.obolibrary.org/obo/IAO_0000109"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0000093",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001568",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001425",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001681",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/STATO_0000047",
+      "http://purl.obolibrary.org/obo/IAO_0000109"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001572"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "project relevance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Indicates how the knowledge derived from the project can be applied, and to what field(s).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001573"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "agricultural project relevance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001573",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001574"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "medical knowledge relevance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001574",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001575"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "industrial processing relevance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001575",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001576"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "evolution modelling relevance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001576",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001577"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "environmental project relevance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001577",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001578"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "model organism relevance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001578",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001572",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001581"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "draft NCBI BioSample model - mixed clinical and environmental/food/other",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001581",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Damion's note: There are a few different kinds of biosample, and required fields depend on the type selected.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001611",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001611",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001611",
+      "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001611",
+      "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001582"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "monoisolate sample scope",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001582",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A monoisolate sample scope involves specimens from a single animal, cultured cell-line, inbred population, or possibly a heterogeneous population when a single genome assembly is generated from a pooled sample because multiple individuals are needed to collect enough material and an inbred line is not available; however, this situation is not preferred.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001583"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "multiisolate sample scope",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001583",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A multiisolate sample scope contains multiple individuals that represent distinct specimen collections, a population (representative of a species).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001584"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "multispecies sample scope",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001584",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A multi-species sample scope involves a sample representing multiple species.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001585"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "environment sample scope",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001585",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An environment sample scope indicates that the species content of the sample is not known. Generally, nucleic acid is directly isolated from an environmental sample for analysis. This is used for metagenome studies.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001586"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "synthetic sample scope",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001586",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A synthetic sample scope involves a sample synthesized in a laboratory.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001587"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "single cell",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001587",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001884",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001884",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001588"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "other project objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001588",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Other project objective: specify an objective not listed above",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001590"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "environmental, food or other pathogen",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001590",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0000113",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0000113",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0000113",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001790",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0000113",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001790",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001591"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "whole genomic data capture",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001591",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Whole: the project makes use of the whole sample material (most common case). Use this for whole genome sequencing studies, transcriptome studies that are not targeting specific loci, epigenetic studies of a genome, and metagenomes or unbiased transcriptome studies of metagenomes.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001899",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001899",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001899",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001899",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001592"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "raw sequence read objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001592",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A raw sequence reads project objective has the goal of submission of raw reads to SRA or Trace repositories",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001593"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "sequence project objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001593",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A sequence project objective has a goal of submission of sequence data to standard archival sequence databases (yielding accession.version identifiers; e.g., whole genome shotgun, cDNA sequences, transcript shotgun assemblies)",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001594"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "analysis objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001594",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An \"analysis project objective\" indicates there was an other analysis not otherwise indicated, includes submission of BAM files.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001595"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "assembly objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001595",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Submission of genome assembly (AGP data)",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001596"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "sequence annotation objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001596",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Sequence annotation data",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001597"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "sequence variation project objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001597",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Variation: identification of sequence variation data for submission to dbSNP or dbVAR",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001598"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "epigenetic markers objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001598",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "DNA methylation, histone modification, chromatin accessibility datasets",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001599"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "transcript or protein expression objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001599",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Expression: assays of transcript or protein existence or abundance",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001600"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "mapping objective",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001600",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Maps: non-sequence based map data; e.g., genetic, radiation hybrid, cytogenetic, etc.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001892",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001892",
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001601"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "phenotypic observation data from specimen",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001601",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Phenotypic descriptive data.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001882",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001882",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001882",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001882",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001602"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "sequencing project method",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001602",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001896",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001896",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001896",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001896",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001603"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "array project method",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001603",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Select Array if that is the primary method and no sequence data is submitted",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001896",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001896",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001896",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001896",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001604"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "mass spectrometry project method",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001604",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Select Mass Spectrometry if that is the primary method",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001896",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001896",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001896",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001896",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001606"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "contact specification - person",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001606",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001755",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001755",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001755",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001342",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001755",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001342",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001607"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "investigation datum",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001607",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A categorical investigation datum is a datum pertaining to some entity examined for scientific research or diagnostic purposes and which has a scope that is broader than one of the clinical, environmental or epidemiological domains.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000109",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000109",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000109",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000109",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001608"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "commensal role",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001608",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An organism and its host share physical space but no evidence exists to determine if one benefits from this arrangement.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001172",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001172",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001172",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001171",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001172",
+      "http://purl.obolibrary.org/obo/GENEPIO_0001171",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001609"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "draft isolate details model",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001609",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001342",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001342",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001342",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001342",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001610"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "subject age",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001610",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A subject age is the age since birth of a given organism that is involved in an investigation or study at a given time.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/OBI_0001169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/OBI_0001169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001169",
+      "http://purl.obolibrary.org/obo/OBI_0001167",
+      "http://www.ebi.ac.uk/efo/EFO_0000433",
+      "http://www.ebi.ac.uk/efo/EFO_0000719",
+      "http://purl.obolibrary.org/obo/IAO_0000032",
+      "http://purl.obolibrary.org/obo/IAO_0000109",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000416"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/OBI_0001169",
+      "http://purl.obolibrary.org/obo/OBI_0001167",
+      "http://www.ebi.ac.uk/efo/EFO_0000433",
+      "http://www.ebi.ac.uk/efo/EFO_0000719",
+      "http://purl.obolibrary.org/obo/IAO_0000032",
+      "http://purl.obolibrary.org/obo/IAO_0000109",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.ebi.ac.uk/efo/EFO_0001444",
+      "http://purl.obolibrary.org/obo/IAO_0000416"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 13,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 13,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001611"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "draft NCBI component model",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001611",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001612"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "draft IRIDA BioSample model",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001612",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001829",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001829",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001829",
+      "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001829",
+      "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001613"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "draft GenEpiO epidemiology case record",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001613",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GENEPIO_0001741",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GENEPIO_0001741",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001741",
+      "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GENEPIO_0001741",
+      "http://purl.obolibrary.org/obo/GENEPIO_0000106",
+      "http://purl.obolibrary.org/obo/OBI_0000658",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "GENEPIO:0001614"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "subject description",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/GENEPIO_0001614",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A subject description is a field containing additional information about an organism (related to an investigation, study and/or specimen) that is not included in other defined vocabulary fields.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://semanticscience.org/resource/SIO_000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://semanticscience.org/resource/SIO_000136",
+    "directAncestor": [
+      "http://semanticscience.org/resource/SIO_000136",
+      "http://purl.obolibrary.org/obo/IAO_0000300",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://semanticscience.org/resource/SIO_000136",
+      "http://purl.obolibrary.org/obo/IAO_0000300",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

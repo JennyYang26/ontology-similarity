@@ -1,0 +1,3582 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243113006"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Blind and partially sighted rehabilitation - employment placement (regime/therapy)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Blind and partially sighted rehabilitation - employment placement",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243113006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/65943000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/65943000",
+    "directAncestor": [
+      "http://snomed.info/id/65943000",
+      "http://snomed.info/id/386243005",
+      "http://snomed.info/id/276239002",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/52052004"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/65943000",
+      "http://snomed.info/id/386243005",
+      "http://snomed.info/id/276239002",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/52052004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243114000"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Support (regime/therapy)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Support",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243114000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243120004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243120004",
+    "directAncestor": [
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 54,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 54,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243115004"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Family support (regime/therapy)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Family support",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243115004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/243114000",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/389110003",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/243114000",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/389110003",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://snomed.info/id/243114000",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/389110003",
+      "http://snomed.info/id/171434007",
+      "http://snomed.info/id/225365006"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243114000",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/389110003",
+      "http://snomed.info/id/171434007",
+      "http://snomed.info/id/225365006"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 10,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243116003"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Parental support (regime/therapy)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Parental support",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243116003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243115004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243115004",
+    "directAncestor": [
+      "http://snomed.info/id/243115004",
+      "http://snomed.info/id/243114000",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/389110003",
+      "http://snomed.info/id/171434007",
+      "http://snomed.info/id/225365006"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243115004",
+      "http://snomed.info/id/243114000",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/389110003",
+      "http://snomed.info/id/171434007",
+      "http://snomed.info/id/225365006"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243117007"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Sibling support (regime/therapy)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Sibling support",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243117007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://snomed.info/id/243115004",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://snomed.info/id/243115004",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://snomed.info/id/243115004",
+      "http://snomed.info/id/243114000",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/389110003",
+      "http://snomed.info/id/171434007",
+      "http://snomed.info/id/225365006"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243115004",
+      "http://snomed.info/id/243114000",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/389110003",
+      "http://snomed.info/id/171434007",
+      "http://snomed.info/id/225365006"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243118002"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Professional reassurance (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Professional reassurance",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243118002",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/223476006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/223476006",
+    "directAncestor": [
+      "http://snomed.info/id/223476006",
+      "http://snomed.info/id/228558003",
+      "http://snomed.info/id/225217007",
+      "http://snomed.info/id/282259008",
+      "http://snomed.info/id/108310004",
+      "http://snomed.info/id/127777001",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/72353004",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/223476006",
+      "http://snomed.info/id/228558003",
+      "http://snomed.info/id/225217007",
+      "http://snomed.info/id/282259008",
+      "http://snomed.info/id/108310004",
+      "http://snomed.info/id/127777001",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/72353004",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243119005"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Family reassurance (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Family reassurance",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243119005",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://snomed.info/id/223476006",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://snomed.info/id/223476006",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://snomed.info/id/223476006",
+      "http://snomed.info/id/228558003",
+      "http://snomed.info/id/225217007",
+      "http://snomed.info/id/282259008",
+      "http://snomed.info/id/108310004",
+      "http://snomed.info/id/127777001",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/72353004",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/223476006",
+      "http://snomed.info/id/228558003",
+      "http://snomed.info/id/225217007",
+      "http://snomed.info/id/282259008",
+      "http://snomed.info/id/108310004",
+      "http://snomed.info/id/127777001",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/72353004",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243120004"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Regimes and therapies (regime/therapy)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Regimes and therapies",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243120004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/71388002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/71388002",
+    "directAncestor": [
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2899,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2899,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:24312009"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Repair of laceration of great vessels (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Repair of laceration of great vessels",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/24312009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://snomed.info/id/442460002",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/45148003",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://snomed.info/id/442460002",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/45148003",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://snomed.info/id/442460002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/45148003",
+      "http://snomed.info/id/2119009",
+      "http://snomed.info/id/119761008",
+      "http://snomed.info/id/112802009",
+      "http://snomed.info/id/118672003",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/387713003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/363320004",
+      "http://snomed.info/id/4365001",
+      "http://snomed.info/id/30904006",
+      "http://snomed.info/id/118804001",
+      "http://snomed.info/id/118717007",
+      "http://snomed.info/id/118738001",
+      "http://snomed.info/id/373351007",
+      "http://snomed.info/id/265488007"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/442460002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/45148003",
+      "http://snomed.info/id/2119009",
+      "http://snomed.info/id/119761008",
+      "http://snomed.info/id/112802009",
+      "http://snomed.info/id/118672003",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/387713003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/363320004",
+      "http://snomed.info/id/4365001",
+      "http://snomed.info/id/30904006",
+      "http://snomed.info/id/118804001",
+      "http://snomed.info/id/118717007",
+      "http://snomed.info/id/118738001",
+      "http://snomed.info/id/373351007",
+      "http://snomed.info/id/265488007"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243121000"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Medical therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Medical therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243121000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/277132007",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/277132007",
+    "directAncestor": [
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 43,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 43,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243123002"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Ablative hormone therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Ablative hormone therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243123002",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/169413002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/169413002",
+    "directAncestor": [
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243124008"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Non-ablative hormone therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Non-ablative hormone therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243124008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/169413002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/169413002",
+    "directAncestor": [
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243125009"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Estrogen hormone therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Estrogen hormone therapy",
+        "lang": "en-us"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Oestrogen hormone therapy",
+        "lang": "en-gb"
+      }
+    ],
+    "iri": "http://snomed.info/id/243125009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243124008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243124008",
+    "directAncestor": [
+      "http://snomed.info/id/243124008",
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243124008",
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243126005"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Progestogen hormone therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Progestogen hormone therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243126005",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243124008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243124008",
+    "directAncestor": [
+      "http://snomed.info/id/243124008",
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243124008",
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243127001"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Glucocorticoid hormone therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Glucocorticoid hormone therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243127001",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243124008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243124008",
+    "directAncestor": [
+      "http://snomed.info/id/243124008",
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243124008",
+      "http://snomed.info/id/169413002",
+      "http://snomed.info/id/416608005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/277132007",
+      "http://snomed.info/id/362961001",
+      "http://snomed.info/id/65541007"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243128006"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Pituitary downregulation, function (observable entity)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Pituitary downregulation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243128006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/49764008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/49764008",
+    "directAncestor": [
+      "http://snomed.info/id/49764008",
+      "http://snomed.info/id/47722004",
+      "http://snomed.info/id/246464006",
+      "http://snomed.info/id/363787002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/49764008",
+      "http://snomed.info/id/47722004",
+      "http://snomed.info/id/246464006",
+      "http://snomed.info/id/363787002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243129003"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Ventriculomastoid anastomosis with valve (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Ventriculomastoid anastomosis with valve",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243129003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://snomed.info/id/414525000",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/69483009",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://snomed.info/id/414525000",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/69483009",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://snomed.info/id/414525000",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/69483009",
+      "http://snomed.info/id/15726007",
+      "http://snomed.info/id/307546008",
+      "http://snomed.info/id/171509005",
+      "http://snomed.info/id/70586009",
+      "http://snomed.info/id/118885003",
+      "http://snomed.info/id/118679007",
+      "http://snomed.info/id/118678004",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/118717007",
+      "http://snomed.info/id/372246008",
+      "http://snomed.info/id/118690002",
+      "http://snomed.info/id/118950002",
+      "http://snomed.info/id/771329004",
+      "http://snomed.info/id/16545005",
+      "http://snomed.info/id/387713003",
+      "http://snomed.info/id/89901005",
+      "http://snomed.info/id/80779005",
+      "http://snomed.info/id/373385008",
+      "http://snomed.info/id/363320004",
+      "http://snomed.info/id/4365001",
+      "http://snomed.info/id/88834003",
+      "http://snomed.info/id/48537004",
+      "http://snomed.info/id/78817002",
+      "http://snomed.info/id/410614008"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/414525000",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/69483009",
+      "http://snomed.info/id/15726007",
+      "http://snomed.info/id/307546008",
+      "http://snomed.info/id/171509005",
+      "http://snomed.info/id/70586009",
+      "http://snomed.info/id/118885003",
+      "http://snomed.info/id/118679007",
+      "http://snomed.info/id/118678004",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/118717007",
+      "http://snomed.info/id/372246008",
+      "http://snomed.info/id/118690002",
+      "http://snomed.info/id/118950002",
+      "http://snomed.info/id/771329004",
+      "http://snomed.info/id/16545005",
+      "http://snomed.info/id/387713003",
+      "http://snomed.info/id/89901005",
+      "http://snomed.info/id/80779005",
+      "http://snomed.info/id/373385008",
+      "http://snomed.info/id/363320004",
+      "http://snomed.info/id/4365001",
+      "http://snomed.info/id/88834003",
+      "http://snomed.info/id/48537004",
+      "http://snomed.info/id/78817002",
+      "http://snomed.info/id/410614008"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243130008"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Humidification therapy (regime/therapy)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Humidification therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243130008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/34431008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/34431008",
+    "directAncestor": [
+      "http://snomed.info/id/34431008",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/91251008",
+      "http://snomed.info/id/409023009",
+      "http://snomed.info/id/225351009",
+      "http://snomed.info/id/225365006",
+      "http://snomed.info/id/243120004"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/34431008",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/91251008",
+      "http://snomed.info/id/409023009",
+      "http://snomed.info/id/225351009",
+      "http://snomed.info/id/225365006",
+      "http://snomed.info/id/243120004"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:24313004"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Salsola species poisoning (disorder)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Salsola species poisoning",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/24313004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://snomed.info/id/123898006",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": {
+      "type": [
+        "reification"
+      ],
+      "value": "http://snomed.info/id/123898006",
+      "axioms": [
+        {
+          "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      ]
+    },
+    "directAncestor": [
+      "http://snomed.info/id/123898006",
+      "http://snomed.info/id/275390005",
+      "http://snomed.info/id/75478009",
+      "http://snomed.info/id/64572001",
+      "http://snomed.info/id/404684003",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/123898006",
+      "http://snomed.info/id/275390005",
+      "http://snomed.info/id/75478009",
+      "http://snomed.info/id/64572001",
+      "http://snomed.info/id/404684003",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243131007"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Helium inhalation therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Helium inhalation therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243131007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/20261004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/20261004",
+    "directAncestor": [
+      "http://snomed.info/id/20261004",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/20261004",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243132000"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Inhaled drug administration (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Inhaled drug administration",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243132000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://snomed.info/id/118669005",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/18629005",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      "http://snomed.info/id/363186003"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://snomed.info/id/118669005",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/18629005",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      "http://snomed.info/id/363186003"
+    ],
+    "directAncestor": [
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/363186003"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/18629005",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/363186003"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243135003"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Spacer (physical object)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Spacer",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243135003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/63653004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/63653004",
+    "directAncestor": [
+      "http://snomed.info/id/63653004",
+      "http://snomed.info/id/272181003",
+      "http://snomed.info/id/49062001",
+      "http://snomed.info/id/260787004",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/63653004",
+      "http://snomed.info/id/272181003",
+      "http://snomed.info/id/49062001",
+      "http://snomed.info/id/260787004",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 27,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 27,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243136002"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Short-term oxygen therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Short-term oxygen therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243136002",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/57485005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/57485005",
+    "directAncestor": [
+      "http://snomed.info/id/57485005",
+      "http://snomed.info/id/363186003",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/57485005",
+      "http://snomed.info/id/363186003",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243137006"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Long-term oxygen therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Long-term oxygen therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243137006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/57485005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/57485005",
+    "directAncestor": [
+      "http://snomed.info/id/57485005",
+      "http://snomed.info/id/363186003",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/57485005",
+      "http://snomed.info/id/363186003",
+      "http://snomed.info/id/107733003",
+      "http://snomed.info/id/128927009",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/432102000",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243138001"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "High ambient pressure therapy (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "High ambient pressure therapy",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243138001",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/53950000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/53950000",
+    "directAncestor": [
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243140006"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Lung inflation by intermittent compression of reservoir bag (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Lung inflation by intermittent compression of reservoir bag",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243140006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/11140008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/11140008",
+    "directAncestor": [
+      "http://snomed.info/id/11140008",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/11140008",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:24314005"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Pyramidal system structure (body structure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Pyramidal system structure",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/24314005",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/119234009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/119234009",
+    "directAncestor": [
+      "http://snomed.info/id/119234009",
+      "http://snomed.info/id/21483005",
+      "http://snomed.info/id/25087005",
+      "http://snomed.info/id/91689009",
+      "http://snomed.info/id/91723000",
+      "http://snomed.info/id/442083009",
+      "http://snomed.info/id/123037004",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/119234009",
+      "http://snomed.info/id/21483005",
+      "http://snomed.info/id/25087005",
+      "http://snomed.info/id/91689009",
+      "http://snomed.info/id/91723000",
+      "http://snomed.info/id/442083009",
+      "http://snomed.info/id/123037004",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 15,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 15,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243141005"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Mechanically assisted spontaneous ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Mechanically assisted spontaneous ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243141005",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/40617009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/40617009",
+    "directAncestor": [
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243142003"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Dual pressure spontaneous ventilation support (regime/therapy)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Dual pressure spontaneous ventilation support",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243142003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/229306004",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/243141005",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/229306004",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/243141005",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://snomed.info/id/229306004",
+      "http://snomed.info/id/34431008",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/91251008",
+      "http://snomed.info/id/409023009",
+      "http://snomed.info/id/225351009",
+      "http://snomed.info/id/225365006",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/229306004",
+      "http://snomed.info/id/34431008",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/91251008",
+      "http://snomed.info/id/409023009",
+      "http://snomed.info/id/225351009",
+      "http://snomed.info/id/225365006",
+      "http://snomed.info/id/243120004",
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243143008"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Airway pressure release ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Airway pressure release ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243143008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243141005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243141005",
+    "directAncestor": [
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243144002"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Patient triggered inspiratory assistance (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Patient triggered inspiratory assistance",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243144002",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243141005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243141005",
+    "directAncestor": [
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243145001"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Diaphragmatic augmentation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Diaphragmatic augmentation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243145001",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/118740006",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/243141005",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/118740006",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://snomed.info/id/243141005",
+        "axioms": [
+          {
+            "childRelationToParent": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://snomed.info/id/118740006",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/118695007",
+      "http://snomed.info/id/118694006",
+      "http://snomed.info/id/771329004",
+      "http://snomed.info/id/699998000",
+      "http://snomed.info/id/118667007",
+      "http://snomed.info/id/118666003",
+      "http://snomed.info/id/118738001",
+      "http://snomed.info/id/118739009",
+      "http://snomed.info/id/118717007",
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/118740006",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/118695007",
+      "http://snomed.info/id/118694006",
+      "http://snomed.info/id/771329004",
+      "http://snomed.info/id/699998000",
+      "http://snomed.info/id/118667007",
+      "http://snomed.info/id/118666003",
+      "http://snomed.info/id/118738001",
+      "http://snomed.info/id/118739009",
+      "http://snomed.info/id/118717007",
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243146000"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Diaphragmatic augmentation by rocking bed (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Diaphragmatic augmentation by rocking bed",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243146000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243145001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243145001",
+    "directAncestor": [
+      "http://snomed.info/id/243145001",
+      "http://snomed.info/id/118740006",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/118695007",
+      "http://snomed.info/id/118694006",
+      "http://snomed.info/id/771329004",
+      "http://snomed.info/id/699998000",
+      "http://snomed.info/id/118667007",
+      "http://snomed.info/id/118666003",
+      "http://snomed.info/id/118738001",
+      "http://snomed.info/id/118739009",
+      "http://snomed.info/id/118717007",
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243145001",
+      "http://snomed.info/id/118740006",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/118695007",
+      "http://snomed.info/id/118694006",
+      "http://snomed.info/id/771329004",
+      "http://snomed.info/id/699998000",
+      "http://snomed.info/id/118667007",
+      "http://snomed.info/id/118666003",
+      "http://snomed.info/id/118738001",
+      "http://snomed.info/id/118739009",
+      "http://snomed.info/id/118717007",
+      "http://snomed.info/id/243141005",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243147009"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Controlled ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Controlled ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243147009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/40617009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/40617009",
+    "directAncestor": [
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 22,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 22,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243148004"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Controlled mandatory ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Controlled mandatory ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243148004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/182687005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/182687005",
+    "directAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243149007"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Controlled mandatory ventilation with sigh (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Controlled mandatory ventilation with sigh",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243149007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/182687005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/182687005",
+    "directAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243150007"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Assisted controlled mandatory ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Assisted controlled mandatory ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243150007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/182687005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/182687005",
+    "directAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:24315006"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Factitious disorder with combined physical AND psychological symptoms (disorder)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Factitious disorder with combined physical AND psychological symptoms",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/24315006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/50705009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/50705009",
+    "directAncestor": [
+      "http://snomed.info/id/50705009",
+      "http://snomed.info/id/74732009",
+      "http://snomed.info/id/64572001",
+      "http://snomed.info/id/404684003",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/50705009",
+      "http://snomed.info/id/74732009",
+      "http://snomed.info/id/64572001",
+      "http://snomed.info/id/404684003",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243151006"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Mandatory minute volume ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Mandatory minute volume ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243151006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/55089006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/55089006",
+    "directAncestor": [
+      "http://snomed.info/id/55089006",
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/55089006",
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243152004"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Extended mandatory minute volume ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Extended mandatory minute volume ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243152004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243151006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243151006",
+    "directAncestor": [
+      "http://snomed.info/id/243151006",
+      "http://snomed.info/id/55089006",
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243151006",
+      "http://snomed.info/id/55089006",
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243153009"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "High frequency positive pressure ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "High frequency positive pressure ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243153009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/182687005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/182687005",
+    "directAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243154003"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "High frequency jet ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "High frequency jet ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243154003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/182687005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/182687005",
+    "directAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243155002"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "High frequency oscillatory ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "High frequency oscillatory ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243155002",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/182687005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/182687005",
+    "directAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243156001"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Continuous flow ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Continuous flow ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243156001",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/182687005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/182687005",
+    "directAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243157005"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Liquid ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Liquid ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243157005",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/182687005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/182687005",
+    "directAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243158000"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Fluorocarbon ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Fluorocarbon ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243158000",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243157005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243157005",
+    "directAncestor": [
+      "http://snomed.info/id/243157005",
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243157005",
+      "http://snomed.info/id/182687005",
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243159008"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Intermittent negative pressure ventilation (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Intermittent negative pressure ventilation",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243159008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/243147009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/243147009",
+    "directAncestor": [
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/243147009",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243160003"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Control of end expiratory pressure (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Control of end expiratory pressure",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243160003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/40617009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/40617009",
+    "directAncestor": [
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 12,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 12,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243161000119102"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Anal ectropion (disorder)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Anal ectropion",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243161000119102",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/32110003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/32110003",
+    "directAncestor": [
+      "http://snomed.info/id/32110003",
+      "http://snomed.info/id/397174009",
+      "http://snomed.info/id/609621000",
+      "http://snomed.info/id/124734007",
+      "http://snomed.info/id/609625009",
+      "http://snomed.info/id/822987005",
+      "http://snomed.info/id/302292003",
+      "http://snomed.info/id/301857004",
+      "http://snomed.info/id/118234003",
+      "http://snomed.info/id/404684003",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/609619005",
+      "http://snomed.info/id/822988000",
+      "http://snomed.info/id/128121009",
+      "http://snomed.info/id/123946008",
+      "http://snomed.info/id/64572001",
+      "http://snomed.info/id/426867001",
+      "http://snomed.info/id/118948005",
+      "http://snomed.info/id/609624008",
+      "http://snomed.info/id/609620004",
+      "http://snomed.info/id/609626005",
+      "http://snomed.info/id/76712006",
+      "http://snomed.info/id/53619000",
+      "http://snomed.info/id/362965005",
+      "http://snomed.info/id/386617003"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/32110003",
+      "http://snomed.info/id/397174009",
+      "http://snomed.info/id/609621000",
+      "http://snomed.info/id/124734007",
+      "http://snomed.info/id/609625009",
+      "http://snomed.info/id/822987005",
+      "http://snomed.info/id/302292003",
+      "http://snomed.info/id/301857004",
+      "http://snomed.info/id/118234003",
+      "http://snomed.info/id/404684003",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/609619005",
+      "http://snomed.info/id/822988000",
+      "http://snomed.info/id/128121009",
+      "http://snomed.info/id/123946008",
+      "http://snomed.info/id/64572001",
+      "http://snomed.info/id/426867001",
+      "http://snomed.info/id/118948005",
+      "http://snomed.info/id/609624008",
+      "http://snomed.info/id/609620004",
+      "http://snomed.info/id/609626005",
+      "http://snomed.info/id/76712006",
+      "http://snomed.info/id/53619000",
+      "http://snomed.info/id/362965005",
+      "http://snomed.info/id/386617003"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SNOMED:243161004"
+    },
+    "label": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Positive end expiratory pressure increased (procedure)",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Positive end expiratory pressure increased",
+        "lang": "en"
+      }
+    ],
+    "iri": "http://snomed.info/id/243161004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://snomed.info/id/45851008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://snomed.info/id/45851008",
+    "directAncestor": [
+      "http://snomed.info/id/45851008",
+      "http://snomed.info/id/243160003",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/26763009"
+    ],
+    "hierarchicalAncestor": [
+      "http://snomed.info/id/45851008",
+      "http://snomed.info/id/243160003",
+      "http://snomed.info/id/40617009",
+      "http://snomed.info/id/266700009",
+      "http://snomed.info/id/53950000",
+      "http://snomed.info/id/118669005",
+      "http://snomed.info/id/118664000",
+      "http://snomed.info/id/362958002",
+      "http://snomed.info/id/71388002",
+      "http://snomed.info/id/138875005",
+      "http://snomed.info/id/26763009"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  }
+]

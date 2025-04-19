@@ -1,0 +1,2526 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000182"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Bayesil software",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000182",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Bayesil is a web system that automatically identifies and quantifies metabolites using 1D 1H NMR spectra of ultra-filtered plasma, serum or cerebrospinal fluid. The NMR spectra must be collected in a standardized fashion for Bayesil to perform optimally. Bayesil first performs all spectral processing steps, including Fourier transformation, phasing, solvent filtering, chemical shift referencing, baseline correction and reference line shape convolution automatically. It then deconvolutes the resulting NMR spectrum using a reference spectral library, which here contains the signatures of more than 60 metabolites. This deconvolution process determines both the identity and quantity of the compounds in the biofluid mixture.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000090",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000090",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000090",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000090",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000183"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "nmrML Assign",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000183",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "nmrML-Assign is a web server for creating an nmrML file from a FID and a structure. The FID is first automatically processed with Bayesil. The resulting interactive spectrum allows assigning peaks to specific atoms in the structure and the assignments are saved in the nmrML format. For more information about nmrML please visit nmrML.org. nmrML-Assign works with 1H and 13C NMR spectra in Bruker or Agilent/Varian format.",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "Uses JspectraView Software",
+        "lang": "en"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000182",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000182",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000182",
+      "http://nmrML.org/nmrCV#NMR:1000090",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000182",
+      "http://nmrML.org/nmrCV#NMR:1000090",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000184"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "doublet feature",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000184",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000185"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "triplet feature",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000185",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000186"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "quatruplet feature",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000186",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000188"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "cluster of peaks across samples",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000188",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "a set of peaks that are highly correlated in a series of samples"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000524",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000524",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000189"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "simulated spectrum",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000189",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000200",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000200",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000200",
+      "http://nmrML.org/nmrCV#NMR:1002007",
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000200",
+      "http://nmrML.org/nmrCV#NMR:1002007",
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000190"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "pulse parameter",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000190",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400101",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400101",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 27,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 27,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000191"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "JEOL FID format",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000191",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000767",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000767",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000767",
+      "http://nmrML.org/nmrCV#NMR:1000577",
+      "http://nmrML.org/nmrCV#NMR:1001459",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000767",
+      "http://nmrML.org/nmrCV#NMR:1000577",
+      "http://nmrML.org/nmrCV#NMR:1001459",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000192"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "doublet of doublets feature",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000192",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000193"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "ABX multiplet pattern",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000193",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "AMX, ABX and ABC patterns, and various related spin systems are very common in Proton NMR of organic molecules.When two of the protons of an AMX pattern approach each other to form an ABX pattern, the characteristic changes in intensities of a strongly coupled system (leaning) are seen, and, as the size of J approaches the value of νAB more complicated changes arise, so that the pattern can no longer be analyzed correctly by first order methods."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400305",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400305",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400305",
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400305",
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000194"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "singlet feature",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000194",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000195"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "quintet feature",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000195",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000196"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "doublet of triplets",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000196",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000197"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "triplet of douplets",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000197",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000198"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "triplet of triplets",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000198",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400006",
+      "http://nmrML.org/nmrCV#NMR:1000231",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000199"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "NMR spectrum by pulse sequence",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000199",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1002007",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1002007",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002007",
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002007",
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000200"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "NMR spectrum by processing step",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000200",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1002007",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1002007",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002007",
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002007",
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000201"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "2D spectrum coordinate system descriptor",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000201",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000202"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "y-axis value type",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000202",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000201",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000201",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000203"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "power value type",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000203",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000204"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "magnitude value type",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000204",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000205"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "real value type",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000205",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000206"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "imaginary value type",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000206",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000207"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "complex value types",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000207",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000202",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000202",
+      "http://nmrML.org/nmrCV#NMR:1000201",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000208"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "spectral projection axis",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000208",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000209"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "f1 axis",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000209",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000208",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000208",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000208",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000208",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000210"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "f2 axis",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000210",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000208",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000208",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000208",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000208",
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000211"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "NMR Format converter",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000211",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400213",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400213",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000212"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "BML-NMR identifier",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000212",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000022",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000022",
+      "http://nmrML.org/nmrCV#NMR:1000878",
+      "http://nmrML.org/nmrCV#NMR:1400117",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000022",
+      "http://nmrML.org/nmrCV#NMR:1000878",
+      "http://nmrML.org/nmrCV#NMR:1400117",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000214"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "creatinine",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000214",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "will be further specified via a concentration value"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000167",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000167",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000167",
+      "http://nmrML.org/nmrCV#NMR:1400032",
+      "http://nmrML.org/nmrCV#NMR:1000881",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000167",
+      "http://nmrML.org/nmrCV#NMR:1400032",
+      "http://nmrML.org/nmrCV#NMR:1000881",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000220"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "2D pulse sequence",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000220",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400037",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400037",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000221"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "data simulation",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000221",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "used to be labeled 'NMR spectrum simulation'"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400063",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400063",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400063",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400063",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000222"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "dynamic nuclear polarization NMR",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000222",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000012",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000012",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000012",
+      "http://nmrML.org/nmrCV#NMR:1000496",
+      "http://nmrML.org/nmrCV#NMR:1000547",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000012",
+      "http://nmrML.org/nmrCV#NMR:1000496",
+      "http://nmrML.org/nmrCV#NMR:1000547",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000223"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "chemical shift",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000223",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Chemical shift is the resonance frequency of a nucleus related to a chemical shift standard. in ppm along x-axis"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000224"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "nmr signal intensity",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000224",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "an information object that describes the strength of the NMR signal"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000225"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "baseline correction using polynomial function",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000225",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400074",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400074",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400074",
+      "http://nmrML.org/nmrCV#NMR:1400038",
+      "http://nmrML.org/nmrCV#NMR:1400042",
+      "http://nmrML.org/nmrCV#NMR:1400063",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400074",
+      "http://nmrML.org/nmrCV#NMR:1400038",
+      "http://nmrML.org/nmrCV#NMR:1400042",
+      "http://nmrML.org/nmrCV#NMR:1400063",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000226"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "first transient of the tnnoesy-presaturation pulse sequence",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000226",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000220",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000220",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000220",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000220",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000227"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Varian acquisition parameter file",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000227",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1002006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1002006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002006",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002006",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000228"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "procpar",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000228",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000252",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000252",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000252",
+      "http://nmrML.org/nmrCV#NMR:1400123",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000252",
+      "http://nmrML.org/nmrCV#NMR:1400123",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000229"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "acqus",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000229",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000230",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000230",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000230",
+      "http://nmrML.org/nmrCV#NMR:1002006",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000230",
+      "http://nmrML.org/nmrCV#NMR:1002006",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000230"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Bruker acquisition parameter file",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000230",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1002006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1002006",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002006",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002006",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000231"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "peak feature"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000231",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000172",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000172",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 19,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 19,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000232"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "global",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000232",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000227",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000227",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000227",
+      "http://nmrML.org/nmrCV#NMR:1002006",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000227",
+      "http://nmrML.org/nmrCV#NMR:1002006",
+      "http://nmrML.org/nmrCV#NMR:1400267",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000233"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Varian autosampler",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000233",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400002",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000234"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Varian SMS 50",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000234",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000233",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000233",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000233",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000233",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000235"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Varian probe",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000235",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400014",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400014",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000236"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "5mm HCN probe",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000236",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000237",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000237",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000237",
+      "http://nmrML.org/nmrCV#NMR:1000235",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000237",
+      "http://nmrML.org/nmrCV#NMR:1000235",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000237"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Varian liquid cold probe",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000237",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000235",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000235",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000235",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000235",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1000238"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "reference compound NMR spectrum",
+      "lang": "en"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1000238",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "e.g as in HMDB"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1002007",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1002007",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002007",
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1002007",
+      "http://nmrML.org/nmrCV#NMR:1000524",
+      "http://nmrML.org/nmrCV#NMR:1000011",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

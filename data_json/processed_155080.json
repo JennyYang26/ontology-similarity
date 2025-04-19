@@ -1,0 +1,3608 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000713"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "oncosphere"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000713",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A six-hooked larva, called the hexcanth, enclosed by one or two embryonic envelopes. This stage invades the first (or sole) intermediate host where it develops into a bladder larva, such as a hydatid cyst."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:jl"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000712",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000712",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000714"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hydatid cyst stage"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000714",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A larval stage of cestodes characterized by internal (and often external) chambers lined by germinal epithelium. The inner germinal layer of hydatid cysts is cellular and the protoscolex develops from those cells."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12462989"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "WB:jl"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Note that a hydatid cyst is a type of bladder larva, a larval form in which one or more scoleces develop in a fluid-filled cyst. Other types of bladder larva include cysticercus, coenurus and strobilocercus."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000712",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/WBls_0000716",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000716"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000715"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "protoscolex stage"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000715",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An infective larval stage of cestodes which develops from the hydatid cyst. The stage begins when a clustering of cells emerge from the germinal layer of hydatid cysts. The buds elongate and the cells at their bases seem to diminish in number. Very early on a furrow appears in the elongated buds, delimiting anterior (scolex) and caudal (body) regions. Hooks are the first fully-differentiated structures formed at the apical region of the nascent scolex. A cone can later be seen at the center of the hooks, the body is expanded and a structured neck is evident between the scolex and the body. During protoscolex development this parasitic form remains attached to the germinative layer through a stalk. When fully differentiated, the stalk is cut off and the infective protoscolex is now free in the hydatid fluid. This stage ends when the protoscolex attaches, via the scolex, to the host intestinal tissue and begins to develop into a adult."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12462989"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "WB:jl"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Note that a hydatid cyst is a type of bladder larva, a larval form in which one or more scoleces develop in a fluid-filled cyst. Other types of bladder larva include cysticercus, coenurus and strobilocercus."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000712",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/WBls_0000716",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000716"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000716"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "metacestode"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000716",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The larval stages of a tapeworm, beginning with the metamorphosis of the oncosphere and ending with the first evidence of sexuality in the adult worm. Includes the procercoid and plerocercoid stages of pseudophyllid cestodes, and the cysticercus, cysticercoid, coenurus, and hydatid stages of cyclophyllidean cestodes."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:070202788X"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "WB:jl"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000712",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000712",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000717"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cysticercoid stage"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000717",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A larval stage of some cestodes, including Hymenolepis sp. The cysticercoid is a type of cyst that is found in free form as well as being tissue-enclosed."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:jl"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000712",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/WBls_0000716",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000712",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000716"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000718"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "newly excysted juveniles"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000718",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A Digenean (fluke) life stage that occurs in the definitive host. The stage begins when the metacercariae excyst in the intestine of the host, and continues as the NEJs migrate through the liver parenchyma where they increase in size to juvenile flukes and then to mature adults."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:25887684"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "WB:jl"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000711",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000711",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000719"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "juvenile fluke"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000719",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A Digenean (fluke) life stage that occurs in the definitive host. The stage begins when the newly excysted juveniles migrate through the liver parenchyma where they increase in size to become juvenile flukes. From here they migrate into the bile ducts, where they grow and develop into fully mature adults."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:25887684"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "WB:jl"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000711",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000711",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000720"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "metacercarium"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000720",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A dormant Digenean (fluke) life stage which occurs after cercariae are released from the intermediate snail host and encyst on vegetation until they are ingested by the definitive host."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:25887684"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "WB:jl"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000711",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000711",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000723"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca embryonic life stage"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000723",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Onchocerca embryonic life stage."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000741",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000741",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000724"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "3 hr schistosomulum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000724",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A tailless cercarium of Schistosoma sp, 3 hours post-infection by skin penetration of the definitive host."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:jl"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000709",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000709",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000709",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000709",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000725"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "24 hr schistosomulum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000725",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A tailless cercarium of Schistosoma sp, 24 hours post-infection by skin penetration of the definitive host."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:jl"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000709",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000709",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000709",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000709",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000711",
+      "http://purl.obolibrary.org/obo/WBls_0000704",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000726"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca post-embryonic life stage"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000726",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Onchocerca post-embryonic life stage."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000741",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000741",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 13,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 13,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000727"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca microfilaria (mammalian stage)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000727",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The stage that develops from the embyro and is released from the adult female worm, within the mammalian host. Microfilariae are unsheathed and are mainly found in nodules, the skin and connective tissues."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000728"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca microfilaria (vector stage)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000728",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Microfilariae that have been ingested by the vector in a blood meal from a mammalian host. Found in the midgut and muscles of the insect host."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000729"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Strongyloides free living adult female"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000729",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Adult female Strongyloides living entirely outside of a host or vector organism."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000682",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000682",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000682",
+      "http://purl.obolibrary.org/obo/WBls_0000104",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000076"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000682",
+      "http://purl.obolibrary.org/obo/WBls_0000104",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000076"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000730"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca L1 larva"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000730",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "L1 larvae that develop from the microfilariae in the arthropod vector."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000731"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca L2 larva"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000731",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "L2 larvae that develops from the L1 larvae in the arthropod vector."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000732"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca L3 larva (vector stage)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000732",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "L3 larvae that develop from the L2 larvae in the arthropod vector. This stage is infectious to the mammalian host once it has migrated to the insect proboscis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000733"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca L3 larva (mammalian stage)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000733",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "L3 larvae after introduction to the mammalian host through the bite wound of the insect vector."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000734"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca L3 larva in vitro cultured D1"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000734",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "L3 larvae isolated from the insect vector and cultured in vitro for 1 day."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000733",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000733",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000733",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000733",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000735"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca L3 larva in vitro cultured D2"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000735",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "L3 larvae isolated from the insect vector and cultured in vitro for 2 days."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000733",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000733",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000733",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000733",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000736"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca L3 larva in vitro cultured D3"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000736",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "L3 larvae isolated from the insect vector and cultured in vitro for 3 days."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000733",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000733",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000733",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000733",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000737"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca L4 larva"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000737",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "L4 larvae that develop from L3 larvae in the mammalian host."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000738"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca L4 larva in vitro cultured"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000738",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Larvae isolated from the insect vector and cultured in vitro to the L4 stage."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000737",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000737",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000737",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000737",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000739"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca adult male"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000739",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Adult male that has developed from L4 larvae in the mammalian host."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000740"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca adult female"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000740",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Adult female that has developed from L4 larvae in the mammalian host."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000726",
+      "http://purl.obolibrary.org/obo/WBls_0000741",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000741"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Onchocerca life stage"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000741",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Any developmental stage of a nematode of the Onchocerca genus."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000101",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000101",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 15,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 15,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000742"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Strongyloides free living adult male"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000742",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Adult male Strongyloides living entirely outside of a host or vector organism."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:fr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000682",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000682",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000682",
+      "http://purl.obolibrary.org/obo/WBls_0000104",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000076"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000682",
+      "http://purl.obolibrary.org/obo/WBls_0000104",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000076"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000793"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Strongyloides post free-living L1"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000793",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Strongyloides L1 larval stage that is the progeny of free-living adult worms as a part of a of free-living life-cycle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:jl"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000677"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000677"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000076"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000076"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000794"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Strongyloides post parasitic L1"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000794",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Strongyloides  L1 larval stage that is the progeny of a parasitic adult female as a part of a of parasitic life-cycle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:jl"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000678"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000678"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000678",
+      "http://purl.obolibrary.org/obo/WBls_0000059",
+      "http://purl.obolibrary.org/obo/WBls_0000076"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000678",
+      "http://purl.obolibrary.org/obo/WBls_0000059",
+      "http://purl.obolibrary.org/obo/WBls_0000076"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000795"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Strongyloides post parasitic L3"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000795",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Strongyloides infective L3 stage that develops from a parasitic adult female as part of a parasitic life-cycle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:jl"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000680",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000680",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000680",
+      "http://purl.obolibrary.org/obo/WBls_0000108",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000678",
+      "http://purl.obolibrary.org/obo/WBls_0000059",
+      "http://purl.obolibrary.org/obo/WBls_0000076",
+      "http://purl.obolibrary.org/obo/WBls_0000679"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000680",
+      "http://purl.obolibrary.org/obo/WBls_0000108",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000678",
+      "http://purl.obolibrary.org/obo/WBls_0000059",
+      "http://purl.obolibrary.org/obo/WBls_0000076",
+      "http://purl.obolibrary.org/obo/WBls_0000679"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000796"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Strongyloides post free-living L3"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000796",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Strongyloides infective L3 stage that develops from free-living adult worms as part of a free-living life-cycle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:jl"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000680"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000680"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000076",
+      "http://purl.obolibrary.org/obo/WBls_0000680",
+      "http://purl.obolibrary.org/obo/WBls_0000108",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000678",
+      "http://purl.obolibrary.org/obo/WBls_0000059",
+      "http://purl.obolibrary.org/obo/WBls_0000679"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000677",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000076",
+      "http://purl.obolibrary.org/obo/WBls_0000680",
+      "http://purl.obolibrary.org/obo/WBls_0000108",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000678",
+      "http://purl.obolibrary.org/obo/WBls_0000059",
+      "http://purl.obolibrary.org/obo/WBls_0000679"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000797"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "11-days post-L4 adult hermaphrodite Ce"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000797",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "At 20 Centigrade: 11-12 days after L4-adult molt. 14-15 days after first cleavage."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:dr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/WBls_0000057",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000057",
+      "http://purl.obolibrary.org/obo/WBls_0000041",
+      "http://purl.obolibrary.org/obo/WBls_0000104",
+      "http://purl.obolibrary.org/obo/WBls_0000022"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000798"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "12-days post-L4 adult hermaphrodite Ce"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000798",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "At 20 Centigrade: 12-13 days after L4-adult molt. 15-16 days after first cleavage."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:dr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/WBls_0000057",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000057",
+      "http://purl.obolibrary.org/obo/WBls_0000041",
+      "http://purl.obolibrary.org/obo/WBls_0000104",
+      "http://purl.obolibrary.org/obo/WBls_0000022"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000799"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "13-days post-L4 adult hermaphrodite Ce"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000799",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "At 20 Centigrade: 13-14 days after L4-adult molt. 16-17 days after first cleavage."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:dr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/WBls_0000057",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000057",
+      "http://purl.obolibrary.org/obo/WBls_0000041",
+      "http://purl.obolibrary.org/obo/WBls_0000104",
+      "http://purl.obolibrary.org/obo/WBls_0000022"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000800"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "14-days post-L4 adult hermaphrodite Ce"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000800",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "At 20 Centigrade: 14-15 days after L4-adult molt. 17-18 days after first cleavage."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:dr"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/WBls_0000057",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000816",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000057",
+      "http://purl.obolibrary.org/obo/WBls_0000041",
+      "http://purl.obolibrary.org/obo/WBls_0000104",
+      "http://purl.obolibrary.org/obo/WBls_0000022"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000801"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "newly hatched L1 larval stage Ce"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000801",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The stage that begins right after hatching and before development proceeds after feeding. A newly hatched L1 larva contains 558 cells."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMC:4492366"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "WA:Wormatlas"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "WB:dr"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000818"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000818",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/WBls_0000024",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000818",
+      "http://purl.obolibrary.org/obo/WBls_0000817",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000818",
+      "http://purl.obolibrary.org/obo/WBls_0000817",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000024",
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000023",
+      "http://purl.obolibrary.org/obo/WBls_0000022"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000802"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "L1 arrest Ce"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000802",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The stage in which first stage larvae (L1) that hatch in the absence of food enter a state of developmental arrest."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMC:3697962"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "WB:dr"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000818"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000818",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/WBls_0000801",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000818",
+      "http://purl.obolibrary.org/obo/WBls_0000817",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/WBls_0000818",
+      "http://purl.obolibrary.org/obo/WBls_0000817",
+      "http://purl.obolibrary.org/obo/WBls_0000804",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075",
+      "http://purl.obolibrary.org/obo/WBls_0000801",
+      "http://purl.obolibrary.org/obo/WBls_0000024",
+      "http://purl.obolibrary.org/obo/WBls_0000106",
+      "http://purl.obolibrary.org/obo/WBls_0000105",
+      "http://purl.obolibrary.org/obo/WBls_0000023",
+      "http://purl.obolibrary.org/obo/WBls_0000022"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000803"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during embryogenesis",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000803",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during embryogenesis"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000825",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000825",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 597,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 597,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000804"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring post embryogenesis",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000804",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs after embryogenesis"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000825",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000825",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 87,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 87,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000805"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during elongating embryo",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the elongating embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000803",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000803",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 213,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 213,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000806"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during 1.5-fold embryo",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000806",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the 1.5-fold embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 41,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 41,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000807"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during 2-fold embryo",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000807",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the 2-fold embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 61,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 61,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000808"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during 3-fold embryo",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000808",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the 3-fold embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 33,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 33,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000809"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during bean embryo",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000809",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the bean embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 41,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 41,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000810"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during comma embryo",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000810",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the comma embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000805",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000805",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 31,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 31,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000811"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during fully-elongated embryo",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000811",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the fully-elongating embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000803",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000803",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000812"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during proliferating embryo",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000812",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the proliferating embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000803",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000803",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 373,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 373,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000813"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during blastula embryo",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000813",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the blastula embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000812",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000812",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000812",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000812",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 108,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 108,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "WBls:0000814"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "C. elegans life stage occurring during gastrulation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/WBls_0000814",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A C. elegans life stage that occurs during the gastrulating embryo life stage"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "WB:WBPerson2987"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/WBls_0000812",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/WBls_0000812",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000812",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/WBls_0000812",
+      "http://purl.obolibrary.org/obo/WBls_0000803",
+      "http://purl.obolibrary.org/obo/WBls_0000825",
+      "http://purl.obolibrary.org/obo/WBls_0000001",
+      "http://purl.obolibrary.org/obo/WBls_0000101",
+      "http://purl.obolibrary.org/obo/WBls_0000075"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 199,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 199,
+    "isPreferredRoot": false
+  }
+]

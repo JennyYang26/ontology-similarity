@@ -1,0 +1,2914 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "Revision"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Revision"
+    },
+    "iri": "http://www.w3.org/ns/prov#Revision",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An instance of prov:Revision provides additional descriptions about the binary prov:wasRevisionOf relation from some newer prov:Entity to an earlier prov:Entity. For example, :draft_2 prov:wasRevisionOf :draft_1; prov:qualifiedRevision [ a prov:Revision; prov:entity :draft_1; :foo :bar ].",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/ns/prov#Derivation",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/ns/prov#Derivation",
+    "directAncestor": [
+      "http://www.w3.org/ns/prov#Derivation",
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#Influence"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.w3.org/ns/prov#Derivation",
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#Influence"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SoftwareAgent"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SoftwareAgent"
+    },
+    "iri": "http://www.w3.org/ns/prov#SoftwareAgent",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/ns/prov#Agent",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/ns/prov#Agent",
+    "directAncestor": "http://www.w3.org/ns/prov#Agent",
+    "hierarchicalAncestor": "http://www.w3.org/ns/prov#Agent",
+    "hasDirectChildren": true,
+    "numDescendants": 12,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 12,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "Start"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Start"
+    },
+    "iri": "http://www.w3.org/ns/prov#Start",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An instance of prov:Start provides additional descriptions about the binary prov:wasStartedBy relation from some started prov:Activity to an prov:Entity that started it. For example, :foot_race prov:wasStartedBy :bang; prov:qualifiedStart [ a prov:Start; prov:entity :bang; :foo :bar; prov:atTime '2012-03-09T08:05:08-05:00'^^xsd:dateTime ] .",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#InstantaneousEvent"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#InstantaneousEvent"
+    ],
+    "directAncestor": [
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#Influence",
+      "http://www.w3.org/ns/prov#InstantaneousEvent"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#Influence",
+      "http://www.w3.org/ns/prov#InstantaneousEvent"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "Usage"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Usage"
+    },
+    "iri": "http://www.w3.org/ns/prov#Usage",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An instance of prov:Usage provides additional descriptions about the binary prov:used relation from some prov:Activity to an prov:Entity that it used. For example, :keynote prov:used :podium; prov:qualifiedUsage [ a prov:Usage; prov:entity :podium; :foo :bar ].",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#InstantaneousEvent"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#InstantaneousEvent"
+    ],
+    "directAncestor": [
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#Influence",
+      "http://www.w3.org/ns/prov#InstantaneousEvent"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.w3.org/ns/prov#EntityInfluence",
+      "http://www.w3.org/ns/prov#Influence",
+      "http://www.w3.org/ns/prov#InstantaneousEvent"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EmptyCollection"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "EmptyCollection",
+      "lang": "en"
+    },
+    "iri": "http://www.w3.org/ns/prov#EmptyCollection",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.w3.org/ns/prov#Collection",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.w3.org/ns/prov#Collection",
+    "directAncestor": [
+      "http://www.w3.org/ns/prov#Collection",
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.w3.org/ns/prov#Collection",
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000001"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "electrical potential recording method"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000001",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method using the work per unit charge necessary to move a charge body in an electric field from a reference point to make or calculate the measurement of interest."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000002"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "transthoracic echocardiography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000002",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Method of graphically recording position and motion of walls and internal structures of the heart and neighboring tissue through the echo obtained from beams of ultrasonic waves directed through the chest wall."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000337",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000337",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000337",
+      "http://purl.obolibrary.org/obo/MMO_0000024",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000337",
+      "http://purl.obolibrary.org/obo/MMO_0000024",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000003"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "electrocardiography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Any procedure for making graphic records of the variations in electrical potential caused by electrical activity of the heart muscle. Activity is usually detected at the body surface, but may be detected in other ways. ECG is used to study the action of the heart muscle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000001",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000001",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000004"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "isolated body part method"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The manner, procedure or technique by which a morphological or physiological state or property in an isolated body part is assessed and a quantitative or qualitative value assigned. An isolated body part is a subdivision of the material or physical structure of an organism, such as an organ, extremity or tissue, after it has been removed from the body."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:22654893"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000027",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000027",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 39,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 39,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000005"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "post excision weight measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000005",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Any method for measuring the weight of an organ, tissue or other body part after it has been removed from the body. The weight of an object is its heaviness, that is, the force exerted on it by gravitational force which is proportional to its mass."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Mosby:Mosbys_Dental_Dictionary--2nd_Ed"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000277",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000277",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000277",
+      "http://purl.obolibrary.org/obo/MMO_0000004",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000277",
+      "http://purl.obolibrary.org/obo/MMO_0000004",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000006"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Shimadzu electronic balance post excision weight measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Use of a Shimadzu electronic balance for measuring the weight of an organ, tissue or other body part after it has been removed from the body. The weight of an object is its heaviness, that is, the force exerted on it by gravitational force which is proportional to its mass."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Mosby:Mosbys_Dental_Dictionary--2nd_Ed"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000005",
+      "http://purl.obolibrary.org/obo/MMO_0000277",
+      "http://purl.obolibrary.org/obo/MMO_0000004",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000005",
+      "http://purl.obolibrary.org/obo/MMO_0000277",
+      "http://purl.obolibrary.org/obo/MMO_0000004",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000007"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "continuous flow air displacement plethysmography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000130",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000130",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000130",
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000130",
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000008"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "photoplethysmography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000008",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A technique for assessing blood flow by placing an infrared emitting diode along with a sensor, on the surface of the skin over a blood vessel with the amount of light reflected back to the sensor being inversely proportional to the number of red blood cells flowing through the vessel."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000009"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "piezoplethysmography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000009",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A technique that utilizes piezoelectric ceramic crystals with a sensor for assessing blood flow by placing the apparatus on the skin above a blood vessel."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "http://www.kentscientifc.com"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000010"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "volume pressure recording"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000010",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000011"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vascular indwelling catheter method"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000011",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A thin tube communicating to the body surface, inserted into the vascular system and positioned to permit measurements of blood flow, pressure or blood sampling over a period of time."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MedicalGlossary:www.medicalglossary.org"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000012"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vascular balloon tipped catheter"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000012",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A catheter whose tip is provided with an inflatable balloon that holds the catheter in place or is used to dilate the lumen of a vessel."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000013",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000013",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000013",
+      "http://purl.obolibrary.org/obo/MMO_0000011",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000013",
+      "http://purl.obolibrary.org/obo/MMO_0000011",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000013"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vascular fluid filled catheter"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000013",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An intravascular catheter connected by a fluid-filled tube to an external pressure transducer, often used to measure intravascular pressure."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000011",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000011",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000014"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vascular transducer tipped catheter"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000014",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000011",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000011",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000015"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "radiotelemetry"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000015",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method in which a measurement is made at a distance from the organism or part of the organism with the measurable evidence being transmitted by radio signals from the organism to the recording apparatus."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000016"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "body weighing method"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000016",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000119",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000119",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000119",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000119",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 12,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 12,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000017"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "whole body digital scale"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000017",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A digital scale which is appropriate for use in weighing the entire body of an animal or a human."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "RGD:JRS"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000217",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000217",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000217",
+      "http://purl.obolibrary.org/obo/MMO_0000016",
+      "http://purl.obolibrary.org/obo/MMO_0000119",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000217",
+      "http://purl.obolibrary.org/obo/MMO_0000016",
+      "http://purl.obolibrary.org/obo/MMO_0000119",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000018"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "fluoroimmunoassay"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000018",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method for quantitative determination of chemical substances using a fluorochrome-labeled antibody or antigen."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000713",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000713",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000713",
+      "http://purl.obolibrary.org/obo/MMO_0000098",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000",
+      "http://purl.obolibrary.org/obo/MMO_0000388"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000713",
+      "http://purl.obolibrary.org/obo/MMO_0000098",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000",
+      "http://purl.obolibrary.org/obo/MMO_0000388"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000019"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "magnetic resonance imaging"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000019",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method of visualizing soft tissues of the body by applying an external magnetic field that makes it possible to distinguish between hydrogen atoms in different environments. MRI is a medical application of nuclear magnetic resonance (NMR)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000709",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000709",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000709",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000",
+      "http://purl.obolibrary.org/obo/MMO_0000027"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000709",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000",
+      "http://purl.obolibrary.org/obo/MMO_0000027"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000020"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "intravascular electromagnetic flow sensor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000020",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000011",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000011",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000011",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000021"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "laser Doppler flowmetry"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000021",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method to measure the rate of flow of liquids or gases using a laser beam in which the light is shifted by moving objects in the fluid in accordance with the Doppler effect and the scattered light is detected with a photodetector."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000317",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000317",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000317",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000317",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000022"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "stop flow air displacement plethysmography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000022",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000130",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000130",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000130",
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000130",
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000023"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "electroencephalography (EEG)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000023",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A procedure that measures electrical potentials on the scalp generating a record of the electrical activity of the brain."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "http://en.wikipedia.org/wiki/"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000001",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000001",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000024"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ultrasound method"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000024",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A technique which uses the visualization of deep structures of the body by recording the reflections of pulses of ultrasonic waves directed into the tissues."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 11,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000025"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ultrasonic flowmeter with doppler"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000025",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An ultrasound in which shifts in frequency between emitted ultrasonic waves and their echoes are used to measure the velocities of moving objects, primarily blood flow within vessels."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000228",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000228",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000228",
+      "http://purl.obolibrary.org/obo/MMO_0000024",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000228",
+      "http://purl.obolibrary.org/obo/MMO_0000024",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000026"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "in vivo method"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A procedure or technique performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, by which a morphological or physiological state or property of that body or body part is assessed and a quantitative or qualitative value assigned."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:22654893"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000000",
+    "directAncestor": "http://purl.obolibrary.org/obo/MMO_0000000",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/MMO_0000000",
+    "hasDirectChildren": true,
+    "numDescendants": 279,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 279,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000027"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ex vivo method"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000027",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A procedure or technique performed outside the living body by which a morphological or physiological state or property in a single sample or a group of samples is assessed and a quantitative or qualitative value assigned."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:22654893"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000000",
+    "directAncestor": "http://purl.obolibrary.org/obo/MMO_0000000",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/MMO_0000000",
+    "hasDirectChildren": true,
+    "numDescendants": 550,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 550,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000028"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "isolated perfused heart method"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000028",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "In this method, the aorta is cannulated and the heart is perfused in a retrograde fashion."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "http://www.adinstruments.com"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000082",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000082",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000082",
+      "http://purl.obolibrary.org/obo/MMO_0000004",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000082",
+      "http://purl.obolibrary.org/obo/MMO_0000004",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000029"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "balloon tipped catheter with pressure transducer in isolated perfused heart"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000029",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000205",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000205",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000205",
+      "http://purl.obolibrary.org/obo/MMO_0000028",
+      "http://purl.obolibrary.org/obo/MMO_0000082",
+      "http://purl.obolibrary.org/obo/MMO_0000004",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000205",
+      "http://purl.obolibrary.org/obo/MMO_0000028",
+      "http://purl.obolibrary.org/obo/MMO_0000082",
+      "http://purl.obolibrary.org/obo/MMO_0000004",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000030"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ex vivo blood analysis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000030",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Determination of the component parts or elements of blood and their quantity or quality after the blood has been removed from the body. Blood is the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000371",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000371",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 240,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 240,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000031"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tail cuff plethysmography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000031",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000076",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000032"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "automated standard complete blood count (CBC) test"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000032",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000146",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000146",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000146",
+      "http://purl.obolibrary.org/obo/MMO_0000174",
+      "http://purl.obolibrary.org/obo/MMO_0000179",
+      "http://purl.obolibrary.org/obo/MMO_0000030",
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000",
+      "http://purl.obolibrary.org/obo/MMO_0000445"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000146",
+      "http://purl.obolibrary.org/obo/MMO_0000174",
+      "http://purl.obolibrary.org/obo/MMO_0000179",
+      "http://purl.obolibrary.org/obo/MMO_0000030",
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000",
+      "http://purl.obolibrary.org/obo/MMO_0000445"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000033"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "arterial puncture"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000033",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Extraction of blood from an artery using a needle.  In human the brachial and radial arteries are most commonly used."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-0323057479"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000097",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000097",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000097",
+      "http://purl.obolibrary.org/obo/MMO_0000235",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000097",
+      "http://purl.obolibrary.org/obo/MMO_0000235",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000034"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "digital rectal thermometry"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000034",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method which uses a digital thermometer, an instrument with a defined scale for determining temperature which presents its measurements in the form of discrete numeric symbols, inserted into the rectum of an organism, that is, the  terminal portion of the large intestine, to measure body temperature."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000193",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000193",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000193",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000193",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000036"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "automated blood gas analysis using a Bayer analyzer"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000036",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Method for assessing the levels of dissolved gases in blood samples using a Bayer automated gas analyzer, a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Mosby:Mosbys_Medical_Dictionary--8th_Ed"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000175",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000175",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000175",
+      "http://purl.obolibrary.org/obo/MMO_0000179",
+      "http://purl.obolibrary.org/obo/MMO_0000030",
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000175",
+      "http://purl.obolibrary.org/obo/MMO_0000179",
+      "http://purl.obolibrary.org/obo/MMO_0000030",
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000037"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "automated blood electrolyte analysis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000037",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Automated analysis of one or more electrolytes, substances which dissociate into ions, in the blood."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000179",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000179",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000179",
+      "http://purl.obolibrary.org/obo/MMO_0000030",
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000179",
+      "http://purl.obolibrary.org/obo/MMO_0000030",
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 18,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 18,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000038"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "blood lipid analysis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000038",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method to determine the level of one or more lipids, water insoluble fats and fat-like substances, in blood."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000030",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000030",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000030",
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000030",
+      "http://purl.obolibrary.org/obo/MMO_0000371",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 66,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 66,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000039"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "flame atomic emission spectrometry"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000039",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A form of atomic spectroscopy in which one observes the emission of light at discrete wavelengths by atoms which have been electronically excited by collisions with other atoms and molecules in a gas or sprayed solution heated in a flame, such as an air/acetylene flame (~2300 degrees C)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000230",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000230",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000230",
+      "http://purl.obolibrary.org/obo/MMO_0000229",
+      "http://purl.obolibrary.org/obo/MMO_0000172",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000",
+      "http://purl.obolibrary.org/obo/MMO_0000583"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000230",
+      "http://purl.obolibrary.org/obo/MMO_0000229",
+      "http://purl.obolibrary.org/obo/MMO_0000172",
+      "http://purl.obolibrary.org/obo/MMO_0000027",
+      "http://purl.obolibrary.org/obo/MMO_0000000",
+      "http://purl.obolibrary.org/obo/MMO_0000583"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000040"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dynamometry"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000040",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method to measure the degree of force used in the contraction of a group of muscles."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Mosby:Mosbys_Medical_Dictionary--8th_Ed"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000026",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000041"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "12 lead electrocardiography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000041",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Non-invasive procedure for making graphic records of the variations in electrical potential caused by electrical activity of the heart using 3 bipolar limb leads, 3 augmented unipolar limb leads and 6 standard precordial leads. Primarily used with humans."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000003",
+      "http://purl.obolibrary.org/obo/MMO_0000001",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000003",
+      "http://purl.obolibrary.org/obo/MMO_0000001",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000042"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CM-5 lead electrocardiography"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000042",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000003",
+      "http://purl.obolibrary.org/obo/MMO_0000001",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000003",
+      "http://purl.obolibrary.org/obo/MMO_0000001",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000043"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "oscillometric sphygmomanometer"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000043",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method for recording the movements, form and force of the arterial pulse in which the disappearance and reappearance of the pulse are indicated by an oscillating needle."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "ISBN:978-1416049982"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000201",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000201",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000201",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000201",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 10,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000044"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Colin STBP-780 automated blood pressure monitor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000044",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000043",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000043",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000043",
+      "http://purl.obolibrary.org/obo/MMO_0000201",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000043",
+      "http://purl.obolibrary.org/obo/MMO_0000201",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000045"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "large adult cuff Colin STBP-780 automated blood pressure monitor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000045",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000044",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000044",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000044",
+      "http://purl.obolibrary.org/obo/MMO_0000043",
+      "http://purl.obolibrary.org/obo/MMO_0000201",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000044",
+      "http://purl.obolibrary.org/obo/MMO_0000043",
+      "http://purl.obolibrary.org/obo/MMO_0000201",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MMO:0000046"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "adult cuff Colin STBP-780 automated blood pressure monitor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MMO_0000046",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MMO_0000044",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MMO_0000044",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000044",
+      "http://purl.obolibrary.org/obo/MMO_0000043",
+      "http://purl.obolibrary.org/obo/MMO_0000201",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MMO_0000044",
+      "http://purl.obolibrary.org/obo/MMO_0000043",
+      "http://purl.obolibrary.org/obo/MMO_0000201",
+      "http://purl.obolibrary.org/obo/MMO_0000026",
+      "http://purl.obolibrary.org/obo/MMO_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

@@ -1,0 +1,3594 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000488"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "body temperature measurement",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000488",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An assessment of body temperature."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000487",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000487",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000489"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "vital signs measurement",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000489",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The act of assessing an individual's current temperature, heart rate, respiratory rate, pulse oxygenation, and blood pressure."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C49672"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000487",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000487",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000490"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "heart rate measurement",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000490",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An assessment of the number of heartbeats per unit time, usually expressed as beats per minute."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000489",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000489",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000489",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000489",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000491"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "pulse assessment",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000491",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Assessment and recording of arterial pulses in any of a number of locations. The observer should note its intensity, rate, rhythm, and if any blood vessel tenderness, tortuosity, or nodularity exists."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000489",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000489",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000489",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000489",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000492"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "respiratory rate assessment",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000492",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The rate of breathing (inhalation and exhalation) measured within in a unit time, usually expressed as breaths per minute."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C49678"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000489",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000489",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000489",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000489",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000493"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "diagnostic procedure of cardiovascular system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000493",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Procedure to evaluate the structure and/or function of the cardiovascular system."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0001398",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0001398",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 33,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 33,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000494"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "blood pressure measurement",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000494",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Measurement of the pressure on the walls of the vessels as blood moves around the body. Systolic blood pressure is the pressure when the heart beats – while the heart muscle is contracting (squeezing) and pumping oxygen-rich blood into the blood vessels. Diastolic blood pressure is the pressure on the blood vessels when the heart muscle relaxes. The diastolic pressure is always lower than the systolic pressure."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000493"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000493"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000495"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "auscultatory blood pressure measurement",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000495",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Monitoring blood pressure with a sphygmomanometer and a stethoscope to hear blood flow."
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Although the auscultatory method using mercury sphygmomanometer is regarded as the ‘gold standard’ for office blood pressure measurement, widespread implementation of the ban in use of mercury sphygmomanometers continues to diminish the role of this technique."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:20937442"
+            }
+          }
+        ]
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000497",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000497",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000497",
+      "http://purl.obolibrary.org/obo/MAXO_0000494",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000497",
+      "http://purl.obolibrary.org/obo/MAXO_0000494",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000496"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "oscillometric blood pressure measurement",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000496",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A blood pressure measurement using a sphygmomanometer and an electronic pressure sensor (transducer) that detects blood flow by the presence of oscillations in the cuff pressure."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000497",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000497",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000497",
+      "http://purl.obolibrary.org/obo/MAXO_0000494",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000497",
+      "http://purl.obolibrary.org/obo/MAXO_0000494",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000497"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "noninvasive blood pressure measurement",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000497",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A method for monitoring blood pressure without requiring instruments introduced into the body."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000494",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000494",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000494",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000494",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000498"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "invasive blood pressure measurement",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000498",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An intra-arterial method of monitoring blood pressure."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000494",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000494",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000494",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000494",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000493",
+      "http://purl.obolibrary.org/obo/MAXO_0001398",
+      "http://purl.obolibrary.org/obo/MAXO_0000988"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000499"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "therapeutic procedure of respiratory system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000499",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "All manners of treatment to bring respiratory system back to its normal state."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000034",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000034",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 43,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 43,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000500"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "airway management",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000500",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A set of maneuvers or medical procedures performed to prevent and relieve airway obstruction. This ensures an open pathway for gas exchange between a patient's lungs and the atmosphere."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18675024"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000499",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000499",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 19,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 19,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000501"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "endotracheal extubation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000501",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Removal of an endotracheal tube from the patient."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MeSH:D060666"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000518"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000518"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000518"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000518"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000502"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "endotracheal intubation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000502",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A procedure involving placement of a tube into the trachea through the mouth or nose in order to provide a patient with oxygen and anesthesia."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MeSH:D007442"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000517"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000517"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000517"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000517"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000503"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "artificial respiration",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000503",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Any method of artificial breathing that employs mechanical or non-mechanical means to force the air into and out of the lungs. Artificial respiration or ventilation is used in individuals who have stopped breathing or have respiratory insufficiency to increase their intake of oxygen (O2) and excretion of carbon dioxide (CO2)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000500",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000500",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 13,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 13,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000504"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tracheostomy"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000504",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Surgical formation of an opening into the trachea through the neck, or the opening so created."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Tracheostomy and tracheotomy are sometimes used interchangeably, but tracheotomy is simply a surgical incision of the trachea."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000965",
+      "http://purl.obolibrary.org/obo/MAXO_0001443",
+      "http://purl.obolibrary.org/obo/MAXO_0001514"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000965",
+      "http://purl.obolibrary.org/obo/MAXO_0001443",
+      "http://purl.obolibrary.org/obo/MAXO_0001514"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000965",
+      "http://purl.obolibrary.org/obo/MAXO_0000004",
+      "http://purl.obolibrary.org/obo/MAXO_0001443",
+      "http://purl.obolibrary.org/obo/MAXO_0001514",
+      "http://purl.obolibrary.org/obo/MAXO_0000012"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000965",
+      "http://purl.obolibrary.org/obo/MAXO_0000004",
+      "http://purl.obolibrary.org/obo/MAXO_0001443",
+      "http://purl.obolibrary.org/obo/MAXO_0001514",
+      "http://purl.obolibrary.org/obo/MAXO_0000012"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000505"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "mask ventilation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000505",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A manual method for maintaining oxygenation using a mask."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000506",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000506",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000506",
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000506",
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000506"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "noninvasive ventilation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000506",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Techniques for administering artificial respiration without the need for intratracheal intubation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MeSH:D063087"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000503",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000503",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000507"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "high-frequency ventilation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000507",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Ventilatory support system using frequencies from 60-900 cycles/min or more. Three types of systems have been distinguished on the basis of rates, volumes, and the system used."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MeSH:D006612"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000509",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000509",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000509",
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000509",
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000508"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "liquid ventilation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000508",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A technique of mechanical ventilation in which the lungs are insufflated with an oxygenated perfluorochemical liquid rather than an oxygen-containing gas mixture."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:22043370"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000503",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000503",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000509"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "positive controlled ventilation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000509",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A method of mechanical ventilation in which pressure is maintained to increase the volume of gas remaining in the lungs at the end of expiration, thus reducing the shunting of blood through the lungs and improving gas exchange."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MeSH:D011175"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000503",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000503",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000510"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "negative-pressure respiration",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000510",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Assisted ventilation by applying intermittent subatmospheric pressure around the thorax, abdomen, or airway and periodically expand the chest wall and inflate the lungs."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000503",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000503",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000512"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "continuous positive airway pressure ventilation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000512",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A form of non-invasive mechanical pressure support ventilation that uses a continuous positive airway pressure level to support spontaneous breathing activity."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C124040"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000509",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000509",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000509",
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000509",
+      "http://purl.obolibrary.org/obo/MAXO_0000503",
+      "http://purl.obolibrary.org/obo/MAXO_0000500",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000513"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "postural drainage",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000513",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A rehabilitation therapy for removal of copious mucus secretion from the lung of patients with diseases. The patient's head is placed in a downward incline (so the trachea is inferior to the affected area) for 15 to 20 minute sessions."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000516",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000516",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000516",
+      "http://purl.obolibrary.org/obo/MAXO_0000011",
+      "http://purl.obolibrary.org/obo/MAXO_0001298",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000516",
+      "http://purl.obolibrary.org/obo/MAXO_0000011",
+      "http://purl.obolibrary.org/obo/MAXO_0001298",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000514"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "chest wall oscillation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000514",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A respiratory support system used to remove mucus and clear airway by oscillating pressure on the chest."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MeSH:D035641"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000516",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000516",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000516",
+      "http://purl.obolibrary.org/obo/MAXO_0000011",
+      "http://purl.obolibrary.org/obo/MAXO_0001298",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000516",
+      "http://purl.obolibrary.org/obo/MAXO_0000011",
+      "http://purl.obolibrary.org/obo/MAXO_0001298",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000515"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "extracorporeal membrane oxygenation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000515",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Application of a life support system that circulates the blood through an oxygenating system, which may consist of a pump, a membrane oxygenator, and a heat exchanger."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "MeSH:D015199"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000499",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000499",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000516"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "chest physiotherapy",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000516",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Chest physical therapy (CPT or Chest PT) is an airway clearance technique (ACT) to drain the lungs, and may include percussion (clapping), vibration, deep breathing, and huffing or coughing."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000011",
+      "http://purl.obolibrary.org/obo/MAXO_0000499"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000011",
+      "http://purl.obolibrary.org/obo/MAXO_0000499"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000011",
+      "http://purl.obolibrary.org/obo/MAXO_0001298",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000011",
+      "http://purl.obolibrary.org/obo/MAXO_0001298",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000499",
+      "http://purl.obolibrary.org/obo/MAXO_0000034"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000517"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "intubation procedure",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000517",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The insertion of a cannula or tube into a hollow body organ."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C37981"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000002",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000518"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "extubation procedure",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000518",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The removal of a previously inserted tube from a hollow organ or passageway, often from the airway."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C50819"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000002",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000520"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "fetal ultrasonography",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000520",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Use of medical ultrasonography in pregnancy where sound waves are used to create a real-time visual image of the developing fetus in the uterus. Imaging can include the mother's ovaries and uterus as well."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000072",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000072",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000072",
+      "http://purl.obolibrary.org/obo/MAXO_0000005",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000072",
+      "http://purl.obolibrary.org/obo/MAXO_0000005",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000525"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "cognitive and behavioral intervention avoidance",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000525",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A clinical recommendation to avoid or refrain from certain behaviors in order to maintain health or ameliorate symptoms."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000010",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000010",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000010",
+      "http://purl.obolibrary.org/obo/MAXO_0001298",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000010",
+      "http://purl.obolibrary.org/obo/MAXO_0001298",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 10,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000526"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "examination by clinical professional",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000526",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A direct assessment of a patient's condition by a clinical health professional that is based on a physical exam, medical history, and the patient's account of symptoms."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:19567008"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 77,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 77,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000527"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "physical examination",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000527",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A systemic evaluation of the body and its functions using visual inspection, palpation, percussion and auscultation. The purpose is to determine the presence or absence of physical signs of disease or abnormality for an individual's health assessment."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C20989"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000526",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000526",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 50,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 50,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000528"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "prenatal examination",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000528",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A test or diagnostic examination to assess the health status of the mother and well being of the fetus."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000782"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000782"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 16,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 16,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000529"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "prenatal genetic testing",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000529",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Testing of fetal DNA during pregnancy to determine if the fetus has chromosomal aberrations, fetal aneuploidy, or other detectable genetic disorders."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000528"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000528"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000530"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "genetic carrier screening",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000530",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A genetic test to whether a healthy person harbors a recessive mutation in one of their copies of a gene or genes."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000127",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000127",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000531"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "noninvasive prenatal testing",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000531",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A test that analyzes small fragments of DNA that are circulating in a pregnant woman’s blood to determine the risk that the fetus will be born with genetic abnormalities."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000529",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000529",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000533"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "molecular genetic testing",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000533",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A diverse set of techniques used to identify the molecular basis of genetic disease. Examples of molecular genetic tests include: genotyping to detect specific pathogenic variants; sequencing of a gene to detect pathogenic variants; amplification or hybridization methods (e.g., qPCR, array CGH, MLPA) to detect copy number variants involving one or more genes; methylation-specific techniques to detect epigenetic changes that influence gene expression; and exome and genome sequencing."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000127",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000127",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000534"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "amniocentisis",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000534",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A prenatal diagnostic procedure in which a small sample of amniotic fluid is removed from the uterus by a needle inserted into the abdomen. This procedure is used to detect various genetic abnormalities in the fetus and/or the sex of the fetus."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C52009"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000535"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000535"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000535",
+      "http://purl.obolibrary.org/obo/MAXO_0000004"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000535",
+      "http://purl.obolibrary.org/obo/MAXO_0000004"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000535"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "surgical aspiration procedure",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000535",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Procedure using suction, usually with a thin needle and syringe, to remove bodily fluid or tissue."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C15631"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000004",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000004",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000004",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000536"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "chorionic villus sampling"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000536",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A prenatal test in which a sample of chorionic villi is removed from the placenta for testing. The sample can be taken through the cervix (transcervical) or the abdominal wall (transabdominal). Mayo Clinic"
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The biopsy of placental tissue containing the chorionic villi from the maternal uterus in early pregnancy to diagnose fetal genetic defects."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "NCIT:C92755"
+            }
+          }
+        ]
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000990",
+      "http://purl.obolibrary.org/obo/MAXO_0001156",
+      "http://purl.obolibrary.org/obo/MAXO_0001443",
+      "http://purl.obolibrary.org/obo/MAXO_0001467"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000990",
+      "http://purl.obolibrary.org/obo/MAXO_0001156",
+      "http://purl.obolibrary.org/obo/MAXO_0001443",
+      "http://purl.obolibrary.org/obo/MAXO_0001467"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000990",
+      "http://purl.obolibrary.org/obo/MAXO_0000988",
+      "http://purl.obolibrary.org/obo/MAXO_0001269",
+      "http://purl.obolibrary.org/obo/MAXO_0000547",
+      "http://purl.obolibrary.org/obo/MAXO_0001156",
+      "http://purl.obolibrary.org/obo/MAXO_0001443",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0001467"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000529",
+      "http://purl.obolibrary.org/obo/MAXO_0000127",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000124",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000990",
+      "http://purl.obolibrary.org/obo/MAXO_0000988",
+      "http://purl.obolibrary.org/obo/MAXO_0001269",
+      "http://purl.obolibrary.org/obo/MAXO_0000547",
+      "http://purl.obolibrary.org/obo/MAXO_0001156",
+      "http://purl.obolibrary.org/obo/MAXO_0001443",
+      "http://purl.obolibrary.org/obo/MAXO_0000034",
+      "http://purl.obolibrary.org/obo/MAXO_0001467"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000537"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "bacterial vaginosis screening",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000537",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A procedure conducted during pregnancy for the presence of Gardnerella vaginalis, Ureaplasma urealyticum, Mycoplasma hominis, Mobiluncus, Prevotella and anaerobic bacteria."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000528",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000528",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000538"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "fetal fibronectin testing",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000538",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A test for the presence of fetal fibronectin in the cervico-vaginal area that is used to predict preterm birth."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C92786"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000528",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000528",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000539"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "prenatal group B streptococcus screening",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000539",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Screening with a swab from the vaginal and rectal areas in late pregnancy to test for the presence of Group B streptococcal infection."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C92805"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000596"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000596"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000596",
+      "http://purl.obolibrary.org/obo/MAXO_0000124"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002",
+      "http://purl.obolibrary.org/obo/MAXO_0000596",
+      "http://purl.obolibrary.org/obo/MAXO_0000124"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000540"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "nuchal translucency screening",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000540",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An ultrasonic examination of the fetus in the late first trimester to measure the clear space at the back of the fetal neck to assess risk of genetic or cardiac abnormalities."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C92837"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000072",
+      "http://purl.obolibrary.org/obo/MAXO_0000528"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0000072",
+      "http://purl.obolibrary.org/obo/MAXO_0000528"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000072",
+      "http://purl.obolibrary.org/obo/MAXO_0000005",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000072",
+      "http://purl.obolibrary.org/obo/MAXO_0000005",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000541"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "quad test assessment",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000541",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A screening measurement in which the maternal blood levels of alpha-fetoprotein, unconjugated estriol, human chorionic gonadotrophin and Inhibin A are calculated. These are then evaluated in relation to the mother's age, weight and fetal gestational age."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "NCIT:C92865"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000528",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000528",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000528",
+      "http://purl.obolibrary.org/obo/MAXO_0000527",
+      "http://purl.obolibrary.org/obo/MAXO_0000526",
+      "http://purl.obolibrary.org/obo/MAXO_0000483",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0000487",
+      "http://purl.obolibrary.org/obo/MAXO_0000782",
+      "http://purl.obolibrary.org/obo/MAXO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000543"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "eosinophil count"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000543",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A determination of the number of eosinophil in a blood sample."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000544",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000544",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000544",
+      "http://purl.obolibrary.org/obo/MAXO_0001010",
+      "http://purl.obolibrary.org/obo/MAXO_0000146",
+      "http://purl.obolibrary.org/obo/MAXO_0000029",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0001509",
+      "http://purl.obolibrary.org/obo/MAXO_0000829",
+      "http://purl.obolibrary.org/obo/MAXO_0000147"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000544",
+      "http://purl.obolibrary.org/obo/MAXO_0001010",
+      "http://purl.obolibrary.org/obo/MAXO_0000146",
+      "http://purl.obolibrary.org/obo/MAXO_0000029",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0001509",
+      "http://purl.obolibrary.org/obo/MAXO_0000829",
+      "http://purl.obolibrary.org/obo/MAXO_0000147"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000544"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "granulocyte count"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000544",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A determination of the number of granulocyte in a blood sample."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0001010",
+      "http://purl.obolibrary.org/obo/MAXO_0001509"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MAXO_0001010",
+      "http://purl.obolibrary.org/obo/MAXO_0001509"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0001010",
+      "http://purl.obolibrary.org/obo/MAXO_0000146",
+      "http://purl.obolibrary.org/obo/MAXO_0000029",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0001509",
+      "http://purl.obolibrary.org/obo/MAXO_0000829",
+      "http://purl.obolibrary.org/obo/MAXO_0000147"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0001010",
+      "http://purl.obolibrary.org/obo/MAXO_0000146",
+      "http://purl.obolibrary.org/obo/MAXO_0000029",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0001509",
+      "http://purl.obolibrary.org/obo/MAXO_0000829",
+      "http://purl.obolibrary.org/obo/MAXO_0000147"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MAXO:0000545"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "basophil count"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MAXO_0000545",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A determination of the number of basophil in a blood sample."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MAXO_0000544",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MAXO_0000544",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000544",
+      "http://purl.obolibrary.org/obo/MAXO_0001010",
+      "http://purl.obolibrary.org/obo/MAXO_0000146",
+      "http://purl.obolibrary.org/obo/MAXO_0000029",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0001509",
+      "http://purl.obolibrary.org/obo/MAXO_0000829",
+      "http://purl.obolibrary.org/obo/MAXO_0000147"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MAXO_0000544",
+      "http://purl.obolibrary.org/obo/MAXO_0001010",
+      "http://purl.obolibrary.org/obo/MAXO_0000146",
+      "http://purl.obolibrary.org/obo/MAXO_0000029",
+      "http://purl.obolibrary.org/obo/MAXO_0000006",
+      "http://purl.obolibrary.org/obo/MAXO_0000003",
+      "http://purl.obolibrary.org/obo/MAXO_0000001",
+      "http://purl.obolibrary.org/obo/COB_0000082",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/MAXO_0001509",
+      "http://purl.obolibrary.org/obo/MAXO_0000829",
+      "http://purl.obolibrary.org/obo/MAXO_0000147"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

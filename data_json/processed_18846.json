@@ -1,0 +1,3060 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000045"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "component of AMR genotypic or phenotypic terminology"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000045",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A collection of curated phenotypic terms relating to antibiotic resistance and the Comprehensive Antibiotic Resistance Database."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_1000001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_1000001",
+    "directAncestor": "http://purl.obolibrary.org/obo/ARO_1000001",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ARO_1000001",
+    "hasDirectChildren": true,
+    "numDescendants": 144,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 144,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000050"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tetracycline antibiotic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000050",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "These antibiotics are derived from tetracycline, a polyketide antibiotic that inhibits the 30S subunit of bacterial ribosomes."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:11381101"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 11,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000053"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "peptide antibiotic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000053",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Peptide antibiotics have a wide range of antibacterial mechanisms, depending on the amino acids that make up the antibiotic, although most act to disrupt the cell membrane in some manner. Subclasses of peptide antibiotics can include additional sidechains of other types, such as lipids in the case of the lipopeptide antibiotics."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:10348745"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:18065456"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 71,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 71,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000055"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SME beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000055",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "SME beta-lactamases are chromosome-mediated class A beta-lactamases that hydrolyze carbapenems in Serratia marcescens."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:8092824"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000056"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "PER beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000056",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "PER beta-lactamases are plasmid-mediated extended spectrum beta-lactamases found in the Enterobacteriaceae family."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 16,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 16,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000057"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NDM beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000057",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "NDM beta-lactamases or New Delhi metallo-beta-lactamases are class B beta-lactamases that confer resistance to a broad range of antibiotics including carbapenems, cephalosporins and penicillins."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:19770275"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:20705517"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:21393184"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:21507902"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:21624908"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:21930874"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:22078325"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24165671"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000568",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000568",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000568",
+      "http://purl.obolibrary.org/obo/ARO_3000004",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000568",
+      "http://purl.obolibrary.org/obo/ARO_3000004",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 47,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 47,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000058"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "MIR beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000058",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "MIR beta-lactamases are plasmid-mediated beta-lactamases that confer resistance to oxyimino- and alpha-methoxy beta-lactams."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:1963529"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 22,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 22,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000059"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "KPC beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000059",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Klebsiella pneumoniae carbapenem resistant (KPC) beta-lactamases are notorious for their ability to efficiently hydrolyze carbapenems, unlike other Ambler Class A beta-lactamases.  There are currently 9 variants reported worldwide.  These enzymes were first isolated from Klebsiella pneumoniae strains in 2001 in the United States.  Hospital outbreaks have since been reported in Greece and Israel and KPC carrying strains are now endemic to New York facilities.  KPC-1 and KPC-2 have been shown to be identical and are now referred to as KPC-2."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:17441734"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:19493866"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 88,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 88,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000060"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "IND beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000060",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "IND beta-lactamases are class B carbapenem-hydrolyzing beta-lactamases."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:10077836"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000568",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000568",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000568",
+      "http://purl.obolibrary.org/obo/ARO_3000004",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000568",
+      "http://purl.obolibrary.org/obo/ARO_3000004",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 17,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 17,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000066"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "GES beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000066",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "GES beta-lactamases or Guiana extended-spectrum beta-lactamases are related to the other plasmid-located class A beta-lactamases."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 57,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 57,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000067"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "FOX beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000067",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "FOX beta-lactamases are plasmid-encoded AmpC-type beta-lactamase which conferred resistance to broad-spectrum cephalosporins and cephamycins."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:7811034"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 16,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 16,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000068"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "DHA beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000068",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "DHA beta-lactamases are plasmid-mediated AmpC β-lactamases that confer resistance to cephamycins and oxyimino-cephalosporins."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:9736562"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 29,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 29,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000069"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CMY beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000069",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "CMY beta-lactamases are plasmid-mediated class C beta-lactamases that encodes for resistance to cephamycins."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ARO_3000086",
+      "http://purl.obolibrary.org/obo/ARO_3000087"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ARO_3000086",
+      "http://purl.obolibrary.org/obo/ARO_3000087"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000086",
+      "http://purl.obolibrary.org/obo/ARO_3000085",
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001",
+      "http://purl.obolibrary.org/obo/ARO_3000087"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000086",
+      "http://purl.obolibrary.org/obo/ARO_3000085",
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001",
+      "http://purl.obolibrary.org/obo/ARO_3000087"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 178,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 178,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000071"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vanS"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000071",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "VanS is similar to histidine protein kinases like EnvZ and acts as a response regulator by activating VanR. VanS is required for high level transcription of other van glycopeptide resistance genes."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:1556077"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3002905",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3002905",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3002905",
+      "http://purl.obolibrary.org/obo/ARO_3002976",
+      "http://purl.obolibrary.org/obo/ARO_3000012",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3002905",
+      "http://purl.obolibrary.org/obo/ARO_3002976",
+      "http://purl.obolibrary.org/obo/ARO_3000012",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 13,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 13,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000072"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ACT beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000072",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "ACT beta-lactamases, also known as AmpC beta-lactamases, are cephalosporinases that cannot be inhibited by clavulanate. These enzymes are encoded by genes located on the chromosome and can be induced by the presence of beta-lactam antibiotics. However recently, these genes have been found on plasmids and expressed at high constitutive levels in Escherichia coli and Klebsiella pneumoniae."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:9055993"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 83,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 83,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000073"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ACC beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000073",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "ACC beta-lactamases or Ambler class C beta-lactamases are AmpC beta-lactamases. They possess an interesting resistance phenotype due to their low activity against cephamycins."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:10428914"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 11,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000074"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "emrB"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000074",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "emrB is a translocase in the emrB -TolC efflux protein in E. coli. It recognizes substrates including carbonyl cyanide m-chlorophenylhydrazone (CCCP), nalidixic acid, and thioloactomycin."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:1409590"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000748",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000748",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000748",
+      "http://purl.obolibrary.org/obo/ARO_3000159",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000748",
+      "http://purl.obolibrary.org/obo/ARO_3000159",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000075"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "class D beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000075",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Class D beta-lactamases are one of the subgroups of beta-lactamases that are classified as serine enzymes."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1019,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1019,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000076"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "class C beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "AmpC type beta-lactamases are commonly isolated from extended-spectrum cephalosporin-resistant Gram-negative bacteria. AmpC beta-lactamases (also termed class C or group 1) are typically encoded on the chromosome of many Gram-negative bacteria including Citrobacter, Serratia, Enterobacter species, and P. aeruginosa where its expression is usually inducible; it may also occur on Escherichia coli but is not usually inducible, although it can be hyperexpressed. AmpC type beta-lactamases may also be carried on plasmids. AmpC beta-lactamases, in contrast to ESBLs, hydrolyse broad and extended-spectrum cephalosporins (cephamycins as well as to oxyimino-beta-lactams) but are not inhibited by beta-lactamase inhibitors such as clavulanic acid."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:19822890"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1157,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1157,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000077"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vanY"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000077",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "VanY is a D,D-carboxypeptidase that cleaves removes the terminal D-Ala from peptidoglycan for the addition of D-Lactate. The D-Ala-D-Lac peptidoglycan subunits have reduced binding affinity with vancomycin compared to D-Ala-D-Ala."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:16323116"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:24711382"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3002976",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3002976",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3002976",
+      "http://purl.obolibrary.org/obo/ARO_3000012",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3002976",
+      "http://purl.obolibrary.org/obo/ARO_3000012",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000078"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "class A beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The Class A beta-lactamases are one of the subgroups of beta-lactamases that are classified as serine enzymes. Class A beta-lactamases exhibit a large degree of variability and are known to hydrolyze penicillins."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:17407578"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1350,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1350,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000079"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "oxazolidinone antibiotic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000079",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Oxazolidinones are a class of synthetic antibiotics discovered the the 1980's.  They inhibit protein synthesis by binding to domain V of the 23S rRNA of the 50S subunit of bacterial ribosomes.  Linezolid is the only member of this class currently in clinical use."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:18757750"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000080"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "aminonucleoside antibiotic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000080",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Aminonucleoside antibiotics are nucleoside antibiotics that contain an amino group. This amino group is often acylated, e.g. puromycin."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:8576156"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000034",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000034",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000034",
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000034",
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000081"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "glycopeptide antibiotic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000081",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Glycopeptide antibiotics are natural products produced non-ribosomally by Actinomycetales bacteria. With the exception of bleomycins, they act by binding the terminal D-Ala-D-Ala in peptidoglycan precursors of the growing bacterial cell wall and are generally active against Gram-positive bacteria.  This inhibits transglycosylation leading to cell death due to osmotic stress."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:10232990"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:16007453"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:3276316"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:4369274"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 20,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 20,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000082"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "antibiotic biosynthesis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000082",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The biological synthesis of antibiotics."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_1000001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_1000001",
+    "directAncestor": "http://purl.obolibrary.org/obo/ARO_1000001",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ARO_1000001",
+    "hasDirectChildren": true,
+    "numDescendants": 17,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 17,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000083"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "MOX beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000083",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "MOX beta-lactamases are plasmid-mediated AmpC-type beta-lactamases."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000087",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000087",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000087",
+      "http://purl.obolibrary.org/obo/ARO_3000085",
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000087",
+      "http://purl.obolibrary.org/obo/ARO_3000085",
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 14,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 14,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000085"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CMY-LAT-MOX beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000085",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A grouping of the related CMY, LAT, and MOX beta-lactamases."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 196,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 196,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000086"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CMY-LAT beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000086",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A grouping of the related CMY and LAT beta-lactamases."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000085",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000085",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000085",
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000085",
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 179,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 179,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000087"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CMY-MOX beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000087",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A grouping of the related CMY and MOX beta-lactamases."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000085",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000085",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000085",
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000085",
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 194,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 194,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000089"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AER beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000089",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "AER beta-lactamases are capable of hydrolyzing arbenicillin."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:9687391"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000090"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bla1"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000090",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Bla1 is a chromosomal-encoded beta-lactamase, found in Bacillus anthracis, which hydrolyzes penicillins."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:12760895"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:27557855"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3004229",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3004229",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3004229",
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3004229",
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000091"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CARB beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000091",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "CARB beta-lactamases are class A lactamases that can hydrolyze carbenicillin. Many of the PSE beta-lactamases have been renamed as CARB-lactamases with the notable exception of PSE-2 which is now OXA-10."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:6782068"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:9687391"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 56,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 56,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000094"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "OCH beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000094",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "OCH beta-lactamases are Ambler class C chromosomal-encoded beta-lactamases in Brucella anthropi."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:11451692"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 8,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 8,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000095"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SRT beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000095",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "SRT beta-lactamases."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000096"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SHV-LEN beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000096",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A grouping of the related SHV and LEN beta-lactamases."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000078",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 270,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 270,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000097"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "LEN beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000097",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "LEN beta-lactamases are chromosomal class A beta-lactamases that confer resistance to ampicillin, amoxicillin, carbenicillin, and ticarcillin but not to extended-spectrum beta-lactams."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:15215087"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000096",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000096",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000096",
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000096",
+      "http://purl.obolibrary.org/obo/ARO_3000078",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 44,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 44,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000098"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "PDC beta-lactamase"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000098",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "PDC beta-lactamases are class C beta-lactamases that are found in Pseudomonas aeruginosa."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:19258272"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000076",
+      "http://purl.obolibrary.org/obo/ARO_3000001",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 475,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 475,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000100"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "gene modulating beta-lactam resistance"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000100",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Genes that directly or indirectly modulate beta-lactam resistance."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:16143832"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000000",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000103"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "aminocoumarin antibiotic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000103",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Aminocoumarin antibiotics bind DNA gyrase subunit B to inhibit ATP-dependent DNA supercoiling."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:8231802"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_1000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000105"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "phosphorylation of antibiotic conferring resistance"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000105",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Phosphorylation of antibiotic usually by ATP, sometimes GTP."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_0001004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_0001004",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_0001004",
+      "http://purl.obolibrary.org/obo/ARO_1000002",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_0001004",
+      "http://purl.obolibrary.org/obo/ARO_1000002",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000106"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "acylation of antibiotic conferring resistance"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000106",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Addition of an acyl group to an antibiotic, often via acetylation by acetylCoA."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_0001004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_0001004",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_0001004",
+      "http://purl.obolibrary.org/obo/ARO_1000002",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_0001004",
+      "http://purl.obolibrary.org/obo/ARO_1000002",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000107"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "nucleotidylation of antibiotic conferring resistance"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000107",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Modification by NMP, usually AMP."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_0001004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_0001004",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_0001004",
+      "http://purl.obolibrary.org/obo/ARO_1000002",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_0001004",
+      "http://purl.obolibrary.org/obo/ARO_1000002",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000111"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "novobiocin"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000111",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Novobiocin is an aminocoumarin antibiotic produced by Streptomyces spheroides and Streptomyces niveus, and binds DNA gyrase subunit B inhibiting ATP-dependent DNA supercoiling."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:10770754"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:4680802"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:8231802"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000103",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000103",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000103",
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000103",
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000112"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "multidrug and toxic compound extrusion (MATE) transporter"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000112",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Directed pumping of antibiotic out of a cell to confer resistance. Multidrug and toxic compound extrusion (MATE) transporters utilize the cationic gradient across the membrane as an energy source. Although there is a diverse substrate specificity, almost all MATE transporters recognize fluoroquinolones. Arciflavine, ethidium and aminoglycosides are also good substrates."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:16330770"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:19100867"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000159",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000159",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000159",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000159",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000113"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vga-type ABC-F protein"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000113",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Vga-type plasmid-borne ABC-F proteins, expressed in staphylococci that confer resistance to streptogramin A antibiotics through ribosomal protection."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:15728891"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:20876620"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:21768510"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3004469",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3004469",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3004469",
+      "http://purl.obolibrary.org/obo/ARO_3000185",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3004469",
+      "http://purl.obolibrary.org/obo/ARO_3000185",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000114"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "aminoglycoside phosphotransferase (APH)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000114",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Kinases that modify aminoglycoside antibiotics by phosphorylation using NTPs as cofactor."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:20833577"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:9872733"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3007380",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3007380",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3007380",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3007380",
+      "http://purl.obolibrary.org/obo/ARO_3000557",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 55,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 55,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000115"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "antibiotic resistant DNA topoisomerase subunit parE"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000115",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "ParE is a subunit of topoisomerase IV, which decatenates and relaxes DNA to allow access to genes for transcription or translation. Mutations in ParE prevents antibiotics from inhibiting DNA synthesis, thus conferring resistance."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000370",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000370",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000370",
+      "http://purl.obolibrary.org/obo/ARO_0000031",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000370",
+      "http://purl.obolibrary.org/obo/ARO_0000031",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000116"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vanZ"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000116",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "VanZ is a teicoplanin resistance gene that is an accessory protein. VanZ prevents the incorporation of the terminal D-Ala into peptidoglycan subunits."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:16323116"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3002976",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3002976",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3002976",
+      "http://purl.obolibrary.org/obo/ARO_3000012",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3002976",
+      "http://purl.obolibrary.org/obo/ARO_3000012",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000117"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "antibiotic A47934"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000117",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A47934 is an 'aglycone' glycopeptide antibiotic produced by Streptomyces toyocaensis. It is a teicoplanin-like glycopeptide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:12060705"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:16492565"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:17884639"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:9435111"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000081",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000081",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000081",
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000081",
+      "http://purl.obolibrary.org/obo/ARO_1000003",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ARO:3000118"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vgaB"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ARO_3000118",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Vga(B) is an ABC-F protein expressed in staphylococci that confers resistance to streptogramin A antibiotics and related compounds. It is associated with plasmid DNA."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:15728891"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:9427556"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ARO_3000113",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ARO_3000113",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000113",
+      "http://purl.obolibrary.org/obo/ARO_3004469",
+      "http://purl.obolibrary.org/obo/ARO_3000185",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ARO_3000113",
+      "http://purl.obolibrary.org/obo/ARO_3004469",
+      "http://purl.obolibrary.org/obo/ARO_3000185",
+      "http://purl.obolibrary.org/obo/ARO_3000000",
+      "http://purl.obolibrary.org/obo/ARO_1000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

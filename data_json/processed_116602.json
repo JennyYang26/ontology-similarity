@@ -1,0 +1,2338 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AudioObject"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AudioObject"
+    },
+    "iri": "http://schema.org/AudioObject",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An audio file."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/MediaObject",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/MediaObject",
+    "directAncestor": [
+      "http://schema.org/MediaObject",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/MediaObject",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AudioObjectSnapshot"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AudioObjectSnapshot"
+    },
+    "iri": "http://schema.org/AudioObjectSnapshot",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A specific and exact (byte-for-byte) version of an [[AudioObject]]. Two byte-for-byte identical files, for the purposes of this type, considered identical. If they have different embedded metadata the files will differ. Different external facts about the files, e.g. creator or dateCreated that aren't represented in their actual content, do not affect this notion of identity."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/AudioObject",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/AudioObject",
+    "directAncestor": [
+      "http://schema.org/AudioObject",
+      "http://schema.org/MediaObject",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/AudioObject",
+      "http://schema.org/MediaObject",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Audiobook"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Audiobook"
+    },
+    "iri": "http://schema.org/Audiobook",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An audiobook."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://schema.org/Book",
+      "http://schema.org/AudioObject"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://schema.org/Book",
+      "http://schema.org/AudioObject"
+    ],
+    "directAncestor": [
+      "http://schema.org/Book",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing",
+      "http://schema.org/AudioObject",
+      "http://schema.org/MediaObject"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Book",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing",
+      "http://schema.org/AudioObject",
+      "http://schema.org/MediaObject"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AuthorizeAction"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AuthorizeAction"
+    },
+    "iri": "http://schema.org/AuthorizeAction",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The act of granting permission to an object."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/AllocateAction",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/AllocateAction",
+    "directAncestor": [
+      "http://schema.org/AllocateAction",
+      "http://schema.org/OrganizeAction",
+      "http://schema.org/Action",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/AllocateAction",
+      "http://schema.org/OrganizeAction",
+      "http://schema.org/Action",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AutoBodyShop"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AutoBodyShop"
+    },
+    "iri": "http://schema.org/AutoBodyShop",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Auto body shop."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/AutomotiveBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/AutomotiveBusiness",
+    "directAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AutoDealer"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AutoDealer"
+    },
+    "iri": "http://schema.org/AutoDealer",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An car dealership."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/AutomotiveBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/AutomotiveBusiness",
+    "directAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AutoPartsStore"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AutoPartsStore"
+    },
+    "iri": "http://schema.org/AutoPartsStore",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An auto parts store."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://schema.org/Store",
+      "http://schema.org/AutomotiveBusiness"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://schema.org/Store",
+      "http://schema.org/AutomotiveBusiness"
+    ],
+    "directAncestor": [
+      "http://schema.org/Store",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place",
+      "http://schema.org/AutomotiveBusiness"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Store",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place",
+      "http://schema.org/AutomotiveBusiness"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AutoRental"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AutoRental"
+    },
+    "iri": "http://schema.org/AutoRental",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A car rental business."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/AutomotiveBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/AutomotiveBusiness",
+    "directAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AutoRepair"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AutoRepair"
+    },
+    "iri": "http://schema.org/AutoRepair",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Car repair business."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/AutomotiveBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/AutomotiveBusiness",
+    "directAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AutoWash"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AutoWash"
+    },
+    "iri": "http://schema.org/AutoWash",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A car wash business."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/AutomotiveBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/AutomotiveBusiness",
+    "directAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/AutomotiveBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AutomatedTeller"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AutomatedTeller"
+    },
+    "iri": "http://schema.org/AutomatedTeller",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "ATM/cash machine."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/FinancialService",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/FinancialService",
+    "directAncestor": [
+      "http://schema.org/FinancialService",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/FinancialService",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_AutomotiveBusiness"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AutomotiveBusiness"
+    },
+    "iri": "http://schema.org/AutomotiveBusiness",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Car repair, sales, or parts."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/LocalBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/LocalBusiness",
+    "directAncestor": [
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BackgroundNewsArticle"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BackgroundNewsArticle"
+    },
+    "iri": "http://schema.org/BackgroundNewsArticle",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A [[NewsArticle]] providing historical context, definition and detail on a specific topic (aka \"explainer\" or \"backgrounder\"). For example, an in-depth article or frequently-asked-questions ([FAQ](https://en.wikipedia.org/wiki/FAQ)) document on topics such as Climate Change or the European Union. Other kinds of background material from a non-news setting are often described using [[Book]] or [[Article]], in particular [[ScholarlyArticle]]. See also [[NewsArticle]] for related vocabulary from a learning/education perspective."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/NewsArticle",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/NewsArticle",
+    "directAncestor": [
+      "http://schema.org/NewsArticle",
+      "http://schema.org/Article",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/NewsArticle",
+      "http://schema.org/Article",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Bakery"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bakery"
+    },
+    "iri": "http://schema.org/Bakery",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A bakery."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/FoodEstablishment",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/FoodEstablishment",
+    "directAncestor": [
+      "http://schema.org/FoodEstablishment",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/FoodEstablishment",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BankAccount"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BankAccount"
+    },
+    "iri": "http://schema.org/BankAccount",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A product or service offered by a bank whereby one may deposit, withdraw or transfer money and in some cases be paid interest."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/FinancialProduct",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/FinancialProduct",
+    "directAncestor": [
+      "http://schema.org/FinancialProduct",
+      "http://schema.org/Service",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/FinancialProduct",
+      "http://schema.org/Service",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BankOrCreditUnion"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BankOrCreditUnion"
+    },
+    "iri": "http://schema.org/BankOrCreditUnion",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bank or credit union."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/FinancialService",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/FinancialService",
+    "directAncestor": [
+      "http://schema.org/FinancialService",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/FinancialService",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BarOrPub"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BarOrPub"
+    },
+    "iri": "http://schema.org/BarOrPub",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A bar or pub."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/FoodEstablishment",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/FoodEstablishment",
+    "directAncestor": [
+      "http://schema.org/FoodEstablishment",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/FoodEstablishment",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Barcode"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Barcode"
+    },
+    "iri": "http://schema.org/Barcode",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An image of a visual machine-readable code such as a barcode or QR code."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/ImageObject",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/ImageObject",
+    "directAncestor": [
+      "http://schema.org/ImageObject",
+      "http://schema.org/MediaObject",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/ImageObject",
+      "http://schema.org/MediaObject",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Beach"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Beach"
+    },
+    "iri": "http://schema.org/Beach",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Beach."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/CivicStructure",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/CivicStructure",
+    "directAncestor": [
+      "http://schema.org/CivicStructure",
+      "http://schema.org/Place",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/CivicStructure",
+      "http://schema.org/Place",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BeautySalon"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BeautySalon"
+    },
+    "iri": "http://schema.org/BeautySalon",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Beauty salon."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/HealthAndBeautyBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/HealthAndBeautyBusiness",
+    "directAncestor": [
+      "http://schema.org/HealthAndBeautyBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/HealthAndBeautyBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BedAndBreakfast"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BedAndBreakfast"
+    },
+    "iri": "http://schema.org/BedAndBreakfast",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bed and breakfast.\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.\n"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/LodgingBusiness",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/LodgingBusiness",
+    "directAncestor": [
+      "http://schema.org/LodgingBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/LodgingBusiness",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BedDetails"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BedDetails"
+    },
+    "iri": "http://schema.org/BedDetails",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An entity holding detailed information about the available bed types, e.g. the quantity of twin beds for a hotel room. For the single case of just one bed of a certain type, you can use bed directly with a text. See also [[BedType]] (under development)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Intangible",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Intangible",
+    "directAncestor": [
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BedType"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BedType"
+    },
+    "iri": "http://schema.org/BedType",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A type of bed. This is used for indicating the bed or beds available in an accommodation."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/QualitativeValue",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/QualitativeValue",
+    "directAncestor": [
+      "http://schema.org/QualitativeValue",
+      "http://schema.org/Enumeration",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/QualitativeValue",
+      "http://schema.org/Enumeration",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BefriendAction"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BefriendAction"
+    },
+    "iri": "http://schema.org/BefriendAction",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The act of forming a personal connection with someone (object) mutually/bidirectionally/symmetrically.\\n\\nRelated actions:\\n\\n* [[FollowAction]]: Unlike FollowAction, BefriendAction implies that the connection is reciprocal."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/InteractAction",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/InteractAction",
+    "directAncestor": [
+      "http://schema.org/InteractAction",
+      "http://schema.org/Action",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/InteractAction",
+      "http://schema.org/Action",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BikeStore"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BikeStore"
+    },
+    "iri": "http://schema.org/BikeStore",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A bike store."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Store",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Store",
+    "directAncestor": [
+      "http://schema.org/Store",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Store",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BioChemEntity"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BioChemEntity"
+    },
+    "iri": "http://schema.org/BioChemEntity",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Any biological, chemical, or biochemical thing. For example: a protein; a gene; a chemical; a synthetic chemical."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Thing",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Thing",
+    "directAncestor": "http://schema.org/Thing",
+    "hierarchicalAncestor": "http://schema.org/Thing",
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Blog"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Blog"
+    },
+    "iri": "http://schema.org/Blog",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A [blog](https://en.wikipedia.org/wiki/Blog), sometimes known as a \"weblog\". Note that the individual posts ([[BlogPosting]]s) in a [[Blog]] are often colloquially referred to by the same term."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/CreativeWork",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/CreativeWork",
+    "directAncestor": [
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BlogPosting"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BlogPosting"
+    },
+    "iri": "http://schema.org/BlogPosting",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A blog post."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/SocialMediaPosting",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/SocialMediaPosting",
+    "directAncestor": [
+      "http://schema.org/SocialMediaPosting",
+      "http://schema.org/Article",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/SocialMediaPosting",
+      "http://schema.org/Article",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BloodTest"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BloodTest"
+    },
+    "iri": "http://schema.org/BloodTest",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A medical test performed on a sample of a patient's blood."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/MedicalTest",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/MedicalTest",
+    "directAncestor": [
+      "http://schema.org/MedicalTest",
+      "http://schema.org/MedicalEntity",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/MedicalTest",
+      "http://schema.org/MedicalEntity",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BoardingPolicyType"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BoardingPolicyType"
+    },
+    "iri": "http://schema.org/BoardingPolicyType",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A type of boarding policy used by an airline."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Enumeration",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Enumeration",
+    "directAncestor": [
+      "http://schema.org/Enumeration",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Enumeration",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BoatReservation"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BoatReservation"
+    },
+    "iri": "http://schema.org/BoatReservation",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A reservation for boat travel.\n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use [[Offer]]."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Reservation",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Reservation",
+    "directAncestor": [
+      "http://schema.org/Reservation",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Reservation",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BoatTerminal"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BoatTerminal"
+    },
+    "iri": "http://schema.org/BoatTerminal",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A terminal for boats, ships, and other water vessels."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/CivicStructure",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/CivicStructure",
+    "directAncestor": [
+      "http://schema.org/CivicStructure",
+      "http://schema.org/Place",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/CivicStructure",
+      "http://schema.org/Place",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BoatTrip"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BoatTrip"
+    },
+    "iri": "http://schema.org/BoatTrip",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A trip on a commercial ferry line."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Trip",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Trip",
+    "directAncestor": [
+      "http://schema.org/Trip",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Trip",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BodyMeasurementTypeEnumeration"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BodyMeasurementTypeEnumeration"
+    },
+    "iri": "http://schema.org/BodyMeasurementTypeEnumeration",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Enumerates types (or dimensions) of a person's body measurements, for example for fitting of clothes."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/MeasurementTypeEnumeration",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/MeasurementTypeEnumeration",
+    "directAncestor": [
+      "http://schema.org/MeasurementTypeEnumeration",
+      "http://schema.org/Enumeration",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/MeasurementTypeEnumeration",
+      "http://schema.org/Enumeration",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BodyOfWater"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BodyOfWater"
+    },
+    "iri": "http://schema.org/BodyOfWater",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A body of water, such as a sea, ocean, or lake."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Landform",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Landform",
+    "directAncestor": [
+      "http://schema.org/Landform",
+      "http://schema.org/Place",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Landform",
+      "http://schema.org/Place",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 8,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 8,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Bone"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bone"
+    },
+    "iri": "http://schema.org/Bone",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Rigid connective tissue that comprises up the skeletal structure of the human body."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/AnatomicalStructure",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/AnatomicalStructure",
+    "directAncestor": [
+      "http://schema.org/AnatomicalStructure",
+      "http://schema.org/MedicalEntity",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/AnatomicalStructure",
+      "http://schema.org/MedicalEntity",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Book"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Book"
+    },
+    "iri": "http://schema.org/Book",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A book."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/CreativeWork",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/CreativeWork",
+    "directAncestor": [
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BookFormatType"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BookFormatType"
+    },
+    "iri": "http://schema.org/BookFormatType",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The publication format of the book."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Enumeration",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Enumeration",
+    "directAncestor": [
+      "http://schema.org/Enumeration",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Enumeration",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BookSeries"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BookSeries"
+    },
+    "iri": "http://schema.org/BookSeries",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A series of books. Included books can be indicated with the hasPart property."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/CreativeWorkSeries",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/CreativeWorkSeries",
+    "directAncestor": [
+      "http://schema.org/CreativeWorkSeries",
+      "http://schema.org/Series",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing",
+      "http://schema.org/CreativeWork"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/CreativeWorkSeries",
+      "http://schema.org/Series",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing",
+      "http://schema.org/CreativeWork"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BookStore"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BookStore"
+    },
+    "iri": "http://schema.org/BookStore",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A bookstore."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Store",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Store",
+    "directAncestor": [
+      "http://schema.org/Store",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Store",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BookmarkAction"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BookmarkAction"
+    },
+    "iri": "http://schema.org/BookmarkAction",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An agent bookmarks/flags/labels/tags/marks an object."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/OrganizeAction",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/OrganizeAction",
+    "directAncestor": [
+      "http://schema.org/OrganizeAction",
+      "http://schema.org/Action",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/OrganizeAction",
+      "http://schema.org/Action",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BorrowAction"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BorrowAction"
+    },
+    "iri": "http://schema.org/BorrowAction",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The act of obtaining an object under an agreement to return it at a later date. Reciprocal of LendAction.\\n\\nRelated actions:\\n\\n* [[LendAction]]: Reciprocal of BorrowAction."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/TransferAction",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/TransferAction",
+    "directAncestor": [
+      "http://schema.org/TransferAction",
+      "http://schema.org/Action",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/TransferAction",
+      "http://schema.org/Action",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BowlingAlley"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BowlingAlley"
+    },
+    "iri": "http://schema.org/BowlingAlley",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A bowling alley."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/SportsActivityLocation",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/SportsActivityLocation",
+    "directAncestor": [
+      "http://schema.org/SportsActivityLocation",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/SportsActivityLocation",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BrainStructure"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BrainStructure"
+    },
+    "iri": "http://schema.org/BrainStructure",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Any anatomical structure which pertains to the soft nervous tissue functioning as the coordinating center of sensation and intellectual and nervous activity."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/AnatomicalStructure",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/AnatomicalStructure",
+    "directAncestor": [
+      "http://schema.org/AnatomicalStructure",
+      "http://schema.org/MedicalEntity",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/AnatomicalStructure",
+      "http://schema.org/MedicalEntity",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Brand"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Brand"
+    },
+    "iri": "http://schema.org/Brand",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A brand is a name used by an organization or business person for labeling a product, product group, or similar."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Intangible",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Intangible",
+    "directAncestor": [
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BreadcrumbList"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BreadcrumbList"
+    },
+    "iri": "http://schema.org/BreadcrumbList",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A BreadcrumbList is an ItemList consisting of a chain of linked Web pages, typically described using at least their URL and their name, and typically ending with the current page.\\n\\nThe [[position]] property is used to reconstruct the order of the items in a BreadcrumbList. The convention is that a breadcrumb list has an [[itemListOrder]] of [[ItemListOrderAscending]] (lower values listed first), and that the first items in this list correspond to the \"top\" or beginning of the breadcrumb trail, e.g. with a site or section homepage. The specific values of 'position' are not assigned meaning for a BreadcrumbList, but they should be integers, e.g. beginning with '1' for the first item in the list.\n      "
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/ItemList",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/ItemList",
+    "directAncestor": [
+      "http://schema.org/ItemList",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/ItemList",
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Brewery"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Brewery"
+    },
+    "iri": "http://schema.org/Brewery",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Brewery."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/FoodEstablishment",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/FoodEstablishment",
+    "directAncestor": [
+      "http://schema.org/FoodEstablishment",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/FoodEstablishment",
+      "http://schema.org/LocalBusiness",
+      "http://schema.org/Organization",
+      "http://schema.org/Thing",
+      "http://schema.org/Place"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_Bridge"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bridge"
+    },
+    "iri": "http://schema.org/Bridge",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A bridge."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/CivicStructure",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/CivicStructure",
+    "directAncestor": [
+      "http://schema.org/CivicStructure",
+      "http://schema.org/Place",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/CivicStructure",
+      "http://schema.org/Place",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BroadcastChannel"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BroadcastChannel"
+    },
+    "iri": "http://schema.org/BroadcastChannel",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A unique instance of a BroadcastService on a CableOrSatelliteService lineup."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/Intangible",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/Intangible",
+    "directAncestor": [
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/Intangible",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "SCHEMAORG:HTTP_BroadcastEvent"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BroadcastEvent"
+    },
+    "iri": "http://schema.org/BroadcastEvent",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An over the air or online broadcast event."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://schema.org/PublicationEvent",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://schema.org/PublicationEvent",
+    "directAncestor": [
+      "http://schema.org/PublicationEvent",
+      "http://schema.org/Event",
+      "http://schema.org/Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://schema.org/PublicationEvent",
+      "http://schema.org/Event",
+      "http://schema.org/Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

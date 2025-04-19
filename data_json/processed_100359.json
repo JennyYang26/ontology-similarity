@@ -1,0 +1,2790 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000228"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "steady-state approximation analysis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000228",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A mechanistic and kinetic determination that involves setting the rate of change of a reaction intermediate in a reaction mechanism equal to zero so that the kinetic equations can be simplified by setting the rate of formation of the intermediate equal to the rate of its destruction."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000085",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000085",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000229"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "partial rate order"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000229",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The exponent terms within the rate equation. For elementary (single step) reactions, the reactant order is equal to the stoichiometric coefficient of the reactant."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000062",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000062",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000062",
+      "http://biomodels.net/SBO/SBO_0000009",
+      "http://biomodels.net/SBO/SBO_0000002",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000062",
+      "http://biomodels.net/SBO/SBO_0000009",
+      "http://biomodels.net/SBO/SBO_0000002",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000230"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "overall reaction order"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000230",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The sum of stoichiometric coefficients of reactants, is always equal to the molecularity of the elementary reaction. However, complex (multi-step) reactions may or may not have reaction orders equal to their stoichiometric coefficients."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000062",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000062",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000062",
+      "http://biomodels.net/SBO/SBO_0000009",
+      "http://biomodels.net/SBO/SBO_0000002",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000062",
+      "http://biomodels.net/SBO/SBO_0000009",
+      "http://biomodels.net/SBO/SBO_0000002",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000231"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "concentration profile"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000231",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A quality process profile that tracks the concentration changes of a species"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000047",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000047",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000047",
+      "http://purl.obolibrary.org/obo/BFO_0000144",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000047",
+      "http://purl.obolibrary.org/obo/BFO_0000144",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000232"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "reaction rate"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000232",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A measurement datum about the speed at which a chemical reaction takes place, defined as proportional to the increase in the concentration of a product per unit time and to the decrease in the concentration of a reactant per unit time."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000109",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000109",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000109",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000109",
+      "http://purl.obolibrary.org/obo/IAO_0000027",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000233"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "integral kinetic measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000233",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A kinetic determination method that measures the concentration of reaction species which is proportional to the integral of the reaction rate."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000085",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000085",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000234"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "differential kinetic measurement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000234",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A kinetic determination method that measures reaction rate directly.  (d[]/dt)"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000085",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000085",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000235"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "method of initial rates"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000235",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A series of experiments whereby the initial concentration of each reactant is varied while the other reactant concentrations are kept constant, allowing the determination of the rate order of the reactant."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000234",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000234",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000234",
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000234",
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000236"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "graphical rate equation"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000236",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A plot of the differential kinetic measurement as the y-axis vs. the integral measurement as the x-axis."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/result#AFR_0000992",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/result#AFR_0000992",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000992",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/result#AFR_0000992",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000237"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Variable Time Normalisation Analysis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000237",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A mechanistic and kinetic determination that compares concentration vs. time profiles in a series of experiments to identify product inhibition, catalyst deactivation and the order of components including catalysts."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000085",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000085",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000085",
+      "http://purl.obolibrary.org/obo/PROCO_0000093",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000238"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mutagenic impurity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000238",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An impurity role of DNA reactive material that have significant carcinogenic risk"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000239"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "domatic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000239",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A 2- faced open form monoclinic crystal with polar point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000240"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "prismatic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000240",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "3, 4, 6, 8, or 12 faced monoclinic crystal with centrosymmetric point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000241"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "rhombic-disphenoidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000241",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Four-faced closed orthorhombic form with enantiomorphic point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000242"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "rhombic-pyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000242",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "3, 4, 6, 8, or 12 nonparallel faced orthorhombic system with polar point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000243"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "rhombic-dipyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000243",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "8-faced form orthorhombic crystal class with centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000244"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "diploidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000244",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Isometric form with no 4 fold axes and centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000245"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tetartoidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000245",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "General cubic forms which only has 3-fold axes and 2-fold axes with no mirror plane with enantiomorphic point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000246"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tetragonal-pyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000246",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "4-faced tetragonal form with polar point and enantiomorphic point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000247"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tetragonal-disphenoidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000247",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "4-faced closed orthorhombic form with non-centrosymmetric point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000248"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tetragonal-dipyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000248",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "8-faced form with centrosymmetric point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000249"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tetragonal-trapezohedral"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000249",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "6-, 8-, 12-, or 24-trapezium faced closed tetragonal form with enantiomorphic point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000250"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ditetragonal-pyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000250",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "8-faced tetragonal form with polar point and enantiomorphic point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000251"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tetragonal-scalenohedral"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000251",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "8-faced (tetragonal) or 12-faced (hexagonal) closed tetragonal form with non-centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000252"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ditetragonal-dipyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000252",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "16-faced form tetragonal crystal form with centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000253"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "trigonal-pyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000253",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "3-faced form where all faces are related by a 3-fold rotation axis with polar point and enantiomorphic point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000254"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "rhombohedral"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000254",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "6 faced closed rhombohedral form of six identical faces in which none of the intersection edges is perpendicular and having centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000255"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "trigonal-trapezohedral"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000255",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "6-, 8-, 12-, or 24-trapezohedral faced closed trigonal form with enantiomorphic point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000256"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ditrigonal-pyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000256",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "6-faced trigonal form where all faces are related by a 3-fold rotational axis with polar point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000257"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ditrigonal-scalenohedral"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000257",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "8-faced (tetragonal) or 12-faced (hexagonal) closed form in which the faces are grouped in symmetrical pairs with centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000258"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hexagonal-pyrimidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000258",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "6-faced form where all faces are related by a 6 axis having polar point and enantiomorphic point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000259"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "trigonal-dipyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000259",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "6-faced hexagonal form with faces related by a 3-fold axis with a perpendicular mirror plane having non-centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000260"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hexagonal-dipyrimidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000260",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "12-faced hexagonal form with faces related by a 6-fold axis with a perpendicular mirror with a centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000261"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hexagonal-trapezohedral"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000261",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "6-faced closed hexagonal form with enantiomorphic point symmetry."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000262"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dihexagonal-pyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000262",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "12-faced hexagonal crystal where all faces are related by a 6-fold axis. It has  polar point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000263"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ditrigonal-dipyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000263",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "12-faced form tetragonal crystal class with non-centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000264"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dihexagonal-dipyramidal"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000264",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "24-faced form with faces related by a 6-fold axis with a perpendicular mirror plane and centrosymmetric point symmetry"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000152",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000152",
+      "http://purl.obolibrary.org/obo/PATO_0000965",
+      "http://purl.obolibrary.org/obo/PATO_0000051",
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.obolibrary.org/obo/PATO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000265"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ICH Q3A Impurities in New Drug Substances"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000265",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An ICH guideline about  identifying, qualifying and specifying impurities in drug substance."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000266"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ICH Q3C Residual Solvents"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000266",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An ICH guideline for the use residual solvents (organic volatile impurities) \nin the manufacture of drug substances and dosage forms, and sets pharmaceutical limits for  in drug products."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000267"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ICH Q3D Guidance for Elemental Impurities"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000267",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An ICH guideline for the control of elemental impurities in new drug products (medicinal products), establishing Permitted Daily Exposures (PDEs) for 24 Elemental Impurities (EIs) for drug products administered by the oral, parenteral and inhalation routes of administration."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000268"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ICH Q6A Specifications: Test Procedures and Acceptance Criteria for Chemical Substances"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000268",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An ICH guidance on the setting and justification of acceptance criteria and the selection of test procedures for new drug substances of synthetic chemical origin, and new drug products produced from them, which have not been registered previously in the ICH regions."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000269"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Q7 Good Manufacturing Practice Guide for Active Pharmaceutical Ingredients"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000269",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An ICH Guideline for the manufacture of APIs for use in human drug (medicinal) products."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000136",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000136",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000270"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "residual solvent impurity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000270",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Residual solvents in pharmaceuticals are defined here as organic volatile chemicals that are used or produced in the manufacture of drug substances or excipients, or in the preparation of drug products. The solvents are not completely removed by practical manufacturing techniques."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+    "directAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000271"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ICH Q6A Class 1 Solvent"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000271",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Solvents to be avoided and with strict low limits as they are human carcinogens, strongly suspected human carcinogens, and environmental hazards."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000270",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000270",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000270",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000270",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000272"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ICH Q6A Class 2 Solvent"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000272",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Solvents to be limited non-genotoxic animal carcinogens or possible causative agents of other irreversible toxicity such as neurotoxicity or teratogenicity. Solvents suspected of other significant but reversible toxicities"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000270",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000270",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000270",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000270",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000273"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ICH Q6A Class 3 Solvent"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000273",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Class 3 solvents: Solvents with low toxic potential Solvents with low toxic potential to man; no health-based exposure limit is needed. Class 3 solvents have PDEs of 50 mg or more per day."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000270",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000270",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000270",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000270",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000364",
+      "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+      "http://purl.obolibrary.org/obo/BFO_0000023",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000274"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Permitted Daily Exposure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000274",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The maximum acceptable intake per day of residual solvent in pharmaceutical products"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000005",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000275"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "one-factor-at-a-time experimental design"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000275",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An experimental design involving the testing of factors, or causes, one at a time instead of multiple factors simultaneously."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PROCO_0000276",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PROCO_0000276",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000276",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PROCO_0000276",
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000276"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "experimental design"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000276",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The design of an experiment intended to test a hypothesis, and describe or explain empirical data obtained under various experimental conditions."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IAO_0000104",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IAO_0000104",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IAO_0000104",
+      "http://purl.obolibrary.org/obo/IAO_0000033",
+      "http://purl.obolibrary.org/obo/IAO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PROCO:0000277"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "explosion"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PROCO_0000277",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A process during which a material entity undergoes a rapid increase in volume, releasing gasses and various forms of energy, often including thermal, light and sound energy."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000015",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000015",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

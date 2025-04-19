@@ -1,0 +1,2860 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3874"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "PCAzip"
+    },
+    "iri": "http://edamontology.org/format_3874",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "PCAZip format is a binary compressed file to store atom coordinates based on Essential Dynamics (ED) and Principal Component Analysis (PCA)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The compression is made projecting the Cartesian snapshots collected along the trajectory into an orthogonal space defined by the most relevant eigenvectors obtained by diagonalization of the covariance matrix (PCA). In the compression/decompression process, part of the original information is lost, depending on the final number of eigenvectors chosen. However, with a reasonable choice of the set of eigenvectors the compression typically reduces the trajectory file to less than one tenth of their original size with very acceptable loss of information. Compression with PCAZip can only be applied to unsolvated structures."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3875"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "XTC"
+    },
+    "iri": "http://edamontology.org/format_3875",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Portable binary format for trajectories produced by GROMACS package."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "XTC uses the External Data Representation (xdr) routines for writing and reading data which were created for the Unix Network File System (NFS). XTC files use a reduced precision (lossy) algorithm which works multiplying the coordinates by a scaling factor (typically 1000), so converting them to pm (GROMACS standard distance unit is nm). This allows an integer rounding of the values. Several other tricks are performed, such as making use of atom proximity information: atoms close in sequence are usually close in space (e.g. water molecules). That makes XTC format the most efficient in terms of disk usage, in most cases reducing by a factor of 2 the size of any other binary trajectory format."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3876"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "TNG"
+    },
+    "iri": "http://edamontology.org/format_3876",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Trajectory Next Generation (TNG) is a format for storage of molecular simulation data. It is designed and implemented by the GROMACS development group, and it is called to be the substitute of the XTC format."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Fully architecture-independent format, regarding both endianness and the ability to mix single/double precision trajectories and I/O libraries. Self-sufficient, it should not require any other files for reading, and all the data should be contained in a single file for easy transport. Temporal compression of data, improving the compression rate of the previous XTC format. Possibility to store meta-data with information about the simulation. Direct access to a particular frame. Efficient parallel I/O."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3877"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "XYZ"
+    },
+    "iri": "http://edamontology.org/format_3877",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The XYZ chemical file format is widely supported by many programs, although many slightly different XYZ file formats coexist (Tinker XYZ, UniChem XYZ, etc.). Basic information stored for each atom in the system are x, y and z coordinates and atom element/atomic number."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "XYZ files are structured in this way: First line contains the number of atoms in the file. Second line contains a title, comment, or filename. Remaining lines contain atom information. Each line starts with the element symbol, followed by x, y and z coordinates in angstroms separated by whitespace. Multiple molecules or frames can be contained within one file, so it supports trajectory storage. XYZ files can be directly represented by a molecular viewer, as they contain all the basic information needed to build the 3D model."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868",
+      "http://edamontology.org/format_3866"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868",
+      "http://edamontology.org/format_3866"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3878"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mdcrd"
+    },
+    "iri": "http://edamontology.org/format_3878",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "AMBER trajectory (also called mdcrd), with 10 coordinates per line and format F8.3 (fixed point notation with field width 8 and 3 decimal places)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868",
+      "http://edamontology.org/format_3866"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868",
+      "http://edamontology.org/format_3866"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3879"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Topology format"
+    },
+    "iri": "http://edamontology.org/format_3879",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Format of topology files; containing the static information of a structure molecular system that is needed for a molecular simulation."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Many different file formats exist describing structural molecular topology. Typically, each MD package or simulation software works with their own implementation (e.g. GROMACS top, CHARMM psf, AMBER prmtop)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/format_2350",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/format_2350",
+    "directAncestor": [
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3880"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "GROMACS top"
+    },
+    "iri": "http://edamontology.org/format_3880",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "GROMACS MD package top textual files define an entire structure system topology, either directly, or by including itp files."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "There is currently no tool available for conversion between GROMACS topology format and other formats, due to the internal differences in both approaches. There is, however, a method to convert small molecules parameterized with AMBER force-field into GROMACS format, allowing simulations of these systems with GROMACS MD package."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3881"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AMBER top"
+    },
+    "iri": "http://edamontology.org/format_3881",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "AMBER Prmtop file (version 7) is a structure topology text file divided in several sections designed to be parsed easily using simple Fortran code. Each section contains particular topology information, such as atom name, charge, mass, angles, dihedrals, etc."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "It can be modified manually, but as the size of the system increases, the hand-editing becomes increasingly complex. AMBER Parameter-Topology file format is used extensively by the AMBER software suite and is referred to as the Prmtop file for short."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "version 7 is written to distinguish it from old versions of AMBER Prmtop. Similarly to HDF5, it is a completely different format, according to AMBER group: a drastic change to the file format occurred with the 2004 release of Amber 7 (http://ambermd.org/prmtop.pdf)"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3882"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "PSF"
+    },
+    "iri": "http://edamontology.org/format_3882",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "X-Plor Protein Structure Files (PSF) are structure topology files used by NAMD and CHARMM molecular simulations programs. PSF files contain six main sections of interest: atoms, bonds, angles, dihedrals, improper dihedrals (force terms used to maintain planarity) and cross-terms."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The high similarity in the functional form of the two potential energy functions used by AMBER and CHARMM force-fields gives rise to the possible use of one force-field within the other MD engine. Therefore, the conversion of PSF files to AMBER Prmtop format is possible with the use of AMBER chamber (CHARMM - AMBER) program."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3883"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "GROMACS itp"
+    },
+    "iri": "http://edamontology.org/format_3883",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "GROMACS itp files (include topology) contain structure topology information, and are typically included in GROMACS topology files (GROMACS top). Itp files are used to define individual (or multiple) components of a topology as a separate file. This is particularly useful if there is a molecule that is used frequently, and also reduces the size of the system topology file, splitting it in different parts."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "GROMACS itp files are used also to define position restrictions on the molecule, or to define the force field parameters for a particular ligand."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879",
+      "http://edamontology.org/format_3884"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879",
+      "http://edamontology.org/format_3884"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879",
+      "http://edamontology.org/format_3884"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879",
+      "http://edamontology.org/format_3884"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3884"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "FF parameter format"
+    },
+    "iri": "http://edamontology.org/format_3884",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Format of force field parameter files, which store the set of parameters (charges, masses, radii, bond lengths, bond dihedrals, etc.) that are essential for the proper description and simulation of a molecular system."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Many different file formats exist describing force field parameters. Typically, each MD package or simulation software works with their own implementation (e.g. GROMACS itp, CHARMM rtf, AMBER off / frcmod)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/format_2350",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/format_2350",
+    "directAncestor": [
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3885"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BinPos"
+    },
+    "iri": "http://edamontology.org/format_3885",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Scripps Research Institute BinPos format is a binary formatted file to store atom coordinates."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "It is basically a translation of the ASCII atom coordinate format to binary code. The only additional information stored is a magic number that identifies the BinPos format and the number of atoms per snapshot. The remainder is the chain of coordinates binary encoded. A drawback of this format is its architecture dependency. Integers and floats codification depends on the architecture, thus it needs to be converted if working in different platforms (little endian, big endian)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3886"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "RST"
+    },
+    "iri": "http://edamontology.org/format_3886",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "AMBER coordinate/restart file with 6 coordinates per line and decimal format F12.7 (fixed point notation with field width 12 and 7 decimal places)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868",
+      "http://edamontology.org/format_3866"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868",
+      "http://edamontology.org/format_3866"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3887"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHARMM rtf"
+    },
+    "iri": "http://edamontology.org/format_3887",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Format of CHARMM Residue Topology Files (RTF), which define groups by including the atoms, the properties of the group, and bond and charge information."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "There is currently no tool available for conversion between GROMACS topology format and other formats, due to the internal differences in both approaches. There is, however, a method to convert small molecules parameterized with AMBER force-field into GROMACS format, allowing simulations of these systems with GROMACS MD package."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3879"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3888"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AMBER frcmod"
+    },
+    "iri": "http://edamontology.org/format_3888",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "AMBER frcmod (Force field Modification) is a file format to store any modification to the standard force field needed for a particular molecule to be properly represented in the simulation."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3884"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3884"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3884",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3884",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3889"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AMBER off"
+    },
+    "iri": "http://edamontology.org/format_3889",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "AMBER Object File Format library files (OFF library files) store residue libraries (forcefield residue parameters)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3884"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3884"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3884",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3884",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3906"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMReDATA"
+    },
+    "iri": "http://edamontology.org/format_3906",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "MReData is a text based data standard for processed NMR data. It is relying on SDF molecule data and allows to store assignments of NMR peaks to molecule features. The NMR-extracted data (or \"NMReDATA\") includes: Chemical shift,scalar coupling, 2D correlation, assignment, etc."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "NMReData is a text based data standard for processed NMR data. It is relying on SDF molecule data and allows to store assignments of NMR peaks to molecule features. The NMR-extracted data (or \"NMReDATA\") includes: Chemical shift,scalar coupling, 2D correlation, assignment, etc. Find more in the paper at https://doi.org/10.1002/mrc.4527."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3824"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3824"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3824",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3824",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3909"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BpForms"
+    },
+    "iri": "http://edamontology.org/format_3909",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "BpForms is a string format for concretely representing the primary structures of biopolymers, including DNA, RNA, and proteins that include non-canonical nucleic and amino acids. See https://www.bpforms.org for more information."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2035",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2571"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2035",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2571"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2035",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2571"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2035",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2571"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3910"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "trr"
+    },
+    "iri": "http://edamontology.org/format_3910",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Format of trr files that contain the trajectory of a simulation experiment used by GROMACS."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The first 4 bytes of any trr file containing 1993. See https://github.com/galaxyproject/galaxy/pull/6597/files#diff-409951594551183dbf886e24de6cb129R760"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868",
+      "http://edamontology.org/format_3866"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2033",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3868",
+      "http://edamontology.org/format_3866"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3911"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "msh"
+    },
+    "iri": "http://edamontology.org/format_3911",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Mash sketch is a format for sequence / sequence checksum information. To make a sketch, each k-mer in a sequence is hashed, which creates a pseudo-random identifier. By sorting these hashes, a small subset from the top of the sorted list can represent the entire sequence."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_2571"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_2571"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2571",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2571",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3913"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Loom"
+    },
+    "iri": "http://edamontology.org/format_3913",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The Loom file format is based on HDF5, a standard for storing large numerical datasets. The Loom format is designed to efficiently hold large omics datasets. Typically, such data takes the form of a large matrix of numbers, along with metadata for the rows and columns."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_3590"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_3590"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3590",
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3590",
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3867",
+      "http://edamontology.org/format_3866"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3915"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Zarr"
+    },
+    "iri": "http://edamontology.org/format_3915",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The Zarr format is an implementation of chunked, compressed, N-dimensional arrays for storing data."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3033"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3033"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3033"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3033"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3916"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "MTX"
+    },
+    "iri": "http://edamontology.org/format_3916",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The Matrix Market matrix (MTX) format stores numerical or pattern matrices in a dense (array format) or sparse (coordinate format) representation."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3033"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3033"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3033"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_3033"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3951"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BcForms"
+    },
+    "iri": "http://edamontology.org/format_3951",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "BcForms is a format for abstractly describing the molecular structure (atoms and bonds) of macromolecular complexes as a collection of subunits and crosslinks. Each subunit can be described with BpForms (http://edamontology.org/format_3909) or SMILES (http://edamontology.org/data_2301). BcForms uses an ontology of crosslinks to abstract the chemical details of crosslinks from the descriptions of complexes (see https://bpforms.org/crosslink.html)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "BcForms is related to http://edamontology.org/format_3909. (BcForms uses BpForms to describe subunits which are DNA, RNA, or protein polymers.) However, that format isn't the parent of BcForms. BcForms is similarly related to SMILES (http://edamontology.org/data_2301)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2030",
+      "http://edamontology.org/format_2062",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2030",
+      "http://edamontology.org/format_2062",
+      "http://edamontology.org/format_2330"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2030",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2062",
+      "http://edamontology.org/format_2330"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2030",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2062",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3956"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "N-Quads"
+    },
+    "iri": "http://edamontology.org/format_3956",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "N-Quads is a line-based, plain text format for encoding an RDF dataset. It includes information about the graph each triple belongs to."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "N-Quads should not be confused with N-Triples which does not contain graph information."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2376"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2376"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2376",
+      "http://edamontology.org/format_2195",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_3748"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2376",
+      "http://edamontology.org/format_2195",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_3748"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3969"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Vega"
+    },
+    "iri": "http://edamontology.org/format_3969",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using Canvas or SVG."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_3464",
+      "http://edamontology.org/format_3547"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_3464",
+      "http://edamontology.org/format_3547"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_3464",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3750",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_3464",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3750",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3970"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Vega-lite"
+    },
+    "iri": "http://edamontology.org/format_3970",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Vega-Lite is a high-level grammar of interactive graphics. It provides a concise JSON syntax for rapidly generating visualizations to support analysis. Vega-Lite specifications can be compiled to Vega specifications."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_3464",
+      "http://edamontology.org/format_3547"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_3464",
+      "http://edamontology.org/format_3547"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_3464",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3750",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_3464",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3750",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3971"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NeuroML"
+    },
+    "iri": "http://edamontology.org/format_3971",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A model description language for computational neuroscience."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2013",
+      "http://edamontology.org/format_2332"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2013",
+      "http://edamontology.org/format_2332"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2013",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2332"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2013",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2332"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3972"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "BNGL"
+    },
+    "iri": "http://edamontology.org/format_3972",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "BioNetGen is a format for the specification and simulation of rule-based models of biochemical systems, including signal transduction, metabolic, and genetic regulatory networks."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2013",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2013",
+      "http://edamontology.org/format_2330"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2013",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2013",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3973"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Docker image"
+    },
+    "iri": "http://edamontology.org/format_3973",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A Docker image is a file, comprised of multiple layers, that is used to execute code in a Docker container. An image is essentially built from the instructions for a complete and executable version of an application, which relies on the host OS kernel."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/format_2333",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/format_2333",
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3975"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "GFA 1"
+    },
+    "iri": "http://edamontology.org/format_3975",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Graphical Fragment Assembly captures sequence graphs as the product of an assembly, a representation of variation in genomes, splice graphs in genes, or even overlap between reads from long-read sequencing technology."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2561"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2561"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2561",
+      "http://edamontology.org/format_2055",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2561",
+      "http://edamontology.org/format_2055",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3976"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "GFA 2"
+    },
+    "iri": "http://edamontology.org/format_3976",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Graphical Fragment Assembly captures sequence graphs as the product of an assembly, a representation of variation in genomes, splice graphs in genes, or even overlap between reads from long-read sequencing technology. GFA2 is an update of GFA1 which is not compatible with GFA1."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2561"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2561"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2561",
+      "http://edamontology.org/format_2055",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2561",
+      "http://edamontology.org/format_2055",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3977"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ObjTables"
+    },
+    "iri": "http://edamontology.org/format_3977",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "ObjTables is a toolkit for creating re-usable datasets that are both human and machine-readable, combining the ease of spreadsheets (e.g., Excel workbooks) with the rigor of schemas (classes, their attributes, the type of each attribute, and the possible relationships between instances of classes). ObjTables consists of a format for describing schemas for spreadsheets, numerous data types for science, a syntax for indicating the class and attribute represented by each table and column in a workbook, and software for using schemas to rigorously validate, merge, split, compare, and revision datasets."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/format_3620",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/format_3620",
+    "directAncestor": [
+      "http://edamontology.org/format_3620",
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3507",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_3620",
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3507",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3978"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CONTIG"
+    },
+    "iri": "http://edamontology.org/format_3978",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The CONTIG format used for output of the SOAPdenovo alignment program. It contains contig sequences generated without using mate pair information."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2551"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2551"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2551",
+      "http://edamontology.org/format_1919",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2551",
+      "http://edamontology.org/format_1919",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3979"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "WEGO"
+    },
+    "iri": "http://edamontology.org/format_3979",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "WEGO native format used by the Web Gene Ontology Annotation Plot application.   Tab-delimited format with gene names and others GO IDs (columns) with one annotation record per line."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2031",
+      "http://edamontology.org/format_3475"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2031",
+      "http://edamontology.org/format_3475"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2031",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3475",
+      "http://edamontology.org/format_3751",
+      "http://edamontology.org/format_2330"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2031",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3475",
+      "http://edamontology.org/format_3751",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3980"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "RPKM"
+    },
+    "iri": "http://edamontology.org/format_3980",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Tab-delimited format for gene expression levels table, calculated as Reads Per Kilobase per Million (RPKM) mapped reads."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "For example a 1kb transcript with 1000 alignments in a sample of 10 million reads (out of which 8 million reads can be mapped) will have RPKM = 1000/(1 * 8) = 125"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_3475"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_3475"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3475",
+      "http://edamontology.org/format_3751",
+      "http://edamontology.org/format_2330"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2058",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3475",
+      "http://edamontology.org/format_3751",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3981"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "TAR format"
+    },
+    "iri": "http://edamontology.org/format_3981",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "TAR archive file format generated by the Unix-based utility tar."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "For example a 1kb transcript with 1000 alignments in a sample of 10 million reads (out of which 8 million reads can be mapped) will have RPKM = 1000/(1 * 8) = 125"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/format_2333",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/format_2333",
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3982"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHAIN"
+    },
+    "iri": "http://edamontology.org/format_3982",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The CHAIN format describes a pairwise alignment that allow gaps in both sequences simultaneously and is used by the UCSC Genome Browser."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2920"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2920"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2920",
+      "http://edamontology.org/format_1921",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2920",
+      "http://edamontology.org/format_1921",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3983"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NET"
+    },
+    "iri": "http://edamontology.org/format_3983",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The NET file format is used to describe the data that underlie the net alignment annotations in the UCSC Genome Browser."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2330"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3984"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "QMAP"
+    },
+    "iri": "http://edamontology.org/format_3984",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Format of QMAP files generated for methylation data from an internal BGI pipeline."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2330"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3985"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "gxformat2"
+    },
+    "iri": "http://edamontology.org/format_3985",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "An emerging format for high-level Galaxy workflow description."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2032",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2032",
+      "http://edamontology.org/format_2330"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2032",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2032",
+      "http://edamontology.org/format_2350",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2330"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3986"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "WMV"
+    },
+    "iri": "http://edamontology.org/format_3986",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The proprietary native video format of various Microsoft programs such as Windows Media Player."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3987"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ZIP format"
+    },
+    "iri": "http://edamontology.org/format_3987",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "ZIP is an archive file format that supports lossless data compression."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A ZIP file may contain one or more files or directories that may have been compressed."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/format_2333",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/format_2333",
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3988"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "LSM"
+    },
+    "iri": "http://edamontology.org/format_3988",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Zeiss' proprietary image format based on TIFF."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "LSM files are the default data export for the Zeiss LSM series confocal microscopes (e.g. LSM 510, LSM 710). In addition to the image data, LSM files contain most imaging settings."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3989"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "GZIP format"
+    },
+    "iri": "http://edamontology.org/format_3989",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "GNU zip compressed file format common to Unix-based operating systems."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://edamontology.org/format_2333",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://edamontology.org/format_2333",
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3990"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AVI"
+    },
+    "iri": "http://edamontology.org/format_3990",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Audio Video Interleaved (AVI) format is a multimedia container format for AVI files, that allows synchronous audio-with-video playback."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3991"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "TrackDB"
+    },
+    "iri": "http://edamontology.org/format_3991",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A declaration file format for UCSC browsers track dataset display charateristics."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_2919"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_2919"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2919",
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2919",
+      "http://edamontology.org/format_1920",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3992"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CIGAR format"
+    },
+    "iri": "http://edamontology.org/format_3992",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Compact Idiosyncratic Gapped Alignment Report format is a compressed (run-length encoded) pairwise alignment format. It is useful for representing long (e.g. genomic) pairwise alignments."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2920"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_2920"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2920",
+      "http://edamontology.org/format_1921",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2330",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_2920",
+      "http://edamontology.org/format_1921",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3993"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Stereolithography format"
+    },
+    "iri": "http://edamontology.org/format_3993",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "STL is a file format native to the stereolithography CAD software created by 3D Systems. The format is used to save and share surface-rendered 3D images and also for 3D printing."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "EDAM:3994"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "U3D"
+    },
+    "iri": "http://edamontology.org/format_3994",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "U3D (Universal 3D) is a compressed file format and data structure for 3D computer graphics. It contains 3D model information such as triangle meshes, lighting, shading, motion data, lines and points with color and structure."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_3547"
+    ],
+    "directAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hierarchicalAncestor": [
+      "http://edamontology.org/format_2333",
+      "http://edamontology.org/format_1915",
+      "http://edamontology.org/format_3547",
+      "http://edamontology.org/format_2350"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

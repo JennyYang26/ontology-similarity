@@ -1,0 +1,2774 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400167"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "carr purcell meiboom gill pulse sequence"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400167",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "tempdef: A modification of Carr-Purcell RF pulse sequence with 90° phase shift in the rotating frame of reference between the 90° pulse and the subsequent 180° pulses to reduce accumulating effects of imperfections in the 180° pulses. Suppression of effects of pulse error accumulation can alternatively be achieved by alternating phases of the 180° pulses by 180°.\n   defprov: Daniel Schober\n   synonym: 1D CPMG"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400169",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400169",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400169",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400168"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": " total correlation spectroscopy pulse sequence"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400168",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "tempdef: Total Correlation Spectroscopy. A 2D homonuclear correlation experiment used to analyse scalar (J) coupling networks between protons. TOCSY is able to relay magnetisation between spins, A-B-C-D.., and can therefore show correlations amongst spins that are not directly coupled (eg A-C and A-D) but exist within the same spin system.\n   defprov: Daniel Schober\n   synonym:2D TOCSY pulse sequence"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000220",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000220",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000220",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000220",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400169"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "1D pulse sequence"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400169",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: One dimensional (referring to a FID, pre-processed spectrum, or post-processed spectrum).\n   synonym: 1D"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400037",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400037",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400170"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "J-resolved pulse sequence"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400170",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "tempdef: In 1D NMR, as the multiplets from different chemically shifted nuclei overlap, spectral assignments become too difficult. In order to resolve the chemical shift and spin-spin coupling parameters along the different axis, 2D and 3D J-resolved NMR spectroscopies are used.\n   defprov: Daniel Schober\n   synonym: 2D J-resolved"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000220",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000220",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000220",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000220",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400171"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hadamard total correlation spectroscopy pulse sequence"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400171",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed\n   synonym: 2D hadamard TOCSY"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000220",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000220",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000220",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000220",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400172"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "diffusion edited pulse sequence"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400172",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed\n   synonym: 1D diffusion edited"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400169",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400169",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400169",
+      "http://nmrML.org/nmrCV#NMR:1400037",
+      "http://nmrML.org/nmrCV#NMR:1000190",
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400185"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR magnet"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400185",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: A magnet which induces a certain frequency (MHz) and which has a certain bore diameter.\n   altdef: The NMR signal is a natural physical property of the certain atomic nuclei but it can only be detected with an external magnetic field. A magnet is a fundamental part of an NMR instrument which induces an electromagnetic force field (RF pulse) and by this excites and aligns the spins of the electrons of the NMR acquisition nucleus. It is usually a big (superconducting) electromagnet which is cooled by liquid helium and can be adjusted to a frequency between 200 and 950 MHz. The magnetic field strength is measured in Tesla or Gauss."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400011",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 18,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 18,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400186"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker NMR magnet"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400186",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400185",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400185",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400187"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "UltraShield"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400187",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400186",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400186",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400186",
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400186",
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400188"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Ultrastabilized"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400188",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400186",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400186",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400186",
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400186",
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400189"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "US 2"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400189",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400186",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400186",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400186",
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400186",
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400190"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "UltraShield Plus"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400190",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400186",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400186",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400186",
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400186",
+      "http://nmrML.org/nmrCV#NMR:1400185",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400191"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker CryoProbe"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400191",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: The Bruker BioSpin CryoProbe is a high-performance cryogenically cooled probe developed for high-resolution applications. It has improved signal/noise (S/N) ratios obtained by reducing the operating temperature of the coil and the pre-amplifier. As a result, the efficiency of the coil is improved and the noise of the coil and the pre-amplifier are reduced.The dramatic increase in the S/N ratio by a factor of 3-4, as compared to conventional probes, leads to a possible reduction in experiment time of up to 16 or a reduction in required sample concentration by a factor of up to 4. The CryoProbes possess key characteristics for NMR analysis:\n   Significant S/N gains (with moderately salty samples also)\n   Short pulse widths\n   Short ring down times\n   Linear behavior in power response\n   Gradient capability\n   CryoProbes are available as Triple Resonance, Dual, Selective X Detection, MicroImaging, and Quad Nucleus Probes configurations at 400 MHz and higher\n   All high resolution probes have a lock circuit\n   All high resolution probes have Z-gradient\n   defprov: Bruker website"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://nmrML.org/nmrCV#NMR:1000324",
+      "http://nmrML.org/nmrCV#NMR:1400231"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://nmrML.org/nmrCV#NMR:1000324",
+      "http://nmrML.org/nmrCV#NMR:1400231"
+    ],
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000324",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://nmrML.org/nmrCV#NMR:1400231"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000324",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://nmrML.org/nmrCV#NMR:1400231"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400192"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "high resolution magic angle spin probe"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400192",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: Samples that are neither solid nor liquid, being of biological, chemical, and/or pharmaceutical interest, reveal highly resolved spectra when magic angle spinning is applied. The correct solution is a gradient, such that the field varies along the spinner axis. This so-called Magic Angle Gradient is employed in Bruker’s high resolution Magic Angle Spinning (hr-MAS) probes, and is implemented in such a way that it is compatible with the stator and does not interfere with the sample eject/insert. Bruker BioSpin has developed a series of dedicated probes for standard bore magnets to accommodate the rapidly expanding field of hr-MAS. These probes are available in double (e.g. 1H and 13C) and triple resonance (e.g., 1H, 13C, 15N) modes and come equipped with a deuterium lock channel. The probes have automatic sample ejection and insertion capability, with the availability of an optional sample changer, enabling fully automated sample runs. Probes can be equipped with an optional B0 gradient, directed along the magic angle, so that gradient spectroscopy can be done used.\n   defprov: Bruker website\n   altdef: High resolution MAS (hr-MAS) provides an easy means of obtaining high resolution spectra for a variety of samples that would otherwise result in poorly resolved spectra. The addition of an hr-MAS probe and a MAS pneumatic unit to a standard high resolution spectrometer is all that is needed to open the gate to the world of hr-MAS spectroscopy and gain access to a vast amount of highly interesting samples.\n   synonyms: High resolution MAS, hr-MAS"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400223",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400223",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400223",
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400223",
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400193"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "solid magic angle spinning probe"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400193",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: Magic angle spinning, nowadays a routine technique for solids NMR, still offers the capability of innovation. The high mechanical performance of MAS probes in conjunction with efficient rf pulse techniques open new exciting fields in solids NMR of biological samples and in the field of quadrupolar nuclei.\n   defprov: Bruker website\n   synonym: solid MAS probe"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400231",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400231",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400194"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "1mm MicroProbe"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400194",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: Over the past few years there has been a significantly growing demand for miniaturization in all areas ofmodern research and development. Evoked by many exciting applications, there is a need for analytical methods which require less amounts of sample. Bruker BioSpin meets this challenge with a revolutionary NMR probe design: The 1mm MicroProbe. It operates with disposable 1mm capillary sample tubes and the sample volume of 5 microliters enables the use of lowest amounts of sample to run all high resolution NMR experiments with outstanding sensitivity and up to 16 times faster measurements. Due to the TXI-type probe design, the z-gradient coil and the automatic matching and tuning accessory, the 1mm MicroProbe can be used for a wide variety of NMR experiments. The key advantages of this probe include:\n   up to 4 times higher mass sensitivity than 5mm conventional probes (with respect to the same sample amount)\n   excellent solvent suppression properties\n   virtually no salt effect\n   discrete samples in tubes that can be sealed and stored\n   automation accessory for sample preparation and handling available\n   defprov: Bruker website"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400231",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400231",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400195"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "flow high resolution probe"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400195",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: Hyphenated analytical techniques combining mass spectrometry and chromatography are well-established laboratory tools. The combination of chromatography and NMR has also made its way into the analytical laboratory. Further developments even combine all three techniques into an LC-NMR/NMR-MS system. The use of solid phase extraction provides an efficient interface between chromatography and NMR with demands for special type of flow probes.\n   defprov: Bruker website\n   synonym: flow HR-probe"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400223",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400223",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400223",
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400223",
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400196"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR instrument parameter set"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400196",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400101",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400101",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400101",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400197"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AVANCE II spectrometer"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400197",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400198",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400198",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400198",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400198",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400198"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker NMR instrument"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400198",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400059",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400059",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 15,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 15,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400199"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Metabolic Profiler instrument"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400199",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "For metabolism studies, and analysis of complex mixtures."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400198",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400198",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400198",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400198",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400200"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Hyphenated NMR instrument"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400200",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR Instruments using hyphenated analytical techniques combining mass spectrometry and chromatograph."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000012",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000012",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000012",
+      "http://nmrML.org/nmrCV#NMR:1000496",
+      "http://nmrML.org/nmrCV#NMR:1000547",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000012",
+      "http://nmrML.org/nmrCV#NMR:1000496",
+      "http://nmrML.org/nmrCV#NMR:1000547",
+      "http://purl.obolibrary.org/obo/BFO_0000031",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400201"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Capillary LC-NMR"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400201",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400198",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400198",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400198",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400198",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400203"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR Case"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400203",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: The NMR Case is an economical NMR sample changer for laboratories with modest automation needs. It expands the maximum number of samples your spectrometer can process during unattended operation to 24. The NMR Case consists of multiple components. The NMR Case exchange module installed atop your cryostat. The two front legs are adjustable, making the NMR Case compatible with many different cryostats.\n   defprov: Bruker website"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400209",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400209",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400209",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400209",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400204"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR tube washing system"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400204",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400001",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400205"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker AutoClean"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400205",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: In today's fast-paced research environment, NMR tubes are often used once and discarded, creating needless waste. With the Bruker BioSpin Autoclean™ system you can now recycle 5mm, 3mm, or 5mm/3mm step-down (Wilmad 520-1B) NMR tubes. AutoClean NMR Tube Washing System is a simple way to recoup the substantial investment your organization makes in quality NMR tubes, and cut back on needless waste material.\n   defprov: Bruker website"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400204",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400204",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400204",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400204",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400206"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker BEST NMR"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400206",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: The introduction of biological screening and combinatorial chemistry for chemical synthesis has also introduced new requirements for NMR automation, e.g., the use of well plates for sample input, increased demands on throughput, and the need for quick and simple interpretation of the acquired NMR data.\n   defprov: Bruker website\n   synonym: Bruker Efficient Sample Transfer NMR"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400209",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400209",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400209",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400209",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400207"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SampleRail"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400207",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: This system automatically prepares an NMR sample, inserts it into an NMR magnet, performs NMR experiments on the sample, and transports it back to the preparation system.\n   The SampleRail fulfills the transporting tasks from the preparation system into the NMR magnet and back\n   defprov: website"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400002",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400208"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SampleJet"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400208",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: Bruker BioSpin introduces the SampleJet, a robot for NMR tube automation. The SampleJet has been consciously designed to meet the growing customer demand for simplicity, versatility and higher throughput in NMR sample tube automation.\n   The SampleJet utilizes the modern-day industry standard for sample arrangements—the 96 well plate array. Therefore, the samples may be handled by standard lab automation devices before or after the NMR measurement.\n   defprov: Bruker website"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400209",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400209",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400209",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400209",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400209"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker autosampler"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400209",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400002",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400210"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "B-ACS"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400210",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: The Bruker Automatic Sample Changer (B-ACS 60/120), used in conjunction with Bruker DISNMR, UXNMR or XWIN-NMR software, provides dialog-guided facilities which allow the user to easily and effectively perform automatic (continuous) experiments. Features include a 60 or 120 sample capacity, random accessing of samples, positive sample identification with the optional bar code reader, and temperature control of individual samples with the optional sample heater unit.\n   defprov: Bruker website"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400209",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400209",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400209",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400209",
+      "http://nmrML.org/nmrCV#NMR:1400002",
+      "http://nmrML.org/nmrCV#NMR:1400001",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400211"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker MATCH"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400211",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: The Bruker Multiple Adjustable Tube Clamp Holder MATCH™ system is a holder for 100 mm long NMR sample tubes with diameters ranging from micro tubes up to 5 mm NMR tubes. The MATCH insert fits into a standard 10 mm Bruker spinner and is suitable for all non-spinning applications.\n   The MATCH system provides an easy and cost efficient means of optimizing the signal-to-noise ratio of each sample. By matching the NMR tube diameter to the size of the sample, most of the sample can be placed in the active column of the NMR coil. This leads to an enhanced signal detection compared to diluting the same sample quantity in a larger tube.\n   defprov: Bruker website\n   synonym: Bruker Multiple Adjustable Tube Clamp Holder"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400212",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400212",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400212",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400212",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400212"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR sample holder"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400212",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: A NMR sample holder is the part of an NMR instrument, which carries the NMR probe,sample  tube and  the NMR sample."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400011",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400213"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR software"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400213",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000531",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000531",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 62,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 62,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400214"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker NMR software"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400214",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000091",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000091",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400215"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker TopSpin software"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400215",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400217"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "SampleTrack software"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400217",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400218"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Paravision software"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400218",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400219"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AURELIA software"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400219",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400220"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AUREMOL software"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400220",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400221"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "AMIX VIEWER & AMIX-TOOLS"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400221",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400214",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400214",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400223"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "high resolution probe"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400223",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def:BRUKER BIOSPIN's experienced Research & Development group not only delivers top-performance probes for the more common experiments, but also a wealth of special probes for almost any application. For high resolution (HR) NMR we offer probes with a variety of important characteristics and features.\n   defprov: Bruker website\n   synonym: HR Probe"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400231",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400231",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400224"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "high resolution probe with ATM"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400224",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "def: The ATM option for AVANCE spectrometers is available for:\n   Double resonance probes in fixed-frequency and broadband tunable configurations with either direct or indirect detection. Thus, for multinuclear operation, as often required for applications in inorganic chemistry, ATM facilitates the accurate setting of 90° pulsewidths on both observe and decoupling channels for each chosen nucleus and each individual sample - even with full automation. Triple resonance probes in fixed-frequency configurations, as typically used for inverse detection with high-field systems.\n   defprov: Bruker website\n   synonym: High Resolution Probes with Automatic Tuning and Matching, HR probe with ATM"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400223",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400223",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400223",
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400223",
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400225"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "micro imaging probe"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400225",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "defneed"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400231",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400231",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400231",
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400226"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "JEOL NMR instrument"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400226",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400059",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400059",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400227"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "JNM-ECX Series FT NMR instrument"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400227",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The JNM-ECX series is an FT NMR spectrometer developed making full use of the latest digital and high frequency technology. This high performance, sophisticated spectrometer designed to take advantage of high field magnet development to include 1GHz. Innovative features to support not only the conventional NMR applications such as structural analysis of molecules and evaluation of materials but also future progress of science and technologies including research for development of new drugs, postgenome research and development of new materials."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400226",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400226",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400226",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400226",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400228"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "JNM-ECA Series FT NMR instrument"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400228",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The JNM-ECA series is an FT NMR spectrometer developed making full use of the latest digital and high frequency technology. This high performance, sophisticated spectrometer designed to take advantage of high field magnet development to include 1GHz. Innovative features to support not only the conventional NMR applications such as structural analysis of molecules and evaluation of materials but also future progress of science and technologies including research for development of new drugs, postgenome research and development of new materials."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400226",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400226",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400226",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400226",
+      "http://nmrML.org/nmrCV#NMR:1400059",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400229"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "JEOL NMR software"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400229",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1000091",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1000091",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400230"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Delta NMR software"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400230",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400229",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400229",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400229",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400229",
+      "http://nmrML.org/nmrCV#NMR:1000091",
+      "http://nmrML.org/nmrCV#NMR:1400213",
+      "http://nmrML.org/nmrCV#NMR:1000531",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "NMR::1400231"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker NMR probe"
+    },
+    "iri": "http://nmrML.org/nmrCV#NMR:1400231",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "https://www.bruker.com/products/mr/nmr/probes/probes.html"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://nmrML.org/nmrCV#NMR:1400014",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://nmrML.org/nmrCV#NMR:1400014",
+    "directAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://nmrML.org/nmrCV#NMR:1400014",
+      "http://nmrML.org/nmrCV#NMR:1400011",
+      "http://nmrML.org/nmrCV#NMR:1000463",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://nmrML.org/nmrCV#BFO_0000001",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 8,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 8,
+    "isPreferredRoot": false
+  }
+]

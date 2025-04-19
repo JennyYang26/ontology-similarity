@@ -1,0 +1,3296 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002639"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "peptide start on chromosome"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002639",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "OBSOLETE The overall start position on the chromosome to which a peptide has been mapped i.e. the position of the first base of the first codon, using a zero-based counting system."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PSI:PI"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This term was obsoleted because it contains redundant info contained in term MS:1002643 - peptide start positions on chromosome."
+      }
+    ],
+    "isObsolete": true,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002640"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "peptide end on chromosome"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002640",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The overall end position on the chromosome to which a peptide has been mapped i.e. the position of the third base of the last codon, using a zero-based counting system."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002641"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "peptide exon count"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002641",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The number of exons to which the peptide has been mapped."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002642"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "peptide exon nucleotide sizes"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002642",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A comma separated list of the number of DNA bases within each exon to which a peptide has been mapped. Assuming standard operation of a search engine, the peptide exon sizes should sum to exactly three times the peptide length."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002643"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "peptide start positions on chromosome"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002643",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A comma separated list of start positions within exons to which the peptide has been mapped, relative to peptide-chromosome start, assuming a zero-based counting system. The first value MUST match the value in peptide start on chromosome."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002644"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "genome reference version"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002644",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The reference genome and versioning string as used for mapping. All coordinates are within this frame of reference."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002636",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002636",
+      "http://purl.obolibrary.org/obo/MS_1001105",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002645"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "MSDK"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002645",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Mass Spectrometry Development Kit (MSDK) is a Java library of algorithms for processing of mass spectrometry data."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "PSI:PI"
+            },
+            {
+              "type": [
+                "literal"
+              ],
+              "value": "http://msdk.github.io/"
+            }
+          ]
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MS_1001456",
+      "http://purl.obolibrary.org/obo/MS_1001457"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MS_1001456",
+      "http://purl.obolibrary.org/obo/MS_1001457"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001456",
+      "http://purl.obolibrary.org/obo/MS_1000531",
+      "http://purl.obolibrary.org/obo/MS_1001457"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001456",
+      "http://purl.obolibrary.org/obo/MS_1000531",
+      "http://purl.obolibrary.org/obo/MS_0000000",
+      "http://purl.obolibrary.org/obo/MS_1001457"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002647"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Thermo nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002647",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Thermo comma separated list of spectra that have been combined prior to searching or interpretation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002648"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Waters nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002648",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Waters comma separated list of spectra that have been combined prior to searching or interpretation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002649"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "WIFF nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002649",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "WIFF comma separated list of spectra that have been combined prior to searching or interpretation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002650"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker/Agilent YEP nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002650",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Bruker/Agilent comma separated list of spectra that have been combined prior to searching or interpretation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002651"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker BAF nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002651",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Bruker BAF comma separated list of spectra that have been combined prior to searching or interpretation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002652"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Bruker FID nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002652",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Bruker FID comma separated list of spectra that have been combined prior to searching or interpretation."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PSI:PI"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The nativeID must be the same as the source file ID."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002653"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "multiple peak list nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002653",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Comma separated list of spectra that have been combined prior to searching or interpretation."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PSI:PI"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Used for conversion of peak list files with multiple spectra, i.e. MGF, PKL, merged DTA files. Index is the spectrum number in the file, starting from 0."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002654"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "single peak list nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002654",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Comma separated list of spectra that have been combined prior to searching or interpretation."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PSI:PI"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The nativeID must be the same as the source file ID. Used for conversion of peak list files with one spectrum per file, typically folder of PKL or DTAs, each sourceFileRef is different."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002655"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "scan number only nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002655",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Comma separated list of spectra that have been combined prior to searching or interpretation."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PSI:PI"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Used for conversion from mzXML, or DTA folder where native scan numbers can be derived."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002656"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "spectrum identifier nativeID format, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002656",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Comma separated list of spectra that have been combined prior to searching or interpretation."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PSI:PI"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Used for conversion from mzData. The spectrum id attribute is referenced."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002657"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mzML unique identifier, combined spectra"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002657",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Comma separated list of spectra that have been combined prior to searching or interpretation."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PSI:PI"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A unique identifier of a spectrum stored in an mzML file."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002646",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002646",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002646",
+      "http://purl.obolibrary.org/obo/MS_1000577",
+      "http://purl.obolibrary.org/obo/MS_1000499",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002659"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "UniProtKB text sequence format"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002659",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Text-based format used by UniProtKB for sequence entries."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1001347",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1001347",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001347",
+      "http://purl.obolibrary.org/obo/MS_1001011",
+      "http://purl.obolibrary.org/obo/MS_1001249"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001347",
+      "http://purl.obolibrary.org/obo/MS_1001011",
+      "http://purl.obolibrary.org/obo/MS_1001249",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002660"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "UniProtKB XML sequence format"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002660",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "XML-based format used by UniProtKB for sequence entries."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1001347",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1001347",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001347",
+      "http://purl.obolibrary.org/obo/MS_1001011",
+      "http://purl.obolibrary.org/obo/MS_1001249"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001347",
+      "http://purl.obolibrary.org/obo/MS_1001011",
+      "http://purl.obolibrary.org/obo/MS_1001249",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002661"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Morpheus"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002661",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Morpheus search engine."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PMID:23323968"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1001456",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1001456",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001456",
+      "http://purl.obolibrary.org/obo/MS_1000531"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001456",
+      "http://purl.obolibrary.org/obo/MS_1000531",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002662"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Morpheus:Morpheus score"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002662",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Morpheus score for PSMs."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1001143",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1001143",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000",
+      "http://purl.obolibrary.org/obo/MS_1003301",
+      "http://purl.obolibrary.org/obo/MS_1003300"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002663"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "Morpheus:summed Morpheus score"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002663",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Summed Morpheus score for protein groups."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002368",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002368",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002368",
+      "http://purl.obolibrary.org/obo/MS_1002348",
+      "http://purl.obolibrary.org/obo/MS_1002346",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002368",
+      "http://purl.obolibrary.org/obo/MS_1002348",
+      "http://purl.obolibrary.org/obo/MS_1002346",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002664"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "interaction score derived from crosslinking"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002664",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Parent term for interaction scores derived from crosslinking."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002675",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002675",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002675",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002675",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002665"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "regular expression for interaction scores derived from crosslinking"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002665",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "((?<int_ID>[0-9]+)[.](?<SUFFIX>[a|b]):(?<POS>[0-9]+|null):(?<SCORE_OR_VALUE>[-+]?[0-9]+(?:[.][0-9]+)?(?:[Ee][-+]?[0-9]+)?):(?<PASS_THRESHOLD>true|false))|(?<SCORE_ONLY>[-+]?[0-9]+(?:[.][0-9]+)?(?:[Ee][-+]?[0-9]+)?)"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002479",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002479",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1002479",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002479",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002666"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "impact II"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002666",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Bruker Daltonics' impact II."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:MS"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1001536",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1001536",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001536",
+      "http://purl.obolibrary.org/obo/MS_1000122",
+      "http://purl.obolibrary.org/obo/MS_1000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001536",
+      "http://purl.obolibrary.org/obo/MS_1000122",
+      "http://purl.obolibrary.org/obo/MS_1000031",
+      "http://purl.obolibrary.org/obo/MS_1000463",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002667"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "impact HD"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002667",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Bruker Daltonics' impact HD."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:MS"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1001536",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1001536",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001536",
+      "http://purl.obolibrary.org/obo/MS_1000122",
+      "http://purl.obolibrary.org/obo/MS_1000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001536",
+      "http://purl.obolibrary.org/obo/MS_1000122",
+      "http://purl.obolibrary.org/obo/MS_1000031",
+      "http://purl.obolibrary.org/obo/MS_1000463",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002668"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "frag: iTRAQ 4plex reporter ion"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002668",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Standard reporter ion for iTRAQ 4Plex. The value slot holds the integer mass of the iTRAQ 4Plex reporter ion, e.g. 114."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002307",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002307",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002307",
+      "http://purl.obolibrary.org/obo/MS_1001221",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002307",
+      "http://purl.obolibrary.org/obo/MS_1001221",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002669"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "frag: iTRAQ 8plex reporter ion"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002669",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Standard reporter ion for iTRAQ 8Plex. The value slot holds the integer mass of the iTRAQ 8Plex reporter ion, e.g. 113."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002307",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002307",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002307",
+      "http://purl.obolibrary.org/obo/MS_1001221",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002307",
+      "http://purl.obolibrary.org/obo/MS_1001221",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002670"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "frag: TMT reporter ion"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002670",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Standard reporter ion for TMT. The value slot holds the integer mass of the TMT reporter ion and can be suffixed with either N or C, indicating whether the mass difference is encoded at a Nitrogen or Carbon atom, e.g. 127N."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002307",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002307",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002307",
+      "http://purl.obolibrary.org/obo/MS_1001221",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002307",
+      "http://purl.obolibrary.org/obo/MS_1001221",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002671"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "frag: TMT ETD reporter ion"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002671",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Standard reporter ion for TMT with ETD fragmentation. The value slot holds the integer mass of the TMT ETD reporter ion and can be suffixed with either N or C, indicating whether the mass difference is encoded at a Nitrogen or Carbon atom, e.g. 127C."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002307",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002307",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002307",
+      "http://purl.obolibrary.org/obo/MS_1001221",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002307",
+      "http://purl.obolibrary.org/obo/MS_1001221",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002672"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "no modification threshold"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002672",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "No statistical threshold for accepting or rejecting that a modification position."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002555",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002555",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002555",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002555",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002673"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "OpenXQuest"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002673",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Cross-Linking MS search engine."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1000752",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1000752",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1000752",
+      "http://purl.obolibrary.org/obo/MS_1001456",
+      "http://purl.obolibrary.org/obo/MS_1000531",
+      "http://purl.obolibrary.org/obo/MS_1001457"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1000752",
+      "http://purl.obolibrary.org/obo/MS_1001456",
+      "http://purl.obolibrary.org/obo/MS_1000531",
+      "http://purl.obolibrary.org/obo/MS_0000000",
+      "http://purl.obolibrary.org/obo/MS_1001457"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002674"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "X500R QTOF"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002674",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "SCIEX X500R QTOF, a quadrupole - quadrupole - time-of-flight mass spectrometer."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:MS"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1000121",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1000121",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1000121",
+      "http://purl.obolibrary.org/obo/MS_1000031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1000121",
+      "http://purl.obolibrary.org/obo/MS_1000031",
+      "http://purl.obolibrary.org/obo/MS_1000463",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002676"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "protein-pair-level global FDR"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002676",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Estimation of the global false discovery rate of proteins-pairs in crosslinking experiments."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002664",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002664",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002664",
+      "http://purl.obolibrary.org/obo/MS_1002675"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002664",
+      "http://purl.obolibrary.org/obo/MS_1002675",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002677"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "residue-pair-level global FDR"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002677",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Estimation of the global false discovery rate of residue-pairs in crosslinking experiments."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002664",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002664",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002664",
+      "http://purl.obolibrary.org/obo/MS_1002675"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002664",
+      "http://purl.obolibrary.org/obo/MS_1002675",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002678"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "supplemental beam-type collision-induced dissociation"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002678",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A supplemental collision-induced dissociation process that occurs in a beam-type collision cell in addition to another primary type of dissociation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:MS"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1000422",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1000422",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1000422",
+      "http://purl.obolibrary.org/obo/MS_1000133",
+      "http://purl.obolibrary.org/obo/MS_1000044"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1000422",
+      "http://purl.obolibrary.org/obo/MS_1000133",
+      "http://purl.obolibrary.org/obo/MS_1000044",
+      "http://purl.obolibrary.org/obo/MS_1000456",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002679"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "supplemental collision-induced dissociation"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002679",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The dissociation of an ion after supplemental collisional excitation."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:MS"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1000133",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1000133",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1000133",
+      "http://purl.obolibrary.org/obo/MS_1000044"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1000133",
+      "http://purl.obolibrary.org/obo/MS_1000044",
+      "http://purl.obolibrary.org/obo/MS_1000456",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002680"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "supplemental collision energy"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002680",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Energy for an ion experiencing supplemental collision with a stationary gas particle resulting in dissociation of the ion."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:MS"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1000510",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1000510",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1000510",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1000510",
+      "http://purl.obolibrary.org/obo/MS_1000456",
+      "http://purl.obolibrary.org/obo/MS_1000442",
+      "http://purl.obolibrary.org/obo/MS_1001458",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002681"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "OpenXQuest:combined score"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002681",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "OpenXQuest's combined score for a crosslink spectrum match."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000",
+      "http://purl.obolibrary.org/obo/MS_1003301",
+      "http://purl.obolibrary.org/obo/MS_1003300",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002682"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "OpenXQuest:xcorr xlink"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002682",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "OpenXQuest's cross-correlation of crosslinked ions subscore."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000",
+      "http://purl.obolibrary.org/obo/MS_1003301",
+      "http://purl.obolibrary.org/obo/MS_1003300",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002683"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "OpenXQuest:xcorr common"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002683",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "OpenXQuest's cross-correlation of unlinked ions subscore."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000",
+      "http://purl.obolibrary.org/obo/MS_1003301",
+      "http://purl.obolibrary.org/obo/MS_1003300",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002684"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "OpenXQuest:match-odds"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002684",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "OpenXQuest's match-odds subscore."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000",
+      "http://purl.obolibrary.org/obo/MS_1003301",
+      "http://purl.obolibrary.org/obo/MS_1003300",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002685"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "OpenXQuest:intsum"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002685",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "OpenXQuest's sum of matched peak intensity subscore."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000",
+      "http://purl.obolibrary.org/obo/MS_1003301",
+      "http://purl.obolibrary.org/obo/MS_1003300",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002686"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "OpenXQuest:wTIC"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002686",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "OpenXQuest's weighted percent of total ion current subscore."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001143",
+      "http://purl.obolibrary.org/obo/MS_1002347",
+      "http://purl.obolibrary.org/obo/MS_1002345",
+      "http://purl.obolibrary.org/obo/MS_1002694",
+      "http://purl.obolibrary.org/obo/MS_1002693",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000",
+      "http://purl.obolibrary.org/obo/MS_1003301",
+      "http://purl.obolibrary.org/obo/MS_1003300",
+      "http://purl.obolibrary.org/obo/MS_1001153"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002687"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "analysis attribute"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002687",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Attribute of an item in the result of mass spectrometry proteomics data analysis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1001405",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1001405",
+    "directAncestor": "http://purl.obolibrary.org/obo/MS_1001405",
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 489,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 491,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002688"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "PTM localization attribute"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002688",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Statistic derived from a post-translational modification localization analysis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002687",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002687",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 32,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 32,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002689"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "PTM localization single result statistic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002689",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Statistic for a single item derived from a post-translational modification localization analysis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002688",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002688",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002688",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002688",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 28,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 28,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002690"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "PTM localization result list statistic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002690",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Statistic for all items derived from a post-translational modification localization analysis."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002688",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002688",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002688",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002688",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "MS:1002691"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "global FLR"
+    },
+    "iri": "http://purl.obolibrary.org/obo/MS_1002691",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Global false localization rate for all localizations in a dataset."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PSI:PI"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MS_1002690",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MS_1002690",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002690",
+      "http://purl.obolibrary.org/obo/MS_1002688",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MS_1002690",
+      "http://purl.obolibrary.org/obo/MS_1002688",
+      "http://purl.obolibrary.org/obo/MS_1002687",
+      "http://purl.obolibrary.org/obo/MS_1001405",
+      "http://purl.obolibrary.org/obo/MS_1001000",
+      "http://purl.obolibrary.org/obo/MS_0000000"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

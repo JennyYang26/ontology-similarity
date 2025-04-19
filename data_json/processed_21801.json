@@ -1,0 +1,2522 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000030"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "object",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000030",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000031"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "generically dependent continuant",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000031",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.",
+        "lang": "en"
+      },
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "value": "b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])",
+          "lang": "en"
+        },
+        "axioms": [
+          {
+            "http://purl.obolibrary.org/obo/IAO_0010000": "http://purl.obolibrary.org/obo/bfo/axiom/074-001"
+          }
+        ]
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000002",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 452,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 452,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000034"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "function",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000034",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000016",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000016",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 9,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000035"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "process boundary",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000035",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0010000": "http://purl.obolibrary.org/obo/bfo/axiom/084-001"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000038"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "one-dimensional temporal region",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000038",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000008",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000008",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000008",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000040"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "material entity",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000004",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 763,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 763,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000140"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "continuant fiat boundary",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000140",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0010000": "http://purl.obolibrary.org/obo/bfo/axiom/029-001"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000141",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000141",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000141"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "immaterial entity",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000141",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000004",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 12,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 12,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000142"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "one-dimensional continuant fiat boundary",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000142",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000140",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000140",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000140",
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000140",
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000144"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "process profile",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000144",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0010000": "http://purl.obolibrary.org/obo/bfo/axiom/093-002"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000015",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000015",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000145"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "relational quality",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000145",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t & b quality_of d at t. (axiom label in BFO2 Reference: [057-001])",
+        "lang": "en"
+      },
+      "axioms": [
+        {
+          "http://purl.obolibrary.org/obo/IAO_0010000": "http://purl.obolibrary.org/obo/bfo/axiom/057-001"
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000019",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000019",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000019",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000146"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "two-dimensional continuant fiat boundary",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000146",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000140",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000140",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000140",
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000140",
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000147"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "zero-dimensional continuant fiat boundary",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000147",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000140",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000140",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000140",
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000140",
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BFO:0000148"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "zero-dimensional temporal region",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000148",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000008",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000008",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000008",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0000152"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "infected cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0000152",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0000238"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cerebrovascular endothelial cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0000238",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "\nEndothelial cell of or involving the cerebrum and the blood vessels supplying it.\n"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/CL_0000115",
+      "http://www.ebi.ac.uk/efo/EFO_0000324"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/CL_0000115",
+      "http://www.ebi.ac.uk/efo/EFO_0000324"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000115",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000115",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0000426"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "erythroleukemia cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0000426",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "\nCancer cell of the blood-forming tissues in which large numbers of immature, abnormal red blood cells are found in the blood and bone marrow.\n"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0000551"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lung cancer cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0000551",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Cancer cell of the major organ of respiration the lung."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0000583"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "bone marrow cancer cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0000583",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0001130"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "prostate gland cancer cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0001130",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "\nA malignant tumour cell of glandular origin in the prostate. Over 95% are adenocarcinomas.\n"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0001615"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "colorectal cancer cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0001615",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0001899"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "stationary phase culture",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0001899",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A cell culture at the plateau of the growth curve after log growth in a culture, during which cell number remains constant. New cells are produced at the same rate as older cells die."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0002958",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0002958",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002958",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002958",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0001903"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "logarithmic phase culture",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0001903",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A cell culture at the steepest slope of the growth curve of a culture-- at the phase of vigorous growth during which cell number doubles every 20-30 minutes."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0002958",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0002958",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002958",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0002958",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0002842"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cholangioma cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0002842",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A rare type of hepatocellular carcinoma arising from the cholangioles, composed of tumor cells resembling the epithelial cells of the cholangioles arranged in cords consisting of two layers of cells surrounding a minute lumen."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0002844"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "breast invasive ductal carcinoma cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0002844",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Infiltrating ductal carcinoma is one of several recognized specific patterns of cancer of the breast. It is so named because it begins in the cells forming the ducts of the breast. It is the most common form of breast cancer, comprising 65-85% of all cases."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0005934",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0005934",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0004298"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "corneal epithelial cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0004298",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "BTO:0004578"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "vascular smooth muscle cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/BTO_0004578",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CARO:0000007"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "immaterial anatomical entity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CARO_0000007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000141",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000141",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000141",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:23367"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "molecular entity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000002"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "immortal cell line cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000002",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A cell line cell that is expected to be capable of an unlimited number of divisions, and is thus able to support indefinite growth/propagation in vitro as part of a immortal cell line."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000007"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "early embryonic cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A cell found in the embryo before the formation of all the gem layers is complete."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0002321",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0002321",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002321",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002321",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000015"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "male germ cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000015",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0000586",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0000586",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000586",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000586",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000023"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "oocyte"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000023",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A female germ cell that has entered meiosis."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0000586",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0000586",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000586",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000586",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000034"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "stem cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000034",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A relatively undifferentiated cell that retains the ability to divide and proliferate throughout life to provide progenitor cells that can differentiate into specialized cells."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 18,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 18,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000037"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hematopoietic stem cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000037",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A stem cell from which all cells of the lymphoid and myeloid lineages develop, including blood cells and cells of the immune system."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A stem cell from which all cells of the lymphoid and myeloid lineages develop, including blood cells and cells of the immune system. Hematopoietic stem cells lack cell markers of effector cells (lin-negative). Lin-negative is defined by lacking one or more of the following cell surface markers: CD2, CD3 epsilon, CD4,CD5,CD8 alpha chain, CD14, CD19, CD20, integrin alpha-M, neural cell adhesion molecule 1, lymphocyte antigen 6G, lymphocyte antigen 76."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000038"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "erythroid progenitor cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000038",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A progenitor cell committed to the erythroid lineage."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A progenitor cell committed to the erythroid lineage. This cell is ter119-positive but lacks expression of other hematopoietic lineage markers (lin-negative)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/CL_0000764",
+      "http://purl.obolibrary.org/obo/CL_0000839",
+      "http://www.ebi.ac.uk/efo/EFO_0000324"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/CL_0000764",
+      "http://purl.obolibrary.org/obo/CL_0000839",
+      "http://www.ebi.ac.uk/efo/EFO_0000324"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000764",
+      "http://purl.obolibrary.org/obo/CL_0000763",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/CL_0000839",
+      "http://purl.obolibrary.org/obo/CL_0002031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000764",
+      "http://purl.obolibrary.org/obo/CL_0000763",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/CL_0000839",
+      "http://purl.obolibrary.org/obo/CL_0002031"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000040"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "monoblast"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000040",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0002194",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0002194",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002194",
+      "http://purl.obolibrary.org/obo/CL_0000839",
+      "http://purl.obolibrary.org/obo/CL_0002031",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002194",
+      "http://purl.obolibrary.org/obo/CL_0000839",
+      "http://purl.obolibrary.org/obo/CL_0002031",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000041"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mature eosinophil"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000041",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0000771",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0000771",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000771",
+      "http://purl.obolibrary.org/obo/CL_0000094",
+      "http://purl.obolibrary.org/obo/CL_0000766",
+      "http://purl.obolibrary.org/obo/CL_0000738",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000771",
+      "http://purl.obolibrary.org/obo/CL_0000094",
+      "http://purl.obolibrary.org/obo/CL_0000766",
+      "http://purl.obolibrary.org/obo/CL_0000738",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000042"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "neutrophilic myeloblast"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000042",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0000835",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0000835",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000835",
+      "http://purl.obolibrary.org/obo/CL_0002191",
+      "http://purl.obolibrary.org/obo/CL_0000839",
+      "http://purl.obolibrary.org/obo/CL_0002031",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000835",
+      "http://purl.obolibrary.org/obo/CL_0002191",
+      "http://purl.obolibrary.org/obo/CL_0000839",
+      "http://purl.obolibrary.org/obo/CL_0002031",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000043"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mature basophil"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000043",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0000767",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0000767",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000767",
+      "http://purl.obolibrary.org/obo/CL_0000094",
+      "http://purl.obolibrary.org/obo/CL_0000766",
+      "http://purl.obolibrary.org/obo/CL_0000738",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000767",
+      "http://purl.obolibrary.org/obo/CL_0000094",
+      "http://purl.obolibrary.org/obo/CL_0000766",
+      "http://purl.obolibrary.org/obo/CL_0000738",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000047"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "neuronal stem cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000047",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Neural stem cell is characterized as an undifferentiated cell that originates from the neuroectoderm and has  the capacity both to perpetually self-renew without differentiating and to generate multiple types of lineage-restricted progenitors."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0000034",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0000034",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000034",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000034",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000048"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "multipotent stem cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000048",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A stem cell that can give rise to mulitple lineages of cells."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A stem cell that can give rise to multiple lineages of cells."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0000034",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0000034",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000034",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000034",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000049"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "common myeloid progenitor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000049",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0002032",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0002032",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002032",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002032",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000050"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "megakaryocyte-erythroid progenitor cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000050",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0002032",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0002032",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002032",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002032",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000051"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "common lymphoid progenitor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000051",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0002032",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0002032",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002032",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0002032",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000055"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "blast cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000055",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A precursor cell with a limited number of potential fates."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000056"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "myoblast"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000056",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An embryonic (precursor) cell of the myogenic lineage that develops from the mesoderm. They undergo proliferation, migrate to their various sites, and then differentiate into the appropriate form of myocytes."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An embryonic cell that becomes a cell of muscle fiber."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000057"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "fibroblast"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000057",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A connective-tissue cell of mesenchymal origin that secretes proteins and especially molecular collagen from which the extracellular fibrillar matrix of connective tissue forms."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A large, flat, oval cell found in connective tissue and responsible for the formation of fibers."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000062"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "osteoblast"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000062",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A bone-forming cell which secretes an extracellular matrix. Hydroxyapatite crystals are then deposited into the matrix to form bone."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://www.ebi.ac.uk/efo/EFO_0000324",
+    "directAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CL:0000065"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ependymal cell"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CL_0000065",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A neurectoderm derived cell that lines the neural lumen. [ JB:jb GOC:tfm PMID:9550134 ]"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/CL_0000066",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/CL_0000066",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000066",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/CL_0000066",
+      "http://www.ebi.ac.uk/efo/EFO_0000324",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

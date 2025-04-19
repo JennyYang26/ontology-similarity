@@ -1,0 +1,2132 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000076"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Val-Delete",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000076",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The instruction code 'Val-Delete' is an instruction code of the transsmt instruction set that pops off a value from the ?B? stack. This instruction code may be modified by one 'Nop' instruction code, which determines from which stack to remove a value.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000077"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Val-Div",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000077",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The instruction code 'Val-Div' is an instruction code of the transsmt instruction set that pushes the result of the integer division of the value from the top of the ?B? stack by the value at the top of the ?C? stak onto the B stack. This instruction code can be modified by one or two 'Nop' instruction codes, which specify which stacks are divided. If there is an arithmetic error caused by the division, the instruction code fails and does not return a value.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000078"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Val-Inc",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000078",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The instruction code 'Val-Inc' is an instruction code of the transsmt instruction set that increments the value at the top of ?B? stack by one. This instruction code is destructive (i.e., it pops the old value off the stack).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000079"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Val-Mod",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000079",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The instruction code 'Val-Mod' is an instruction code of the transsmt instruction set that pushes the remainder from integer division between the value from the top of the ?B? stack by the value at the top of the ?C? stak onto the B stack. This instruction code can be modified by one or two 'Nop' instruction codes, which specify which stacks are divided. If there is an arithmetic error caused by the division, the instructioncode fails and does not return a value.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000080"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Val-Mult",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000080",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The instruction code 'Val-Mult' is an instruction code of the transsmt instruction set that pushes the result of multiplying the values from the top of the ?B? and ?C? staks onto the B stack. This instruction code can be modified by one or two 'Nop' instructions, which specify which stacks are multiplied.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000081"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Val-Nand",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000081",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The instruction code 'Val-Nand' is an instruction code of the transsmt instruction set that computes the bitwise NAND logic operation on the values at the top of the ?B? and ?C? stacks. The result of this operation is pushed onto the top of the B stack. This instruction code can be modified by one or two 'Nop' instruction codes, which specify which stacks are used for computing the logic operation. Note that this is the only logic operation provided by the instruction set.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000082"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Val-Shift-L",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000082",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The instruction code 'Val-Shift-L' is an instruction code of the transsmt instruction set that shifts the value at the top of the ?B? stack over one bit to the left, effectively multiplying the value by two and ignoring any potential overflow. This instruction code can be modified by one 'Nop' instruction code, which specifies which stack is used.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000083"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Val-Shift-R",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000083",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The instruction code 'Val-Shift-R' is an instruction code of the transsmt instruction set that shifts the value at the top of the ?B? stack over one bit to the right,  effectively dividing the value by two and rounding down. This instruction code can be modified by one 'Nop' instruction code, which specifies which stack is used.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000084"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Val-Sub",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000084",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The instruction code 'Val-Sub' is an instruction code of the transsmt instruction set that pushes the result of substracting the values from the top of the ?B? and ?C? stacks onto the B stack. This instruction code can be modified by one or two 'Nop' instruction codes, which specify which stacks are substracted.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000022",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000085"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "digital organism file",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000085",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A digital organism file is a digital file containing the list of instruction codes that constitutes the genome of a digital organism in Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/STATO_0000002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/STATO_0000002",
+    "directAncestor": "http://purl.obolibrary.org/obo/STATO_0000002",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/STATO_0000002",
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000086"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "instset-transsmt.cfg",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000086",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An instruction set file containing the instruction set that allows host-parasite interactions to take place in Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000087"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "instset-heads-sex.cfg",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000087",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An instruction set file containing the instruction set that allows digital organisms reproduce sexually in Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000088"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "instset-heads.cfg",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000088",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An instruction set file containing the default instruction set in Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000003",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000089"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "avida",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000089",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The digital file that executes Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000002",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000002",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000002",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000002",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000090"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "analyze.cfg",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000090",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The default analyze configuration file.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000012",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000012",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000012",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000001",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000012",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000001",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000091"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "environment.cfg",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000091",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The default environment configuration file. The default environment provides a digital organism with new, random input strings every time an 'input-output' instruction code ('IO' for the transsmt instruction set) is executed. The genome of a digital organism can harbor one or several input-output instructions that can be executed either only once or many times during the time it takes to generate an offspring. This means that the organism can take input numbers from the environment more than once before replicating and can compute the result of more than one logic operation.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000010",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000010",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000010",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000001",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000010",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000001",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000092"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "events.cfg",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000092",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The default events configuration file.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000009",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000009",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000009",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000001",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000009",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000001",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000093"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "avida.cfg",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000093",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The default avida configuration file. This file is actually an excellent guide to itself; every option has a description of what it does and what its options are.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000008",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000008",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000001",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000008",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000001",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000094"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "default-heads.org",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000094",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The default file containing a digital organism that is defined by the default instruction set and the default hardware type.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000085",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000085",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000085",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000085",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000095"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "default-transsmt.org",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000095",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The default file containing a parasite digital organism that is defined by the transsmt instruction set and the transSMT hardware type.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000085",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000085",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000085",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000085",
+      "http://purl.obolibrary.org/obo/STATO_0000002"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000096"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "avida experiment",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000096",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An avida experiment is an experiment carried out in Avida using digital organisms.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/NCIT_C42790",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/NCIT_C42790",
+    "directAncestor": "http://purl.obolibrary.org/obo/NCIT_C42790",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/NCIT_C42790",
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000100"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "stack",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000100",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A stack is a digital storage space that a digital organism uses for storing numbers. The default virtual CPU and the transsmt virtual CPU have two and four stacks, respectively, used for storing numbers. In the default virtual CPU, the 'push' and 'pop' instruction codes are used to move numbers between the registers and the stack, and the 'swap-stk' instruction toggles the active stack in use. A digital organism can theoretically store an arbitrary amount of data in the stacks, but for practical purposes the maximum stack depth is limited to ten.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000101"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "batch",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000101",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A batch is a digital storage space where the genomes of the digital organisms are loaded before being executed in analyze mode.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000102"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "buffer",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000102",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A buffer is a digital storage space that a digital organism uses to receive information or return the processed results.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000103"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "input buffer",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000103",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An input buffer is the buffer that a digital organism uses to receive information.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000102",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000102",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000102",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000102",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000104"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "output buffer",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000104",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An output buffer is the buffer that a digital organism uses to return the processed results.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000102",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000102",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000102",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000102",
+      "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000107"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "flow-head",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000107",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A flow-head is the head that marks the beginning of a loop in a digital organism's memory space to jump the instruction pointer back to from the loop's end.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000108"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "instruction pointer",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000108",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "An instruction-pointer is the head that determines the next instruction code to be executed by the virtual CPU of a digital organism. After each execution, the instruction pointer is automaticall advanced (unless the instruction code executed dictates otherwise).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000109"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "read-head",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000109",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A read-head is the head that determines what instruction code is copied by the virtual CPU of a digital organism when a 'h-copy' instruction code is executed ('Val-Copy' instruction code if the transsmt instruction set is used).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000110"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "write-head",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000110",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A writ- head is the head that determines the position of a digital organism's memory space where the instruction code is going to be copied to by the virtual CPU of a digital organism.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000106",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000112"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "and",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000112",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'and' logic operation is a logic operation on two bitstrings that returns 1 if and only if both inputs are 1 (otherwise it returns 0).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000113"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "and-not",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000113",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'and-not' logic operation is a logic operation on two bitstrings that only returns 1 if for each bit pair one input is 1 and the other input is 0 (otherwise it returns 0).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000114"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "equals",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000114",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'equals' logic operation is a logic operation on two bitstrings that returns 1 if both bits are identical, and 0 if they are different.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000115"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "not-and",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000115",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'not-and' logic operation is a logic operation on two bitstrings that returns 0 if and only if both inputs at the corresponding bit positions are 1 (otherwise it returns 1).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000116"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "not-or",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000116",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'not-or' logic operation is a logic operation on two bitstrings that returns 1 only if both inputs are 0 (otherwise it returns 0).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000117"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "not",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000117",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'not' logic operation is a logic operation on a single bitstring that returns 1 at a bit position if the input is 0 at that bit position, and 0 if the input is 1.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000118"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "or",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000118",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'or' logic operation is a logic operation on two bitstrings that returns 1 if either the first input, the second input, or both are 1 (otherwise it returns 0).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000119"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "orn-not",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000119",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'orn-not' logic operation is a logic operation on two bitstrings that returns 1 if for each input bit pair one input bit is 1 or the other is 0 (otherwise it returns 0).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000120"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "exclusive or",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000120",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The 'exclusive-or' logic opertation is a logic operation on two bitstrings that returns 1 if one but not both of the inputs are 1 (otherwise it returns 0).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000111",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000126"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "register",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000126",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A register is a digital storage space that a digital organism uses for storing a single number. The default virtual CPU contains three registers (XA, XB, and XC), each of which is made up of 32 bits. All math-based instruction codes operate on the registers, and various instruction codes will move the values in the registers around.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000128"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "digital organism memory",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000128",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A digital organism memory is a digital storage space that a digital organism uses to hold a sequence of instruction codes to be executed. The memory space is initialize to the genome of the digital organism, but it will be modified over the lifetime of the digital organism, typically as an offspring is produced. As section of the memory is then divided off to initialize the offspring. Memory is treated as circular, such that execution will loop back to the first instruction code after the last instruction code has been executed.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000129",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000131"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "heads_default",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000131",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The heads_default instruction set is the default instruction set in Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000132"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "heads_sex",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000132",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The heads_sex instruction set is the instruction set that allows digital organisms reproduce sexually in Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000133"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "transsmt",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000133",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The transsmt instruction set is the instruction set that allows host-parasite interactions to take place in Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000130",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000138"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "nop-head notation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000138",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A nop-head notation is a two-letter notation (IP, RH, WH, or FH) surrounded by question marks that refers to that head being used as a default, when the instruction code in question is being executed. But if the instruction code is followed by a no-operation ('nop' or 'Nop') instruction code, the 'nop' or 'Nop' instruction code will alter the register used. A 'nop-A' or 'Nop-A' instruction code indicates the instruction pointer (IP); a 'nop-B' or 'Nop-B' instruction code indicates the read-head (RH); a 'nop-C' or 'Nop-C' instruction code indicates the write-head (WH); and a 'Nop-D' instruction code indicates the flow-head (FH).",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000139"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "nop-register notation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000139",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A nop-register notation is a two-letter notation (AX, BX, or CX) surrounded by question marks that refers to that register being used by default when the instruction in question is being executed. But if the instruction code is followed by a no-operation ('nop') instruction code, the 'nop' instruction code will alter the register used. A 'nop-A' instruction indicates the AX register; a 'nop-B' instruction code indicates the BX register; and a 'nop-C' instruction code indicates the CX register. It does not apply to the transsmt virtual CPU because the Transsmt hardware does not use registers.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000140"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "nop-stack notation",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000140",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "A nop-stack notation is a single-letter noation (A, B, C, or D) surrounded by question marks that refers to that stack being used by default when the instruction code in question is being executed. But if the instruction code is followed by a no-operation ('Nop') instruction code, the 'Nop' instruction code will alter the register used. A 'Nop-A' instruction code indicates the stack A; a 'Nop-B' instruction code indicates the stack B; a 'Nop-C' instruction code indicates the stack C; and a 'Nop-D' instruction code indicates the stack D. It only applies to the transsmt virtual CPU, because the TransSMT hardware does not use registers.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000137",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000142"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "TransSMT hardware",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000142",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The TransSMT hardware is the hardware type that allows host-parasite interactions to take place in Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000141",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000141",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000141",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000141",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000143"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "default hardware",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000143",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The default hardware is the default hardware type used in Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000141",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000141",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000141",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000141",
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ONTOAVIDA:00000144"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "analyze configuration command",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000144",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "The analyze configuration command is a directive included in the analyze configuration file that is used for loading, manipulating, and saving data from an experiment performed in the analyze mode of Avida.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000011",
+    "directAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000011",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/ONTOAVIDA_00000011",
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  }
+]

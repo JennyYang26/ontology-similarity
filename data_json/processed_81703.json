@@ -1,0 +1,3540 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "span:SpatiotemporalRegion"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "spatiotemporal region"
+    },
+    "iri": "http://purl.obolibrary.org/obo/span_SpatiotemporalRegion",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Spacetime and spatiotemporal region [span:SpatiotemporalRegion] entities are entities in their own rights which exist independently of any entities which can be located at them. This view of spacetime can be called \"absolutist\" or \"the container view\". In BFO, the class processual context [span:ProcessualContext] allows for a so-called relational view of spacetime, that is to say, a view according to which spatiotemporality is a matter of relative location between entities and not a matter of being tied to spacetime. In BFO, the bridge between these two views is secured through the fact that instances of processual context [span:ProcessualContext] are too spatiotemporal entities."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "SPAN:spatiotemporalregion"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/span_Occurrent",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/span_Occurrent",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/span_Occurrent",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/span_Occurrent",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 28,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 28,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "span:TemporalInstant"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "temporal instant"
+    },
+    "iri": "http://purl.obolibrary.org/obo/span_TemporalInstant",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A connected temporal region [span:ConnectedTemporalRegion] comprising a single moment of time."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Definition: A connected temporal region [span:ConnectedTemporalRegion] comprising a single moment of time."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/span_ConnectedTemporalRegion",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/span_ConnectedTemporalRegion",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/span_ConnectedTemporalRegion",
+      "http://purl.obolibrary.org/obo/span_TemporalRegion",
+      "http://purl.obolibrary.org/obo/span_Occurrent",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/span_ConnectedTemporalRegion",
+      "http://purl.obolibrary.org/obo/span_TemporalRegion",
+      "http://purl.obolibrary.org/obo/span_Occurrent",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 39,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 39,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "span:TemporalInterval"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "temporal interval"
+    },
+    "iri": "http://purl.obolibrary.org/obo/span_TemporalInterval",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A connected temporal region [span:ConnectedTemporalRegion] lasting for more than a single moment of time."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Definition: A connected temporal region [span:ConnectedTemporalRegion] lasting for more than a single moment of time."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/span_ConnectedTemporalRegion",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/span_ConnectedTemporalRegion",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/span_ConnectedTemporalRegion",
+      "http://purl.obolibrary.org/obo/span_TemporalRegion",
+      "http://purl.obolibrary.org/obo/span_Occurrent",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/span_ConnectedTemporalRegion",
+      "http://purl.obolibrary.org/obo/span_TemporalRegion",
+      "http://purl.obolibrary.org/obo/span_Occurrent",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 7,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "span:TemporalRegion"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "temporal region"
+    },
+    "iri": "http://purl.obolibrary.org/obo/span_TemporalRegion",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An occurrent [span:Occurrent] that is part of time."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "SPAN:temporalregion"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/span_Occurrent",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/span_Occurrent",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/span_Occurrent",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/span_Occurrent",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 50,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 50,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:13941"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "carbamate"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_13941",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An amino-acid anion that has formula CH2NO2."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "CHEBI:13941"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 26,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 26,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:16130"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "DDT"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_16130",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:17514"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cyanide"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_17514",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:18172"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "fluoroacetate"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_18172",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:18723"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "nicotine"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_18723",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:23457"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cyclodiene organochlorine"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_23457",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:24942"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "juvenile hormone mimic"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_24942",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/MIRO_10000030",
+      "http://purl.obolibrary.org/obo/MIRO_10000169"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/MIRO_10000030",
+      "http://purl.obolibrary.org/obo/MIRO_10000169"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000030",
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity",
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000030",
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity",
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:25355"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mitochondrial complex III electron transport inhibitor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_25355",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which inhibits mitochondrial complex III electron transport chain."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/snap_Role",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/snap_Role",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:25708"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "organophosphate"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_25708",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 71,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 71,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:2630"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hydramethylnon"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_2630",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:26413"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pyrethroid"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_26413",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 41,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 41,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:2665"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "amitraz"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_2665",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:27815"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pyrethrin"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_27815",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:28201"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "rotenone"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_28201",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:2959"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "azocyclotin"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_2959",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:30260"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cyromazine"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_30260",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:3218"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "buprofezin"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_3218",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:32687"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "piperonyl butoxide"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_32687",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A benzodioxole that has formula C19H30O5."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "CHEBI:32687"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:33755"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tetronic acid derivative"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_33755",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:3436"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cartap"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_3436",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:34620"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "chinomethionat"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_34620",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:34692"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "dicofol"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_34692",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:35033"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "triphenyl phosphate"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_35033",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "An aryl phosphate that has formula C18H15O4P."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "CHEBI:35033"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:35813"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sulfoxide"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_35813",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Compounds having the structure R2S=O (R =/= H)."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "CHEBI:35813"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:35883"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "phosphine"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_35883",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:3638"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "chloroquine"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_3638",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A 4-aminoquinoline schizontocidal drug."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "KL:KL"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "All synonyms reflect proprietary names based on the list appearing on \"Chemotherapy of Malaria\", 2nd edition, WHO 1981."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/IDOMAL_0000204",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/IDOMAL_0000204",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/IDOMAL_0000204",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000426",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/IDOMAL_0000204",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000426",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38449"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "methoxyfenozide"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38449",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38450"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "chromafenozide"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38450",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38451"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "halofenozide"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38451",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38452"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tebufenozide"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38452",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38456"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "moulting disruptor via ecdysone agonist"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38456",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000101",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000101",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000101",
+      "http://purl.obolibrary.org/obo/MIRO_10000030",
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity",
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000101",
+      "http://purl.obolibrary.org/obo/MIRO_10000030",
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity",
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38462"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "acetylcholine esterase inhibitor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38462",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which inhibits acetylcholine esterase."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/snap_Role",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/snap_Role",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38473"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "azadirachtin"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38473",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38494"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "benzoylurea"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38494",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 11,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38495"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "aluminium phosphide"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38495",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38500"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mitochondrial complex IV electron transport inhibitor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38500",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which inhibits mitochondrial complex IV electron transport chain."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/snap_Role",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/snap_Role",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38576"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "triazamate"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38576",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38591"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "fluacrypyrim"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38591",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38592"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "acequinocyl"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38592",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38593"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "fenazaquin"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38593",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38604"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pyrimidifen"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38604",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38626"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pyridaben"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38626",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38628"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tolfenpyrad"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38628",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38630"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "indoxacarb"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38630",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which is being used as insecticide."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38634"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "voltage-dependent sodium channel blocker"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38634",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A chemical substance which blocks voltage-dependent sodium channels."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "PT:PT"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/snap_Role",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/snap_Role",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/snap_Role",
+      "http://purl.obolibrary.org/obo/snap_RealizableEntity",
+      "http://purl.obolibrary.org/obo/snap_SpecificallyDependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_DependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "CHEBI:38660"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "bifenazate"
+    },
+    "iri": "http://purl.obolibrary.org/obo/CHEBI_38660",
+    "type": [
+      "individual",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A carboxylic ester obtained by formal condensation of 2-(4-methoxy[1,1'-biphenyl]-3-yl)hydrazinecarboxylic acid with 2-propanol."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "CHEBI:38660"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/MIRO_10000169",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/MIRO_10000169",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000930",
+      "http://purl.obolibrary.org/obo/IDOMAL_0000672",
+      "http://purl.obolibrary.org/obo/IDOMAL_0001034",
+      "http://purl.obolibrary.org/obo/snap_Object",
+      "http://purl.obolibrary.org/obo/snap_MaterialEntity",
+      "http://purl.obolibrary.org/obo/snap_IndependentContinuant",
+      "http://purl.obolibrary.org/obo/snap_Continuant",
+      "http://purl.obolibrary.org/obo/bfo_Entity"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

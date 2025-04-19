@@ -1,0 +1,4674 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037465"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "LPS:CD14 complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037465",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A macromolecular complex that contains CD14 bound to lipopolysaccharides (LPS)."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:18761368"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=complex."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0032991",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 8,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 8,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037466"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "LPS:transmembrane CD14 complex (chicken)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037466",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An LPS:CD14 complex in chicken in which the CD14 molecule is the transmembrane form."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "ECO:0000305"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:18761368"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:24034933"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:CNA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Evidence=ECO:0000305, the LPS:CD14 complex has been inferred by curator based on expression data and conserved TLR signaling response."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000037465",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000037465",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037465",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037465",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037467"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "LPS:secreted CD14 complex (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037467",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An LPS:secreted CD14 complex whose components are encoded in the genome of mouse."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:10601848"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:18606699"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Requested by=TLR. Note: PMID:10601848 shows evidence for complex in Figure 1, and indicates in the discussion that it uses the high M(r) form of sCD14. However, the authors show that the specific form of sCD14 found has the same M(r) as the mCD14, which is a hallmark of the shorter form. For this reason we consider the actual form used to be unclear. In PMID:18606699, evidence is indirect from response of endothelial epithelium to LPS with sCD14 depleted mouse plasma compared to normal."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000029989",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000029989",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000029989",
+      "http://purl.obolibrary.org/obo/PR_000037465",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000029989",
+      "http://purl.obolibrary.org/obo/PR_000037465",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037468"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "LPS:GPI-anchored CD14 complex (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037468",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An LPS:GPI-anchored CD14 complex whose components are encoded in the genome of mouse."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:10601848"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Evidence=(ECO:0000088, based on PR:000037464)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000025493",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000025493",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000025493",
+      "http://purl.obolibrary.org/obo/PR_000037465",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000025493",
+      "http://purl.obolibrary.org/obo/PR_000037465",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037469"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CD14 molecule cleaved 1 soluble form (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037469",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A CD14 molecule cleaved 1 soluble form in mouse. UniProtKB:P10810, 16-358."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:10601848"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:18606699"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:CNA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Note: The coordinates of the soluble form shown in the example were added based on similarity to the human soluble form corresponding to PR:000002146 [PRO:DAN]."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000002146",
+      "http://purl.obolibrary.org/obo/PR_P10810"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000002146",
+      "http://purl.obolibrary.org/obo/PR_P10810"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000002146",
+      "http://purl.obolibrary.org/obo/PR_000018264",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000018574",
+      "http://purl.obolibrary.org/obo/PR_000001889",
+      "http://purl.obolibrary.org/obo/PR_P10810",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000002146",
+      "http://purl.obolibrary.org/obo/PR_000018264",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000018574",
+      "http://purl.obolibrary.org/obo/PR_000001889",
+      "http://purl.obolibrary.org/obo/PR_P10810",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037470"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CD14 molecule cleaved 2 GPI-anchored form (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037470",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A CD14 molecule cleaved 2 GPI-anchored form in mouse. UniProtKB:P10810, 16-336, Asn-336, MOD:00167."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:10601848"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:18606699"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:CNA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Note: The coordinates of the GPI-anchored form shown are based on similarity to the human anchored form PR:000035702 [PRO:DAN]."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000002149",
+      "http://purl.obolibrary.org/obo/PR_000036946"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000002149",
+      "http://purl.obolibrary.org/obo/PR_000036946"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000002149",
+      "http://purl.obolibrary.org/obo/PR_000036848",
+      "http://purl.obolibrary.org/obo/PR_000018574",
+      "http://purl.obolibrary.org/obo/PR_000001889",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000036946",
+      "http://purl.obolibrary.org/obo/PR_P10810",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000002149",
+      "http://purl.obolibrary.org/obo/PR_000036848",
+      "http://purl.obolibrary.org/obo/PR_000018574",
+      "http://purl.obolibrary.org/obo/PR_000001889",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000036946",
+      "http://purl.obolibrary.org/obo/PR_P10810",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037471"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "traf6:ticam1:activated TLR3 complex (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037471",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A traf6:ticam1:activated TLR3 complex whose components are encoded in the genome of mouse."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "TLR:AMM"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Requested by=TLR. Evidence=(ECO:0000088, based on PR:000037344)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000037343",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000037343",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037343",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037343",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037472"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "TIRAP:PIP2:BTK:activated TLR4 complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037472",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A receptor complex that is composed of PI(4,5)P2, TIRAP/MAL, and BTK, bound to activated TLR4 complex."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:11544529"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12724322"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12888566"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Reactome:R-HSA-2201331"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=complex."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0043235",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0043235",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037473"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "LY96:TLR4 complex (chicken)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037473",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An LY96:TLR4 complex whose components are encoded in the genome of chicken."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:18768894"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Reactome:R-GGA-434119"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Requested by=TLR."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000036003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000036003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000036003",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000036003",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037474"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "activated TLR4 complex (chicken)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037474",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An activated TLR4 complex whose components are encoded in the genome of chicken. LPS binding to Toll-like receptor 4 results in dimerization of the TLR4 associated with MD2."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:18768894"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:24034933"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Reactome:R-GGA-433789"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Requested by=TLR."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000036076",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000036076",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000036076",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000036076",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037475"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "MYD88:TIRAP:activated TLR4 receptor (chicken)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037475",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A MYD88:TIRAP:activated TLR4 receptor whose components are encoded in the genome of chicken."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "Reactome:R-GGA-433821"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Requested by=TLR."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000025784",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000025784",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000025784",
+      "http://purl.obolibrary.org/obo/PR_000025774",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000025784",
+      "http://purl.obolibrary.org/obo/PR_000025774",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037476"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lipopolysaccharide receptor complex 3 (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037476",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A lipopolysaccharide receptor complex 3 whose components are encoded in the genome of mouse."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:12196527"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Note: Evidence of complex via cross-linking study with photoreactive LPS and subsequent co-immunoprecipitation of complex components."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000025497",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000025497",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000025497",
+      "http://purl.obolibrary.org/obo/GO_0046696",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000025497",
+      "http://purl.obolibrary.org/obo/GO_0046696",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037477"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "TIRAP:PIP2:BTK:activated TLR4 complex (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037477",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A TIRAP:PIP2:BTK:activated TLR4 complex in mouse that is composed of PI(4,5)P2, tyrosine unphosphorylated TIRAP/MAL, BTK, TLR4, MD2, and LPS."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "TLR:AMM"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Evidence=(ECO:0000088, based on PR:000037447). Note: CD14 has not been added as part of the complex because there is not supporting evidence in mouse that CD14 is in the activated TLR4 complexes, beyond the initial trasnfer of LPS."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000037472",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000037472",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037472",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037472",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037478"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pTIRAP:PIP2:BTK:activated TLR4 complex (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037478",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A TIRAP:PIP2:BTK:activated TLR4 complex in mouse that is composed of PI(4,5)P2, tyrosine phosphorylated TIRAP/MAL, BTK, TLR4, MD2, and LPS. TIRAP/MAL undergoes tyrosine phosphorylation mediated by Bruton's tyrosine kinase (BTK) within the complex."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "TLR:AMM"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Evidence=(ECO:0000088, based on PR:000037448). Note: CD14 has not been added as part of the complex because there is not supporting evidence in mouse that CD14 is in the activated TLR4 complexes, beyond the initial transfer of LPS."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000037472",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000037472",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037472",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037472",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037479"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lipopolysaccharide receptor complex 4 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037479",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A lipopolysaccharide receptor complex 4 whose components are encoded in the genome of human."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:11274165"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:VS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000025498",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000025498",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000025498",
+      "http://purl.obolibrary.org/obo/GO_0046696",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000025498",
+      "http://purl.obolibrary.org/obo/GO_0046696",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037480"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CD14 molecule cleaved 2 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037480",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A CD14 molecule cleaved 2 in human. This represents both the GPI-anchored and soluble forms. UniProtKB:P08571, 20-345."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:CNA"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:DAN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000036848",
+      "http://purl.obolibrary.org/obo/PR_P08571"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000036848",
+      "http://purl.obolibrary.org/obo/PR_P08571"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000036848",
+      "http://purl.obolibrary.org/obo/PR_000018574",
+      "http://purl.obolibrary.org/obo/PR_000001889",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P08571",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000036848",
+      "http://purl.obolibrary.org/obo/PR_000018574",
+      "http://purl.obolibrary.org/obo/PR_000001889",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P08571",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037481"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "MYD88:TIRAP:PIP2:BTK:activated TLR4 complex (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037481",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A MYD88:TIRAP:PIP2:BTK:activated TLR4 complex in mouse that is composed of MyD88, PI(4,5)P2, TIRAP/MAL, BTK, TLR4, MD2, and LPS."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "TLR:AMM"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex. Evidence=(ECO:0000088, based on PR:000037446). Note: CD14 has not been added as part of the complex because there is not supporting evidence in mouse that CD14 is in the activated TLR4 complexes, beyond the initial trasnfer of LPS. PMID:21441935 shows interaction of MYD88 with BTK."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000037488",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000037488",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037488",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037488",
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037482"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "tyrosine-protein kinase BTK phosphorylated 1 (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037482",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A tyrosine-protein kinase BTK (mouse) that is phosphorylated on two Tyr residues. Site 1 is a Tyr within the Src homology type 1 (SH1) domain and is transphosphorylated by a Src family tyrosine kinase. Site 2 is an autophosphorylation site within the Btk SH3 domain. UniProtKB:P35991, Tyr-223/Tyr-551, MOD:00048."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PMID:9326643"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Note: Activation of Btk correlates with an increase in the phosphorylation of two regulatory Btk tyrosine residues."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P35991"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P35991"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P35991",
+      "http://purl.obolibrary.org/obo/PR_000002110",
+      "http://purl.obolibrary.org/obo/PR_000001967",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P35991",
+      "http://purl.obolibrary.org/obo/PR_000002110",
+      "http://purl.obolibrary.org/obo/PR_000001967",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037483"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lysosomal cobalamin transport escort protein LMBD1 isoform 1"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037483",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A lysosomal cobalamin transport escort protein LMBD1 that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:Q8K0B2-1 or a 1:1 ortholog thereof."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:16141072"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=sequence."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000032677",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000032677",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000032677",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000032677",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037484"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "NAD(+) hydrolase SARM1 isoform 1"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037484",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An NAD(+) hydrolase SARM1 that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:Q6SZW1-1 or a 1:1 ortholog thereof."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:CNA"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "UniProtKB:Q6PDS3"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "UniProtKB:Q6SZW1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=sequence."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000014458",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000014458",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000014458",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000014458",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037485"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "G2/mitotic-specific cyclin cdc13"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037485",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A cyclin-related protein that is a translation product of the Schizosaccharomyces pombe 972h- cdc13 gene or a 1:1 ortholog thereof."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:CNA"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:DAN"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "UniProtKB:P10815"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=gene."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000029191",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000029191",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000029191",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000029191",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037486"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "fungal-type cyclin-dependent kinase 1"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037486",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A protein that is a translation product of the Schizosaccharomyces pombe 972h- cdc2 gene or a 1:1 ortholog thereof."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:CNA"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "UniProtKB:P04551"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=gene."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000000001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000000001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 6,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 6,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037487"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "STE20-related kinase adapter protein beta isoform 1"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037487",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A STE20-related kinase adapter protein beta that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:Q8K4T3-1 or a 1:1 ortholog thereof."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12574163"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=sequence."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000015775",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000015775",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000015775",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000015775",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037488"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "MYD88:TIRAP:PIP2:BTK:activated TLR4 complex"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037488",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A receptor complex that is composed of MYD88, PI(4,5)P2, TIRAP/MAL, BTK, and activated TLR4 receptor."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12888566"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21873236"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "Reactome:R-HSA-166062"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=complex."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0043235",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0043235",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0043235",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037489"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CCAAT/enhancer-binding protein beta isoform 1 unphosphorylated 1 (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037489",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A CCAAT/enhancer-binding protein beta isoform 1 (mouse) that lacks a phosphorylated Thr at position 188. UniProtKB:P28033-1, Thr-188, PR:000026291."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12213825"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_P28033-1",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_P28033-1",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P28033-1",
+      "http://purl.obolibrary.org/obo/PR_P28033",
+      "http://purl.obolibrary.org/obo/PR_000005308",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P28033-1",
+      "http://purl.obolibrary.org/obo/PR_P28033",
+      "http://purl.obolibrary.org/obo/PR_000005308",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037490"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CCAAT/enhancer-binding protein beta isoform 1 phosphorylated 1 (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037490",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A CCAAT/enhancer-binding protein beta isoform 1 (mouse) that is phosphorylated on Thr-188. UniProtKB:P28033-1, Thr-188, MOD:00047."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12213825"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P28033-1"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P28033-1"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P28033-1",
+      "http://purl.obolibrary.org/obo/PR_P28033",
+      "http://purl.obolibrary.org/obo/PR_000005308",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P28033-1",
+      "http://purl.obolibrary.org/obo/PR_P28033",
+      "http://purl.obolibrary.org/obo/PR_000005308",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037491"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CCAAT/enhancer-binding protein beta isoform 3 unphosphorylated 1 (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037491",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A CCAAT/enhancer-binding protein beta isoform 3 (mouse) that lacks a phosphorylated Thr at position 37. UniProtKB:P28033-2, Thr-37, PR:000026291."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12213825"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_P28033-2",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_P28033-2",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P28033-2",
+      "http://purl.obolibrary.org/obo/PR_P28033",
+      "http://purl.obolibrary.org/obo/PR_000005308",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P28033-2",
+      "http://purl.obolibrary.org/obo/PR_P28033",
+      "http://purl.obolibrary.org/obo/PR_000005308",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037492"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "CCAAT/enhancer-binding protein beta isoform 3 phosphorylated 1 (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037492",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A CCAAT/enhancer-binding protein beta isoform 3 (mouse) that is phosphorylated on Thr-37. UniProtKB:P28033-2, Thr-37, MOD:00047."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12213825"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P28033-2"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P28033-2"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P28033-2",
+      "http://purl.obolibrary.org/obo/PR_P28033",
+      "http://purl.obolibrary.org/obo/PR_000005308",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P28033-2",
+      "http://purl.obolibrary.org/obo/PR_P28033",
+      "http://purl.obolibrary.org/obo/PR_000005308",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037493"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "B-tomosyn"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037493",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A syntaxin-binding protein 5 that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:Q8K400-1 or a 1:1 ortholog thereof."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:12832401"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21330375"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=sequence."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000015804",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000015804",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000015804",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000015804",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037495"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "interleukin-1 receptor-like 1 isoform A, signal peptide removed form (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037495",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An interleukin-1 receptor-like 1 isoform A (mouse) that has had the signal peptide removed. UniProtKB:P14719-1, 27-567."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:7883081"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:8131748"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KRC"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "UniProtKB:P14719"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Note: In PMID:8131748, both the ST2/T1 and ST2L transcripts are observed in mouse. Flow cytometry of HAFTL-Mlg4 cells with antibody against the rat Fit-1 protein indicates that mouse ST2L is expressed on the cell surface. In PMID:7883081, Northerns show presence of both T1-S and T1-M txpts. Immunolocalization shows presence of T1-M on the membrane. In PR:P14719, indicates presence of a signal peptide."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000020295",
+      "http://purl.obolibrary.org/obo/PR_P14719-1"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000020295",
+      "http://purl.obolibrary.org/obo/PR_P14719-1"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000020295",
+      "http://purl.obolibrary.org/obo/PR_000008994",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P14719-1",
+      "http://purl.obolibrary.org/obo/PR_P14719",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000020295",
+      "http://purl.obolibrary.org/obo/PR_000008994",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P14719-1",
+      "http://purl.obolibrary.org/obo/PR_P14719",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037496"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "torsin-1A-interacting protein 2 (rat)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037496",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A torsin-1A-interacting protein 2 that is encoded in the genome of rat."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "PRO:DAN"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-gene."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000016552",
+      "http://purl.obolibrary.org/obo/PR_000029033"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000016552",
+      "http://purl.obolibrary.org/obo/PR_000029033"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000016552",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029033",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000016552",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029033",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037497"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "interleukin-1 receptor-like 1 isoform B, signal peptide removed form (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037497",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An interleukin-1 receptor-like 1 isoform B (mouse) that has had the signal peptide removed. UniProtKB:P14719-2, 27-337."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:7883081"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:8131748"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KRC"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "UniProtKB:P14719"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Evidence=(ECO:0000305, based on PMID:8131748, PMID:7883081, for signal peptide). Note: In PMID:8131748, both the ST2/T1 and ST2L transcripts are observed in mouse. Flow cytometry of HAFTL-Mlg4 cells with antibody against the rat Fit-1 protein indicates that mouse ST2L is expressed on the cell surface. In PMID:7883081, Northerns show presence of both T1-S and T1-M txpts. Immunolocalization shows presence of T1-S in the bone (extracellular) matrix. In PR:P14719, indicates presence of a signal peptide."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000020295",
+      "http://purl.obolibrary.org/obo/PR_P14719-2"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000020295",
+      "http://purl.obolibrary.org/obo/PR_P14719-2"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000020295",
+      "http://purl.obolibrary.org/obo/PR_000008994",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P14719-2",
+      "http://purl.obolibrary.org/obo/PR_P14719",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000020295",
+      "http://purl.obolibrary.org/obo/PR_000008994",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P14719-2",
+      "http://purl.obolibrary.org/obo/PR_P14719",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037498"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "M-tomosyn"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037498",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A syntaxin-binding protein 5 that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:Q9WU70-2 or a 1:1 ortholog thereof."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:10066450"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=sequence."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000015804",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000015804",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000015804",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000015804",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037499"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "S-tomosyn"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037499",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A syntaxin-binding protein 5 that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:Q9WU70-3 or a 1:1 ortholog thereof."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:10066450"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=sequence."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_000015804",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_000015804",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000015804",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000015804",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037500"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "proto-oncogene tyrosine-protein kinase Src phosphorylated 1 (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037500",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A proto-oncogene tyrosine-protein kinase Src (mouse) that has been phosphorylated at the residue equivalent to Tyr-521 of the amino acid sequence represented by UniProtKB:P05480-2. UniProtKB:P05480, Tyr-521, MOD:00048."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:23526378"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:2480346"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Kinase=(\"CSK\"; PR:P41241; Tyr-521)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P05480"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P05480"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P05480",
+      "http://purl.obolibrary.org/obo/PR_000027234",
+      "http://purl.obolibrary.org/obo/PR_000002997",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P05480",
+      "http://purl.obolibrary.org/obo/PR_000027234",
+      "http://purl.obolibrary.org/obo/PR_000002997",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037501"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "proto-oncogene tyrosine-protein kinase Src phosphorylated 2 (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037501",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A proto-oncogene tyrosine-protein kinase Src (mouse) that has been phosphorylated at the residue equivalent to Tyr-418 of the amino acid sequence represented by UniProtKB:P05480-2. UniProtKB:P05480, Tyr-418, MOD:00048."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:23526378"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:2480346"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Note: Tyr-416 Src residue number in cited article is based on the chicken Src protein. This corresponds to Tyr-424 in mouse isoform 1 and Tyr-418 in mouse isoform 2."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P05480"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P05480"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P05480",
+      "http://purl.obolibrary.org/obo/PR_000027234",
+      "http://purl.obolibrary.org/obo/PR_000002997",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P05480",
+      "http://purl.obolibrary.org/obo/PR_000027234",
+      "http://purl.obolibrary.org/obo/PR_000002997",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037502"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "proto-oncogene tyrosine-protein kinase Src phosphorylated 3 (mouse)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037502",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A proto-oncogene tyrosine-protein kinase Src (mouse) that has been phosphorylated at the residues equivalent to Tyr-418 and Tyr-521 of the amino acid sequence represented by UniProtKB:P05480-2. UniProtKB:P05480, Tyr-418/Tyr-521, MOD:00048."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:23526378"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:2480346"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:HJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Kinase=(\"CSK\"; PR:P41241; Tyr-521). Kinase=(\"SRC\"; PR:P05480; Tyr-418). Note: Tyr-416 Src residue number in cited article is based on the chicken Src protein. This corresponds to Tyr-424 in mouse isoform 1 and Tyr-418 in mouse isoform 2."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P05480"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P05480"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P05480",
+      "http://purl.obolibrary.org/obo/PR_000027234",
+      "http://purl.obolibrary.org/obo/PR_000002997",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P05480",
+      "http://purl.obolibrary.org/obo/PR_000027234",
+      "http://purl.obolibrary.org/obo/PR_000002997",
+      "http://purl.obolibrary.org/obo/PR_000029032",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037503"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "DNA repair protein crb2 phosphorylated 2 (Schizosaccharomyces pombe)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037503",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A DNA repair protein crb2 (Schizosaccharomyces pombe) that is phosphorylated at two conserved SQ/TQ motifs in the N-terminal region. Example: UniProtKB:P87074, Thr-73, MOD:00047|Ser-80, MOD:00046."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:22792081"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PomBase:MAH"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Requested by=PomBase."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000029999",
+      "http://purl.obolibrary.org/obo/PR_000037070"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000029999",
+      "http://purl.obolibrary.org/obo/PR_000037070"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000029999",
+      "http://purl.obolibrary.org/obo/PR_000016558",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000036194",
+      "http://purl.obolibrary.org/obo/PR_000037070"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000029999",
+      "http://purl.obolibrary.org/obo/PR_000016558",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000036194",
+      "http://purl.obolibrary.org/obo/PR_000037070"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037504"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "DNA (cytosine-5)-methyltransferase 1 unphosphorylated 1 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037504",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A DNA (cytosine-5)-methyltransferase 1 (human) that lacks phosphorylation on residues at positions equivalent to Ser-127 and Ser-143 of the amino acid sequence represented by UniProtKB:P26358-1. Example: UniProtKB:P26358-1, Ser-127/Ser-143, PR:000026291."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:20613874"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_P26358",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_P26358",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P26358",
+      "http://purl.obolibrary.org/obo/PR_000006606",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P26358",
+      "http://purl.obolibrary.org/obo/PR_000006606",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037505"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "DNA (cytosine-5)-methyltransferase 1 phosphorylated 1 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037505",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A DNA (cytosine-5)-methyltransferase 1 (human) that has been phosphorylated on the residue at the position equivalent to Ser-127 of the amino acid sequence represented by UniProtKB:P26358-1. Example: UniProtKB:P26358-1, Ser-127, MOD:00046."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:20613874"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Kinase=(\"AKT\"; PR:000029189; Ser-127). Kinase=(\"PKC\"; PR:000003057; Ser-127)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P26358"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P26358"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P26358",
+      "http://purl.obolibrary.org/obo/PR_000006606",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P26358",
+      "http://purl.obolibrary.org/obo/PR_000006606",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037506"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "DNA (cytosine-5)-methyltransferase 1 phosphorylated 2 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037506",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A DNA (cytosine-5)-methyltransferase 1 (human) that has been phosphorylated on residues at positions to Ser-127 and Ser-143 of the amino acid sequence represented by UniProtKB:P26358-1. Example: UniProtKB:P26358-1, Ser-127/Ser-143, MOD:00046."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:20613874"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Kinase=(\"AKT\"; PR:000029189; Ser-127/Ser-143). Kinase=(\"PKC\"; PR:000003057; Ser-127)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P26358"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P26358"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P26358",
+      "http://purl.obolibrary.org/obo/PR_000006606",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P26358",
+      "http://purl.obolibrary.org/obo/PR_000006606",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037507"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "transcriptional coactivator YAP1 isoform 3 unphosphorylated 1 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037507",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A transcriptional coactivator YAP1 isoform 3 (human) that lacks a phosphorylated Tyr residue at position 357. UniProtKB:P46937-3, Tyr-357, PR:000026291."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21214929"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21945154"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_P46937-3",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_P46937-3",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P46937-3",
+      "http://purl.obolibrary.org/obo/PR_P46937",
+      "http://purl.obolibrary.org/obo/PR_000017522",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P46937-3",
+      "http://purl.obolibrary.org/obo/PR_P46937",
+      "http://purl.obolibrary.org/obo/PR_000017522",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037508"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "transcriptional coactivator YAP1 isoform 3 phosphorylated 1 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037508",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A transcriptional coactivator YAP1 isoform 3 (human) that has been phosphorylated on a Tyr residue at position 357. UniProtKB:P46937-3, Tyr-357, MOD:00048."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21214929"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21945154"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Kinase=(\"ABL1\"; PR:P00519; Tyr-357)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P46937-3"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P46937-3"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P46937-3",
+      "http://purl.obolibrary.org/obo/PR_P46937",
+      "http://purl.obolibrary.org/obo/PR_000017522",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P46937-3",
+      "http://purl.obolibrary.org/obo/PR_P46937",
+      "http://purl.obolibrary.org/obo/PR_000017522",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037509"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "transcriptional coactivator YAP1 unphosphorylated 1 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037509",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A transcriptional coactivator YAP1 (human) that lacks phosphorylation on the residue at the position equivalent to Ser-127 of the amino acid sequence represented by UniProtKB:P46937-1. Example: UniProtKB:P46937-1, Ser-127, PR:000026291."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21214929"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21945154"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Note: Isoform PR:P46937-4 is excluded from this class as it lacks the region containing the corresponding Ser (isoform 4 lacks the N-terminal region of 178 residues compared to isoform 1)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_P46937",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_P46937",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P46937",
+      "http://purl.obolibrary.org/obo/PR_000017522",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P46937",
+      "http://purl.obolibrary.org/obo/PR_000017522",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037510"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "transcriptional coactivator YAP1 phosphorylated 1 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037510",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A transcriptional coactivator YAP1 (human) that has been phosphorylated on the residue at the position equivalent to Ser-127 of the amino acid sequence represented by UniProtKB:P46937-1. Example: UniProtKB:P46937-1, Ser-127, MOD:00046."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:20153295"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21214929"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:21945154"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Kinase=(\"AKT\"; PR:000029189; Ser-127). Kinase=(\"PKC\"; PR:000003057; Ser-127). Note: Isoform PR:P46937-4 is excluded from this class as it lacks the region containing the corresponding Ser (isoform 4 lacks the N-terminal region of 178 residues compared to isoform 1)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P46937"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P46937"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P46937",
+      "http://purl.obolibrary.org/obo/PR_000017522",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_P46937",
+      "http://purl.obolibrary.org/obo/PR_000017522",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037511"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "G1/S-specific cyclin-D1 unphosphorylated 1 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037511",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A G1/S-specific cyclin-D1 (human) that lacks phosphorylation at the residue equivalent to Thr-286 of the amino acid sequence represented by UniProtKB:P24385. UniProtKB:P24385, Thr-286, PR:000026291."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:17407548"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PR_P24385",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PR_P24385",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P24385",
+      "http://purl.obolibrary.org/obo/PR_000005121",
+      "http://purl.obolibrary.org/obo/PR_000050022",
+      "http://purl.obolibrary.org/obo/PR_000029191",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_P24385",
+      "http://purl.obolibrary.org/obo/PR_000005121",
+      "http://purl.obolibrary.org/obo/PR_000050022",
+      "http://purl.obolibrary.org/obo/PR_000029191",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037512"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "G1/S-specific cyclin-D1 phosphorylated and multi-ubiquitinated 1 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037512",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A G1/S-specific cyclin-D1 (human) that has been both phosphorylated at the residue equivalent to Thr-286 of the amino acid sequence represented by UniProtKB:P24385 and been multi-ubiquitinated."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:17081987"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:17407548"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. UbLigase=(\"FBXO4:CRYAB:Skp1:Cul1:Rbx1 complex\"; PR:000037513). Kinase=(\"GSK3B\"; PR:P49841; Thr-286)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000037077",
+      "http://purl.obolibrary.org/obo/PR_P24385"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000037077",
+      "http://purl.obolibrary.org/obo/PR_P24385"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000037077",
+      "http://purl.obolibrary.org/obo/PR_P24385",
+      "http://purl.obolibrary.org/obo/PR_000005121",
+      "http://purl.obolibrary.org/obo/PR_000050022",
+      "http://purl.obolibrary.org/obo/PR_000029191",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000037077",
+      "http://purl.obolibrary.org/obo/PR_P24385",
+      "http://purl.obolibrary.org/obo/PR_000005121",
+      "http://purl.obolibrary.org/obo/PR_000050022",
+      "http://purl.obolibrary.org/obo/PR_000029191",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037513"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "FBXO4:CRYAB:Skp1:Cul1:Rbx1 complex (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037513",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "An SCF ubiquitin ligase complex whose components are FBX4, CRYAB, Skp1, Cul1, and Rbx1 and are that is encoded in the genome of human."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:17081987"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:17407548"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-complex."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/GO_0019005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/GO_0019005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0019005",
+      "http://purl.obolibrary.org/obo/GO_0031461",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/GO_0019005",
+      "http://purl.obolibrary.org/obo/GO_0031461",
+      "http://purl.obolibrary.org/obo/GO_0032991",
+      "http://purl.obolibrary.org/obo/GO_0005575"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037514"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "catenin beta-1 isoform 1 phosphorylated 11"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037514",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A catenin beta-1 isoform 1 that has been phosphorylated on two N-terminal region Ser residues equivalent to Ser-33 and Ser-37 of the amino acid sequence represented by UniProtKB:P35222-1. Example: UniProtKB:P35222-1, Ser-33/Ser-37, MOD:00046."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:20307497"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:IC"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=modification."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000002319",
+      "http://purl.obolibrary.org/obo/PR_000037070"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000002319",
+      "http://purl.obolibrary.org/obo/PR_000037070"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000002319",
+      "http://purl.obolibrary.org/obo/PR_000002198",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000037070"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000002319",
+      "http://purl.obolibrary.org/obo/PR_000002198",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000037070"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PR:000037515"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "catenin beta-1 isoform 1 phosphorylated 11 (human)"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PR_000037515",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A catenin beta-1 isoform 1 phosphorylated 11 in human. UniProtKB:P35222-1, Ser-33/Ser-37, MOD:00046."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PMID:20307497"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:IC"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "PRO:KER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Category=organism-modification. Note: In vivo and in vitro. Kinase=(\"HIPK2\"; PR:Q9H2X6; Ser-33/Ser-37)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PR_000037514",
+      "http://purl.obolibrary.org/obo/PR_P35222-1"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PR_000037514",
+      "http://purl.obolibrary.org/obo/PR_P35222-1"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037514",
+      "http://purl.obolibrary.org/obo/PR_000002319",
+      "http://purl.obolibrary.org/obo/PR_000002198",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P35222-1",
+      "http://purl.obolibrary.org/obo/PR_P35222",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PR_000037514",
+      "http://purl.obolibrary.org/obo/PR_000002319",
+      "http://purl.obolibrary.org/obo/PR_000002198",
+      "http://purl.obolibrary.org/obo/PR_000000001",
+      "http://purl.obolibrary.org/obo/PR_000018263",
+      "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PR_000064867",
+      "http://purl.obolibrary.org/obo/PR_000037070",
+      "http://purl.obolibrary.org/obo/PR_P35222-1",
+      "http://purl.obolibrary.org/obo/PR_P35222",
+      "http://purl.obolibrary.org/obo/PR_000029067",
+      "http://purl.obolibrary.org/obo/PR_000036194"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  }
+]

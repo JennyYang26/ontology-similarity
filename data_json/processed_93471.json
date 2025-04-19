@@ -1,0 +1,3302 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0009084"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pericarp"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0009084",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A portion of plant tissue (PO:0009007) that is the outer layer (wall) of a fruit (PO:0009001), and develops from a plant ovary (PO:0009072) or a carpel (PO:0009030) wall."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Pericarp comprises endocarp (PO:0009086), mesocarp (PO:0009087), and exocarp (PO:0009085) layers, each of which can be fleshy or dry. If you are annotating to this term, please add an additional annotation to the specific type of fruit (PO:0009001), such as achene fruit (PO:0030107), berry fruit (PO:0030108), capsule fruit (PO:0030091), caryopsis fruit (PO:0030104), drupe fruit (PO:0030103), follicle fruit (PO:0030105), legume fruit (PO:0030100), nut fruit (PO:0030102), samara fruit (PO:0030099), schizocarp fruit (PO:0030098), silique fruit (PO:0030106), or their subclasses, depending on the species."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009001",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0009085"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "exocarp"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0009085",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A portion of plant tissue (PO:0009007) that is the outer layer of a pericarp (PO:0009084)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0009084",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009001",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009084"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0009086"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "endocarp"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0009086",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A portion of plant tissue (PO:0009007) that is the innermost differentiated layer of a pericarp (PO:0009084)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0009084",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009001",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009084"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0009087"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mesocarp"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0009087",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A portion of plant tissue (PO:0009007) that is the middle layer of a pericarp (PO:0009084)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0009084",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420167",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009001",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009084"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0009089"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "endosperm"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0009089",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A portion of plant tissue (PO:0009007) which is a maximal portion of nutritive plant tissue in a seed (PO:0009010)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "In angiosperms the endosperm is usually triploid and formed after fertilization by the fusion of one gamete with the polar nucleus (GO:0043078); sometimes diploid or polyploid."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009010",
+      "http://purl.obolibrary.org/obo/PO_0009007"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0009090"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "aril"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0009090",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An arilloid that is an outgrowth of a seed from a seed funicle."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Usually envelopes most of the seed and is fleshy. If the ovule is pressed against the funicle to form a raphe, it may appear that the aril is growing from the raphe."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0019022",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0019022",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0019022",
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025498"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0019022",
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009010",
+      "http://purl.obolibrary.org/obo/PO_0025498"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0019022"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "arilloid"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0019022",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A cardinal part of multi-tissue plant structure (PO:0025498) that is a fleshy outgrowth of a seed (PO:0009010)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Often conspicuous and found on seeds with a hard testa that are dispersed by animals. There is some variation in how different sources define the subtypes of arilloids."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0025498"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0025498"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025498"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420178",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009010",
+      "http://purl.obolibrary.org/obo/PO_0025498"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020003"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "plant ovule"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020003",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A plant organ (PO:0009008) that has as parts a nucellus (PO:0020020) in which a female gametophyte (PO:0025279) is located, one or two integuments (PO:0020021), and a funicle (PO:0020006)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A seed (PO:0009010) develops from a plant ovule. In angiosperms, a plant ovule is part of a plant ovary (PO:0009072). In conifers, a plant ovule is part of an ovuliferous scale (add term). If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009008",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020006"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "funicle"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020006",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025066",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025066",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025066",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025066",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009008"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020030"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cotyledon"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020030",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A vascular leaf (PO:0009025) formed at the first shoot node (PO:0005004) of a plant embryo (PO:0009009) or a seedling (PO:0000003)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009025",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009025",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020031"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "radicle"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020031",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An embryo root (PO:0000045) that is the basal continuation of a hypocotyl (PO:0020100) in a plant embryo (PO:0009009) or a seedling (PO:0000003)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "May develop into the primary root (PO:0020127) and eventually the root system (PO:0025025) of an adult plant. Sometimes abortive."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0000045",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0000045",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0000045",
+      "http://purl.obolibrary.org/obo/PO_0009005",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0000045",
+      "http://purl.obolibrary.org/obo/PO_0009005",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025025",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020038"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "petiole"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020038",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A stalk (PO:0025066) of a vascular leaf (PO:0009025)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "LanguaL definition: Leafstalk, the slender, usually cylindrical portion of a leaf, which supports the blade and is attached to the stem (Source: Webster's)",
+        "lang": "en"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025066",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0025066",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0009025",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025066",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025066",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 10,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020042"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "simple leaf"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020042",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A leaf in which the lamina is undivided."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009025",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009025",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020043"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "compound leaf"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020043",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A leaf having two or more distinct leaflets that are evident as such from early in development."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009025",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009025",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020045"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "pinnate leaf"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020045",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A once-compound leaf with leaflets borne along a rachis."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The total number of leaflets may be even or odd, in which case the leaf is called even-pinnate or odd-pinnate respectively."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0020043",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0020043",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0020043",
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0020043",
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020046"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "palmate leaf"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020046",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A once-compound leaf divided into several leaflets which arise at the same point, there being no rachis."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0020043",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0020043",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0020043",
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0020043",
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020048"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "microspore"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020048",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The smaller, in general, of the two kinds of spores produced after meiosis in the life cycle of a heterosporous plant, and on germination giving rise to the male gametophyte."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), tassel floret (PO:0006310), lower floret of pedicellate spikelet of tassel (PO:0006313), lower floret of sessile spikelet of tassel (PO:0006315), upper floret of pedicellate spikelet of tassel (PO:0006314), upper floret of sessile spikelet of tassel (PO:0006316)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025017",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025017",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025017",
+      "http://purl.obolibrary.org/obo/PO_0000003",
+      "http://purl.obolibrary.org/obo/FOODON_03411564",
+      "http://purl.obolibrary.org/obo/OBI_0100026",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025017",
+      "http://purl.obolibrary.org/obo/PO_0000003",
+      "http://purl.obolibrary.org/obo/FOODON_03411564",
+      "http://purl.obolibrary.org/obo/OBI_0100026",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020055"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "leaf rachis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020055",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A stalk (PO:0025066) that is the main axis of a pinnate or more highly compound leaf, that bears leaflets or divisions of the axis."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025066",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0025066",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0020043",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025066",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025066",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0020043",
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020100"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "hypocotyl"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020100",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A stem internode (PO:0020142) below the cotyledonary node (PO:0025321) and transitional to a root (PO:0009005) of a plant embryo (PO:0009009) or a seedling (PO:0000003)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0020142",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0020142",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0020142",
+      "http://purl.obolibrary.org/obo/PO_0005005",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0020142",
+      "http://purl.obolibrary.org/obo/PO_0005005",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009047"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020103"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "flag leaf"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020103",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "The last mature leaf before the inflorescence in a cereal crop plant."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0006340",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0006340",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0006340",
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0006340",
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020122"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "inflorescence axis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020122",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A shoot axis (PO:0025029) that is part of an inflorescence (PO:0009049)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An inflorescence axis (PO:0020122) has either a determinate apex, which terminates in a flower meristem (PO:0000229), or has an indeterminate apex, which terminates in an inflorescence apical meristem (PO:0009108).  An inflorescence pedicel (PO:0009052) is the simplest example of a determinate inflorescence axis."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025029",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0009049",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009049"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020127"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "primary root"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020127",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A root (PO:0009005) that develops directly from a seedling radicle (PO:0020127)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The first root of a plant.  In dicots and gymnosperms  it becomes the tap root, the central axis of a root system (PO:0025025)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009005",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009005",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009005",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025025",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 32,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 32,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020136"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "ear inflorescence"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020136",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A pistillate inflorescence (PO:0025598) in Zea species that is highly compacted and bears the ear spikelets (PO:0006320) on a lateral inflorescence axis (PO:0020122)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025598",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025598",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025598",
+      "http://purl.obolibrary.org/obo/PO_0009049",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025598",
+      "http://purl.obolibrary.org/obo/PO_0009049",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020142"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "stem internode"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020142",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A shoot axis internode (PO:0005005) that is part of a stem (PO:0009047)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "See node."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0005005",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0005005",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0009047",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0005005",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0005005",
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009047"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020144"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "apical meristem"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020144",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A maximal portion of meristem tissue (PO:0009013) located at a shoot apex (PO:0000037) or root tip (PO:0000025)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009013",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009013",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020145"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lateral meristem"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020145",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A portion of meristem (PO:0009013) tissue located parallel to the sides of a shoot axis (PO:0025029) or root (PO:0009005) that participates in lateral growth."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A term for lateral growth has been requested in GO. Lateral meristems contribute to an increase in the cross-sectional area of a shoot axis or root. Examples of lateral meristems are: cambium (PO:0005597) (includes cork cambium (PO:0005599) and vascular cambium (PO:0005598)), shoot lateral meristem (PO:0006344) (includes primary thickening meristem (PO:0005039)), root lateral meristem (PO:0006308), and secondary thickening meristem (PO:0025414). Contrasts with apical meristem (PO:0020144), phyllome marginal meristem (PO:0025404), or intercalary meristem (PO:0006073)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009013",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0025004",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0020148"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "shoot apical meristem"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0020148",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A shoot system meristem (PO:0006079) formed at the apex of the shoot axis (PO:0025029), including those originating from an axillary bud meristem (PO:0000232)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PO_0006079",
+      "http://purl.obolibrary.org/obo/PO_0020144"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0006079",
+      "http://purl.obolibrary.org/obo/PO_0020144",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0000037",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0006079",
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0020144"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0006079",
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0020144",
+      "http://purl.obolibrary.org/obo/PO_0000037",
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025001"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cardinal organ part"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025001",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A cardinal part of multi-tissue plant structure (PO:0025498) that is a proper part of a plant organ (PO:0009008) and includes portions of plant tissue (PO:0009007) of at least two different types."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Cardinal refers to the fact that these are biologically meaningful and not arbitrary parts. Examples include petiole (PO:0020038), lamina (PO:0025060), and leaflet (PO:0020049). See also collective organ part structure (PO:0025269), for plant structures composed of parts of multiple organs."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025498",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0009008",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009008"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 29,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 29,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025004"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "plant axis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025004",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An axial plant organ (PO:0009008)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Includes roots and shoots."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009008",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 208,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 240,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025007"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "collective plant organ structure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025007",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A collective plant structure (PO:0025497) that is a proper part of a whole plant (PO:0000003), and is composed of two or more adjacent plant organs (PO:0009008) and the associated portions of plant tissue (PO:0009007)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Organs can be of the same type or different types. Examples include flower (PO:0009046), perianth (PO:0009058), and inflorescence (PO:0009049). See also collective organ part structure (PO:0025269), for plant structures composed of parts of multiple organs, but no complete plant organs. This was formerly named collective plant structure."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025497",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025497",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 107,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 574,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025017"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "plant spore"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025017",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A whole plant (PO:0000003) that arises through meiosis and is contained in a spore wall."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A spore is usually single-celled in homosporous plants but may be multicellular in heterosporous plants. May have a spore wall (GO:0031160) made of sporopollenin."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0000003",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0000003",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0000003",
+      "http://purl.obolibrary.org/obo/FOODON_03411564",
+      "http://purl.obolibrary.org/obo/OBI_0100026",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0000003",
+      "http://purl.obolibrary.org/obo/FOODON_03411564",
+      "http://purl.obolibrary.org/obo/OBI_0100026",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025022"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "collective leaf structure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025022",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A collective phyllome structure (PO:0025023) composed of two or more leaves (PO:0025034)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This term replaces the obsolete term leaf whorl (PO:0008034). If you are looking for annotations for PO:0008034, please use this term instead."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025023",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025023",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025023",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025023",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 34,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 84,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025023"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "collective phyllome structure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025023",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A collective plant organ structure (PO:0025007) that consists of two or more phyllomes (PO:0006001) originating from the same node or from one or more adjacent nodes with compressed shoot internodes (PO:0005005)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025007",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025007",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 42,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 99,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025025"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "root system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025025",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A collective plant organ structure (PO:0025007) that produces root meristems (PO:0006085), the plant structures (PO:0009011) that arise from them and the parts thereof."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Generally the below ground portion of a vascular plant."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025007",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025007",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 92,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025029"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "shoot axis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025029",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A plant axis (PO:0025004) that is part of a shoot system (PO:0009006)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Often bears leaves and branches. In vascular plants, has at least one node and one internode."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025004",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0009006",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 96,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 125,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025034"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "leaf"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025034",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "value": "LanguaL definition: The flat or fleshy expanded blade (lamina) including a small and insignificant leafstalk but excluding a large and fleshy leafstalk such as celery stalks or rhubarb stalks.\n\nLanguaL curation note: If the part indexed consists of a large leafstalk and a leaf blade, use *PLANT ABOVE SURFACE, EXCLUDING FRUIT OR SEED*. Compare *STEM, STALK (WITHOUT LEAVES)*.",
+        "lang": "en"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/PO_0006001"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/PO_0006001"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 226,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 238,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025066"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "stalk"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025066",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A cardinal organ part (PO:0025001) that is elongated and sub-cylindrical to cylindrical and supports another cardinal organ part."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Some stalks may be ridged or grooved."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025001",
+      "http://purl.obolibrary.org/obo/PO_0025498",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009008"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 18,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 18,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025073"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "branch"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025073",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A shoot axis (PO:00025029) that develops from an axillary bud meristem (PO:0000232) or from equal divisions of a meristematic apical cell (PO:0030007)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "In vascular plants, branches arise from an axillary bud meristem (PO:0000232) and from divisions of the meristematic apical cell (PO:0030007) in non-vascular plants."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025029",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025029",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025075"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "non-vascular leaf"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025075",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A leaf (PO:0025034) in a non-vascular plant."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Non-vascular leaves occur in the gametophyte development stage (PO:0028003) of Bryophytes, plants such as moss and liverwort."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025034",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0030018",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0030018"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025082"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "reproductive shoot system"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025082",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A shoot system (PO:0009006) in the sporophytic phase that has as part at least one sporangium (PO:0025094)."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009006",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 20,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 35,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025083"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "strobilus"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025083",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A reproductive shoot system (PO:0025082) consisting of a number of sporophylls (PO:0009026) or plant ovule (PO:0020003)-bearing modified leaves (PO:0025034) grouped terminally on a stem (PO:0009047)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "May be simple or compound. Found in lycophytes such as Selaginella and Lycopodium, sphenophytes such as Equisetum, gymnosperms such as cycad, conifers, gnetophytes and the pollen producing structures of Gingko. The term cone is often used for strobili that are woody. Flowers are sometimes considered bisexual strobili. Some flowering plants such as Alnus have inflorescences called catkins that resemble strobili, but are not."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025082",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025082",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025082",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025082",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025084"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "reproductive bud"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025084",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A bud that develops into a reproductive shoot system."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/PO_0000055",
+      "http://purl.obolibrary.org/obo/PO_0025082"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0000055",
+      "http://purl.obolibrary.org/obo/PO_0025082"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0000055",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025082"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0000055",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0025082"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 10,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 10,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025094"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "sporangium"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025094",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A plant organ (PO:0009008) in which plant spores (PO:0025017) are produced."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "In bryophytes, particularly in mosses, a sporangium is referred to as a capsule. In seed plants, a sporangium is located in a sporophyll. In pteridophytes, a sporangium is located on the surface of a sporophyll or fertile leaf or borne on a sporangiophore. May be unicellular in some algae."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009008",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009008",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025099"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "embryo plant structure"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025099",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A plant structure (PO:0009011) that is part of an plant embryo (PO:0009009)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Includes plant structures that only occur in embryos (such as suspensor) as well as plant structures that are part of an embryo when a plant is in the embryonic phase (such as embryonic radicle)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009011",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0009009",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009009",
+      "http://purl.obolibrary.org/obo/PO_0000003",
+      "http://purl.obolibrary.org/obo/FOODON_03411564",
+      "http://purl.obolibrary.org/obo/OBI_0100026"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 4,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025104"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "first order inflorescence axis"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025104",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An inflorescence axis (PO:0020122) that is the primary or main axis of an inflorescence (PO:0009049)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Monopodial inflorescences, such as a raceme inflorescence (PO:0030115), have a centrally-located main axis; this axis is a first order inflorescence axis. In contrast, sympodial inflorescences, such as the riphidium inflorescence (PO:0030131), do not have a centrally-located main axis. The basal-most portion of a first order inflorescence axis is referred to as a peduncle (PO:0009053)."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0020122",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0020122",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0020122",
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0020122",
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497",
+      "http://purl.obolibrary.org/obo/PO_0009049"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025127"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "primordium"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025127",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A portion of meristem tissue (PO:0009013) that has as parts protoderm (PO:0006210) and sub-epidermal meristematic tissue and is committed to the development of a particular plant structure (PO:0009011)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A primordium appears as a protrusion and is the first distinct form of a plant organ (PO:0009008), cardinal organ part (PO:0025001), or collective plant organ structure (PO:0025007). The transition from a primordium to the plant structure it develops into is marked by the development of non-meristematic cells, although meristematic cells may be present after the transition."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009013",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009013",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 12,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 12,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025128"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "phyllome primordium"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025128",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A primordium (PO:0025127) that develops from a phyllome anlagen (PO:0025430) and is part of a shoot apex (PO:0000037) and is committed to the development of a phyllome (PO:0006001)."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "The transition from phyllome primordium to phyllome occurs when the first non-meristematic tissue develops begins to develop."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025127",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/PO_0025127",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/PO_0000037",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025127",
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025127",
+      "http://purl.obolibrary.org/obo/PO_0009013",
+      "http://purl.obolibrary.org/obo/PO_0009007",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/PO_0000037",
+      "http://purl.obolibrary.org/obo/PO_0025029",
+      "http://purl.obolibrary.org/obo/PO_0025004",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 5,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 5,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025130"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cigar leaf"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025130",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A leaf near the apex of a stem that is still rolled into a cylinder."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Describes the phenotype of a vascular leaf during a leaf development phase in Musa and other monocots."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0009025",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0009025",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0009025",
+      "http://purl.obolibrary.org/obo/PO_0025034",
+      "http://purl.obolibrary.org/obo/FOODON_03420144",
+      "http://purl.obolibrary.org/obo/FOODON_03420148",
+      "http://purl.obolibrary.org/obo/FOODON_00004333",
+      "http://purl.obolibrary.org/obo/FOODON_00004328",
+      "http://purl.obolibrary.org/obo/FOODON_03420116",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/FOODON_00004331",
+      "http://purl.obolibrary.org/obo/PO_0006001",
+      "http://purl.obolibrary.org/obo/PO_0009008",
+      "http://purl.obolibrary.org/obo/PO_0025496",
+      "http://purl.obolibrary.org/obo/PO_0009011",
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/PO_0009006",
+      "http://purl.obolibrary.org/obo/PO_0025007",
+      "http://purl.obolibrary.org/obo/PO_0025497"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025131"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "plant anatomical entity"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025131",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "An anatomical entity that is or was part of a plant."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 'anatomical entity' is defined as: A part of a cellular organism that is either an immaterial entity or a material entity with granularity aboove the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.  Refers to BFO:0000004 'independent continuant'."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "directAncestor": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "hierarchicalAncestor": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "hasDirectChildren": true,
+    "numDescendants": 3687,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 3693,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "PO:0025161"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "portion of plant substance"
+    },
+    "iri": "http://purl.obolibrary.org/obo/PO_0025161",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A portion of organism substance that is or was part of a plant."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Refers to organism substance (CARO:0000004) which is defined as: Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body and that does not have inherent 3D shape generated by coordinated expression of the organism's own genome. For plants, the word \"body\" refers to a whole plant, or part thereof.  Includes substances such as latex, xylem sap, phloem sap, resin, mucilage, oil, cuticle, cutin, and sporopollenin."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/PO_0025131",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/PO_0025131",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/PO_0025131",
+      "http://purl.obolibrary.org/obo/BFO_0000040"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  }
+]

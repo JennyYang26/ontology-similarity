@@ -1,0 +1,3672 @@
+[
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000416"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "ultrafine respirable suspended particulate matter",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000416",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A portion of fine respirable suspended particulate matter is a form of particulate matter composed primarily of solid particles each with a diameter of  100 nanometers or less."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "https://en.wikipedia.org/wiki/Particulates"
+              },
+              {
+                "type": [
+                  "literal"
+                ],
+                "value": "https://en.wikipedia.org/wiki/Ultrafine_particle"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Regulations do not exist for this size class of ambient air pollution particles, which are far smaller than the regulated PM10 and PM2.5 particle classes and are believed to have several more aggressive health implications than those classes of larger particulates."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000415",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000415",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000415",
+      "http://purl.obolibrary.org/obo/ENVO_01000405",
+      "http://purl.obolibrary.org/obo/ENVO_01001089",
+      "http://purl.obolibrary.org/obo/ENVO_00010505",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001646",
+      "http://purl.obolibrary.org/obo/ENVO_01000814"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000415",
+      "http://purl.obolibrary.org/obo/ENVO_01000405",
+      "http://purl.obolibrary.org/obo/ENVO_01001089",
+      "http://purl.obolibrary.org/obo/ENVO_00010505",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001646",
+      "http://purl.obolibrary.org/obo/ENVO_01000814"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000420"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "building part"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000420",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A building part is a construction which is part of a building."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Not recommended for annotation. This class is likely to be made into an inferred class as its subclasses are distributed among more meaningful superclasses (i.e. ceiling is_a surface layer). See for example, \"building floor\". The boundaries between building parts may be bona fide or fiat."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_00000070",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_00000070",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/ENVO_00000073",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00000070",
+      "http://purl.obolibrary.org/obo/ENVO_01001813",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00000070",
+      "http://purl.obolibrary.org/obo/ENVO_01001813",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000983",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/ENVO_00000073"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000435"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "montane forest"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000435",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A class created to group GFM 2000 terms by the dominant vegetation type. Definitions pending."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01001243",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01001243",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001243",
+      "http://purl.obolibrary.org/obo/ENVO_01001790",
+      "http://purl.obolibrary.org/obo/ENVO_01001110",
+      "http://purl.obolibrary.org/obo/ENVO_01000254",
+      "http://purl.obolibrary.org/obo/RO_0002577",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001243",
+      "http://purl.obolibrary.org/obo/ENVO_01001790",
+      "http://purl.obolibrary.org/obo/ENVO_01001110",
+      "http://purl.obolibrary.org/obo/ENVO_01000254",
+      "http://purl.obolibrary.org/obo/RO_0002577",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000436"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "waterborne particulate matter",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000436",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "Particulate environmental material in which small portions of solid material are surrounded by water.",
+      "lang": "en"
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000060",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000060",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000060",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000060",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000451"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "atmospheric carbon dioxide"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000451",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Atmospheric carbon dioxide is an environmental material composed of carbon dioxide in its gaseous form present in an atmosphere."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This could also be considered a part of an environmental material like air."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000797",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000797",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000797",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000797",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000452"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "environmental disposition"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000452",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A disposition which is realised by an environmental system or system parts thereof."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This class and its subclasses are experimental and are being developed with NCEAS use cases in mind."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/BFO_0000016",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/BFO_0000016",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/BFO_0000016",
+      "http://purl.obolibrary.org/obo/BFO_0000017",
+      "http://purl.obolibrary.org/obo/BFO_0000020",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000457"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "masonry unit"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000457",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A masonry unit is a solid piece of material, usually with a regular shape, used as a component in the construction of buildings. Masonry units are usually composed of brick, stone, marble, granite, travertine, limestone, cast stone, concrete block, glass block, stucco, tile, or cob."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Masonry"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_00003074",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_00003074",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000458"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "concrete"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000458",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Concrete is a composite material composed of an aggregate bonded together with a fluid cement which hardens over time."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://en.wikipedia.org/wiki/Concrete"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Missing the class for \"aggregate\" - tricky to define what it is, exactly. Again, seems more like some sort of material/disposition hybrid."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_0010001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_0010001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000459"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "asphalt concrete"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000459",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Asphaltic concrete is a concrete which uses refined asphalt as a cement."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Concrete"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000458",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000458",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000458",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000458",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000460"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "asphalt"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000460",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Asphalt also known as bitumen is a sticky, black, and highly viscous liquid or semi-solid form of petroleum."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://en.wikipedia.org/wiki/Asphalt"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This class refers to naturally-occuring asphalt or bitumen."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_00002984",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_00002984",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00002984",
+      "http://purl.obolibrary.org/obo/ENVO_00002985",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00002984",
+      "http://purl.obolibrary.org/obo/ENVO_00002985",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000461"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "refined asphalt"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000461",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Refined asphalt is a sticky, black, and highly viscous liquid or semi-solid with a boiling point above 500 degrees Celsius, obtained from the fractional distillation of crude oil."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Asphalt"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_01000815"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_01000815"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000462"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "masonry cement"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000462",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Masonry cement is a substance used in construction that has the disposition to set and harden and thus may be used to bind materials together."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://en.wikipedia.org/wiki/Cement"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "\"Cement\" refers more to a disposition than a specific material."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_0010001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_0010001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000474"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "brick material"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000474",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A portion of brick material is a material derived from a brick which is composed of  kneaded clay-bearing soil, expanded clay aggregate, sand and lime, or concrete that has been fire-hardened or air-dried."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Brick"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_01000814"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_01000814"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/ENVO_01000814"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/ENVO_01000814"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000475"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "brick"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000475",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A brick is a masonry unit which is composed of kneaded clay-bearing soil, expanded clay aggregate, sand and lime, or concrete material, fire-hardened or air-dried."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://en.wikipedia.org/wiki/Brick"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Generally used to refer to the masonry unit rather than a material."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000457",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000457",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000457",
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000457",
+      "http://purl.obolibrary.org/obo/ENVO_00003074",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000476"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "plaster"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000476",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Plaster is a building material which has the disposition to harden when it reacts with water, liberating heat through crystallization. Plaster is manufactured as a dry powder and is mixed with water to form a paste when used."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Plaster"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_0010001",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_0010001",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000478"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "cement plaster"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000478",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000476",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000476",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000476",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000476",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000479"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "lime plaster"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000479",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Lime plaster is a plaster which is primarily composed of calcium hydroxide and an inert filler (such as sand). Coversion of the calcium hydroxide to calcium carbonate through a reaction with carbon dioxide in the air causes the plaster to set."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Plaster"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000476",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000476",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000476",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000476",
+      "http://purl.obolibrary.org/obo/ENVO_0010001",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000480"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "glass"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000480",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Glass is an amorphous (non-crystalline) solid which is often transparent."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://en.wikipedia.org/wiki/Glass"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This class refers to all forms of glass. For the familiar form present in window panes and drinking glasses, consider silica-based glass."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000814",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000814",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000814",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000814",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000486"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "building floor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000486",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A building floor is a surface layer which is part of a building and used for walking."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "To be more precise, a subfloor and a floor covering may be specified. Please request these classes and propose definitions if they are needed."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_01001483"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_01001483",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/ENVO_00000073",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_00010504",
+      "http://purl.obolibrary.org/obo/ENVO_01001684",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001275",
+      "http://purl.obolibrary.org/obo/ENVO_01001483"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_00010504",
+      "http://purl.obolibrary.org/obo/ENVO_01001684",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001275",
+      "http://purl.obolibrary.org/obo/ENVO_01001483",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/ENVO_00000073",
+      "http://purl.obolibrary.org/obo/ENVO_00000070",
+      "http://purl.obolibrary.org/obo/ENVO_01001813",
+      "http://purl.obolibrary.org/obo/ENVO_01000983",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000488"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "wooden building floor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000488",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A wooden building floor is a building floor that is composed primarily of wood."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000486",
+      "http://purl.obolibrary.org/obo/ENVO_01001271"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000486",
+      "http://purl.obolibrary.org/obo/ENVO_01001271"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000486",
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_00010504",
+      "http://purl.obolibrary.org/obo/ENVO_01001684",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001275",
+      "http://purl.obolibrary.org/obo/ENVO_01001483",
+      "http://purl.obolibrary.org/obo/ENVO_01001271"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000486",
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_00010504",
+      "http://purl.obolibrary.org/obo/ENVO_01001684",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001275",
+      "http://purl.obolibrary.org/obo/ENVO_01001483",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/ENVO_00000073",
+      "http://purl.obolibrary.org/obo/ENVO_00000070",
+      "http://purl.obolibrary.org/obo/ENVO_01001813",
+      "http://purl.obolibrary.org/obo/ENVO_01000983",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/ENVO_01001271"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000489"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "concrete building floor"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000489",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A concrete building floor is a building floor that is composed primarily of concrete"
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "At times, this is called a cement floor, although that is probably not accurate."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000486",
+      "http://purl.obolibrary.org/obo/ENVO_01001271"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000486",
+      "http://purl.obolibrary.org/obo/ENVO_01001271"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000486",
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_00010504",
+      "http://purl.obolibrary.org/obo/ENVO_01001684",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001275",
+      "http://purl.obolibrary.org/obo/ENVO_01001483",
+      "http://purl.obolibrary.org/obo/ENVO_01001271"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000486",
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_00010504",
+      "http://purl.obolibrary.org/obo/ENVO_01001684",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001275",
+      "http://purl.obolibrary.org/obo/ENVO_01001483",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/ENVO_00000073",
+      "http://purl.obolibrary.org/obo/ENVO_00000070",
+      "http://purl.obolibrary.org/obo/ENVO_01001813",
+      "http://purl.obolibrary.org/obo/ENVO_01000983",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/ENVO_01001271"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000536"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "factory"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000536",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A factory (previously manufactory) or manufacturing plant is an industrial site, usually consisting of buildings and machinery, or more commonly a complex having several buildings, where workers manufacture goods or operate machines processing one product into another."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Factory"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_00003861",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_00003861",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00003861",
+      "http://purl.obolibrary.org/obo/ENVO_00000073",
+      "http://purl.obolibrary.org/obo/ENVO_00000070",
+      "http://purl.obolibrary.org/obo/ENVO_01001813",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00003861",
+      "http://purl.obolibrary.org/obo/ENVO_00000073",
+      "http://purl.obolibrary.org/obo/ENVO_00000070",
+      "http://purl.obolibrary.org/obo/ENVO_01001813",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000983",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000538"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "stratosphere"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000538",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The layer of the atmosphere which is sandwiched between the troposphere and mesosphere. Of the energy that reaches the Earth from the sun, only 3% is absorbed in the stratosphere, but that includes the vitally important process of absorption of ultraviolet radiation by the stratospheric ozone layer. The stratosphere is cloudless and dust free, and almost unaffected by the turbulent conditions of the underlying level of the atmosphere. (Source: WRIGHT)"
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "GEMET:http://www.eionet.europa.eu/gemet/concept/8128"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Definition from GEMET - will be refined."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000543",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000543",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000543",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000543",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000267"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000539"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "mesosphere"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000539",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The mesosphere is part of the earth's atmosphere which is between the stratosphere and the thermosphere in which temperature decreases with altitude to the atmosphere's absolute minimum"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "http://www.merriam-webster.com/dictionary/mesosphere"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000543",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000543",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000543",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000543",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000267"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000540"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "troposphere"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000540",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The lowest of the concentric layers of the atmosphere, occurring between the Earth's surface and the tropopause. It is the zone where atmospheric turbulence is at its greatest and where the bulk of the Earth's weather is generated. It contains almost all the water vapour and aerosols and three-quarters of the total gaseous mass of the atmosphere. Throughout the troposphere temperature decreases with height at a mean rate of 6.5°C/km and the whole zone is capped by either an inversion of temperature or an isothermal layer at the tropopause. (Source: WHIT)"
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "GEMET:http://www.eionet.europa.eu/gemet/concept/8695"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Definition from GEMET - will be refined."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000543",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000543",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000543",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000543",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000267"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000541"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "value": "thermosphere"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000541",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "The thermosphere is a part of the earth's atmosphere that begins at about 50 miles (80 kilometers) above the earth's surface, extends to outer space, and is characterized by steadily increasing temperature with height"
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "http://www.merriam-webster.com/dictionary/thermosphere"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000543",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000543",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000543",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000543",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000267"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000543"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "atmospheric layer",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000543",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "A layer that is part of the atmosphere."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This could be made into an inferred class, rather than having asserted subclasses."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01001678",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/ENVO_01000267",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000267"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 12,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 11,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000544"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "boundary layer",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000544",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A boundary layer is a layer of fluid in the immediate vicinity of a bounding surface where the effects of viscosity are significant enough to distort the surrounding non-viscous flow."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Boundary_layer"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01001677",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01001677",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001677",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001684"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001677",
+      "http://purl.obolibrary.org/obo/ENVO_01001678",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001684"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000547"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "glaze ice layer",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000547",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A glaze ice layer is a smooth, transparent and homogeneous ice layer which coats some surface and which is formed when freezing rain or drizzle hits that surface."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Glaze_ice"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01001276",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01001276",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001276",
+      "http://purl.obolibrary.org/obo/ENVO_01001275",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001609"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01001276",
+      "http://purl.obolibrary.org/obo/ENVO_01001275",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001609",
+      "http://purl.obolibrary.org/obo/ENVO_03000143",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000552"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "natural gas",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000552",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Natural gas is a hydrocarbon gas mixture consisting primarily of methane, but commonly includes varying amounts of other higher alkanes and sometimes a usually lesser percentage of carbon dioxide, nitrogen, and/or hydrogen sulfide. Natural gas is a fossil fuel formed when layers of buried plants and gases are exposed to intense heat and pressure over thousands of years."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Natural_gas"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000554",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000554",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000554",
+      "http://purl.obolibrary.org/obo/ENVO_01000797",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000554",
+      "http://purl.obolibrary.org/obo/ENVO_01000797",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000553"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "liquefied petroleum gas",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000553",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Liquified petroleum gas or liquid petroleum gas (LPG or LP gas), also referred to as simply propane or butane, are flammable mixtures of hydrocarbon gases used as fuel in heating appliances, cooking equipment, and vehicles."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Liquefied_petroleum_gas"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000558",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000558",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000558",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000558",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000554"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "hydrocarbon gas",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000554",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A gas that is primarily composed of hydrocarbon molecules."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000797",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000797",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000797",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000797",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000557"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "liquefied natural gas",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000557",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Liquefied natural gas (LNG) is natural gas (predominantly methane, CH4) that has been converted to liquid form for ease of storage or transport. It takes up about 1/600th the volume of natural gas in the gaseous state. It is odorless, colorless, non-toxic and non-corrosive. LNG achieves a higher reduction in volume than compressed natural gas (CNG) so that the (volumetric) energy density of LNG is 2.4 times greater than that of CNG or 60 percent of that of diesel fuel."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Liquefied_natural_gas"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000558",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000558",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000558",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000558",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000558"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "liquefied hydrocarbon gas",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000558",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 2,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 2,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000560"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "charcoal",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000560",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Charcoal is a light, black residue, consisting of carbon and any remaining ash, obtained by removing water and other volatile constituents from animal and vegetation substances. Charcoal is usually produced by slow pyrolysis, the heating of wood or other substances in the absence of oxygen."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Charcoal"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000155",
+      "http://purl.obolibrary.org/obo/ENVO_01000814",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000155",
+      "http://purl.obolibrary.org/obo/ENVO_01000814",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000155",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000814",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000155",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000814",
+      "http://purl.obolibrary.org/obo/ENVO_2000045"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000575"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "wax",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000575",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A wax is an environmental material which is primarily composed of lipids or other organic compounds that consist of long alkyl chains. Waxes are are malleable near ambient temperatures and melt at approximately 45 degrees Celsius."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Wax"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_00010483",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_00010483",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000599"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "river water",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000599",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_00002006",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_00002006",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/ENVO_00000022",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00002006",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00002006",
+      "http://purl.obolibrary.org/obo/ENVO_01000815",
+      "http://purl.obolibrary.org/obo/ENVO_02000140",
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_00000022",
+      "http://purl.obolibrary.org/obo/ENVO_00000023",
+      "http://purl.obolibrary.org/obo/ENVO_00000029",
+      "http://purl.obolibrary.org/obo/ENVO_01000618",
+      "http://purl.obolibrary.org/obo/ENVO_00000063",
+      "http://purl.obolibrary.org/obo/ENVO_01000685",
+      "http://purl.obolibrary.org/obo/ENVO_01001476",
+      "http://purl.obolibrary.org/obo/ENVO_01001477",
+      "http://purl.obolibrary.org/obo/ENVO_01001479",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/ENVO_01001784",
+      "http://purl.obolibrary.org/obo/ENVO_01000819"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000617"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "lentic water body",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000617",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A lentic water body is a water body in which the accumulated water, in its totality, has very little to no directed flow."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_00000063",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_00000063",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00000063",
+      "http://purl.obolibrary.org/obo/ENVO_01000685",
+      "http://purl.obolibrary.org/obo/ENVO_01001476",
+      "http://purl.obolibrary.org/obo/ENVO_01001477",
+      "http://purl.obolibrary.org/obo/ENVO_01001479",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001784"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00000063",
+      "http://purl.obolibrary.org/obo/ENVO_01000685",
+      "http://purl.obolibrary.org/obo/ENVO_01001476",
+      "http://purl.obolibrary.org/obo/ENVO_01001477",
+      "http://purl.obolibrary.org/obo/ENVO_01001479",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/ENVO_01001784",
+      "http://purl.obolibrary.org/obo/ENVO_01000819"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 9,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 12,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000618"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "lotic water body",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000618",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A lotic water body is a water body in which the accumulated water, in its totality, is flowing."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_00000063",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_00000063",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00000063",
+      "http://purl.obolibrary.org/obo/ENVO_01000685",
+      "http://purl.obolibrary.org/obo/ENVO_01001476",
+      "http://purl.obolibrary.org/obo/ENVO_01001477",
+      "http://purl.obolibrary.org/obo/ENVO_01001479",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001784"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00000063",
+      "http://purl.obolibrary.org/obo/ENVO_01000685",
+      "http://purl.obolibrary.org/obo/ENVO_01001476",
+      "http://purl.obolibrary.org/obo/ENVO_01001477",
+      "http://purl.obolibrary.org/obo/ENVO_01001479",
+      "http://purl.obolibrary.org/obo/ENVO_01000813",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/ENVO_01001784",
+      "http://purl.obolibrary.org/obo/ENVO_01000819"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 7,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 8,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000624"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "hydrological condensation process",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000624",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "Hydrological condensation is a process in which atmospheric water vapour undergoes a phase transition from the gas phase to the liquid phase."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://en.wikipedia.org/wiki/Condensation"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "\"process\" is included in the label to make it clear that we are not referring to the condensed material (e.g. water droplets, window fog)"
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000724",
+      "http://purl.obolibrary.org/obo/ENVO_02500031"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000724",
+      "http://purl.obolibrary.org/obo/ENVO_02500031"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000724",
+      "http://purl.obolibrary.org/obo/ENVO_01001510",
+      "http://purl.obolibrary.org/obo/ENVO_03000043",
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_02500031"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000724",
+      "http://purl.obolibrary.org/obo/ENVO_01001510",
+      "http://purl.obolibrary.org/obo/ENVO_03000043",
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_02500031"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000629"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "climate change",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000629",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "The long-term fluctuations in temperature, precipitation, wind, and all other aspects of the Earth's climate. External processes, such as solar-irradiance variations, variations of the Earth's orbital parameters (eccentricity, precession, and inclination), lithosphere motions, and volcanic activity, are factors in climatic variation. Internal variations of the climate system, e.g., changes in the abundance of greenhouse gases, also may produce fluctuations of sufficient magnitude and variability to explain observed climate change through the feedback processes interrelating the components of the climate system."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "GEMET:http://www.eionet.europa.eu/gemet/concept/1471"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Definition vebatim from GEMET. Will need to be refined. Further, distinction between \"climate change\" and (one or many) \"climate change process\" will need to be discussed. Fluctuations are not processes, per se."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_02500000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_02500000",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000630"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "acidification of an aquatic environment",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000630",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "Acidification of an aquatic environment is a process whereby the pH of an aquatic environment, biome, or water body is lowered."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_02500000",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_02500000",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 1,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000631"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "ocean acidification",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000631",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Ocean acidification is a process during which the pH of a sea or ocean is lowered."
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "On Earth, the major cause of ocean acidification is the update of carbon dioxide from the atmosphere."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000630",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000630",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000630",
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000630",
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000634"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "volcanic eruption",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000634",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A volcanic eruption is a process during which lava, tephra (ash, lapilli, volcanic bombs and blocks), and assorted gases are expelled from a volcanic vent or fissure."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Types_of_volcanic_eruptions"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_02500031",
+      "http://purl.obolibrary.org/obo/ENVO_03000010"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_02500031",
+      "http://purl.obolibrary.org/obo/ENVO_03000010"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_02500031",
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_03000010"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_02500031",
+      "http://purl.obolibrary.org/obo/ENVO_02500000",
+      "http://purl.obolibrary.org/obo/BFO_0000015",
+      "http://purl.obolibrary.org/obo/BFO_0000003",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_03000010"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000635"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "planetary landmass",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000635",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "A landmass which is part of a planet."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "Adpated from https://en.wikipedia.org/wiki/Planetary_surface"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000324",
+      "http://purl.obolibrary.org/obo/ENVO_01001782"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000324",
+      "http://purl.obolibrary.org/obo/ENVO_01001782"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000324",
+      "http://purl.obolibrary.org/obo/ENVO_01001483",
+      "http://purl.obolibrary.org/obo/ENVO_00010504",
+      "http://purl.obolibrary.org/obo/ENVO_01001684",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001782",
+      "http://purl.obolibrary.org/obo/ENVO_01001785",
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_01001275"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000324",
+      "http://purl.obolibrary.org/obo/ENVO_01001483",
+      "http://purl.obolibrary.org/obo/ENVO_00010504",
+      "http://purl.obolibrary.org/obo/ENVO_01001684",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/ENVO_01000800",
+      "http://purl.obolibrary.org/obo/ENVO_01001782",
+      "http://purl.obolibrary.org/obo/ENVO_01001785",
+      "http://purl.obolibrary.org/obo/ENVO_01001311",
+      "http://purl.obolibrary.org/obo/ENVO_01001275"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 17,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000637"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "outer space",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000637",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "reification"
+      ],
+      "value": {
+        "type": [
+          "literal"
+        ],
+        "value": "Outer space is a hard vacuum containing a low density of particles, predominantly a plasma of hydrogen and helium as well as electromagnetic radiation, magnetic fields, neutrinos, dust and cosmic rays that exists between celestial bodies."
+      },
+      "axioms": [
+        {
+          "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+            "type": [
+              "literal"
+            ],
+            "value": "https://en.wikipedia.org/wiki/Outer_space"
+          }
+        }
+      ]
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_00010483",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_00010483",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_00010483",
+      "http://purl.obolibrary.org/obo/BFO_0000024",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000638"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "planetary crust",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000638",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A planetary crust is the outermost solid shell of a rocky planet or natural satellite, which is chemically distinct from the underlying mantle."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://en.wikipedia.org/wiki/Crust_(geology)"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This class is meant to be applicable accross planets. Earth's crust would be an instance."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000639",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000639",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000639",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000639",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000800",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000639"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "planetary structural layer",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000639",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": {
+      "type": [
+        "literal"
+      ],
+      "value": "A planetary structural layer is laminar part of a terrestrial planet or other rocky body large enough to have differentiation by density. Planetary layers have differing physicochemical properties and composition."
+    },
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000281",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      {
+        "type": [
+          "reification"
+        ],
+        "value": "http://purl.obolibrary.org/obo/ENVO_01000800",
+        "axioms": [
+          {
+            "childRelationToParent": "http://purl.obolibrary.org/obo/BFO_0000050",
+            "parentRelationToChild": "http://purl.obolibrary.org/obo/BFO_0000051"
+          }
+        ]
+      }
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000800",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030"
+    ],
+    "hasDirectChildren": true,
+    "numDescendants": 3,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 4,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000640"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "planetary mantle",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000640",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A planetary mantle is a planetary layer which is an interior part of a terrestrial planet or other rocky body large enough to have differentiation by density."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://en.wikipedia.org/wiki/Mantle_(geology)"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "This class is meant to be applicable accross planets. Earth's mantle would be an instance."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": "http://purl.obolibrary.org/obo/ENVO_01000639",
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": "http://purl.obolibrary.org/obo/ENVO_01000639",
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000639",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000639",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000800",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": false,
+    "numHierarchicalDescendants": 0,
+    "isPreferredRoot": false
+  },
+  {
+    "curie": {
+      "type": [
+        "literal"
+      ],
+      "value": "ENVO:01000646"
+    },
+    "label": {
+      "type": [
+        "literal"
+      ],
+      "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "value": "lithosphere",
+      "lang": "en"
+    },
+    "iri": "http://purl.obolibrary.org/obo/ENVO_01000646",
+    "type": [
+      "class",
+      "entity"
+    ],
+    "definition": [
+      {
+        "type": [
+          "reification"
+        ],
+        "value": {
+          "type": [
+            "literal"
+          ],
+          "value": "A lithosphere is the outermost shell of a terrestrial-type planet or natural satellite that is defined by its rigid mechanical properties."
+        },
+        "axioms": [
+          {
+            "http://www.geneontology.org/formats/oboInOwl#hasDbXref": {
+              "type": [
+                "literal"
+              ],
+              "value": "https://en.wikipedia.org/wiki/Lithosphere"
+            }
+          }
+        ]
+      },
+      {
+        "type": [
+          "literal"
+        ],
+        "value": "Earth's lithosphere includes the crust and uppermost mantle."
+      }
+    ],
+    "isObsolete": false,
+    "hasDirectParents": true,
+    "directParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000639",
+      "http://purl.obolibrary.org/obo/ENVO_01001275"
+    ],
+    "hasHierarchicalParents": true,
+    "hierarchicalParent": [
+      "http://purl.obolibrary.org/obo/ENVO_01000639",
+      "http://purl.obolibrary.org/obo/ENVO_01001275"
+    ],
+    "directAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000639",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01001275"
+    ],
+    "hierarchicalAncestor": [
+      "http://purl.obolibrary.org/obo/ENVO_01000639",
+      "http://purl.obolibrary.org/obo/ENVO_01000281",
+      "http://purl.obolibrary.org/obo/BFO_0000040",
+      "http://purl.obolibrary.org/obo/BFO_0000004",
+      "http://purl.obolibrary.org/obo/BFO_0000002",
+      "http://purl.obolibrary.org/obo/BFO_0000001",
+      "http://purl.obolibrary.org/obo/ENVO_01000800",
+      "http://purl.obolibrary.org/obo/ENVO_01000799",
+      "http://purl.obolibrary.org/obo/ENVO_01000804",
+      "http://purl.obolibrary.org/obo/BFO_0000030",
+      "http://purl.obolibrary.org/obo/ENVO_01001275"
+    ],
+    "hasDirectChildren": false,
+    "numDescendants": 0,
+    "hasHierarchicalChildren": true,
+    "numHierarchicalDescendants": 1,
+    "isPreferredRoot": false
+  }
+]
