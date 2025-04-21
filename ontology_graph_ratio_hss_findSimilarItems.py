@@ -15,7 +15,7 @@ webbrowser.register('chrome', None, webbrowser.GenericBrowser('/Applications/Goo
 
 def process_file(filepath):
     edges = []
-    attrs = {}
+    attrs = {} 
     try:
         with open(filepath, 'r') as f:
             items = json.load(f)
@@ -25,6 +25,7 @@ def process_file(filepath):
                 continue
             iri = item["iri"]
             is_obsolete = item.get("isObsolete", True)
+            has_hierarchical_parents = item.get("hasHierarchicalParents", False)
             has_hierarchical_parents = item.get("hasHierarchicalParents", False)
 
             if is_obsolete or not has_hierarchical_parents:
@@ -36,7 +37,7 @@ def process_file(filepath):
                 lbl = item["label"].get("value")
             if lbl:
                 attrs[iri] = {"label": lbl}
-            
+
             # 1. Get hierarchicalParent (should be one or more direct parents)
             h_parents = item.get("hierarchicalParent", [])
             if isinstance(h_parents, str):
@@ -79,10 +80,10 @@ def build_ontology_graph_parallel(data_dir, start_index=0, end_index=None):
     if end_index is None:
         end_index = len(json_files)
     json_files = json_files[start_index:end_index]
-    
-    with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
-        futures = {executor.submit(process_file, path): path for path in json_files}
-        for f in tqdm(as_completed(futures), total=len(futures), desc="Building graph"):
+
+    with ThreadPoolExecutor(max_workers=NUM_WORKERS) as exe:
+        fut = {exe.submit(process_file, p): p for p in json_files}
+        for f in tqdm(as_completed(fut), total=len(fut), desc="Building graph"):
             edges, attrs = f.result()
             G.add_edges_from(edges)
             for iri, d in attrs.items():
@@ -106,9 +107,9 @@ def get_related_nodes(iri):
         pass
     return ancestors
 
-def compute_hss_from_graph(G, iri1, iri2, alpha=0.5):
+def compute_hss_from_graph(G, iri1, iri2, alpha=0.5, beta=0.5):
     print("\n" + "=" * 80)
-    print("📌 Starting compute_hss_from_graph")
+    print(f"🧮  Weighted HSS  |  α={alpha} (depth)  β={beta} (breadth)")
     print("-" * 60)
     if iri1 not in G:
         print(f"{iri1} not in graph nodes.\n")
@@ -117,40 +118,56 @@ def compute_hss_from_graph(G, iri1, iri2, alpha=0.5):
         print(f"{iri2} not in graph nodes.\n")
         return 0.0
     
-    set1 = get_related_nodes(iri1)
-    set2 = get_related_nodes(iri2)
-    print(f"🔍 Ancestors of {iri1.split('/')[-1]}: {len(set1)}")
-    print(set1)
-    print('\n')
-    print(f"🔍 Ancestors of {iri2.split('/')[-1]}: {len(set2)}")
-    print(set2)
-    print('\n')
+    # -------------------------------------------------- #
+    # 1. ANCESTORS                                       #
+    # -------------------------------------------------- #
+    anc1, anc2 = nx.ancestors(G, iri1), nx.ancestors(G, iri2)
+    anc_inter  = anc1 & anc2
+    anc_union  = anc1 | anc2
+    anc_sim    = len(anc_inter) / len(anc_union) if anc_union else 0.0
+    depth_pen  = math.exp(-alpha * abs(len(anc1) - len(anc2)))
 
-    if not set1 and not set2:
-        return 0.0
+    print("\n----- ANCESTOR ANALYSIS ---------")
+    print(f"Ancestors of 1 [{iri1.split('/')[-1]}]: {len(anc1)}")
+    print(f"Ancestors of 2 [{iri2.split('/')[-1]}]: {len(anc2)}")
+    print(f"Intersection size: {len(anc_inter)}")
+    print(f"Union size       : {len(anc_union)}")
+    print(f"Jaccard similarity: {anc_sim:.4f}")
+    print(f"Depth penalty    : {depth_pen:.4f}")
 
-    intersection = set1 & set2
-    union = set1 | set2
-    structure_sim = len(intersection) / len(union) if union else 0.0
-    print(f"🪢 Intersection count: {len(intersection)}")
-    print(f"🔗 Union count: {len(union)}")
-    print(f"🧮 Ancestor Jaccard Similarity: {structure_sim:.4f}\n")
+   # -------------------------------------------------- #
+    # 2. DESCENDANTS                                     #
+    # -------------------------------------------------- #
+    des1, des2 = nx.descendants(G, iri1), nx.descendants(G, iri2)
+    des_inter  = des1 & des2
+    des_union  = des1 | des2
+    des_sim    = len(des_inter) / len(des_union) if des_union else 0.0
+    breadth_pen = math.exp(-beta * abs(len(des1) - len(des2)))
 
-    depth_1 = len(set1)
-    depth_2 = len(set2)
-    depth_penalty = math.exp(-alpha * abs(depth_1 - depth_2))
-    print(f"📏 Depth of {iri1.split('/')[-1]}: {depth_1}")
-    print(f"📏 Depth of {iri2.split('/')[-1]}: {depth_2}")
-    print(f"📉 Depth Penalty (α={alpha}): {depth_penalty:.4f}")
-    print("=" * 80 + "\n")
+    print("\n----- DESCENDANT ANALYSIS -------")
+    print(f"Descendants of 1 : {len(des1)}")
+    print(f"Descendants of 2 : {len(des2)}")
+    print(f"Intersection size: {len(des_inter)}")
+    print(f"Union size       : {len(des_union)}")
+    print(f"Jaccard similarity: {des_sim:.4f}")
+    print(f"Breadth penalty  : {breadth_pen:.4f}")
 
-    return round(depth_penalty * structure_sim, 4)
+    # -------------------------------------------------- #
+    # 3. FINAL SCORE                                     #
+    # -------------------------------------------------- #
+    final_score = round((anc_sim * depth_pen + des_sim * breadth_pen) / 2, 4)
+
+    print("\n--------- FINAL RESULT ----------")
+    print(f"HSS score between:\n • {iri1}\n • {iri2}\n ⇒ {final_score:.4f}")
+
+    return final_score
 
 def find_and_visualize_similar_nodes(
     G,
     target_iri: str,
     threshold: float = 0.5,
     alpha: float = 0.5,
+    beta: float = 0.5,
     output_file: str = "graphs/similarity_group.html",
 ):
     """
@@ -167,14 +184,14 @@ def find_and_visualize_similar_nodes(
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     target_label = G.nodes[target_iri].get("label", target_iri.split("/")[-1])
     hits: list[tuple[str, str, float]] = []     # (iri, label, score)
-    
+
     # -------------------------------------------------- #
     # 1. find all nodes that satisfy the similarity cut  #
     # -------------------------------------------------- #
     for iri in tqdm(G.nodes, desc="Scanning graph"):
         if iri == target_iri:
             continue
-        score = compute_hss_from_graph(G, target_iri, iri, alpha=alpha)
+        score = compute_hss_from_graph(G, target_iri, iri, alpha=alpha, beta=beta)
         if score >= threshold:
             label = G.nodes[iri].get("label", iri.split("/")[-1])
             hits.append((iri, label, score))
@@ -194,12 +211,13 @@ def find_and_visualize_similar_nodes(
     print(f"📊 Similar to [{target_label}] ({target_iri})  (≥ {threshold})")
     for rank, (iri, lbl, sc) in enumerate(hits, 1):
         print(f"{rank:>3}. {lbl:<45}  {sc:.4f}  |  {iri}")
-    print("=" * 70 + "\n")
+    print("=" * 80 + "\n")
 
     # ---------------------------------------- #
     # 3. collect nodes for ONE combined graph  #
     # ---------------------------------------- #
     sub_nodes = {target_iri}
+
     for iri, _, _ in hits:
         sub_nodes.add(iri)
         sub_nodes.update(nx.ancestors(G, iri))          # ancestors of each hit
@@ -218,7 +236,7 @@ def find_and_visualize_similar_nodes(
     # quick lookup for colour/size
     score_dict = {iri: sc for iri, _, sc in hits}
     label_dict = {iri: lbl for iri, lbl, _ in hits}
-
+    
     for node in H.nodes:
         base_label = label_dict.get(node, node.split("/")[-1])
         if node == target_iri:          # target node
@@ -250,6 +268,7 @@ if __name__ == "__main__":
         G,
         target_iri = target,
         threshold  = 0.25,   # adjust as you like
-        alpha      = 0.5,
-        output_file="graphs/0.25_similarity_group.html",
+        alpha      = 0.1,
+        beta       = 0.9,
+        output_file="graphs/ratio_similarity_group.html",
     )
