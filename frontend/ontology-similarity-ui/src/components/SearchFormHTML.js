@@ -13,7 +13,9 @@ const SearchFormHTML = ({
   setAlgorithm,
   setStartIndex,
   setEndIndex,
-  algorithmOptions
+  algorithmOptions,
+  generateGraph,
+  setGenerateGraph
 }) => (
   <div>
     <form onSubmit={handleSubmit} className="form">
@@ -54,6 +56,15 @@ const SearchFormHTML = ({
         value={endIndex}
         onChange={e => setEndIndex(e.target.value)}
       />
+
+      <label>
+        <input
+          type="checkbox"
+          checked={generateGraph}
+          onChange={() => setGenerateGraph(!generateGraph)}
+        />
+        Generate Graph Visualization
+      </label>
 
       <button type="submit">Search</button>
     </form>

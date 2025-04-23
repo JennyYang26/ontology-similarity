@@ -6,7 +6,7 @@ from .schemas import SimilarityRequest
 router = APIRouter()
 
 @router.post("/find_similar_items/")
-def find_similar_items(request: SimilarityRequest):
+def find_similar_items(request: SimilarityRequest, generate_graph: bool = False):
     if not request.target_item:
         raise HTTPException(status_code=422, detail="Target item cannot be empty.")
 
@@ -26,7 +26,11 @@ def find_similar_items(request: SimilarityRequest):
         raise HTTPException(status_code=500, detail=f"Graph build failed: {str(e)}")
 
     try:
-        result = algo_map[request.algorithm](G, request.target_item)
+        result = algo_map[request.algorithm](
+            G,
+            request.target_item,
+            output_file=f"graphs/{request.algorithm}_similarity.html" if generate_graph else None
+        )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Algorithm execution failed: {str(e)}")
 

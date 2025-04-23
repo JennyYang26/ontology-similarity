@@ -17,6 +17,7 @@ const SearchForm = () => {
   const [endIndex, setEndIndex] = useState('');
   const [result, setResult] = useState(null);
   const [error, setError] = useState('');
+  const [generateGraph, setGenerateGraph] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -37,7 +38,10 @@ const SearchForm = () => {
     if (endIndex) payload.end_index = parseInt(endIndex);
 
     try {
-      const res = await axios.post('http://localhost:8000/find_similar_items/', payload);
+      const res = await axios.post(
+        `http://localhost:8000/find_similar_items/?generate_graph=${generateGraph}`,
+        payload
+      );
       setResult(res.data);
     } catch (err) {
       setError(err.response?.data?.detail || 'Something went wrong');
@@ -56,7 +60,9 @@ const SearchForm = () => {
     setAlgorithm,
     setStartIndex,
     setEndIndex,
-    algorithmOptions
+    algorithmOptions,
+    generateGraph,
+    setGenerateGraph
   });
 };
 
